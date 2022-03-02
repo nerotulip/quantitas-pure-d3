@@ -16,7 +16,7 @@
       const margins = {
         top: 50,
         right: 50,
-        left: 50,
+        left: 60,
         bottom: 50,
       }
 
@@ -127,6 +127,8 @@
         .scaleOrdinal()
         .domain([])
         .range(d3.range(margins.top, height - margins.bottom, 20))
+
+      let selectedBubbleTopic = "default"
       //SVG BUBBLES
       const svgBubbles = d3
         .select("#my_dataviz")
@@ -135,6 +137,14 @@
         .attr("height", height)
         .append("g")
 
+      function handleMouseOver(d, i) {
+        // Add interactivity
+
+        // Use D3 to select element, change color and size
+        d3.select(this).attr({
+          fill: "orange",
+        })
+      }
       //Bubbles
       svgBubbles
         .selectAll("myBubble")
@@ -143,18 +153,33 @@
         .attr("cx", (d) => xScaleBubble(d.pc1))
         .attr("cy", (d) => yScaleBubble(d.pc2))
         .attr("r", (d) => circleScale(d.sizeArea))
+        .style("opacity", (d) =>
+          d.topic == selectedBubbleTopic || selectedBubbleTopic === "default"
+            ? 0.7
+            : 0.2
+        )
         .attr("fill", "#61BFE4")
 
-      //Bubbles labels
+        .on("mouseover", function (d, i) {
+          d3.selectAll("circle").style("opacity", 0.1)
+          d3.select(this).style("opacity", 0.7)
+        })
+        .on("mouseout", function (d, i) {
+          d3.selectAll("circle").style("opacity", 0.7)
+        })
+
+      //Bubbles LABELS
       svgBubbles
         .selectAll("bubbleLabs")
         .data(bubbleData)
         .join("text")
         .attr("x", (d) => xScaleBubble(d.pc1))
-        .attr("y", (d) => xScaleBubble(d.pc2) + 4)
+        .attr("y", (d) => yScaleBubble(d.pc2) + 4)
+        .attr("font-family", "sans-serif")
+        .style("text-anchor", "middle")
         .text((d) => d.topic)
 
-      //SVG BARS
+      //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
       const svgBars = d3
         .select("#my_dataviz")
         .append("svg")
@@ -181,18 +206,23 @@
         .attr("ry", 4)
         .attr("fill", "#61BFE4")
 
+      svgBars
+        .selectAll("wordLabel")
+        .data(dataCustomRects)
+        .join("text")
+        .attr("x", margins.left + 10)
+        .attr("y", (d) => yScaleBars(d.word) + 10)
+        .attr("font-family", "sans-serif")
+        .text((d) => d.word)
+        .style("text-anchor", "end")
+
       //BUBBLES FORCES ////////////////////////////////////////////////////////////////////////////////
       fetch("../data/clustersLau.json")
         .then((mockResponses) => {
           return mockResponses.json()
         })
         .then((data) => console.log(data))
-      let response
-      async function getDataset() {
-        response = await fetch("../data/clustersLau.json")
-        console.log(response.json()) // this line will "wait" for the previous to be completed
-      }
-      console.log(response)
+
       const uniqueZones = [...new Set(forceData.map((d) => d.zone))]
       console.log(uniqueZones, "UNIQUE ZONES")
 
