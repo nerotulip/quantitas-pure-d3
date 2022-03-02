@@ -5,307 +5,235 @@
     <meta charset="utf-8" />
     <title>Simple D3 Dev Env</title>
     <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="lodash.js"></script>
   </head>
   <body id="my_dataviz">
+    <div id="cluster_viz"></div>
     <script>
-            const width = 800
-            const height = 900
+      const width = 1000
+      const height = 900
 
-            const margins = {
-              top: 50,
-              right: 50,
-              left: 60,
-              bottom: 50,
-            }
+      const margins = {
+        top: 50,
+        right: 50,
+        left: 60,
+        bottom: 50,
+      }
 
-            const defaultData = [
-              {
-                topic: "standard",
-                words: [
-                  { word: "car", count: 45, topic: 1 },
-                  { word: "white", count: 30, topic: 2 },
-                  { word: "great", count: 26, topic: 3 },
-                  { word: "gin", count: 72, topic: 4 },
-                  { word: "new york", count: 23, topic: 5 },
-                  { word: "daisy", count: 67, topic: 6 },
-                  { word: "gatsby", count: 55, topic: 1 },
-                  { word: "boat", count: 14, topic: 2 },
-                  { word: "lake", count: 11, topic: 3 },
-                  { word: "mountain", count: 13, topic: 4 },
-                  { word: "states", count: 55, topic: 5 },
-                  { word: "nicolas", count: 84, topic: 5 },
-                  { word: "piano", count: 45, topic: 1 },
-                  { word: "red", count: 30, topic: 2 },
-                  { word: "shoe", count: 26, topic: 3 },
-                  { word: "knit", count: 72, topic: 4 },
-                  { word: "shop", count: 23, topic: 5 },
-                  { word: "street", count: 67, topic: 6 },
-                  { word: "bike", count: 55, topic: 1 },
-                  { word: "light", count: 14, topic: 2 },
-                  { word: "fish", count: 11, topic: 3 },
-                  { word: "strike", count: 13, topic: 4 },
-                  { word: "noise", count: 55, topic: 5 },
-                  { word: "random", count: 84, topic: 5 },
-                  { word: "sea", count: 55, topic: 1 },
-                  { word: "ocean", count: 14, topic: 2 },
-                  { word: "ship", count: 11, topic: 3 },
-                  { word: "flight", count: 13, topic: 4 },
-                  { word: "sonata", count: 55, topic: 5 },
-                  { word: "adagio", count: 84, topic: 5 },
-                ],
-              },
-              {
-                topic: 1,
-                words: [
-                  { word: "car", count: 24 },
-                  { word: "white", count: 36 },
-                  { word: "great", count: 12 },
-                  { word: "gin", count: 6 },
-                  { word: "new york", count: 30 },
-                  { word: "daisy", count: 87 },
-                  { word: "gatsby", count: 74 },
-                  { word: "boat", count: 23 },
-                  { word: "lake", count: 24 },
-                  { word: "mountain", count: 91 },
-                  { word: "states", count: 45 },
-                  { word: "jaar", count: 50 },
-                ],
-              },
-              {
-                topic: 2,
-                words: [
-                  { word: "car", count: 43 },
-                  { word: "white", count: 36 },
-                  { word: "great", count: 12 },
-                  { word: "gin", count: 6 },
-                  { word: "new york", count: 30 },
-                  { word: "daisy", count: 10 },
-                  { word: "gatsby", count: 74 },
-                  { word: "boat", count: 22 },
-                  { word: "lake", count: 24 },
-                  { word: "mountain", count: 91 },
-                  { word: "states", count: 45 },
-                ],
-              },
-            ]
+      const defaultData = [
+        {
+          topic: "standard",
+          words: [
+            { word: "car", count: 45, topic: 1 },
+            { word: "white", count: 30, topic: 2 },
+            { word: "great", count: 26, topic: 3 },
+            { word: "gin", count: 72, topic: 4 },
+            { word: "new york", count: 23, topic: 5 },
+            { word: "daisy", count: 67, topic: 6 },
+            { word: "gatsby", count: 55, topic: 1 },
+            { word: "boat", count: 14, topic: 2 },
+            { word: "lake", count: 11, topic: 3 },
+            { word: "mountain", count: 13, topic: 4 },
+            { word: "states", count: 55, topic: 5 },
+            { word: "nicolas", count: 84, topic: 5 },
+            { word: "piano", count: 45, topic: 1 },
+            { word: "red", count: 30, topic: 2 },
+            { word: "shoe", count: 26, topic: 3 },
+            { word: "knit", count: 72, topic: 4 },
+            { word: "shop", count: 23, topic: 5 },
+            { word: "street", count: 67, topic: 6 },
+            { word: "bike", count: 55, topic: 1 },
+            { word: "light", count: 14, topic: 2 },
+            { word: "fish", count: 11, topic: 3 },
+            { word: "strike", count: 13, topic: 4 },
+            { word: "noise", count: 55, topic: 5 },
+            { word: "random", count: 84, topic: 5 },
+            { word: "sea", count: 55, topic: 1 },
+            { word: "ocean", count: 14, topic: 2 },
+            { word: "ship", count: 11, topic: 3 },
+            { word: "flight", count: 13, topic: 4 },
+            { word: "sonata", count: 55, topic: 5 },
+            { word: "adagio", count: 84, topic: 5 },
+          ],
+        },
+        {
+          topic: 1,
+          words: [
+            { word: "car", count: 24 },
+            { word: "white", count: 36 },
+            { word: "great", count: 12 },
+            { word: "gin", count: 6 },
+            { word: "new york", count: 30 },
+            { word: "daisy", count: 87 },
+            { word: "gatsby", count: 74 },
+            { word: "boat", count: 23 },
+            { word: "lake", count: 24 },
+            { word: "mountain", count: 91 },
+            { word: "states", count: 45 },
+            { word: "jaar", count: 50 },
+          ],
+        },
+        {
+          topic: 2,
+          words: [
+            { word: "car", count: 43 },
+            { word: "white", count: 36 },
+            { word: "great", count: 12 },
+            { word: "gin", count: 6 },
+            { word: "new york", count: 30 },
+            { word: "daisy", count: 10 },
+            { word: "gatsby", count: 74 },
+            { word: "boat", count: 22 },
+            { word: "lake", count: 24 },
+            { word: "mountain", count: 91 },
+            { word: "states", count: 45 },
+          ],
+        },
+      ]
 
-            const orderedData = defaultData.map((d) => ({
-              ...d,
-              words: d.words.sort(function (a, b) {
-                return b.count - a.count
-              }),
-            }))
+      const orderedData = defaultData.map((d) => ({
+        ...d,
+        words: d.words.sort(function (a, b) {
+          return b.count - a.count
+        }),
+      }))
 
-            console.log(orderedData, "orderedData")
+      console.log(orderedData, "orderedData")
 
-            const bubbleData = [
-              { topic: 1, sizeArea: 10, pc1: 7, pc2: 13 },
-              { topic: 2, sizeArea: 4, pc1: 2, pc2: -5 },
-              { topic: 3, sizeArea: 5, pc1: -5, pc2: -7 },
-              { topic: 4, sizeArea: 2, pc1: 12, pc2: 3 },
-              { topic: 5, sizeArea: 15, pc1: -14, pc2: 3 },
-              { topic: 6, sizeArea: 18, pc1: -14, pc2: 1 },
-              { topic: 7, sizeArea: 15, pc1: 3, pc2: 10 },
-            ]
+      const bubbleData = [
+        { topic: 1, sizeArea: 10, pc1: 7, pc2: 13 },
+        { topic: 2, sizeArea: 4, pc1: 2, pc2: -5 },
+        { topic: 3, sizeArea: 5, pc1: -5, pc2: -7 },
+        { topic: 4, sizeArea: 2, pc1: 12, pc2: 3 },
+        { topic: 5, sizeArea: 15, pc1: -14, pc2: 3 },
+        { topic: 6, sizeArea: 18, pc1: -14, pc2: 1 },
+        { topic: 7, sizeArea: 15, pc1: 3, pc2: 10 },
+      ]
 
-            const xScaleBubble = d3
-              .scaleLinear()
-              .domain([-20, 20])
-              .range([margins.left, width - margins.right])
-            const yScaleBubble = d3
-              .scaleLinear()
-              .domain([20, -20])
-              .range([margins.top, height - margins.bottom])
-            const circleScale = d3.scaleSqrt().domain([1, 20]).range([10, 50])
+      const xScaleBubble = d3
+        .scaleLinear()
+        .domain([-20, 20])
+        .range([margins.left, width - margins.right])
+      const yScaleBubble = d3
+        .scaleLinear()
+        .domain([20, -20])
+        .range([margins.top, height - margins.bottom])
+      const circleScale = d3.scaleSqrt().domain([1, 20]).range([10, 50])
 
-            const xScaleBars = d3.scaleLinear().domain([0, 100]).range([0, 600])
-            const yScaleBars = d3
-              .scaleOrdinal()
-              .domain([])
-              .range(d3.range(margins.top, height - margins.bottom, 20))
+      const xScaleBars = d3.scaleLinear().domain([0, 100]).range([0, 600])
+      const yScaleBars = d3
+        .scaleOrdinal()
+        .domain([])
+        .range(d3.range(margins.top, height - margins.bottom, 20))
 
-            let selectedBubbleTopic = "default"
+      let selectedBubbleTopic = "default"
 
-            const dataCustomRects = orderedData
-              .filter((d) => d.topic === 1)
-              .map((d) => d.words)[0]
-            //SVG BUBBLES
-            const svgBubbles = d3
-              .select("#my_dataviz")
-              .append("svg")
-              .attr("width", width)
-              .attr("height", height)
-              .append("g")
+      const dataCustomRects = orderedData
+        .filter((d) => d.topic === 1)
+        .map((d) => d.words)[0]
+      //SVG BUBBLES
+      const svgBubbles = d3
+        .select("#my_dataviz")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
 
-            // function updateDataset(topic) {
-            //   // Add interactivity
-            //   const dataBars = orderedData
-            //     .filter((d) => d.topic === topic)
-            //     .map((d) => d.words)[0]
-            //   // Use D3 to select element, change color and size
-            //   svgBars
-            //     .selectAll("myRect")
-            //     .data(dataBars)
-            //     .join("rect")
-            //     .attr("x", margins.left + 15)
-            //     .attr("y", (d) => yScaleBars(d.word))
-            //     .attr("width", (d) => xScaleBars(d.count))
-            //     .attr("height", 10)
-            //     .attr("rx", 4)
-            //     .attr("ry", 4)
-            //     .attr("fill", "#61BFE4")
+      // function updateDataset(topic) {
+      //   // Add interactivity
+      //   const dataBars = orderedData
+      //     .filter((d) => d.topic === topic)
+      //     .map((d) => d.words)[0]
+      //   // Use D3 to select element, change color and size
+      //   svgBars
+      //     .selectAll("myRect")
+      //     .data(dataBars)
+      //     .join("rect")
+      //     .attr("x", margins.left + 15)
+      //     .attr("y", (d) => yScaleBars(d.word))
+      //     .attr("width", (d) => xScaleBars(d.count))
+      //     .attr("height", 10)
+      //     .attr("rx", 4)
+      //     .attr("ry", 4)
+      //     .attr("fill", "#61BFE4")
 
-            //   d3.selectAll("circle").style("opacity", 0.1)
-            //   d3.select(this).style("opacity", 0.7)
-            // }
-            //Bubbles
-            svgBubbles
-              .selectAll("myBubble")
-              .data(bubbleData)
-              .join("circle")
-              .attr("cx", (d) => xScaleBubble(d.pc1))
-              .attr("cy", (d) => yScaleBubble(d.pc2))
-              .attr("r", (d) => circleScale(d.sizeArea))
-              .style("opacity", (d) =>
-                d.topic == selectedBubbleTopic || selectedBubbleTopic === "default"
-                  ? 0.7
-                  : 0.2
-              )
-              .attr("fill", "#61BFE4")
-              // .on("mouseover", updateDataset(this.topic))
-              .on("mouseover", function () {
-                d3.selectAll("circle").style("opacity", 0.1)
-                d3.select(this).style("opacity", 0.7)
-                svgBars.selectAll("myRect").style("fill", "black")
-              })
-              .on("mouseout", function (d, i) {
-                d3.selectAll("circle").style("opacity", 0.7)
-              })
+      //   d3.selectAll("circle").style("opacity", 0.1)
+      //   d3.select(this).style("opacity", 0.7)
+      // }
 
-            //Bubbles LABELS
-            svgBubbles
-              .selectAll("bubbleLabs")
-              .data(bubbleData)
-              .join("text")
-              .attr("x", (d) => xScaleBubble(d.pc1))
-              .attr("y", (d) => yScaleBubble(d.pc2) + 4)
-              .attr("font-family", "sans-serif")
-              .style("text-anchor", "middle")
-              .text((d) => d.topic)
+      //Bubbles
+      svgBubbles
+        .selectAll("myBubble")
+        .data(bubbleData)
+        .join("circle")
+        .attr("class", "bubbles")
+        .attr("id", (d) => `circle-${d.topic}`)
+        .attr("cx", (d) => xScaleBubble(d.pc1))
+        .attr("cy", (d) => yScaleBubble(d.pc2))
+        .attr("r", (d) => circleScale(d.sizeArea))
+        .style("opacity", (d) =>
+          d.topic == selectedBubbleTopic || selectedBubbleTopic === "default"
+            ? 0.7
+            : 0.2
+        )
+        .attr("fill", "#61BFE4")
+        // .on("mouseover", updateDataset(this.topic))
+        .on("mouseover", function () {
+          d3.selectAll("circle.bubbles").style("opacity", 0.1)
+          d3.select(this).style("opacity", 0.7)
+          svgBars.selectAll("myRect").style("fill", "black")
+        })
+        .on("mouseout", function (d, i) {
+          d3.selectAll("circle.bubbles").style("opacity", 0.7)
+        })
 
-            //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
+      //Bubbles LABELS
+      svgBubbles
+        .selectAll("bubbleLabs")
+        .data(bubbleData)
+        .join("text")
+        .attr("x", (d) => xScaleBubble(d.pc1))
+        .attr("y", (d) => yScaleBubble(d.pc2) + 4)
+        .attr("font-family", "sans-serif")
+        .style("text-anchor", "middle")
+        .text((d) => d.topic)
 
-            const svgBars = d3
-              .select("#my_dataviz")
-              .append("svg")
-              .attr("width", width)
-              .attr("height", height)
-              .append("g")
+      //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
 
-            console.log(dataCustomRects, "datacustomrects")
-            console.log(bubbleData, "bubbleData")
-            //Rects
-            svgBars
-              .selectAll("myRect")
-              .data(dataCustomRects)
-              .join("rect")
-              .attr("x", margins.left + 15)
-              .attr("y", (d) => yScaleBars(d.word))
-              .attr("width", (d) => xScaleBars(d.count))
-              .attr("height", 10)
-              .attr("rx", 4)
-              .attr("ry", 4)
-              .attr("fill", "#61BFE4")
+      const svgBars = d3
+        .select("#my_dataviz")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
 
-            svgBars
-              .selectAll("wordLabel")
-              .data(dataCustomRects)
-              .join("text")
-              .attr("x", margins.left + 10)
-              .attr("y", (d) => yScaleBars(d.word) + 10)
-              .attr("font-family", "sans-serif")
-              .text((d) => d.word)
-              .style("text-anchor", "end")
+      console.log(dataCustomRects, "datacustomrects")
+      console.log(bubbleData, "bubbleData")
+      //Rects
+      svgBars
+        .selectAll("myRect")
+        .data(dataCustomRects)
+        .join("rect")
+        .attr("id", (d) => `rect-${d.topic}`)
+        .attr("x", margins.left + 15)
+        .attr("y", (d) => yScaleBars(d.word))
+        .attr("width", (d) => xScaleBars(d.count))
+        .attr("height", 10)
+        .attr("rx", 4)
+        .attr("ry", 4)
+        .attr("fill", "#61BFE4")
 
-            console.log("here")
+      svgBars
+        .selectAll("wordLabel")
+        .data(dataCustomRects)
+        .join("text")
+        .attr("x", margins.left + 10)
+        .attr("y", (d) => yScaleBars(d.word) + 10)
+        .attr("font-family", "sans-serif")
+        .text((d) => d.word)
+        .style("text-anchor", "end")
 
-            //BUBBLES FORCES ////////////////////////////////////////////////////////////////////////////////
-            const data = await d3.json("data/clustersLau.json")
-      console.log(data)
-
-            // const uniqueZones = [...new Set(forceData.map((d) => d.zone))]
-            // console.log(uniqueZones, "UNIQUE ZONES")
-
-            // const dataFiltered = forceData.filter((d) => d.zone === "vicenza")
-            // console.log(dataFiltered, "dataFiltered")
-
-            // const clustersGrouped = groupBy(dataFiltered, (d) => d.clusterId)
-            // console.log(clustersGrouped, "AAA")
-            // const xScaleForce = d3
-            //   .scaleLinear()
-            //   .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-            //   .range([
-            //     100 + 100,
-            //     300 + 100,
-            //     500 + 100,
-            //     700 + 100,
-            //     900 + 100,
-            //     100 + 100,
-            //     300 + 100,
-            //     500 + 100,
-            //     700 + 100,
-            //     900 + 100,
-            //   ])
-
-            // const yScaleForce = d3
-            //   .scaleLinear()
-            //   .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-            //   .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
-
-            // // SCALES
-            // const circleScaleForce = d3.scaleSqrt().domain([0, 20]).range([0, 20])
-
-            // function simulationForces(clusterData, clusterIndex) {
-            //   const simulation = d3
-
-            //     .forceSimulation(clusterData)
-            //     .force("charge", d3.forceManyBody().strength(60))
-            //     .force(
-            //       "center",
-            //       d3.forceCenter(xScale(clusterIndex), yScale(clusterIndex))
-            //     )
-            //     .force(
-            //       "collision",
-            //       d3.forceCollide().radius(function (d) {
-            //         return circleScale(d.nReviews)
-            //       })
-            //     )
-            //   simulation.tick(150)
-
-            //   return simulation
-            // }
-
-            // for (const element in clustersGrouped) {
-            //   const data = clustersGrouped[element]
-            //   simulationForces(data, element)
-            // }
-
-            // const svgClustering = d3
-            //   .select("#my_dataviz")
-            //   .append("svg")
-            //   .attr("width", width)
-            //   .attr("height", height)
-            //   .append("g")
-
-            // clusteringData = range(10).map((index) => clustersGrouped[index])
-
-            // svgClustering
-            //   .selectAll("clustersBubbles")
-            //   .data(clusteringData)
-            //   .join("text")
-            //   .attr("x", (bubble, i) => bubble.x)
-            //   .attr("y", (bubble, i) => xScaleBubble(d.pc2) + 4)
-            //   .text((d) => d.topic)
+      console.log("here")
     </script>
     <h1>miao</h1>
   </body>

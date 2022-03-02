@@ -1,0 +1,725 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple D3 Dev Env</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="text/javascript" src="lodash.js"></script>
+  </head>
+  <body id="cluster_dataviz">
+    <div id="cluster_div"></div>
+    <script>
+      const width = 1000
+      const height = 900
+
+      const margins = {
+        top: 50,
+        right: 50,
+        left: 60,
+        bottom: 50,
+      }
+
+      //BUBBLES FORCES ////////////////////////////////////////////////////////////////////////////////
+
+      // data with vicenza only, should be ForceData with entire json
+      const dataVicenza = [
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Tour and activities",
+          nReviews: 12,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Bar and clubs",
+          nReviews: 24,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Entertainment and events",
+          nReviews: 73,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Transports and services",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Natural sites",
+          nReviews: 28,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Shopping",
+          nReviews: 16,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "0",
+          macro: "Relax and wellness",
+          nReviews: 3,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Tour and activities",
+          nReviews: 16,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Bar and clubs",
+          nReviews: 19,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Entertainment and events",
+          nReviews: 8,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Transports and services",
+          nReviews: 4,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Natural sites",
+          nReviews: 15,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Shopping",
+          nReviews: 131,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "1",
+          macro: "Relax and wellness",
+          nReviews: 2,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Tour and activities",
+          nReviews: 98,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Bar and clubs",
+          nReviews: 4,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Entertainment and events",
+          nReviews: 5,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Transports and services",
+          nReviews: 7,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Natural sites",
+          nReviews: 18,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Shopping",
+          nReviews: 17,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "2",
+          macro: "Relax and wellness",
+          nReviews: 2,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Tour and activities",
+          nReviews: 16,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Bar and clubs",
+          nReviews: 176,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Entertainment and events",
+          nReviews: 16,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Transports and services",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Natural sites",
+          nReviews: 69,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Shopping",
+          nReviews: 33,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "3",
+          macro: "Relax and wellness",
+          nReviews: 4,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Tour and activities",
+          nReviews: 99,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Bar and clubs",
+          nReviews: 101,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Entertainment and events",
+          nReviews: 99,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Transports and services",
+          nReviews: 40,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Natural sites",
+          nReviews: 588,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Shopping",
+          nReviews: 210,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "4",
+          macro: "Relax and wellness",
+          nReviews: 12,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Tour and activities",
+          nReviews: 190,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Bar and clubs",
+          nReviews: 136,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Entertainment and events",
+          nReviews: 83,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Transports and services",
+          nReviews: 169,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Natural sites",
+          nReviews: 504,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Shopping",
+          nReviews: 451,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "5",
+          macro: "Relax and wellness",
+          nReviews: 27,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Tour and activities",
+          nReviews: 15,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Bar and clubs",
+          nReviews: 10,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Entertainment and events",
+          nReviews: 11,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Transports and services",
+          nReviews: 2,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Natural sites",
+          nReviews: 122,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Shopping",
+          nReviews: 9,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "6",
+          macro: "Relax and wellness",
+          nReviews: 3,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Tour and activities",
+          nReviews: 44,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Bar and clubs",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Entertainment and events",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Transports and services",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Natural sites",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Shopping",
+          nReviews: 3,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "7",
+          macro: "Relax and wellness",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Tour and activities",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Bar and clubs",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Entertainment and events",
+          nReviews: 0,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Transports and services",
+          nReviews: 20,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Natural sites",
+          nReviews: 3,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Shopping",
+          nReviews: 0,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "8",
+          macro: "Relax and wellness",
+          nReviews: 0,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Tour and activities",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Bar and clubs",
+          nReviews: 24,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Entertainment and events",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Transports and services",
+          nReviews: 0,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Natural sites",
+          nReviews: 0,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Shopping",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "vicenza",
+          clusterId: "9",
+          macro: "Relax and wellness",
+          nReviews: 1,
+          LivingLab: "Vicenza",
+          "Geo Level": "LAU",
+        },
+      ]
+
+      const uniqueZones = [...new Set(dataVicenza.map((d) => d.zone))]
+
+      const dataFiltered = dataVicenza.filter((d) => d.zone === "vicenza")
+
+      const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
+
+      console.log(clustersGrouped, "clustersGrouped")
+
+      const colorScale = d3
+        .scaleOrdinal()
+        .domain([
+          "Tour and Activities",
+          "Bars and Clubs",
+          "Entertainment and events",
+          "Transports and services",
+          "Natural sites",
+          "Shopping",
+          "Relax and wellness",
+        ])
+        .range([
+          "#B2D329",
+          "#FF9900",
+          "#61BFE4",
+          "#5768FF",
+          "#589322",
+          "#BA3AE1",
+          "#FF5A5A",
+        ])
+
+      //SCALES for dispositions of clusters
+      const xScaleForce = d3
+        .scaleLinear()
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+        .range([
+          100 + 100,
+          300 + 100,
+          500 + 100,
+          700 + 100,
+          900 + 100,
+          100 + 100,
+          300 + 100,
+          500 + 100,
+          700 + 100,
+          900 + 100,
+        ])
+
+      const yScaleForce = d3
+        .scaleLinear()
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+        .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
+
+      // SCALE FOR CIRCLE RADIUS
+      const circleScaleForce = d3.scaleSqrt().domain([0, 20]).range([0, 20])
+
+      function simulationForces(clusterData, clusterIndex) {
+        const simulation = d3
+
+          .forceSimulation(clusterData)
+          .force("charge", d3.forceManyBody().strength(60))
+          .force(
+            "center",
+            d3.forceCenter(xScaleForce(clusterIndex), yScaleForce(clusterIndex))
+          )
+          .force(
+            "collision",
+            d3.forceCollide().radius(function (d) {
+              return circleScaleForce(d.nReviews)
+            })
+          )
+        simulation.tick(300)
+
+        return simulation
+      }
+      console.log(clustersGrouped, "clustersGrouped")
+
+      for (const element in clustersGrouped) {
+        const data = clustersGrouped[element]
+        simulationForces(data, element)
+      }
+
+      const svgClustering = d3
+        .select("body")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+
+      clusteringData = _.range(10).map((index) => clustersGrouped[index])[0]
+      console.log(clusteringData, "clusteringData")
+
+      const mouseover = function (d) {
+        tooltip.style("opacity", 1)
+      }
+      d3.select("body")
+        .append("div")
+        .attr("id", "tooltip")
+        .attr("style", "position: absolute; opacity: 0;")
+
+      _.range(10).map((index) =>
+        svgClustering
+          .selectAll("clustersBubbles")
+          .data(clustersGrouped[index])
+          .join("circle")
+          .attr("id", "circleBasicTooltip")
+          .attr("cx", (bubble) => bubble.x)
+          .attr("cy", (bubble) => bubble.y)
+          .attr("r", (bubble) => circleScaleForce(bubble.nReviews))
+          .attr("fill", (bubble) => colorScale(bubble.macro))
+          //.on("mouseover", mouseover)
+          .on("mouseover", function (d) {
+            d3.select("#tooltip")
+              .transition()
+              .duration(200)
+              .style("opacity", 1)
+              .text(d.macro)
+          })
+          .on("mouseout", function () {
+            d3.select("#tooltip").style("opacity", 0)
+          })
+      )
+
+      const tooltip = d3
+        .select("#cluster_viz")
+        .append("div")
+        .style("opacity", 0)
+        .style("position", "absolute")
+        .attr("class", "tooltip")
+        .style("background-color", "white")
+        .style("border", "solid")
+        .style("border-width", "1px")
+        .style("border-radius", "5px")
+        .style("padding", "10px")
+
+      // create a tooltip
+    </script>
+    <h1>miao</h1>
+  </body>
+</html>
