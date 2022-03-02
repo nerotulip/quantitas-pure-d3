@@ -8,22 +8,583 @@
     <script type="text/javascript" src="lodash.js"></script>
   </head>
   <body id="cluster_dataviz">
+    <select id="selectButton"></select>
     <div id="cluster_div"></div>
     <script>
-      const width = 1000
+      const width = 1200
       const height = 900
 
       const margins = {
-        top: 50,
+        top: 100,
         right: 50,
         left: 60,
         bottom: 50,
       }
 
-      //BUBBLES FORCES ////////////////////////////////////////////////////////////////////////////////
+      //BUBBLES FORCES ////////////////////////////////////////////////////////////
 
       // data with vicenza only, should be ForceData with entire json
       const dataVicenza = [
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Tour and activities",
+          nReviews: 15,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Bar and clubs",
+          nReviews: 7,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Entertainment and events",
+          nReviews: 26,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Transports and services",
+          nReviews: 11,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Natural sites",
+          nReviews: 4,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Shopping",
+          nReviews: 11,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "0",
+          macro: "Relax and wellness",
+          nReviews: 97,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Tour and activities",
+          nReviews: 235,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Bar and clubs",
+          nReviews: 125,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Entertainment and events",
+          nReviews: 87,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Transports and services",
+          nReviews: 147,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Natural sites",
+          nReviews: 121,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Shopping",
+          nReviews: 663,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "1",
+          macro: "Relax and wellness",
+          nReviews: 16,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Tour and activities",
+          nReviews: 311,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Bar and clubs",
+          nReviews: 105,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Entertainment and events",
+          nReviews: 1031,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Transports and services",
+          nReviews: 204,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Natural sites",
+          nReviews: 214,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Shopping",
+          nReviews: 353,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "2",
+          macro: "Relax and wellness",
+          nReviews: 79,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Tour and activities",
+          nReviews: 875,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Bar and clubs",
+          nReviews: 375,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Entertainment and events",
+          nReviews: 784,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Transports and services",
+          nReviews: 835,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Natural sites",
+          nReviews: 1454,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Shopping",
+          nReviews: 1108,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "3",
+          macro: "Relax and wellness",
+          nReviews: 106,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Tour and activities",
+          nReviews: 41,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Bar and clubs",
+          nReviews: 22,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Entertainment and events",
+          nReviews: 505,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Transports and services",
+          nReviews: 19,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Natural sites",
+          nReviews: 61,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Shopping",
+          nReviews: 27,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "4",
+          macro: "Relax and wellness",
+          nReviews: 20,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Tour and activities",
+          nReviews: 64,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Bar and clubs",
+          nReviews: 24,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Entertainment and events",
+          nReviews: 37,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Transports and services",
+          nReviews: 292,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Natural sites",
+          nReviews: 37,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Shopping",
+          nReviews: 33,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "5",
+          macro: "Relax and wellness",
+          nReviews: 4,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Tour and activities",
+          nReviews: 220,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Bar and clubs",
+          nReviews: 104,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Entertainment and events",
+          nReviews: 250,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Transports and services",
+          nReviews: 173,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Natural sites",
+          nReviews: 1073,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Shopping",
+          nReviews: 259,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "6",
+          macro: "Relax and wellness",
+          nReviews: 15,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Tour and activities",
+          nReviews: 347,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Bar and clubs",
+          nReviews: 25,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Entertainment and events",
+          nReviews: 44,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Transports and services",
+          nReviews: 30,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Natural sites",
+          nReviews: 25,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Shopping",
+          nReviews: 31,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "7",
+          macro: "Relax and wellness",
+          nReviews: 5,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Tour and activities",
+          nReviews: 8,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Bar and clubs",
+          nReviews: 14,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Entertainment and events",
+          nReviews: 15,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Transports and services",
+          nReviews: 8,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Natural sites",
+          nReviews: 21,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Shopping",
+          nReviews: 197,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "8",
+          macro: "Relax and wellness",
+          nReviews: 4,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Tour and activities",
+          nReviews: 18,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Bar and clubs",
+          nReviews: 120,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Entertainment and events",
+          nReviews: 13,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Transports and services",
+          nReviews: 7,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Natural sites",
+          nReviews: 9,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Shopping",
+          nReviews: 18,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
+        {
+          zone: "rotterdam",
+          clusterId: "9",
+          macro: "Relax and wellness",
+          nReviews: 0,
+          LivingLab: "The Rotterdam Metropolitan Region",
+          "Geo Level": "LAU",
+        },
         {
           zone: "vicenza",
           clusterId: "0",
@@ -587,6 +1148,7 @@
       ]
 
       const uniqueZones = [...new Set(dataVicenza.map((d) => d.zone))]
+      console.log(uniqueZones)
 
       const dataFiltered = dataVicenza.filter((d) => d.zone === "vicenza")
 
@@ -669,11 +1231,52 @@
       const svgClustering = d3
         .select("body")
         .append("svg")
+        .attr("position", "relative")
         .attr("width", width)
         .attr("height", height)
 
       clusteringData = _.range(10).map((index) => clustersGrouped[index])[0]
       console.log(clusteringData, "clusteringData")
+
+      // SELECTION DROPDOWN
+      d3.select("#selectButton")
+        .selectAll("myOptions")
+        .data(uniqueZones)
+        .enter()
+        .append("option")
+        .text(function (d) {
+          return d
+        }) // text showed in the menu
+        .attr("value", function (d) {
+          return d
+        })
+
+      function updateCity(selectedGroup) {
+        // Create new data with the selection?
+        const dataCityUpdated = dataVicenza.filter(
+          (d) => d.zone === selectedGroup
+        )
+        const clustersGrouped = _.groupBy(dataCityUpdated, (d) => d.clusterId)
+
+        for (const element in clustersGrouped) {
+          const data = clustersGrouped[element]
+          simulationForces(data, element)
+        }
+
+        // Give these new data to update line
+
+        _.range(10).map((index) =>
+          svgClustering
+            .selectAll("clustersBubbles")
+            .data(clustersGrouped[index])
+            .join("circle")
+            .attr("id", "circleBasicTooltip")
+            .attr("cx", (bubble) => bubble.x)
+            .attr("cy", (bubble) => bubble.y)
+            .attr("r", (bubble) => circleScaleForce(bubble.nReviews))
+            .attr("fill", (bubble) => colorScale(bubble.macro))
+        )
+      }
 
       const mouseover = function (d) {
         tooltip.style("opacity", 1)
@@ -699,7 +1302,7 @@
               .transition()
               .duration(200)
               .style("opacity", 1)
-              .text(d.macro)
+              .text("ciao")
           })
           .on("mouseout", function () {
             d3.select("#tooltip").style("opacity", 0)
@@ -711,12 +1314,19 @@
         .append("div")
         .style("opacity", 0)
         .style("position", "absolute")
-        .attr("class", "tooltip")
         .style("background-color", "white")
+        .style("width", "300px")
         .style("border", "solid")
         .style("border-width", "1px")
         .style("border-radius", "5px")
         .style("padding", "10px")
+
+      d3.select("#selectButton").on("change", function (d) {
+        // recover the option that has been chosen
+        const selectedOption = d3.select(this).property("value")
+        // run the updateChart function with this selected option
+        updateCity(selectedOption)
+      })
 
       // create a tooltip
     </script>
