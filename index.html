@@ -9,52 +9,263 @@
   <body id="my_dataviz">
     <script>
       // set the dimensions and margins of the graph
-      const margin = { top: 20, right: 30, bottom: 40, left: 90 },
-        width = 460 - margin.left - margin.right,
-        height = 400 - margin.top - margin.bottom
+
+      const width = 800
+      const height = 900
+
+      const margins = {
+        top: 50,
+        right: 50,
+        left: 50,
+        bottom: 50,
+      }
 
       // append the svg object to the body of the page
-      const svg = d3
+
+      const defaultData = [
+        {
+          topic: "standard",
+          words: [
+            { word: "car", count: 45, topic: 1 },
+            { word: "white", count: 30, topic: 2 },
+            { word: "great", count: 26, topic: 3 },
+            { word: "gin", count: 72, topic: 4 },
+            { word: "new york", count: 23, topic: 5 },
+            { word: "daisy", count: 67, topic: 6 },
+            { word: "gatsby", count: 55, topic: 1 },
+            { word: "boat", count: 14, topic: 2 },
+            { word: "lake", count: 11, topic: 3 },
+            { word: "mountain", count: 13, topic: 4 },
+            { word: "states", count: 55, topic: 5 },
+            { word: "nicolas", count: 84, topic: 5 },
+            { word: "piano", count: 45, topic: 1 },
+            { word: "red", count: 30, topic: 2 },
+            { word: "shoe", count: 26, topic: 3 },
+            { word: "knit", count: 72, topic: 4 },
+            { word: "shop", count: 23, topic: 5 },
+            { word: "street", count: 67, topic: 6 },
+            { word: "bike", count: 55, topic: 1 },
+            { word: "light", count: 14, topic: 2 },
+            { word: "fish", count: 11, topic: 3 },
+            { word: "strike", count: 13, topic: 4 },
+            { word: "noise", count: 55, topic: 5 },
+            { word: "random", count: 84, topic: 5 },
+            { word: "sea", count: 55, topic: 1 },
+            { word: "ocean", count: 14, topic: 2 },
+            { word: "ship", count: 11, topic: 3 },
+            { word: "flight", count: 13, topic: 4 },
+            { word: "sonata", count: 55, topic: 5 },
+            { word: "adagio", count: 84, topic: 5 },
+          ],
+        },
+        {
+          topic: 1,
+          words: [
+            { word: "car", count: 24 },
+            { word: "white", count: 36 },
+            { word: "great", count: 12 },
+            { word: "gin", count: 6 },
+            { word: "new york", count: 30 },
+            { word: "daisy", count: 87 },
+            { word: "gatsby", count: 74 },
+            { word: "boat", count: 23 },
+            { word: "lake", count: 24 },
+            { word: "mountain", count: 91 },
+            { word: "states", count: 45 },
+            { word: "jaar", count: 50 },
+          ],
+        },
+        {
+          topic: 2,
+          words: [
+            { word: "car", count: 43 },
+            { word: "white", count: 36 },
+            { word: "great", count: 12 },
+            { word: "gin", count: 6 },
+            { word: "new york", count: 30 },
+            { word: "daisy", count: 10 },
+            { word: "gatsby", count: 74 },
+            { word: "boat", count: 22 },
+            { word: "lake", count: 24 },
+            { word: "mountain", count: 91 },
+            { word: "states", count: 45 },
+          ],
+        },
+      ]
+
+      const orderedData = defaultData.map((d) => ({
+        ...d,
+        words: d.words.sort(function (a, b) {
+          return b.count - a.count
+        }),
+      }))
+
+      console.log(orderedData, "orderedData")
+
+      const bubbleData = [
+        { topic: 1, sizeArea: 10, pc1: 7, pc2: 13 },
+        { topic: 2, sizeArea: 4, pc1: 2, pc2: -5 },
+        { topic: 3, sizeArea: 5, pc1: -5, pc2: -7 },
+        { topic: 4, sizeArea: 2, pc1: 12, pc2: 3 },
+        { topic: 5, sizeArea: 15, pc1: -14, pc2: 3 },
+        { topic: 6, sizeArea: 18, pc1: -14, pc2: 1 },
+        { topic: 7, sizeArea: 15, pc1: 3, pc2: 10 },
+      ]
+
+      const xScaleBubble = d3
+        .scaleLinear()
+        .domain([-20, 20])
+        .range([margins.left, width - margins.right])
+      const yScaleBubble = d3
+        .scaleLinear()
+        .domain([20, -20])
+        .range([margins.top, height - margins.bottom])
+      const circleScale = d3.scaleSqrt().domain([1, 20]).range([10, 50])
+
+      const xScaleBars = d3.scaleLinear().domain([0, 100]).range([0, 600])
+      const yScaleBars = d3
+        .scaleOrdinal()
+        .domain([])
+        .range(d3.range(margins.top, height - margins.bottom, 20))
+      //SVG BUBBLES
+      const svgBubbles = d3
         .select("#my_dataviz")
         .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", width)
+        .attr("height", height)
         .append("g")
-        .attr("transform", `translate(${margin.left}, ${margin.top})`)
 
-      // Parse the Data
-      d3.csv(
-        "https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/7_OneCatOneNum_header.csv"
-      ).then(function (data) {
-        // Add X axis
-        const x = d3.scaleLinear().domain([0, 13000]).range([0, width])
-        svg
-          .append("g")
-          .attr("transform", `translate(0, ${height})`)
-          .call(d3.axisBottom(x))
-          .selectAll("text")
-          .attr("transform", "translate(-10,0)rotate(-45)")
-          .style("text-anchor", "end")
+      //Bubbles
+      svgBubbles
+        .selectAll("myBubble")
+        .data(bubbleData)
+        .join("circle")
+        .attr("cx", (d) => xScaleBubble(d.pc1))
+        .attr("cy", (d) => yScaleBubble(d.pc2))
+        .attr("r", (d) => circleScale(d.sizeArea))
+        .attr("fill", "#61BFE4")
 
-        // Y axis
-        const y = d3
-          .scaleBand()
-          .range([0, height])
-          .domain(data.map((d) => d.Country))
-          .padding(0.1)
-        svg.append("g").call(d3.axisLeft(y))
+      //Bubbles labels
+      svgBubbles
+        .selectAll("bubbleLabs")
+        .data(bubbleData)
+        .join("text")
+        .attr("x", (d) => xScaleBubble(d.pc1))
+        .attr("y", (d) => xScaleBubble(d.pc2) + 4)
+        .text((d) => d.topic)
 
-        //Bars
-        svg
-          .selectAll("myRect")
-          .data(data)
-          .join("rect")
-          .attr("x", x(0))
-          .attr("y", (d) => y(d.Country))
-          .attr("width", (d) => x(d.Value))
-          .attr("height", y.bandwidth())
-          .attr("fill", "#69b3a2")
-      })
+      //SVG BARS
+      const svgBars = d3
+        .select("#my_dataviz")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+
+      const dataCustomRects = orderedData
+        .filter((d) => d.topic === 1)
+        .map((d) => d.words)[0]
+
+      console.log(dataCustomRects, "datacustomrects")
+      console.log(bubbleData, "bubbleData")
+      //Rects
+      svgBars
+        .selectAll("myRect")
+        .data(dataCustomRects)
+        .join("rect")
+        .attr("x", margins.left + 15)
+        .attr("y", (d) => yScaleBars(d.word))
+        .attr("width", (d) => xScaleBars(d.count))
+        .attr("height", 10)
+        .attr("rx", 4)
+        .attr("ry", 4)
+        .attr("fill", "#61BFE4")
+
+      //BUBBLES FORCES ////////////////////////////////////////////////////////////////////////////////
+      fetch("../data/clustersLau.json")
+        .then((mockResponses) => {
+          return mockResponses.json()
+        })
+        .then((data) => console.log(data))
+      let response
+      async function getDataset() {
+        response = await fetch("../data/clustersLau.json")
+        console.log(response.json()) // this line will "wait" for the previous to be completed
+      }
+      console.log(response)
+      const uniqueZones = [...new Set(forceData.map((d) => d.zone))]
+      console.log(uniqueZones, "UNIQUE ZONES")
+
+      const dataFiltered = forceData.filter((d) => d.zone === "vicenza")
+      console.log(dataFiltered, "dataFiltered")
+
+      const clustersGrouped = groupBy(dataFiltered, (d) => d.clusterId)
+      console.log(clustersGrouped, "AAA")
+      const xScaleForce = d3
+        .scaleLinear()
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+        .range([
+          100 + 100,
+          300 + 100,
+          500 + 100,
+          700 + 100,
+          900 + 100,
+          100 + 100,
+          300 + 100,
+          500 + 100,
+          700 + 100,
+          900 + 100,
+        ])
+
+      const yScaleForce = d3
+        .scaleLinear()
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+        .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
+
+      // SCALES
+      const circleScaleForce = d3.scaleSqrt().domain([0, 20]).range([0, 20])
+
+      function simulationForces(clusterData, clusterIndex) {
+        const simulation = d3
+
+          .forceSimulation(clusterData)
+          .force("charge", d3.forceManyBody().strength(60))
+          .force(
+            "center",
+            d3.forceCenter(xScale(clusterIndex), yScale(clusterIndex))
+          )
+          .force(
+            "collision",
+            d3.forceCollide().radius(function (d) {
+              return circleScale(d.nReviews)
+            })
+          )
+        simulation.tick(150)
+
+        return simulation
+      }
+
+      for (const element in clustersGrouped) {
+        const data = clustersGrouped[element]
+        simulationForces(data, element)
+      }
+
+      const svgClustering = d3
+        .select("#my_dataviz")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+
+      clusteringData = range(10).map((index) => clustersGrouped[index])
+
+      svgClustering
+        .selectAll("clustersBubbles")
+        .data(clusteringData)
+        .join("text")
+        .attr("x", (bubble, i) => bubble.x)
+        .attr("y", (bubble, i) => xScaleBubble(d.pc2) + 4)
+        .text((d) => d.topic)
     </script>
     <h1>miao</h1>
   </body>
