@@ -4,12 +4,15 @@
   <head>
     <meta charset="utf-8" />
     <title>Simple D3 Dev Env</title>
+    <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="d3.js"></script>
     <script type="text/javascript" src="lodash.js"></script>
   </head>
   <body id="cluster_dataviz">
+    <h1>Clusters of comments for each province</h1>
     <select id="selectButton"></select>
-    <div id="cluster_div"></div>
+    <div></div>
+    <div id="legend"></div>
     <script>
       const width = 1200
       const height = 900
@@ -1146,6 +1149,9 @@
         },
       ]
       const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
+      const uniqueMacro = [...new Set(dataClusters.map((d) => d.macro))]
+      console.log(uniqueMacro)
+
       console.log(uniqueZones)
 
       const dataFiltered = dataClusters.filter(
@@ -1193,7 +1199,7 @@
         const simulation = d3
 
           .forceSimulation(clusterData)
-          .force("charge", d3.forceManyBody().strength(200))
+          .force("charge", d3.forceManyBody().strength(60))
           .force(
             "center",
             d3.forceCenter(xScaleForce(clusterIndex), yScaleForce(clusterIndex))
@@ -1263,7 +1269,7 @@
             .selectAll("circle")
             .data(clustersGrouped[index])
             .join("circle")
-            .attr("class", index)
+            .attr("class", "clusterBubbles")
 
             //.attr("id", index)
             .attr("cx", (bubble) => bubble.x)
@@ -1309,12 +1315,13 @@
           .selectAll("circle")
           .data(clustersGrouped[index])
           .join("circle")
-          .attr("class", index)
+          .attr("class", "clusterBubbles")
           //.attr("id", index)
           .attr("cx", (bubble) => bubble.x)
           .attr("cy", (bubble) => bubble.y)
           .attr("r", (bubble) => circleScaleForce(bubble.percentage))
           .attr("fill", (bubble) => colorScale(bubble.macro))
+
           //.on("mouseover", mouseover)
           .on("mouseover", function (d) {
             d3.select("#tooltip")
@@ -1348,7 +1355,52 @@
       })
 
       // create a tooltip
+      //////////////////  LEGEND LEGEND LEGEND LEGEND
+
+      const xScaleLegend = d3
+        .scaleOrdinal()
+        .domain(uniqueMacro)
+        .range([20, 20, 20, 20, 280, 280, 280])
+
+      const yScaleLegend = d3
+        .scaleOrdinal()
+        .domain(d3.range(0, 7))
+        .range([50, 120 - 50, 140 - 50, 160 - 50, 100 - 50, 120 - 50, 140 - 50])
+
+      //LEGEND
+      const svgLegend = d3
+        .select("#legend")
+        .append("svg")
+        .attr("class", "legend")
+        .style("position", "absolute")
+        .style("top", "600px")
+        .style("left", "500px")
+        .style("width", "570px")
+        .style("height", "170px")
+        .style("background-color", "white")
+        .style("border-radius", "15px")
+        .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+
+      svgLegend
+        .selectAll("rect")
+        .data(uniqueMacro)
+        .join("rect")
+        .attr("x", (d, i) => xScaleLegend(d))
+        .attr("y", (d, i) => yScaleLegend(i))
+        .attr("width", "15")
+        .attr("height", "15")
+        .attr("fill", (d) => colorScale(d))
+        .attr("rx", "5px")
+        .attr("ry", "5px")
+
+      svgLegend
+        .selectAll("text")
+        .data(uniqueMacro)
+        .join("text")
+        .attr("x", (d, i) => xScaleLegend(d) + 20)
+        .attr("y", (d, i) => yScaleLegend(i) + 15)
+        .style("text-anchor", "start")
+        .text((d) => d)
     </script>
-    <h1>miao</h1>
   </body>
 </html>
