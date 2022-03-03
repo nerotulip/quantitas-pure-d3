@@ -1,0 +1,3922 @@
+[
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 93,
+    "total_cluster_reviews": 964,
+    "percentage": 0.096
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 36,
+    "total_cluster_reviews": 964,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 111,
+    "total_cluster_reviews": 964,
+    "percentage": 0.115
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 26,
+    "total_cluster_reviews": 964,
+    "percentage": 0.027
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 617,
+    "total_cluster_reviews": 964,
+    "percentage": 0.64
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 60,
+    "total_cluster_reviews": 964,
+    "percentage": 0.062
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 21,
+    "total_cluster_reviews": 964,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 22,
+    "total_cluster_reviews": 325,
+    "percentage": 0.068
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 212,
+    "total_cluster_reviews": 325,
+    "percentage": 0.652
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 23,
+    "total_cluster_reviews": 325,
+    "percentage": 0.071
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 8,
+    "total_cluster_reviews": 325,
+    "percentage": 0.025
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 25,
+    "total_cluster_reviews": 325,
+    "percentage": 0.077
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 25,
+    "total_cluster_reviews": 325,
+    "percentage": 0.077
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 10,
+    "total_cluster_reviews": 325,
+    "percentage": 0.031
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 23,
+    "total_cluster_reviews": 180,
+    "percentage": 0.128
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 7,
+    "total_cluster_reviews": 180,
+    "percentage": 0.039
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 8,
+    "total_cluster_reviews": 180,
+    "percentage": 0.044
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 102,
+    "total_cluster_reviews": 180,
+    "percentage": 0.567
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 29,
+    "total_cluster_reviews": 180,
+    "percentage": 0.161
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 7,
+    "total_cluster_reviews": 180,
+    "percentage": 0.039
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 4,
+    "total_cluster_reviews": 180,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 319,
+    "total_cluster_reviews": 456,
+    "percentage": 0.7
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 18,
+    "total_cluster_reviews": 456,
+    "percentage": 0.039
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 40,
+    "total_cluster_reviews": 456,
+    "percentage": 0.088
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 15,
+    "total_cluster_reviews": 456,
+    "percentage": 0.033
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 27,
+    "total_cluster_reviews": 456,
+    "percentage": 0.059
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 27,
+    "total_cluster_reviews": 456,
+    "percentage": 0.059
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 10,
+    "total_cluster_reviews": 456,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 8,
+    "total_cluster_reviews": 209,
+    "percentage": 0.038
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 12,
+    "total_cluster_reviews": 209,
+    "percentage": 0.057
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 15,
+    "total_cluster_reviews": 209,
+    "percentage": 0.072
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 4,
+    "total_cluster_reviews": 209,
+    "percentage": 0.019
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 9,
+    "total_cluster_reviews": 209,
+    "percentage": 0.043
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 159,
+    "total_cluster_reviews": 209,
+    "percentage": 0.761
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 2,
+    "total_cluster_reviews": 209,
+    "percentage": 0.01
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 297,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.129
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 126,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.055
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 965,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.418
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 109,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.047
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 431,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.187
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 295,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.128
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 86,
+    "total_cluster_reviews": 2309,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 873,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.149
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 456,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.078
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 725,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.123
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 637,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.108
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 1912,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.326
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 1173,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.2
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 95,
+    "total_cluster_reviews": 5871,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 16,
+    "total_cluster_reviews": 383,
+    "percentage": 0.042
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 15,
+    "total_cluster_reviews": 383,
+    "percentage": 0.039
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 288,
+    "total_cluster_reviews": 383,
+    "percentage": 0.752
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 7,
+    "total_cluster_reviews": 383,
+    "percentage": 0.018
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 31,
+    "total_cluster_reviews": 383,
+    "percentage": 0.081
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 12,
+    "total_cluster_reviews": 383,
+    "percentage": 0.031
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 14,
+    "total_cluster_reviews": 383,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 15,
+    "total_cluster_reviews": 183,
+    "percentage": 0.082
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 4,
+    "total_cluster_reviews": 183,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 18,
+    "total_cluster_reviews": 183,
+    "percentage": 0.098
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 1,
+    "total_cluster_reviews": 183,
+    "percentage": 0.005
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 9,
+    "total_cluster_reviews": 183,
+    "percentage": 0.049
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 5,
+    "total_cluster_reviews": 183,
+    "percentage": 0.027
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 131,
+    "total_cluster_reviews": 183,
+    "percentage": 0.716
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 231,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.126
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 157,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.086
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 126,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.069
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 99,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.054
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 305,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.167
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 886,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.485
+  },
+  {
+    "zone": "Antwerp Province",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 23,
+    "total_cluster_reviews": 1827,
+    "percentage": 0.013
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 22,
+    "total_cluster_reviews": 268,
+    "percentage": 0.082
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 13,
+    "total_cluster_reviews": 268,
+    "percentage": 0.049
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 151,
+    "total_cluster_reviews": 268,
+    "percentage": 0.563
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 13,
+    "total_cluster_reviews": 268,
+    "percentage": 0.049
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 37,
+    "total_cluster_reviews": 268,
+    "percentage": 0.138
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 27,
+    "total_cluster_reviews": 268,
+    "percentage": 0.101
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 5,
+    "total_cluster_reviews": 268,
+    "percentage": 0.019
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 603,
+    "total_cluster_reviews": 747,
+    "percentage": 0.807
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 27,
+    "total_cluster_reviews": 747,
+    "percentage": 0.036
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 18,
+    "total_cluster_reviews": 747,
+    "percentage": 0.024
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 28,
+    "total_cluster_reviews": 747,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 47,
+    "total_cluster_reviews": 747,
+    "percentage": 0.063
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 20,
+    "total_cluster_reviews": 747,
+    "percentage": 0.027
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 4,
+    "total_cluster_reviews": 747,
+    "percentage": 0.005
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 82,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.069
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 44,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 27,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.023
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 36,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.03
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 955,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.807
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 36,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.03
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 3,
+    "total_cluster_reviews": 1183,
+    "percentage": 0.003
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 33,
+    "total_cluster_reviews": 435,
+    "percentage": 0.076
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 42,
+    "total_cluster_reviews": 435,
+    "percentage": 0.097
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 11,
+    "total_cluster_reviews": 435,
+    "percentage": 0.025
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 19,
+    "total_cluster_reviews": 435,
+    "percentage": 0.044
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 45,
+    "total_cluster_reviews": 435,
+    "percentage": 0.103
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 282,
+    "total_cluster_reviews": 435,
+    "percentage": 0.648
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 3,
+    "total_cluster_reviews": 435,
+    "percentage": 0.007
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 71,
+    "total_cluster_reviews": 776,
+    "percentage": 0.091
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 502,
+    "total_cluster_reviews": 776,
+    "percentage": 0.647
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 17,
+    "total_cluster_reviews": 776,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 35,
+    "total_cluster_reviews": 776,
+    "percentage": 0.045
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 114,
+    "total_cluster_reviews": 776,
+    "percentage": 0.147
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 32,
+    "total_cluster_reviews": 776,
+    "percentage": 0.041
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 5,
+    "total_cluster_reviews": 776,
+    "percentage": 0.006
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 1410,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.173
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 684,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.084
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 447,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.055
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 1122,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.138
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 3006,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.369
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 1420,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.174
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 63,
+    "total_cluster_reviews": 8152,
+    "percentage": 0.008
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 446,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.089
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 457,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.091
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 205,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.041
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 360,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.072
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 3149,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.626
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 379,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.075
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 34,
+    "total_cluster_reviews": 5030,
+    "percentage": 0.007
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 42,
+    "total_cluster_reviews": 338,
+    "percentage": 0.124
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 25,
+    "total_cluster_reviews": 338,
+    "percentage": 0.074
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 6,
+    "total_cluster_reviews": 338,
+    "percentage": 0.018
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 212,
+    "total_cluster_reviews": 338,
+    "percentage": 0.627
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 42,
+    "total_cluster_reviews": 338,
+    "percentage": 0.124
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 7,
+    "total_cluster_reviews": 338,
+    "percentage": 0.021
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 4,
+    "total_cluster_reviews": 338,
+    "percentage": 0.012
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 1228,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.565
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 189,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.087
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 81,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 259,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.119
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 217,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.1
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 165,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.076
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 34,
+    "total_cluster_reviews": 2173,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 683,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.408
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 84,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.05
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 41,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.024
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 95,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.057
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 684,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.409
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 78,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.047
+  },
+  {
+    "zone": "Dalmatia",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 9,
+    "total_cluster_reviews": 1674,
+    "percentage": 0.005
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 146,
+    "total_cluster_reviews": 177,
+    "percentage": 0.825
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 4,
+    "total_cluster_reviews": 177,
+    "percentage": 0.023
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 9,
+    "total_cluster_reviews": 177,
+    "percentage": 0.051
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 4,
+    "total_cluster_reviews": 177,
+    "percentage": 0.023
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 7,
+    "total_cluster_reviews": 177,
+    "percentage": 0.04
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 4,
+    "total_cluster_reviews": 177,
+    "percentage": 0.023
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 3,
+    "total_cluster_reviews": 177,
+    "percentage": 0.017
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 640,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.158
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 399,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.099
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 438,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.108
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 459,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.114
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 964,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.238
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 1059,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.262
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 84,
+    "total_cluster_reviews": 4043,
+    "percentage": 0.021
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 29,
+    "total_cluster_reviews": 301,
+    "percentage": 0.096
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 33,
+    "total_cluster_reviews": 301,
+    "percentage": 0.11
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 16,
+    "total_cluster_reviews": 301,
+    "percentage": 0.053
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 8,
+    "total_cluster_reviews": 301,
+    "percentage": 0.027
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 17,
+    "total_cluster_reviews": 301,
+    "percentage": 0.056
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 191,
+    "total_cluster_reviews": 301,
+    "percentage": 0.635
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 7,
+    "total_cluster_reviews": 301,
+    "percentage": 0.023
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 24,
+    "total_cluster_reviews": 286,
+    "percentage": 0.084
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 18,
+    "total_cluster_reviews": 286,
+    "percentage": 0.063
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 21,
+    "total_cluster_reviews": 286,
+    "percentage": 0.073
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 9,
+    "total_cluster_reviews": 286,
+    "percentage": 0.031
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 197,
+    "total_cluster_reviews": 286,
+    "percentage": 0.689
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 11,
+    "total_cluster_reviews": 286,
+    "percentage": 0.038
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 6,
+    "total_cluster_reviews": 286,
+    "percentage": 0.021
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 48,
+    "total_cluster_reviews": 558,
+    "percentage": 0.086
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 44,
+    "total_cluster_reviews": 558,
+    "percentage": 0.079
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 326,
+    "total_cluster_reviews": 558,
+    "percentage": 0.584
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 8,
+    "total_cluster_reviews": 558,
+    "percentage": 0.014
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 55,
+    "total_cluster_reviews": 558,
+    "percentage": 0.099
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 53,
+    "total_cluster_reviews": 558,
+    "percentage": 0.095
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 24,
+    "total_cluster_reviews": 558,
+    "percentage": 0.043
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 10,
+    "total_cluster_reviews": 116,
+    "percentage": 0.086
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 6,
+    "total_cluster_reviews": 116,
+    "percentage": 0.052
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 7,
+    "total_cluster_reviews": 116,
+    "percentage": 0.06
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 70,
+    "total_cluster_reviews": 116,
+    "percentage": 0.603
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 9,
+    "total_cluster_reviews": 116,
+    "percentage": 0.078
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 12,
+    "total_cluster_reviews": 116,
+    "percentage": 0.103
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 2,
+    "total_cluster_reviews": 116,
+    "percentage": 0.017
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 258,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.111
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 184,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.079
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 300,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.129
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 137,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.059
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 1074,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.462
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 340,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.146
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 33,
+    "total_cluster_reviews": 2326,
+    "percentage": 0.014
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 417,
+    "total_cluster_reviews": 735,
+    "percentage": 0.567
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 63,
+    "total_cluster_reviews": 735,
+    "percentage": 0.086
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 52,
+    "total_cluster_reviews": 735,
+    "percentage": 0.071
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 37,
+    "total_cluster_reviews": 735,
+    "percentage": 0.05
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 70,
+    "total_cluster_reviews": 735,
+    "percentage": 0.095
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 75,
+    "total_cluster_reviews": 735,
+    "percentage": 0.102
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 21,
+    "total_cluster_reviews": 735,
+    "percentage": 0.029
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 8,
+    "total_cluster_reviews": 130,
+    "percentage": 0.062
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 3,
+    "total_cluster_reviews": 130,
+    "percentage": 0.023
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 8,
+    "total_cluster_reviews": 130,
+    "percentage": 0.062
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 2,
+    "total_cluster_reviews": 130,
+    "percentage": 0.015
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 5,
+    "total_cluster_reviews": 130,
+    "percentage": 0.038
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 2,
+    "total_cluster_reviews": 130,
+    "percentage": 0.015
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 102,
+    "total_cluster_reviews": 130,
+    "percentage": 0.785
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 16,
+    "total_cluster_reviews": 327,
+    "percentage": 0.049
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 233,
+    "total_cluster_reviews": 327,
+    "percentage": 0.713
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 21,
+    "total_cluster_reviews": 327,
+    "percentage": 0.064
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 4,
+    "total_cluster_reviews": 327,
+    "percentage": 0.012
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 13,
+    "total_cluster_reviews": 327,
+    "percentage": 0.04
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 34,
+    "total_cluster_reviews": 327,
+    "percentage": 0.104
+  },
+  {
+    "zone": "East Flanders",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 6,
+    "total_cluster_reviews": 327,
+    "percentage": 0.018
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 496,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.239
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 120,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.058
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 226,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.109
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 150,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.072
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 789,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.38
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 247,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.119
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 47,
+    "total_cluster_reviews": 2075,
+    "percentage": 0.023
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 317,
+    "total_cluster_reviews": 786,
+    "percentage": 0.403
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 17,
+    "total_cluster_reviews": 786,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 18,
+    "total_cluster_reviews": 786,
+    "percentage": 0.023
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 17,
+    "total_cluster_reviews": 786,
+    "percentage": 0.022
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 374,
+    "total_cluster_reviews": 786,
+    "percentage": 0.476
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 22,
+    "total_cluster_reviews": 786,
+    "percentage": 0.028
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 21,
+    "total_cluster_reviews": 786,
+    "percentage": 0.027
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 240,
+    "total_cluster_reviews": 284,
+    "percentage": 0.845
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 6,
+    "total_cluster_reviews": 284,
+    "percentage": 0.021
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 6,
+    "total_cluster_reviews": 284,
+    "percentage": 0.021
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 7,
+    "total_cluster_reviews": 284,
+    "percentage": 0.025
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 15,
+    "total_cluster_reviews": 284,
+    "percentage": 0.053
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 6,
+    "total_cluster_reviews": 284,
+    "percentage": 0.021
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 4,
+    "total_cluster_reviews": 284,
+    "percentage": 0.014
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 10,
+    "total_cluster_reviews": 99,
+    "percentage": 0.101
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 66,
+    "total_cluster_reviews": 99,
+    "percentage": 0.667
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 3,
+    "total_cluster_reviews": 99,
+    "percentage": 0.03
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 1,
+    "total_cluster_reviews": 99,
+    "percentage": 0.01
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 12,
+    "total_cluster_reviews": 99,
+    "percentage": 0.121
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 4,
+    "total_cluster_reviews": 99,
+    "percentage": 0.04
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 3,
+    "total_cluster_reviews": 99,
+    "percentage": 0.03
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 31,
+    "total_cluster_reviews": 397,
+    "percentage": 0.078
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 13,
+    "total_cluster_reviews": 397,
+    "percentage": 0.033
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 10,
+    "total_cluster_reviews": 397,
+    "percentage": 0.025
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 11,
+    "total_cluster_reviews": 397,
+    "percentage": 0.028
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 319,
+    "total_cluster_reviews": 397,
+    "percentage": 0.804
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 8,
+    "total_cluster_reviews": 397,
+    "percentage": 0.02
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 5,
+    "total_cluster_reviews": 397,
+    "percentage": 0.013
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 10,
+    "total_cluster_reviews": 82,
+    "percentage": 0.122
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 6,
+    "total_cluster_reviews": 82,
+    "percentage": 0.073
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 1,
+    "total_cluster_reviews": 82,
+    "percentage": 0.012
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 47,
+    "total_cluster_reviews": 82,
+    "percentage": 0.573
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 11,
+    "total_cluster_reviews": 82,
+    "percentage": 0.134
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 4,
+    "total_cluster_reviews": 82,
+    "percentage": 0.049
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 3,
+    "total_cluster_reviews": 82,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 65,
+    "total_cluster_reviews": 392,
+    "percentage": 0.166
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 22,
+    "total_cluster_reviews": 392,
+    "percentage": 0.056
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 177,
+    "total_cluster_reviews": 392,
+    "percentage": 0.452
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 12,
+    "total_cluster_reviews": 392,
+    "percentage": 0.031
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 76,
+    "total_cluster_reviews": 392,
+    "percentage": 0.194
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 26,
+    "total_cluster_reviews": 392,
+    "percentage": 0.066
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 14,
+    "total_cluster_reviews": 392,
+    "percentage": 0.036
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 16,
+    "total_cluster_reviews": 123,
+    "percentage": 0.13
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 3,
+    "total_cluster_reviews": 123,
+    "percentage": 0.024
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 1,
+    "total_cluster_reviews": 123,
+    "percentage": 0.008
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 1,
+    "total_cluster_reviews": 123,
+    "percentage": 0.008
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 12,
+    "total_cluster_reviews": 123,
+    "percentage": 0.098
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 89,
+    "total_cluster_reviews": 123,
+    "percentage": 0.724
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 1,
+    "total_cluster_reviews": 123,
+    "percentage": 0.008
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 4,
+    "total_cluster_reviews": 55,
+    "percentage": 0.073
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 1,
+    "total_cluster_reviews": 55,
+    "percentage": 0.018
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 3,
+    "total_cluster_reviews": 55,
+    "percentage": 0.055
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 3,
+    "total_cluster_reviews": 55,
+    "percentage": 0.055
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 10,
+    "total_cluster_reviews": 55,
+    "percentage": 0.182
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 2,
+    "total_cluster_reviews": 55,
+    "percentage": 0.036
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 32,
+    "total_cluster_reviews": 55,
+    "percentage": 0.582
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 359,
+    "total_cluster_reviews": 566,
+    "percentage": 0.634
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 37,
+    "total_cluster_reviews": 566,
+    "percentage": 0.065
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 27,
+    "total_cluster_reviews": 566,
+    "percentage": 0.048
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 33,
+    "total_cluster_reviews": 566,
+    "percentage": 0.058
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 53,
+    "total_cluster_reviews": 566,
+    "percentage": 0.094
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 34,
+    "total_cluster_reviews": 566,
+    "percentage": 0.06
+  },
+  {
+    "zone": "Province Of Huesca",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 23,
+    "total_cluster_reviews": 566,
+    "percentage": 0.041
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 71,
+    "total_cluster_reviews": 874,
+    "percentage": 0.081
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 90,
+    "total_cluster_reviews": 874,
+    "percentage": 0.103
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 72,
+    "total_cluster_reviews": 874,
+    "percentage": 0.082
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 22,
+    "total_cluster_reviews": 874,
+    "percentage": 0.025
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 522,
+    "total_cluster_reviews": 874,
+    "percentage": 0.597
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 87,
+    "total_cluster_reviews": 874,
+    "percentage": 0.1
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 10,
+    "total_cluster_reviews": 874,
+    "percentage": 0.011
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 419,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.14
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 312,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.105
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 200,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.067
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 295,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.099
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 1081,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.362
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 641,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.215
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 37,
+    "total_cluster_reviews": 2985,
+    "percentage": 0.012
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 57,
+    "total_cluster_reviews": 62,
+    "percentage": 0.919
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 1,
+    "total_cluster_reviews": 62,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 1,
+    "total_cluster_reviews": 62,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 62,
+    "percentage": 0
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 1,
+    "total_cluster_reviews": 62,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 2,
+    "total_cluster_reviews": 62,
+    "percentage": 0.032
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 62,
+    "percentage": 0
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 5,
+    "total_cluster_reviews": 124,
+    "percentage": 0.04
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 8,
+    "total_cluster_reviews": 124,
+    "percentage": 0.065
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 6,
+    "total_cluster_reviews": 124,
+    "percentage": 0.048
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 2,
+    "total_cluster_reviews": 124,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 5,
+    "total_cluster_reviews": 124,
+    "percentage": 0.04
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 97,
+    "total_cluster_reviews": 124,
+    "percentage": 0.782
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 1,
+    "total_cluster_reviews": 124,
+    "percentage": 0.008
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 9,
+    "total_cluster_reviews": 246,
+    "percentage": 0.037
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 159,
+    "total_cluster_reviews": 246,
+    "percentage": 0.646
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 17,
+    "total_cluster_reviews": 246,
+    "percentage": 0.069
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 4,
+    "total_cluster_reviews": 246,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 32,
+    "total_cluster_reviews": 246,
+    "percentage": 0.13
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 21,
+    "total_cluster_reviews": 246,
+    "percentage": 0.085
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 4,
+    "total_cluster_reviews": 246,
+    "percentage": 0.016
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 5,
+    "total_cluster_reviews": 87,
+    "percentage": 0.057
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 2,
+    "total_cluster_reviews": 87,
+    "percentage": 0.023
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 54,
+    "total_cluster_reviews": 87,
+    "percentage": 0.621
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 3,
+    "total_cluster_reviews": 87,
+    "percentage": 0.034
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 13,
+    "total_cluster_reviews": 87,
+    "percentage": 0.149
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 9,
+    "total_cluster_reviews": 87,
+    "percentage": 0.103
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 1,
+    "total_cluster_reviews": 87,
+    "percentage": 0.011
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 76,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.073
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 173,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.165
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 70,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.067
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 42,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.04
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 158,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.151
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 517,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.494
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 10,
+    "total_cluster_reviews": 1046,
+    "percentage": 0.01
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 213,
+    "total_cluster_reviews": 422,
+    "percentage": 0.505
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 32,
+    "total_cluster_reviews": 422,
+    "percentage": 0.076
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 33,
+    "total_cluster_reviews": 422,
+    "percentage": 0.078
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 14,
+    "total_cluster_reviews": 422,
+    "percentage": 0.033
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 72,
+    "total_cluster_reviews": 422,
+    "percentage": 0.171
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 52,
+    "total_cluster_reviews": 422,
+    "percentage": 0.123
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 6,
+    "total_cluster_reviews": 422,
+    "percentage": 0.014
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 1,
+    "total_cluster_reviews": 12,
+    "percentage": 0.083
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 1,
+    "total_cluster_reviews": 12,
+    "percentage": 0.083
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 12,
+    "percentage": 0
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 12,
+    "percentage": 0
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 12,
+    "percentage": 0
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 12,
+    "percentage": 0
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 10,
+    "total_cluster_reviews": 12,
+    "percentage": 0.833
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 11,
+    "total_cluster_reviews": 133,
+    "percentage": 0.083
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 2,
+    "total_cluster_reviews": 133,
+    "percentage": 0.015
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 7,
+    "total_cluster_reviews": 133,
+    "percentage": 0.053
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 1,
+    "total_cluster_reviews": 133,
+    "percentage": 0.008
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 109,
+    "total_cluster_reviews": 133,
+    "percentage": 0.82
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 2,
+    "total_cluster_reviews": 133,
+    "percentage": 0.015
+  },
+  {
+    "zone": "Province Of Vicenza",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 1,
+    "total_cluster_reviews": 133,
+    "percentage": 0.008
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 17,
+    "total_cluster_reviews": 304,
+    "percentage": 0.056
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 188,
+    "total_cluster_reviews": 304,
+    "percentage": 0.618
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 32,
+    "total_cluster_reviews": 304,
+    "percentage": 0.105
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 8,
+    "total_cluster_reviews": 304,
+    "percentage": 0.026
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 23,
+    "total_cluster_reviews": 304,
+    "percentage": 0.076
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 31,
+    "total_cluster_reviews": 304,
+    "percentage": 0.102
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 5,
+    "total_cluster_reviews": 304,
+    "percentage": 0.016
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 242,
+    "total_cluster_reviews": 299,
+    "percentage": 0.809
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 12,
+    "total_cluster_reviews": 299,
+    "percentage": 0.04
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 12,
+    "total_cluster_reviews": 299,
+    "percentage": 0.04
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 8,
+    "total_cluster_reviews": 299,
+    "percentage": 0.027
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 16,
+    "total_cluster_reviews": 299,
+    "percentage": 0.054
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 8,
+    "total_cluster_reviews": 299,
+    "percentage": 0.027
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 1,
+    "total_cluster_reviews": 299,
+    "percentage": 0.003
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 1113,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.137
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 579,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.071
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 1273,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.156
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 1111,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.136
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 1976,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.243
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 1909,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.234
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 187,
+    "total_cluster_reviews": 8148,
+    "percentage": 0.023
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 151,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.092
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 53,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.032
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 1055,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.639
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 61,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.037
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 143,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.087
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 132,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.08
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 55,
+    "total_cluster_reviews": 1650,
+    "percentage": 0.033
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 24,
+    "total_cluster_reviews": 426,
+    "percentage": 0.056
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 14,
+    "total_cluster_reviews": 426,
+    "percentage": 0.033
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 20,
+    "total_cluster_reviews": 426,
+    "percentage": 0.047
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 19,
+    "total_cluster_reviews": 426,
+    "percentage": 0.045
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 325,
+    "total_cluster_reviews": 426,
+    "percentage": 0.763
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 16,
+    "total_cluster_reviews": 426,
+    "percentage": 0.038
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 8,
+    "total_cluster_reviews": 426,
+    "percentage": 0.019
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 43,
+    "total_cluster_reviews": 575,
+    "percentage": 0.075
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 31,
+    "total_cluster_reviews": 575,
+    "percentage": 0.054
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 60,
+    "total_cluster_reviews": 575,
+    "percentage": 0.104
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 331,
+    "total_cluster_reviews": 575,
+    "percentage": 0.576
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 43,
+    "total_cluster_reviews": 575,
+    "percentage": 0.075
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 54,
+    "total_cluster_reviews": 575,
+    "percentage": 0.094
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 13,
+    "total_cluster_reviews": 575,
+    "percentage": 0.023
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 56,
+    "total_cluster_reviews": 839,
+    "percentage": 0.067
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 57,
+    "total_cluster_reviews": 839,
+    "percentage": 0.068
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 83,
+    "total_cluster_reviews": 839,
+    "percentage": 0.099
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 35,
+    "total_cluster_reviews": 839,
+    "percentage": 0.042
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 62,
+    "total_cluster_reviews": 839,
+    "percentage": 0.074
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 531,
+    "total_cluster_reviews": 839,
+    "percentage": 0.633
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 15,
+    "total_cluster_reviews": 839,
+    "percentage": 0.018
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 910,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.509
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 92,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.051
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 239,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.134
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 162,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.091
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 125,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.07
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 218,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.122
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 42,
+    "total_cluster_reviews": 1788,
+    "percentage": 0.023
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 516,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.114
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 205,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.045
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 655,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.145
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 341,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.075
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 2107,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.466
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 630,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.139
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 64,
+    "total_cluster_reviews": 4518,
+    "percentage": 0.014
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 14,
+    "total_cluster_reviews": 253,
+    "percentage": 0.055
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 3,
+    "total_cluster_reviews": 253,
+    "percentage": 0.012
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 40,
+    "total_cluster_reviews": 253,
+    "percentage": 0.158
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 3,
+    "total_cluster_reviews": 253,
+    "percentage": 0.012
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 12,
+    "total_cluster_reviews": 253,
+    "percentage": 0.047
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 9,
+    "total_cluster_reviews": 253,
+    "percentage": 0.036
+  },
+  {
+    "zone": "South Holland Province",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 172,
+    "total_cluster_reviews": 253,
+    "percentage": 0.68
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Tour and activities",
+    "nReviews": 1,
+    "total_cluster_reviews": 2,
+    "percentage": 0.5
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Natural sites",
+    "nReviews": 1,
+    "total_cluster_reviews": 2,
+    "percentage": 0.5
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "0",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Tour and activities",
+    "nReviews": 16,
+    "total_cluster_reviews": 16,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 16,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 16,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 16,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 16,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 16,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "1",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 16,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Tour and activities",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Transports and services",
+    "nReviews": 1,
+    "total_cluster_reviews": 1,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "2",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Tour and activities",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Natural sites",
+    "nReviews": 1,
+    "total_cluster_reviews": 1,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "3",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Tour and activities",
+    "nReviews": 4,
+    "total_cluster_reviews": 9,
+    "percentage": 0.444
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Transports and services",
+    "nReviews": 2,
+    "total_cluster_reviews": 9,
+    "percentage": 0.222
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Natural sites",
+    "nReviews": 3,
+    "total_cluster_reviews": 9,
+    "percentage": 0.333
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "4",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Tour and activities",
+    "nReviews": 6,
+    "total_cluster_reviews": 9,
+    "percentage": 0.667
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Transports and services",
+    "nReviews": 3,
+    "total_cluster_reviews": 9,
+    "percentage": 0.333
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "5",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 9,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Tour and activities",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Transports and services",
+    "nReviews": 1,
+    "total_cluster_reviews": 1,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "6",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Tour and activities",
+    "nReviews": 3,
+    "total_cluster_reviews": 3,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 3,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 3,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 3,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 3,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 3,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "7",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 3,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Tour and activities",
+    "nReviews": 2,
+    "total_cluster_reviews": 2,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Natural sites",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "8",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 2,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Tour and activities",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Bar and clubs",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Entertainment and events",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Transports and services",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Natural sites",
+    "nReviews": 1,
+    "total_cluster_reviews": 1,
+    "percentage": 1
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Shopping",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  },
+  {
+    "zone": "Utsjoki",
+    "clusterId": "9",
+    "macro": "Relax and wellness",
+    "nReviews": 0,
+    "total_cluster_reviews": 1,
+    "percentage": 0
+  }
+]
