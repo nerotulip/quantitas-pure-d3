@@ -1204,7 +1204,7 @@
               return circleScaleForce(d.percentage)
             })
           )
-        simulation.tick(150)
+        simulation.tick(300)
 
         return simulation
       }
@@ -1214,13 +1214,6 @@
         const data = clustersGrouped[element]
         simulationForces(data, element)
       }
-
-      const svgClustering = d3
-        .select("body")
-        .append("svg")
-        .attr("position", "relative")
-        .attr("width", width)
-        .attr("height", height)
 
       clusteringData = _.range(10).map((index) => clustersGrouped[index])[0]
       console.log(clusteringData, "clusteringData")
@@ -1237,7 +1230,7 @@
         .attr("value", function (d) {
           return d
         })
-
+      /////////// FUNCTION
       function updateCity(selectedGroup) {
         // Create new data with the selection?
         const dataCityUpdated = dataClusters.filter(
@@ -1249,15 +1242,30 @@
           const data = clustersGrouped[element]
           simulationForces(data, element)
         }
+        // STROKE CIRCLES
+        // _.range(10).map((index) =>
+        //   svgClustering
+        //     .selectAll("clustersBubblesStroke")
+        //     .data(clustersGrouped[index])
+        //     .join("circle")
+        //     .attr("id", "circleStroke")
+        //     .attr("cx", (bubble) => bubble.x)
+        //     .attr("cy", (bubble) => bubble.y)
+        //     .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+        //     .attr("opacity", "1")
+        //     .attr("stroke", "#E7E7E7")
+        //     .attr("stroke-width", "20")
+        // )
 
-        // Give these new data to update line
+        // REAL CIRCLES
         _.range(10).map((index) =>
           svgClustering
-            .selectAll("clustersBubbles")
+            .selectAll("circle")
             .data(clustersGrouped[index])
             .join("circle")
+            .attr("class", index)
 
-            .attr("id", "circleBasicTooltip")
+            //.attr("id", index)
             .attr("cx", (bubble) => bubble.x)
             .attr("cy", (bubble) => bubble.y)
             .attr("r", (bubble) => circleScaleForce(bubble.percentage))
@@ -1273,12 +1281,36 @@
         .attr("id", "tooltip")
         .attr("style", "position: absolute; opacity: 0;")
 
+      const svgClustering = d3
+        .select("body")
+        .append("svg")
+        .attr("position", "relative")
+        .attr("width", width)
+        .attr("height", height)
+
+      // STROKE CIRCLES
+      //   _.range(10).map((index) =>
+      //     svgClustering
+      //       .selectAll("clustersBubblesStroke")
+      //       .data(clustersGrouped[index])
+      //       .join("circle")
+      //       .attr("id", "circleStroke")
+      //       .attr("cx", (bubble) => bubble.x)
+      //       .attr("cy", (bubble) => bubble.y)
+      //       .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+      //       .attr("opacity", "1")
+      //       .attr("stroke", "#E7E7E7")
+      //       .attr("stroke-width", "20")
+      //   )
+
+      //REAL CIRCLES
       _.range(10).map((index) =>
         svgClustering
-          .selectAll("clustersBubbles")
+          .selectAll("circle")
           .data(clustersGrouped[index])
           .join("circle")
-          .attr("id", "circleBasicTooltip")
+          .attr("class", index)
+          //.attr("id", index)
           .attr("cx", (bubble) => bubble.x)
           .attr("cy", (bubble) => bubble.y)
           .attr("r", (bubble) => circleScaleForce(bubble.percentage))
