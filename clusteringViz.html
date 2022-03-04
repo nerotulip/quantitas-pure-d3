@@ -1270,12 +1270,8 @@
           .attr("r", (bubble) => circleScaleForce(bubble.percentage))
           .attr("fill", (bubble) => colorScale(bubble.macro))
       }
-      ////////////////////////
 
-      // d3.select("body")
-      //   .append("div")
-      //   .attr("id", "tooltip")
-      //   .attr("style", "position: absolute; opacity: 0;")
+      // TOOLTIPS   ////////////////////////
 
       const Tooltip = d3
         .select("body")
@@ -1284,13 +1280,8 @@
         .attr("class", "tooltip")
         .style("background-color", "white")
         .style("width", "165px")
-        // .style("border-width", "2px")
-        // .style("border-radius", "5px")
         .style("padding", "10px")
         .style("position", "absolute")
-        //.style("left", bubble.x + "px")
-        //.style("left", `400px`)
-
         .style("width", "100px")
         .style("height", "80px")
         .style("background-color", "white")
@@ -1302,7 +1293,7 @@
       const mouseover = function (d) {
         const bubble = d.target.__data__
         Tooltip.style("opacity", 1)
-          .text(bubble.macro + " " + bubble.nReviews)
+          .text(bubble.macro + "\n" + bubble.nReviews)
           .style("top", bubble.y - 20 + "px")
           .style("left", bubble.x + 25 + "px")
 
@@ -1312,7 +1303,7 @@
         Tooltip.style("opacity", 0)
         d3.select(this).style("stroke", "none")
       }
-
+      // SVG CLUSTERING ////////////////////////////////////////////////////////////////
       const svgClustering = d3
         .select("body")
         .append("svg")
@@ -1343,51 +1334,12 @@
         .data(dataFiltered, (d) => d.macro + "-" + d.clusterId)
         .join("circle")
         .attr("class", "clusterBubbles")
-        //.attr("id", index)
         .attr("cx", (bubble) => bubble.x)
         .attr("cy", (bubble) => bubble.y)
         .attr("r", (bubble) => circleScaleForce(bubble.percentage))
         .attr("fill", (bubble) => colorScale(bubble.macro))
         .on("mouseover", mouseover)
         .on("mouseout", mouseleave)
-      // .on("mouseover", function (d) {
-      //   console.log(d.target.__data__, "data from element")
-      //   //console.log(d, "d")
-      //   const bubble = d.target.__data__
-
-      //   return (
-      //     d3
-      //       .select("#tooltip")
-      //       // .transition()
-      //       // .duration(200)
-      //       .style("opacity", 1)
-      //       .style("position", "absolute")
-      //       .style("left", bubble.x + "px")
-      //       //.style("left", `400px`)
-      //       .style("top", bubble.y + "px")
-      //       .style("width", "100px")
-      //       .style("height", "80px")
-      //       .style("background-color", "white")
-      //       .style("border-radius", "15px")
-      //       .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-      //       .text(bubble.macro)
-      //   )
-      // })
-      // .on("mouseout", function () {
-      //   d3.select("#tooltip").remove()
-      // })
-
-      // const tooltip = d3
-      //   .select("#cluster_viz")
-      //   .append("div")
-      //   .style("opacity", 0)
-      //   .style("position", "absolute")
-      //   .style("background-color", "white")
-      //   .style("width", "300px")
-      //   .style("border", "solid")
-      //   .style("border-width", "1px")
-      //   .style("border-radius", "5px")
-      //   .style("padding", "10px")
 
       //CLUSTERS LABELS ///////////////////////////////////
       const clusterLabels = [
@@ -1443,7 +1395,7 @@
       const yScaleLegend = d3
         .scaleOrdinal()
         .domain(d3.range(0, 7))
-        .range([50, 120 - 50, 140 - 50, 160 - 50, 100 - 50, 120 - 50, 140 - 50])
+        .range([50, 80, 110, 140, 50, 80, 110])
 
       //LEGEND SVG
       const svgLegend = d3
@@ -1454,7 +1406,7 @@
         .style("top", "50px")
         .style("left", "86px")
         .style("width", "570px")
-        .style("height", "170px")
+        .style("height", "180px")
         .style("background-color", "white")
         .style("border-radius", "15px")
         .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
@@ -1475,8 +1427,8 @@
         .selectAll("text")
         .data(uniqueMacro)
         .join("text")
-        .attr("x", (d, i) => xScaleLegend(d) + 20)
-        .attr("y", (d, i) => yScaleLegend(i) + 15)
+        .attr("x", (d, i) => xScaleLegend(d) + 25)
+        .attr("y", (d, i) => yScaleLegend(i) + 13)
         .style("text-anchor", "start")
         .text((d) => d)
 
