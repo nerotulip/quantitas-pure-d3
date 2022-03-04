@@ -1212,29 +1212,10 @@
         return simulation
       } //END FUNCTION
 
-      console.log(xScaleForce("3"))
-      console.log(yScaleForce("3"))
-
-      console.log(clustersGrouped, "clustersGrouped before simulation")
-
       for (const element in clustersGrouped) {
         const data = clustersGrouped[element]
         simulationForces(data, element)
       }
-
-      console.log(clustersGrouped, "after simulation")
-
-      console.log(dataFiltered, "dataFiltered")
-      // console.log(
-      //   simulationForces(dataFiltered),
-      //   "SIMULATION FORCES data filtered"
-      // )
-      // console.log(
-      //   dataFiltered.map((d, i) => {
-      //     simulationForces(d[i])
-      //   }),
-      //   "SIMULATION FORCES data filtered map"
-      // )
 
       clusteringData = _.range(10).map((index) => clustersGrouped[index])[0]
       console.log(clusteringData, "clusteringData")
@@ -1259,23 +1240,20 @@
 
         console.log(unpackedData, "unpackedData")
         // STROKE CIRCLES
-        // _.range(10).map((index) =>
-        //   svgClustering
-        //     .selectAll("clustersBubblesStroke")
-        //     .data(clustersGrouped[index])
-        //     .join("circle")
-        //     .attr("id", "circleStroke")
-        //     .attr("cx", (bubble) => bubble.x)
-        //     .attr("cy", (bubble) => bubble.y)
-        //     .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-        //     .attr("opacity", "1")
-        //     .attr("stroke", "#E7E7E7")
-        //     .attr("stroke-width", "20")
-        // )
-        console.log([clustersGrouped], "clustersGrouped inside function")
-        console.log(...[clustersGrouped], "unpacked grouped")
-        // REAL CIRCLES
 
+        // svgClustering
+        //   .selectAll("circle")
+        //   .data(unpackedData)
+        //   .join("circle")
+        //   .attr("class", "clusterBubblesStroke")
+        //   .attr("cx", (bubble) => bubble.x)
+        //   .attr("cy", (bubble) => bubble.y)
+        //   .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+        //   .attr("opacity", "1")
+        //   .attr("stroke", "#E7E7E7")
+        //   .attr("stroke-width", "20")
+
+        // REAL CIRCLES
         svgClustering
           .selectAll("circle")
           .data(unpackedData)
@@ -1304,20 +1282,18 @@
         .attr("width", width)
         .attr("height", height)
 
-      // STROKE CIRCLES
-      //   _.range(10).map((index) =>
-      //     svgClustering
-      //       .selectAll("clustersBubblesStroke")
-      //       .data(clustersGrouped[index])
-      //       .join("circle")
-      //       .attr("id", "circleStroke")
-      //       .attr("cx", (bubble) => bubble.x)
-      //       .attr("cy", (bubble) => bubble.y)
-      //       .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-      //       .attr("opacity", "1")
-      //       .attr("stroke", "#E7E7E7")
-      //       .attr("stroke-width", "20")
-      //   )
+      // // STROKE CIRCLES
+      // svgClustering
+      //   .selectAll("circle.stroke")
+      //   .data(dataFiltered)
+      //   .join("circle")
+      //   .attr("class", "stroke")
+      //   .attr("cx", (bubble) => bubble.x)
+      //   .attr("cy", (bubble) => bubble.y)
+      //   .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+      //   .attr("opacity", "1")
+      //   .attr("stroke", "#E7E7E7")
+      //   .attr("stroke-width", "10")
 
       //REAL CIRCLES
 
@@ -1331,13 +1307,10 @@
         .attr("cy", (bubble) => bubble.y)
         .attr("r", (bubble) => circleScaleForce(bubble.percentage))
         .attr("fill", (bubble) => colorScale(bubble.macro))
-
-        //.on("mouseover", mouseover)
         .on("mouseover", function (d) {
           console.log(d.x, "d")
           console.log(d.fromElement.__data__, "d")
-          //const bubble = d.fromElement.__data__
-          const bubble = d3.select(this)
+          const bubble = d.fromElement.__data__
 
           return (
             d3
@@ -1346,9 +1319,9 @@
               // .duration(200)
               .style("opacity", 1)
               .style("position", "absolute")
-              .style("left", d.x + "px")
+              .style("left", bubble.x + "px")
               //.style("left", `400px`)
-              .style("top", "40px")
+              .style("top", bubble.y + "px")
               .style("width", "100px")
               .style("height", "80px")
               .style("background-color", "white")
