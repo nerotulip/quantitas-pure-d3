@@ -16,3 +16,29 @@ h1 {
   position: absolute;
   top: 600px;
 }
+#selectButton * {
+  width: 300px;
+  appearance: none;
+  border-radius: 15px;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: transparent;
+  color: white;
+}
+
+/* #selectButton {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 10px 8px 10px 8px;
+  margin: 0;
+  width: 100%;
+  color: white;
+
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+} */

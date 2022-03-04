@@ -1253,6 +1253,11 @@
           const data = clustersGrouped[element]
           simulationForces(data, element)
         }
+        const unpackedData = Object.keys(clustersGrouped)
+          .map((key) => clustersGrouped[key])
+          .flat()
+
+        console.log(unpackedData, "unpackedData")
         // STROKE CIRCLES
         // _.range(10).map((index) =>
         //   svgClustering
@@ -1270,19 +1275,18 @@
         console.log([clustersGrouped], "clustersGrouped inside function")
         console.log(...[clustersGrouped], "unpacked grouped")
         // REAL CIRCLES
-        _.range(10).map((index) =>
-          svgClustering
-            .selectAll("circle")
-            .data(clustersGrouped[index])
-            .join("circle")
-            .attr("class", "clusterBubbles")
 
-            //.attr("id", index)
-            .attr("cx", (bubble) => bubble.x)
-            .attr("cy", (bubble) => bubble.y)
-            .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-            .attr("fill", (bubble) => colorScale(bubble.macro))
-        )
+        svgClustering
+          .selectAll("circle")
+          .data(unpackedData)
+          .join("circle")
+          .attr("class", "clusterBubbles")
+
+          //.attr("id", index)
+          .attr("cx", (bubble) => bubble.x)
+          .attr("cy", (bubble) => bubble.y)
+          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+          .attr("fill", (bubble) => colorScale(bubble.macro))
       }
       ////////////////////////
       const mouseover = function (d) {
@@ -1330,20 +1334,28 @@
 
         //.on("mouseover", mouseover)
         .on("mouseover", function (d) {
-          d3.select("#tooltip")
-            // .transition()
-            // .duration(200)
-            .style("opacity", 1)
-            .style("position", "absolute")
-            //.style("left", `${(d) => d.x}`)
-            .style("left", `400px`)
-            .style("top", "40px")
-            .style("width", "100px")
-            .style("height", "80px")
-            .style("background-color", "white")
-            .style("border-radius", "15px")
-            .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-            .text("ciao")
+          console.log(d.x, "d")
+          console.log(d.fromElement.__data__, "d")
+          //const bubble = d.fromElement.__data__
+          const bubble = d3.select(this)
+
+          return (
+            d3
+              .select("#tooltip")
+              // .transition()
+              // .duration(200)
+              .style("opacity", 1)
+              .style("position", "absolute")
+              .style("left", d.x + "px")
+              //.style("left", `400px`)
+              .style("top", "40px")
+              .style("width", "100px")
+              .style("height", "80px")
+              .style("background-color", "white")
+              .style("border-radius", "15px")
+              .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+              .text(bubble.macro)
+          )
         })
         .on("mouseout", function () {
           d3.select("#tooltip").style("opacity", 0)
