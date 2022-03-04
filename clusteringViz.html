@@ -1193,6 +1193,7 @@
       // SCALE FOR CIRCLE RADIUS
       const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
 
+      //FUNCTION SIMULATION FORCES  ///////////////////////////
       function simulationForces(clusterData, clusterIndex) {
         const simulation = d3
           .forceSimulation(clusterData)
@@ -1210,7 +1211,7 @@
         simulation.tick(300)
 
         return simulation
-      } //END FUNCTION
+      } //END FUNCTION //////////////////////////////////////
 
       for (const element in clustersGrouped) {
         const data = clustersGrouped[element]
@@ -1239,22 +1240,25 @@
           .flat()
 
         console.log(unpackedData, "unpackedData")
-        // STROKE CIRCLES
-
-        // svgClustering
-        //   .selectAll("circle")
-        //   .data(unpackedData)
-        //   .join("circle")
-        //   .attr("class", "clusterBubblesStroke")
-        //   .attr("cx", (bubble) => bubble.x)
-        //   .attr("cy", (bubble) => bubble.y)
-        //   .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-        //   .attr("opacity", "1")
-        //   .attr("stroke", "#E7E7E7")
-        //   .attr("stroke-width", "20")
-
-        // REAL CIRCLES
+        // STROKE CIRCLES - FUNCTION
         svgClustering
+          // .append("g")
+          // .attr("id", "stroke")
+          .selectAll("circle")
+          .data(dataFiltered)
+          .join("circle")
+          .attr("class", "stroke")
+          .attr("cx", (bubble) => bubble.x)
+          .attr("cy", (bubble) => bubble.y)
+          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+          .attr("opacity", "1")
+          .attr("stroke", "#E7E7E7")
+          .attr("stroke-width", "10")
+
+        // REAL CIRCLES - FUNCTION
+        svgClustering
+          // .append("g")
+          // .attr("id", "bubbles")
           .selectAll("circle")
           .data(unpackedData)
           .join("circle")
@@ -1267,13 +1271,47 @@
           .attr("fill", (bubble) => colorScale(bubble.macro))
       }
       ////////////////////////
-      const mouseover = function (d) {
-        tooltip.style("opacity", 1)
-      }
-      d3.select("body")
+
+      // d3.select("body")
+      //   .append("div")
+      //   .attr("id", "tooltip")
+      //   .attr("style", "position: absolute; opacity: 0;")
+
+      const Tooltip = d3
+        .select("body")
         .append("div")
-        .attr("id", "tooltip")
-        .attr("style", "position: absolute; opacity: 0;")
+        .style("opacity", 0)
+        .attr("class", "tooltip")
+        .style("background-color", "white")
+        .style("width", "165px")
+        // .style("border-width", "2px")
+        // .style("border-radius", "5px")
+        .style("padding", "10px")
+        .style("position", "absolute")
+        //.style("left", bubble.x + "px")
+        //.style("left", `400px`)
+
+        .style("width", "100px")
+        .style("height", "80px")
+        .style("background-color", "white")
+        .style("border-radius", "15px")
+        .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+        .style("font-family", "sans-serif")
+        .style("font-size", "14px")
+
+      const mouseover = function (d) {
+        const bubble = d.target.__data__
+        Tooltip.style("opacity", 1)
+          .text(bubble.macro + " " + bubble.nReviews)
+          .style("top", bubble.y - 20 + "px")
+          .style("left", bubble.x + 25 + "px")
+
+        d3.select(this).style("stroke", "black").style("opacity", 1)
+      }
+      const mouseleave = function (d) {
+        Tooltip.style("opacity", 0)
+        d3.select(this).style("stroke", "none")
+      }
 
       const svgClustering = d3
         .select("body")
@@ -1282,24 +1320,27 @@
         .attr("width", width)
         .attr("height", height)
 
-      // // STROKE CIRCLES
-      // svgClustering
-      //   .selectAll("circle.stroke")
-      //   .data(dataFiltered)
-      //   .join("circle")
-      //   .attr("class", "stroke")
-      //   .attr("cx", (bubble) => bubble.x)
-      //   .attr("cy", (bubble) => bubble.y)
-      //   .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-      //   .attr("opacity", "1")
-      //   .attr("stroke", "#E7E7E7")
-      //   .attr("stroke-width", "10")
-
-      //REAL CIRCLES
-
+      // STROKE CIRCLES
       svgClustering
+        .append("g")
+        .attr("id", "stroke")
         .selectAll("circle")
         .data(dataFiltered)
+        .join("circle")
+        .attr("class", "stroke")
+        .attr("cx", (bubble) => bubble.x)
+        .attr("cy", (bubble) => bubble.y)
+        .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+        .attr("opacity", "1")
+        .attr("stroke", "#E7E7E7")
+        .attr("stroke-width", "20")
+
+      //REAL CIRCLES
+      svgClustering
+        .append("g")
+        .attr("id", "bubbles")
+        .selectAll("circle")
+        .data(dataFiltered, (d) => d.macro + "-" + d.clusterId)
         .join("circle")
         .attr("class", "clusterBubbles")
         //.attr("id", index)
@@ -1307,44 +1348,70 @@
         .attr("cy", (bubble) => bubble.y)
         .attr("r", (bubble) => circleScaleForce(bubble.percentage))
         .attr("fill", (bubble) => colorScale(bubble.macro))
-        .on("mouseover", function (d) {
-          console.log(d.x, "d")
-          console.log(d.fromElement.__data__, "d")
-          const bubble = d.fromElement.__data__
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseleave)
+      // .on("mouseover", function (d) {
+      //   console.log(d.target.__data__, "data from element")
+      //   //console.log(d, "d")
+      //   const bubble = d.target.__data__
 
-          return (
-            d3
-              .select("#tooltip")
-              // .transition()
-              // .duration(200)
-              .style("opacity", 1)
-              .style("position", "absolute")
-              .style("left", bubble.x + "px")
-              //.style("left", `400px`)
-              .style("top", bubble.y + "px")
-              .style("width", "100px")
-              .style("height", "80px")
-              .style("background-color", "white")
-              .style("border-radius", "15px")
-              .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-              .text(bubble.macro)
-          )
-        })
-        .on("mouseout", function () {
-          d3.select("#tooltip").style("opacity", 0)
-        })
+      //   return (
+      //     d3
+      //       .select("#tooltip")
+      //       // .transition()
+      //       // .duration(200)
+      //       .style("opacity", 1)
+      //       .style("position", "absolute")
+      //       .style("left", bubble.x + "px")
+      //       //.style("left", `400px`)
+      //       .style("top", bubble.y + "px")
+      //       .style("width", "100px")
+      //       .style("height", "80px")
+      //       .style("background-color", "white")
+      //       .style("border-radius", "15px")
+      //       .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+      //       .text(bubble.macro)
+      //   )
+      // })
+      // .on("mouseout", function () {
+      //   d3.select("#tooltip").remove()
+      // })
 
-      const tooltip = d3
-        .select("#cluster_viz")
-        .append("div")
-        .style("opacity", 0)
-        .style("position", "absolute")
-        .style("background-color", "white")
-        .style("width", "300px")
-        .style("border", "solid")
-        .style("border-width", "1px")
-        .style("border-radius", "5px")
-        .style("padding", "10px")
+      // const tooltip = d3
+      //   .select("#cluster_viz")
+      //   .append("div")
+      //   .style("opacity", 0)
+      //   .style("position", "absolute")
+      //   .style("background-color", "white")
+      //   .style("width", "300px")
+      //   .style("border", "solid")
+      //   .style("border-width", "1px")
+      //   .style("border-radius", "5px")
+      //   .style("padding", "10px")
+
+      //CLUSTERS LABELS ///////////////////////////////////
+      const clusterLabels = [
+        { label: "Cluster 1", index: 0 },
+        { label: "Cluster 2", index: 1 },
+        { label: "Cluster 3", index: 2 },
+        { label: "Cluster 4", index: 3 },
+        { label: "Cluster 5", index: 4 },
+        { label: "Cluster 6", index: 5 },
+        { label: "Cluster 7", index: 6 },
+        { label: "Cluster 8", index: 7 },
+        { label: "Cluster 9", index: 8 },
+        { label: "Cluster 10", index: 9 },
+      ]
+
+      svgClustering
+        .selectAll("text")
+        .data(clusterLabels)
+        .join("text")
+        .attr("class", "label")
+        .attr("x", (d) => xScaleForce(d.index) - 100)
+        .attr("y", (d) => yScaleForce(d.index) - 100)
+        .attr("font-family", "sans-serif")
+        .text((d) => d.label)
 
       // SELECTION DROPDOWN  //////////////////////////
       d3.select("#selectButton")
@@ -1412,6 +1479,15 @@
         .attr("y", (d, i) => yScaleLegend(i) + 15)
         .style("text-anchor", "start")
         .text((d) => d)
+
+      // svgLegend
+      //   .selectAll("text")
+      //   .join("text")
+      //   .attr("class", "legendTitle")
+      //   .attr("x", "100")
+      //   .attr("y", "50")
+      //   .style("font-family", "sans-serif")
+      //   .text("Macrosections")
     </script>
   </body>
 </html>

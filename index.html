@@ -110,6 +110,7 @@
         { topic: 7, sizeArea: 15, pc1: 3, pc2: 10 },
       ]
 
+      //BUBBLES SCALES
       const xScaleBubble = d3
         .scaleLinear()
         .domain([-20, 20])
@@ -120,6 +121,7 @@
         .range([margins.top, height - margins.bottom])
       const circleScale = d3.scaleSqrt().domain([1, 20]).range([10, 50])
 
+      // BARS SCALES
       const xScaleBars = d3.scaleLinear().domain([0, 100]).range([0, 600])
       const yScaleBars = d3
         .scaleOrdinal()
@@ -138,28 +140,6 @@
         .attr("width", width)
         .attr("height", height)
         .append("g")
-
-      // function updateDataset(topic) {
-      //   // Add interactivity
-      //   const dataBars = orderedData
-      //     .filter((d) => d.topic === topic)
-      //     .map((d) => d.words)[0]
-      //   // Use D3 to select element, change color and size
-      //   svgBars
-      //     .selectAll("myRect")
-      //     .data(dataBars)
-      //     .join("rect")
-      //     .attr("x", margins.left + 15)
-      //     .attr("y", (d) => yScaleBars(d.word))
-      //     .attr("width", (d) => xScaleBars(d.count))
-      //     .attr("height", 10)
-      //     .attr("rx", 4)
-      //     .attr("ry", 4)
-      //     .attr("fill", "#61BFE4")
-
-      //   d3.selectAll("circle").style("opacity", 0.1)
-      //   d3.select(this).style("opacity", 0.7)
-      // }
 
       //Bubbles
       svgBubbles
@@ -209,7 +189,8 @@
 
       console.log(dataCustomRects, "datacustomrects")
       console.log(bubbleData, "bubbleData")
-      //Rects
+
+      //RECTS
       svgBars
         .selectAll("myRect")
         .data(dataCustomRects)
@@ -223,6 +204,7 @@
         .attr("ry", 4)
         .attr("fill", "#61BFE4")
 
+      // WORDS
       svgBars
         .selectAll("wordLabel")
         .data(dataCustomRects)
