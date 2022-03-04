@@ -1150,16 +1150,14 @@
       ]
       const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
       const uniqueMacro = [...new Set(dataClusters.map((d) => d.macro))]
-      console.log(uniqueMacro)
-
-      console.log(uniqueZones)
 
       const dataFiltered = dataClusters.filter(
-        (d) => d.zone === "Province Of Vicenza"
+        (d) => d.zone === "South Holland Province"
       )
 
       const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
 
+      //COLOR SCALE FOR DIFFERENT MACROS
       const colorScale = d3
         .scaleOrdinal()
         .domain([
@@ -1181,10 +1179,10 @@
           "#FF5A5A",
         ])
 
-      //SCALES for dispositions of clusters
+      //SCALES FOR CLUSTERS DISPOSITION
       const xScaleForce = d3
         .scaleLinear()
-        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
         .range([200, 400, 600, 800, 1000, 200, 400, 600, 800, 1000])
 
       const yScaleForce = d3
@@ -1197,7 +1195,6 @@
 
       function simulationForces(clusterData, clusterIndex) {
         const simulation = d3
-
           .forceSimulation(clusterData)
           .force("charge", d3.forceManyBody().strength(60))
           .force(
@@ -1213,35 +1210,43 @@
         simulation.tick(300)
 
         return simulation
-      }
-      console.log(clustersGrouped, "clustersGrouped")
+      } //END FUNCTION
+
+      console.log(xScaleForce("3"))
+      console.log(yScaleForce("3"))
+
+      console.log(clustersGrouped, "clustersGrouped before simulation")
 
       for (const element in clustersGrouped) {
         const data = clustersGrouped[element]
         simulationForces(data, element)
       }
 
+      console.log(clustersGrouped, "after simulation")
+
+      console.log(dataFiltered, "dataFiltered")
+      // console.log(
+      //   simulationForces(dataFiltered),
+      //   "SIMULATION FORCES data filtered"
+      // )
+      // console.log(
+      //   dataFiltered.map((d, i) => {
+      //     simulationForces(d[i])
+      //   }),
+      //   "SIMULATION FORCES data filtered map"
+      // )
+
       clusteringData = _.range(10).map((index) => clustersGrouped[index])[0]
       console.log(clusteringData, "clusteringData")
 
-      // SELECTION DROPDOWN
-      d3.select("#selectButton")
-        .selectAll("myOptions")
-        .data(uniqueZones)
-        .enter()
-        .append("option")
-        .text(function (d) {
-          return d
-        }) // text showed in the menu
-        .attr("value", function (d) {
-          return d
-        })
       /////////// FUNCTION
       function updateCity(selectedGroup) {
         // Create new data with the selection?
         const dataCityUpdated = dataClusters.filter(
           (d) => d.zone === selectedGroup
         )
+
+        console.log(dataCityUpdated, "dataCityUpdated")
         const clustersGrouped = _.groupBy(dataCityUpdated, (d) => d.clusterId)
 
         for (const element in clustersGrouped) {
@@ -1262,7 +1267,8 @@
         //     .attr("stroke", "#E7E7E7")
         //     .attr("stroke-width", "20")
         // )
-
+        console.log([clustersGrouped], "clustersGrouped inside function")
+        console.log(...[clustersGrouped], "unpacked grouped")
         // REAL CIRCLES
         _.range(10).map((index) =>
           svgClustering
@@ -1310,30 +1316,38 @@
       //   )
 
       //REAL CIRCLES
-      _.range(10).map((index) =>
-        svgClustering
-          .selectAll("circle")
-          .data(clustersGrouped[index])
-          .join("circle")
-          .attr("class", "clusterBubbles")
-          //.attr("id", index)
-          .attr("cx", (bubble) => bubble.x)
-          .attr("cy", (bubble) => bubble.y)
-          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-          .attr("fill", (bubble) => colorScale(bubble.macro))
 
-          //.on("mouseover", mouseover)
-          .on("mouseover", function (d) {
-            d3.select("#tooltip")
-              .transition()
-              .duration(200)
-              .style("opacity", 1)
-              .text("ciao")
-          })
-          .on("mouseout", function () {
-            d3.select("#tooltip").style("opacity", 0)
-          })
-      )
+      svgClustering
+        .selectAll("circle")
+        .data(dataFiltered)
+        .join("circle")
+        .attr("class", "clusterBubbles")
+        //.attr("id", index)
+        .attr("cx", (bubble) => bubble.x)
+        .attr("cy", (bubble) => bubble.y)
+        .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+        .attr("fill", (bubble) => colorScale(bubble.macro))
+
+        //.on("mouseover", mouseover)
+        .on("mouseover", function (d) {
+          d3.select("#tooltip")
+            // .transition()
+            // .duration(200)
+            .style("opacity", 1)
+            .style("position", "absolute")
+            //.style("left", `${(d) => d.x}`)
+            .style("left", `400px`)
+            .style("top", "40px")
+            .style("width", "100px")
+            .style("height", "80px")
+            .style("background-color", "white")
+            .style("border-radius", "15px")
+            .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+            .text("ciao")
+        })
+        .on("mouseout", function () {
+          d3.select("#tooltip").style("opacity", 0)
+        })
 
       const tooltip = d3
         .select("#cluster_viz")
@@ -1347,6 +1361,19 @@
         .style("border-radius", "5px")
         .style("padding", "10px")
 
+      // SELECTION DROPDOWN  //////////////////////////
+      d3.select("#selectButton")
+        .selectAll("myOptions")
+        .data(uniqueZones)
+        .enter()
+        .append("option")
+        .text(function (d) {
+          return d
+        })
+        .attr("value", function (d) {
+          return d
+        })
+
       d3.select("#selectButton").on("change", function (d) {
         // recover the option that has been chosen
         const selectedOption = d3.select(this).property("value")
@@ -1354,7 +1381,6 @@
         updateCity(selectedOption)
       })
 
-      // create a tooltip
       //////////////////  LEGEND LEGEND LEGEND LEGEND
 
       const xScaleLegend = d3
@@ -1367,7 +1393,7 @@
         .domain(d3.range(0, 7))
         .range([50, 120 - 50, 140 - 50, 160 - 50, 100 - 50, 120 - 50, 140 - 50])
 
-      //LEGEND
+      //LEGEND SVG
       const svgLegend = d3
         .select("#legend")
         .append("svg")
