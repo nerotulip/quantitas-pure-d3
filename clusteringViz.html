@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Noto+Sans"
     />
 
-    <title>Simple D3 Dev Env</title>
+    <title>Data Clustering Visualization</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="d3.js"></script>
     <script type="text/javascript" src="lodash.js"></script>
@@ -31,7 +31,61 @@
         bottom: 50,
       }
 
-      //BUBBLES FORCES ////////////////////////////////////////////////////////////
+      //COLOR SCALE FOR DIFFERENT MACROS
+      const colorScale = d3
+        .scaleOrdinal()
+        .domain([
+          "Tour and Activities",
+          "Bars and Clubs",
+          "Entertainment and events",
+          "Transports and services",
+          "Natural sites",
+          "Shopping",
+          "Relax and wellness",
+        ])
+        .range([
+          "#B2D329",
+          "#FF9900",
+          "#61BFE4",
+          "#5768FF",
+          "#589322",
+          "#BA3AE1",
+          "#FF5A5A",
+        ])
+
+      //SCALES FOR CLUSTERS DISPOSITION
+      const xScaleForce = d3
+        .scaleLinear()
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+        .range([200, 400, 600, 800, 1000, 200, 400, 600, 800, 1000])
+
+      const yScaleForce = d3
+        .scaleLinear()
+        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+        .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
+
+      // SCALE FOR CIRCLE RADIUS
+      const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
+
+      //FUNCTION SIMULATION FORCES  ///////////////////////////
+      function simulationForces(clusterData, clusterIndex) {
+        const simulation = d3
+          .forceSimulation(clusterData)
+          .force("charge", d3.forceManyBody().strength(60))
+          .force(
+            "center",
+            d3.forceCenter(xScaleForce(clusterIndex), yScaleForce(clusterIndex))
+          )
+          .force(
+            "collision",
+            d3.forceCollide().radius(function (d) {
+              return circleScaleForce(d.percentage)
+            })
+          )
+        simulation.tick(300)
+
+        return simulation
+      } //END FORCES FUNCTION //////////////////////////////////////
 
       const dataClusters = [
         {
@@ -1164,69 +1218,10 @@
 
       const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
 
-      //COLOR SCALE FOR DIFFERENT MACROS
-      const colorScale = d3
-        .scaleOrdinal()
-        .domain([
-          "Tour and Activities",
-          "Bars and Clubs",
-          "Entertainment and events",
-          "Transports and services",
-          "Natural sites",
-          "Shopping",
-          "Relax and wellness",
-        ])
-        .range([
-          "#B2D329",
-          "#FF9900",
-          "#61BFE4",
-          "#5768FF",
-          "#589322",
-          "#BA3AE1",
-          "#FF5A5A",
-        ])
-
-      //SCALES FOR CLUSTERS DISPOSITION
-      const xScaleForce = d3
-        .scaleLinear()
-        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-        .range([200, 400, 600, 800, 1000, 200, 400, 600, 800, 1000])
-
-      const yScaleForce = d3
-        .scaleLinear()
-        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-        .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
-
-      // SCALE FOR CIRCLE RADIUS
-      const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
-
-      //FUNCTION SIMULATION FORCES  ///////////////////////////
-      function simulationForces(clusterData, clusterIndex) {
-        const simulation = d3
-          .forceSimulation(clusterData)
-          .force("charge", d3.forceManyBody().strength(60))
-          .force(
-            "center",
-            d3.forceCenter(xScaleForce(clusterIndex), yScaleForce(clusterIndex))
-          )
-          .force(
-            "collision",
-            d3.forceCollide().radius(function (d) {
-              return circleScaleForce(d.percentage)
-            })
-          )
-        simulation.tick(300)
-
-        return simulation
-      } //END FORCES FUNCTION //////////////////////////////////////
-
       for (const element in clustersGrouped) {
         const data = clustersGrouped[element]
         simulationForces(data, element)
       }
-
-      clusteringData = _.range(10).map((index) => clustersGrouped[index])[0]
-      console.log(clusteringData, "clusteringData")
 
       /////////// FUNCTION
       function updateCity(selectedGroup) {
@@ -1315,8 +1310,9 @@
 
       const svgBubbleGroup = svgClustering.append("g").attr("id", "bubbles")
 
-      // STROKE CIRCLES
+      // UPDATE VIZ FUNCTION
       const updateViz = function (dataset) {
+        //STROKE CIRCLES
         svgStrokeGroup
           .selectAll("circle")
           .data(dataset, (d) => d.macro + "-" + d.clusterId)
@@ -1383,9 +1379,7 @@
         })
 
       d3.select("#selectButton").on("change", function (d) {
-        // recover the option that has been chosen
         const selectedOption = d3.select(this).property("value")
-        // run the updateChart function with this selected option
         updateCity(selectedOption)
       })
 
