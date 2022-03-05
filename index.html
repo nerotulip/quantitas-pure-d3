@@ -124,10 +124,8 @@
       // BARS SCALES
       const xScaleBars = d3.scaleLinear().domain([0, 100]).range([0, 600])
 
-      let selectedBubbleTopic = "default"
-
       const dataCustomRects = orderedData
-        .filter((d) => d.topic === 1)
+        .filter((d) => d.topic === "standard")
         .map((d) => d.words)[0]
 
       //SVG BUBBLES /////////////////////////////////////////////////////
@@ -136,50 +134,52 @@
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .append("g")
+      //.append("g")
 
-      //Bubbles
-      svgBubbles
-        .selectAll("myBubble")
-        .data(bubbleData)
-        .join("circle")
-        .attr("class", "bubbles")
-        .attr("id", (d) => `circle-${d.topic}`)
-        .attr("cx", (d) => xScaleBubble(d.pc1))
-        .attr("cy", (d) => yScaleBubble(d.pc2))
-        .attr("r", (d) => circleScale(d.sizeArea))
-        .style("opacity", (d) =>
-          d.topic == selectedBubbleTopic || selectedBubbleTopic === "default"
-            ? 0.7
-            : 0.2
-        )
-        .attr("fill", "#61BFE4")
-        // .on("mouseover", updateDataset(this.topic))
-        .on("mouseover", function (event) {
-          const hoveredTopic = event.target.__data__.topic
-          d3.selectAll("circle.bubbles").style("opacity", 0.1)
-          d3.select(this).style("opacity", 0.7)
-          drawBarChart(
-            orderedData
+      function drawBubblePlot(dataset, state) {
+        //Bubbles
+        svgBubbles
+          .selectAll("circle")
+          .data(dataset)
+          .join("circle")
+          .attr("class", "bubbles")
+          .attr("id", (d) => `circle-${d.topic}`)
+          .attr("cx", (d) => xScaleBubble(d.pc1))
+          .attr("cy", (d) => yScaleBubble(d.pc2))
+          .attr("r", (d) => circleScale(d.sizeArea))
+          .attr("fill", "#61BFE4")
+          .on("mouseover", function (event) {
+            const hoveredTopic = event.target.__data__.topic
+            d3.selectAll("circle.bubbles").style("opacity", 0.1)
+            d3.select(this).style("opacity", 0.7)
+            d3.select(this).style("fill", "red")
+            const hoveredDataset = orderedData
               .filter((d) => d.topic === hoveredTopic)
               .map((d) => d.words)[0]
-          )
-        })
-        .on("mouseout", function (d, i) {
-          drawBarChart(dataCustomRects)
-          d3.selectAll("circle.bubbles").style("opacity", 0.7)
-        })
+            drawBarChart(hoveredDataset)
+          })
+          .on("mouseout", function (d) {
+            d3.selectAll("circle.bubbles")
+              .style("opacity", 0.7)
+              .style("fill", "#61BFE4")
+            drawBarChart(dataCustomRects, "default")
+          })
 
-      //Bubbles LABELS
-      svgBubbles
-        .selectAll("bubbleLabs")
-        .data(bubbleData)
-        .join("text")
-        .attr("x", (d) => xScaleBubble(d.pc1))
-        .attr("y", (d) => yScaleBubble(d.pc2) + 4)
-        .attr("font-family", "sans-serif")
-        .style("text-anchor", "middle")
-        .text((d) => d.topic)
+        //Bubbles LABELS
+        svgBubbles
+          .selectAll("text")
+          .data(dataset)
+          .join("text")
+          .attr("x", (d) => xScaleBubble(d.pc1))
+          .attr("y", (d) => yScaleBubble(d.pc2) + 4)
+          .attr("font-family", "sans-serif")
+          .style("text-anchor", "middle")
+          .text((d) => d.topic)
+      }
+
+      drawBubblePlot(bubbleData)
+
+      console.log(dataCustomRects)
 
       //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -188,12 +188,9 @@
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .append("g")
+      //.append("g")
 
-      console.log(dataCustomRects, "datacustomrects")
-      console.log(bubbleData, "bubbleData")
-
-      const drawBarChart = function (dataset) {
+      const drawBarChart = function (dataset, state) {
         const yScaleBars = d3
           .scaleOrdinal()
           .domain([])
@@ -205,19 +202,54 @@
           .data(dataset, (d) => d.word)
           .join("rect")
           //.attr("id", (d) => `rect-${d.topic}`)
+          //.attr("class", "bars")
+          .attr("id", (d) => "rect-" + d.word)
           .attr("x", margins.left + 15)
           .attr("y", (d) => yScaleBars(d.word))
           .attr("width", (d) => xScaleBars(d.count))
           .attr("height", 10)
           .attr("rx", 4)
           .attr("ry", 4)
-          .attr("fill", "#61BFE4")
+          .attr("fill", state === "default" ? "#61BFE4" : "red")
+          .on("mouseover", function (event) {
+            const hoveredBar = event.target.__data__
+            console.log(hoveredBar, "hoveredBar")
+            console.log("circle#" + hoveredBar.topic, "hoveredBar")
+            console.log("text")
+            svgBars.selectAll("circle").style("opacity", 0)
+            console.log(svgBars.select("#rect-" + hoveredBar.word), "mofo")
+
+            svgBars.select("#" + hoveredBar.word).style("font-weight", "bold")
+            console.log(
+              svgBubbles.select("#circle-" + hoveredBar.topic),
+              "selection??"
+            )
+            svgBubbles.selectAll("circle").style("opacity", 0.2)
+            svgBubbles
+              .select("#circle-" + hoveredBar.topic)
+              .style("opacity", 0.75)
+            // .attr("stroke", "blue")
+            // .attr("stroke-width", 1)
+          })
+          .on("mouseout", function (event) {
+            console.log(event, "eventout")
+            const hoveredBarOut = event.target.__data__
+            console.log(svgBars.select("#" + hoveredBarOut.word), "selection")
+            svgBars
+              .select("#" + hoveredBarOut.word)
+              .style("font-weight", "regular")
+            d3.selectAll("circle").style("opacity", 0.75)
+            svgBubbles.select("#circle-" + hoveredBarOut.topic)
+
+            //.style("stroke-opacity", 0)
+          })
 
         // WORDS
         svgBars
           .selectAll("text")
           .data(dataset, (d) => d.word)
           .join("text")
+          .attr("id", (d) => d.word)
           .attr("x", margins.left + 10)
           .attr("y", (d) => yScaleBars(d.word) + 10)
           .attr("font-family", "sans-serif")
@@ -225,7 +257,7 @@
           .style("text-anchor", "end")
       }
 
-      drawBarChart(dataCustomRects)
+      drawBarChart(dataCustomRects, "default")
     </script>
   </body>
 </html>
