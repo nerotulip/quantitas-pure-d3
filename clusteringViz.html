@@ -9,9 +9,11 @@
     <script type="text/javascript" src="lodash.js"></script>
   </head>
   <body id="cluster_dataviz">
-    <h1>Clusters of comments for each province</h1>
-    <select id="selectButton"></select>
-    <div></div>
+    <div id="header">
+      <h1>Clusters of comments for each province</h1>
+      <div id="select-conteiner"><select id="selectButton"></select></div>
+    </div>
+
     <div id="legend"></div>
     <script>
       const width = 1200
@@ -1403,7 +1405,7 @@
         .append("svg")
         .attr("class", "legend")
         .style("position", "absolute")
-        .style("top", "50px")
+        .style("top", "150px")
         .style("left", "86px")
         .style("width", "570px")
         .style("height", "180px")
