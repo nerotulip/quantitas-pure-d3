@@ -123,17 +123,14 @@
 
       // BARS SCALES
       const xScaleBars = d3.scaleLinear().domain([0, 100]).range([0, 600])
-      const yScaleBars = d3
-        .scaleOrdinal()
-        .domain([])
-        .range(d3.range(margins.top, height - margins.bottom, 20))
 
       let selectedBubbleTopic = "default"
 
       const dataCustomRects = orderedData
         .filter((d) => d.topic === 1)
         .map((d) => d.words)[0]
-      //SVG BUBBLES
+
+      //SVG BUBBLES /////////////////////////////////////////////////////
       const svgBubbles = d3
         .select("#my_dataviz")
         .append("svg")
@@ -158,12 +155,18 @@
         )
         .attr("fill", "#61BFE4")
         // .on("mouseover", updateDataset(this.topic))
-        .on("mouseover", function () {
+        .on("mouseover", function (event) {
+          const hoveredTopic = event.target.__data__.topic
           d3.selectAll("circle.bubbles").style("opacity", 0.1)
           d3.select(this).style("opacity", 0.7)
-          svgBars.selectAll("myRect").style("fill", "black")
+          drawBarChart(
+            orderedData
+              .filter((d) => d.topic === hoveredTopic)
+              .map((d) => d.words)[0]
+          )
         })
         .on("mouseout", function (d, i) {
+          drawBarChart(dataCustomRects)
           d3.selectAll("circle.bubbles").style("opacity", 0.7)
         })
 
@@ -190,33 +193,39 @@
       console.log(dataCustomRects, "datacustomrects")
       console.log(bubbleData, "bubbleData")
 
-      //RECTS
-      svgBars
-        .selectAll("myRect")
-        .data(dataCustomRects)
-        .join("rect")
-        .attr("id", (d) => `rect-${d.topic}`)
-        .attr("x", margins.left + 15)
-        .attr("y", (d) => yScaleBars(d.word))
-        .attr("width", (d) => xScaleBars(d.count))
-        .attr("height", 10)
-        .attr("rx", 4)
-        .attr("ry", 4)
-        .attr("fill", "#61BFE4")
+      const drawBarChart = function (dataset) {
+        const yScaleBars = d3
+          .scaleOrdinal()
+          .domain([])
+          .range(d3.range(margins.top, height - margins.bottom, 20))
 
-      // WORDS
-      svgBars
-        .selectAll("wordLabel")
-        .data(dataCustomRects)
-        .join("text")
-        .attr("x", margins.left + 10)
-        .attr("y", (d) => yScaleBars(d.word) + 10)
-        .attr("font-family", "sans-serif")
-        .text((d) => d.word)
-        .style("text-anchor", "end")
+        //RECTS
+        svgBars
+          .selectAll("rect")
+          .data(dataset, (d) => d.word)
+          .join("rect")
+          //.attr("id", (d) => `rect-${d.topic}`)
+          .attr("x", margins.left + 15)
+          .attr("y", (d) => yScaleBars(d.word))
+          .attr("width", (d) => xScaleBars(d.count))
+          .attr("height", 10)
+          .attr("rx", 4)
+          .attr("ry", 4)
+          .attr("fill", "#61BFE4")
 
-      console.log("here")
+        // WORDS
+        svgBars
+          .selectAll("text")
+          .data(dataset, (d) => d.word)
+          .join("text")
+          .attr("x", margins.left + 10)
+          .attr("y", (d) => yScaleBars(d.word) + 10)
+          .attr("font-family", "sans-serif")
+          .text((d) => d.word)
+          .style("text-anchor", "end")
+      }
+
+      drawBarChart(dataCustomRects)
     </script>
-    <h1>miao</h1>
   </body>
 </html>

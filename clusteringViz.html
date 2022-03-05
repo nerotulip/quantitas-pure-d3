@@ -3,6 +3,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+    />
+
     <title>Simple D3 Dev Env</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="d3.js"></script>
@@ -1213,7 +1218,7 @@
         simulation.tick(300)
 
         return simulation
-      } //END FUNCTION //////////////////////////////////////
+      } //END FORCES FUNCTION //////////////////////////////////////
 
       for (const element in clustersGrouped) {
         const data = clustersGrouped[element]
@@ -1225,7 +1230,6 @@
 
       /////////// FUNCTION
       function updateCity(selectedGroup) {
-        // Create new data with the selection?
         const dataCityUpdated = dataClusters.filter(
           (d) => d.zone === selectedGroup
         )
@@ -1242,35 +1246,8 @@
           .flat()
 
         console.log(unpackedData, "unpackedData")
-        // STROKE CIRCLES - FUNCTION
-        svgClustering
-          // .append("g")
-          // .attr("id", "stroke")
-          .selectAll("circle")
-          .data(dataFiltered)
-          .join("circle")
-          .attr("class", "stroke")
-          .attr("cx", (bubble) => bubble.x)
-          .attr("cy", (bubble) => bubble.y)
-          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-          .attr("opacity", "1")
-          .attr("stroke", "#E7E7E7")
-          .attr("stroke-width", "10")
 
-        // REAL CIRCLES - FUNCTION
-        svgClustering
-          // .append("g")
-          // .attr("id", "bubbles")
-          .selectAll("circle")
-          .data(unpackedData)
-          .join("circle")
-          .attr("class", "clusterBubbles")
-
-          //.attr("id", index)
-          .attr("cx", (bubble) => bubble.x)
-          .attr("cy", (bubble) => bubble.y)
-          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-          .attr("fill", (bubble) => colorScale(bubble.macro))
+        updateViz(unpackedData)
       }
 
       // TOOLTIPS   ////////////////////////
@@ -1283,21 +1260,42 @@
         .style("background-color", "white")
         .style("width", "165px")
         .style("padding", "10px")
+
         .style("position", "absolute")
         .style("width", "100px")
         .style("height", "80px")
         .style("background-color", "white")
         .style("border-radius", "15px")
         .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-        .style("font-family", "sans-serif")
+        .style("font-family", "Noto Sans")
         .style("font-size", "14px")
+
+      Tooltip.append("div").attr("class", "title")
+      Tooltip.append("div").attr("class", "reviews")
+      Tooltip.append("div").attr("class", "nreviews")
 
       const mouseover = function (d) {
         const bubble = d.target.__data__
         Tooltip.style("opacity", 1)
-          .text(bubble.macro + "\n" + bubble.nReviews)
           .style("top", bubble.y - 20 + "px")
           .style("left", bubble.x + 25 + "px")
+
+        Tooltip.select("div.title")
+          .text(bubble.macro)
+          .style("color", colorScale(bubble.macro))
+          .style("font-size", "14px")
+          .style("font-weight", "600")
+
+        Tooltip.select("div.reviews")
+          .text("Reviews")
+          .style("color", "#7C7C7C")
+          .style("font-size", "12px")
+          .style("font-weight", "regular")
+
+        Tooltip.select("div.nreviews")
+          .text(bubble.nReviews)
+          .style("font-size", "18px")
+          .style("font-weight", "bold")
 
         d3.select(this).style("stroke", "black").style("opacity", 1)
       }
@@ -1313,35 +1311,39 @@
         .attr("width", width)
         .attr("height", height)
 
-      // STROKE CIRCLES
-      svgClustering
-        .append("g")
-        .attr("id", "stroke")
-        .selectAll("circle")
-        .data(dataFiltered)
-        .join("circle")
-        .attr("class", "stroke")
-        .attr("cx", (bubble) => bubble.x)
-        .attr("cy", (bubble) => bubble.y)
-        .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-        .attr("opacity", "1")
-        .attr("stroke", "#E7E7E7")
-        .attr("stroke-width", "20")
+      const svgStrokeGroup = svgClustering.append("g").attr("id", "stroke")
 
-      //REAL CIRCLES
-      svgClustering
-        .append("g")
-        .attr("id", "bubbles")
-        .selectAll("circle")
-        .data(dataFiltered, (d) => d.macro + "-" + d.clusterId)
-        .join("circle")
-        .attr("class", "clusterBubbles")
-        .attr("cx", (bubble) => bubble.x)
-        .attr("cy", (bubble) => bubble.y)
-        .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-        .attr("fill", (bubble) => colorScale(bubble.macro))
-        .on("mouseover", mouseover)
-        .on("mouseout", mouseleave)
+      const svgBubbleGroup = svgClustering.append("g").attr("id", "bubbles")
+
+      // STROKE CIRCLES
+      const updateViz = function (dataset) {
+        svgStrokeGroup
+          .selectAll("circle")
+          .data(dataset, (d) => d.macro + "-" + d.clusterId)
+          .join("circle")
+          .attr("class", "stroke")
+          .attr("cx", (bubble) => bubble.x)
+          .attr("cy", (bubble) => bubble.y)
+          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+          .attr("opacity", "1")
+          .attr("stroke", "#E7E7E7")
+          .attr("stroke-width", "20")
+
+        //REAL CIRCLES
+        svgBubbleGroup
+          .selectAll("circle")
+          .data(dataset, (d) => d.macro + "-" + d.clusterId)
+          .join("circle")
+          .attr("class", "clusterBubbles")
+          .attr("cx", (bubble) => bubble.x)
+          .attr("cy", (bubble) => bubble.y)
+          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+          .attr("fill", (bubble) => colorScale(bubble.macro))
+          .on("mouseover", mouseover)
+          .on("mouseout", mouseleave)
+      }
+
+      updateViz(dataFiltered)
 
       //CLUSTERS LABELS ///////////////////////////////////
       const clusterLabels = [
@@ -1364,7 +1366,7 @@
         .attr("class", "label")
         .attr("x", (d) => xScaleForce(d.index) - 100)
         .attr("y", (d) => yScaleForce(d.index) - 100)
-        .attr("font-family", "sans-serif")
+        .attr("font-family", "Noto Sans")
         .text((d) => d.label)
 
       // SELECTION DROPDOWN  //////////////////////////
@@ -1399,7 +1401,7 @@
         .domain(d3.range(0, 7))
         .range([50, 80, 110, 140, 50, 80, 110])
 
-      //LEGEND SVG
+      //LEGEND SVG /////////////////////////////
       const svgLegend = d3
         .select("#legend")
         .append("svg")
@@ -1430,18 +1432,12 @@
         .data(uniqueMacro)
         .join("text")
         .attr("x", (d, i) => xScaleLegend(d) + 25)
-        .attr("y", (d, i) => yScaleLegend(i) + 13)
+        .attr("y", (d, i) => yScaleLegend(i) + 12)
         .style("text-anchor", "start")
+        .style("font-family", "Noto Sans")
+        .style("font-weight", "medium")
+        .style("font-size", "12px")
         .text((d) => d)
-
-      // svgLegend
-      //   .selectAll("text")
-      //   .join("text")
-      //   .attr("class", "legendTitle")
-      //   .attr("x", "100")
-      //   .attr("y", "50")
-      //   .style("font-family", "sans-serif")
-      //   .text("Macrosections")
     </script>
   </body>
 </html>
