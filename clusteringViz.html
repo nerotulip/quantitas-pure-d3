@@ -23,1421 +23,309 @@
 
     <div id="legend"></div>
     <script>
-      const width = 1200
-      const height = 900
+      fetch("./ClustersFinal.json")
+        .then((response) => response.json())
+        .then((dataClusters) => {
+          const width = 1200
+          const height = 900
 
-      const margins = {
-        top: 100,
-        right: 50,
-        left: 60,
-        bottom: 50,
-      }
+          const margins = {
+            top: 100,
+            right: 50,
+            left: 60,
+            bottom: 50,
+          }
 
-      //COLOR SCALE FOR DIFFERENT MACROS
-      const colorScale = d3
-        .scaleOrdinal()
-        .domain([
-          "Tour and Activities",
-          "Bars and Clubs",
-          "Entertainment and events",
-          "Transports and services",
-          "Natural sites",
-          "Shopping",
-          "Relax and wellness",
-        ])
-        .range([
-          "#B2D329",
-          "#FF9900",
-          "#61BFE4",
-          "#5768FF",
-          "#589322",
-          "#BA3AE1",
-          "#FF5A5A",
-        ])
+          //COLOR SCALE FOR DIFFERENT MACROS
+          const colorScale = d3
+            .scaleOrdinal()
+            .domain([
+              "Tour and Activities",
+              "Bars and Clubs",
+              "Entertainment and events",
+              "Transports and services",
+              "Natural sites",
+              "Shopping",
+              "Relax and wellness",
+            ])
+            .range([
+              "#B2D329",
+              "#FF9900",
+              "#61BFE4",
+              "#5768FF",
+              "#589322",
+              "#BA3AE1",
+              "#FF5A5A",
+            ])
 
-      // window.addEventListener("resize", () => {
-      //   drawCluster(dataset filtered from select)
-      // })
+          // window.addEventListener("resize", () => {
+          //   drawCluster(dataset filtered from select)
+          // })
 
-      //SCALES FOR CLUSTERS DISPOSITION
-      const xScaleForce = d3
-        .scaleLinear()
-        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-        .range([200, 400, 600, 800, 1000, 200, 400, 600, 800, 1000])
+          //SCALES FOR CLUSTERS DISPOSITION
+          const xScaleForce = d3
+            .scaleLinear()
+            .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+            .range([200, 400, 600, 800, 1000, 200, 400, 600, 800, 1000])
 
-      const yScaleForce = d3
-        .scaleLinear()
-        .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-        .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
+          const yScaleForce = d3
+            .scaleLinear()
+            .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+            .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
 
-      // SCALE FOR CIRCLE RADIUS
-      const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
+          // SCALE FOR CIRCLE RADIUS
+          const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
 
-      //FUNCTION SIMULATION FORCES  ///////////////////////////
-      function simulationForces(clusterData, clusterIndex) {
-        const simulation = d3
-          .forceSimulation(clusterData)
-          .force("charge", d3.forceManyBody().strength(60))
-          .force(
-            "center",
-            d3.forceCenter(xScaleForce(clusterIndex), yScaleForce(clusterIndex))
+          //FUNCTION SIMULATION FORCES  ///////////////////////////
+          function simulationForces(clusterData, clusterIndex) {
+            const simulation = d3
+              .forceSimulation(clusterData)
+              .force("charge", d3.forceManyBody().strength(60))
+              .force(
+                "center",
+                d3.forceCenter(
+                  xScaleForce(clusterIndex),
+                  yScaleForce(clusterIndex)
+                )
+              )
+              .force(
+                "collision",
+                d3.forceCollide().radius(function (d) {
+                  return circleScaleForce(d.percentage)
+                })
+              )
+            simulation.tick(300)
+
+            return simulation
+          } //END FORCES FUNCTION //////////////////////////////////////
+
+          const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
+          const uniqueMacro = [...new Set(dataClusters.map((d) => d.macro))]
+
+          const dataFiltered = dataClusters.filter(
+            (d) => d.zone === "Antwerp Province"
           )
-          .force(
-            "collision",
-            d3.forceCollide().radius(function (d) {
-              return circleScaleForce(d.percentage)
+
+          const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
+
+          for (const element in clustersGrouped) {
+            const data = clustersGrouped[element]
+            simulationForces(data, element)
+          }
+
+          /////////// FUNCTION
+          function updateCity(selectedGroup) {
+            const dataCityUpdated = dataClusters.filter(
+              (d) => d.zone === selectedGroup
+            )
+
+            console.log(dataCityUpdated, "dataCityUpdated")
+            const clustersGrouped = _.groupBy(
+              dataCityUpdated,
+              (d) => d.clusterId
+            )
+
+            for (const element in clustersGrouped) {
+              const data = clustersGrouped[element]
+              simulationForces(data, element)
+            }
+            const unpackedData = Object.keys(clustersGrouped)
+              .map((key) => clustersGrouped[key])
+              .flat()
+
+            console.log(unpackedData, "unpackedData")
+
+            updateViz(unpackedData)
+          }
+
+          // TOOLTIPS   ////////////////////////
+
+          const Tooltip = d3
+            .select("body")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "white")
+            .style("padding", "10px")
+
+            .style("position", "absolute")
+            .style("width", "135px")
+            .style("height", "80px")
+            .style("background-color", "white")
+            .style("border-radius", "15px")
+            .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+            .style("font-family", "Noto Sans")
+            .style("font-size", "14px")
+            .style("pointer-events", "none")
+
+          Tooltip.append("div").attr("class", "title")
+          Tooltip.append("div").attr("class", "reviews")
+          Tooltip.append("div").attr("class", "nreviews")
+
+          const mouseover = function (d) {
+            const bubble = d.target.__data__
+            Tooltip.style("opacity", 1)
+              .style("top", bubble.y - 20 + "px")
+              .style("left", bubble.x + 25 + "px")
+
+            Tooltip.select("div.title")
+              .text(bubble.macro)
+              .style("color", colorScale(bubble.macro))
+              .style("font-size", "14px")
+              .style("font-weight", "600")
+
+            Tooltip.select("div.reviews")
+              .text("Reviews")
+              .style("color", "#7C7C7C")
+              .style("font-size", "12px")
+              .style("font-weight", "regular")
+
+            Tooltip.select("div.nreviews")
+              .text(bubble.nReviews)
+              .style("font-size", "18px")
+              .style("font-weight", "bold")
+
+            d3.select(this).style("stroke", "black").style("opacity", 1)
+          }
+          const mouseleave = function (d) {
+            Tooltip.style("opacity", 0)
+            d3.select(this).style("stroke", "none")
+          }
+          // SVG CLUSTERING ////////////////////////////////////////////////////////////////
+          const svgClustering = d3
+            .select("body")
+            .append("svg")
+            .attr("position", "relative")
+            .attr("width", width)
+            .attr("height", height)
+
+          const svgStrokeGroup = svgClustering.append("g").attr("id", "stroke")
+
+          const svgBubbleGroup = svgClustering.append("g").attr("id", "bubbles")
+
+          // UPDATE VIZ FUNCTION
+          const updateViz = function (dataset) {
+            //STROKE CIRCLES
+            svgStrokeGroup
+              .selectAll("circle")
+              .data(dataset, (d) => d.macro + "-" + d.clusterId)
+              .join("circle")
+              .attr("class", "stroke")
+              .attr("cx", (bubble) => bubble.x)
+              .attr("cy", (bubble) => bubble.y)
+              .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+              .attr("opacity", "1")
+              .attr("stroke", "#E7E7E7")
+              .attr("stroke-width", "20")
+
+            //REAL CIRCLES
+            svgBubbleGroup
+              .selectAll("circle")
+              .data(dataset, (d) => d.macro + "-" + d.clusterId)
+              .join("circle")
+              .attr("class", "clusterBubbles")
+              .attr("cx", (bubble) => bubble.x)
+              .attr("cy", (bubble) => bubble.y)
+              .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+              .attr("fill", (bubble) => colorScale(bubble.macro))
+              .on("mouseover", mouseover)
+              .on("mouseout", mouseleave)
+          }
+
+          updateViz(dataFiltered)
+
+          //CLUSTERS LABELS ///////////////////////////////////
+          const clusterLabels = [
+            { label: "Cluster 1", index: 0 },
+            { label: "Cluster 2", index: 1 },
+            { label: "Cluster 3", index: 2 },
+            { label: "Cluster 4", index: 3 },
+            { label: "Cluster 5", index: 4 },
+            { label: "Cluster 6", index: 5 },
+            { label: "Cluster 7", index: 6 },
+            { label: "Cluster 8", index: 7 },
+            { label: "Cluster 9", index: 8 },
+            { label: "Cluster 10", index: 9 },
+          ]
+
+          svgClustering
+            .selectAll("text")
+            .data(clusterLabels)
+            .join("text")
+            .attr("class", "label")
+            .attr("x", (d) => xScaleForce(d.index) - 100)
+            .attr("y", (d) => yScaleForce(d.index) - 100)
+            .attr("font-family", "Noto Sans")
+            .text((d) => d.label)
+
+          // SELECTION DROPDOWN  //////////////////////////
+          d3.select("#selectButtonClusters")
+            .selectAll("myOptions")
+            .data(uniqueZones)
+            .enter()
+            .append("option")
+            .text(function (d) {
+              return d
             })
-          )
-        simulation.tick(300)
+            .attr("value", function (d) {
+              return d
+            })
 
-        return simulation
-      } //END FORCES FUNCTION //////////////////////////////////////
+          d3.select("#selectButtonClusters").on("change", function (d) {
+            const selectedOption = d3.select(this).property("value")
+            updateCity(selectedOption)
+          })
 
-      const dataClusters = [
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Tour and activities",
-          nReviews: 71,
-          total_cluster_reviews: 874,
-          percentage: 0.081,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Bar and clubs",
-          nReviews: 90,
-          total_cluster_reviews: 874,
-          percentage: 0.103,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Entertainment and events",
-          nReviews: 72,
-          total_cluster_reviews: 874,
-          percentage: 0.082,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Transports and services",
-          nReviews: 22,
-          total_cluster_reviews: 874,
-          percentage: 0.025,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Natural sites",
-          nReviews: 522,
-          total_cluster_reviews: 874,
-          percentage: 0.597,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Shopping",
-          nReviews: 87,
-          total_cluster_reviews: 874,
-          percentage: 0.1,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "0",
-          macro: "Relax and wellness",
-          nReviews: 10,
-          total_cluster_reviews: 874,
-          percentage: 0.011,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Tour and activities",
-          nReviews: 419,
-          total_cluster_reviews: 2985,
-          percentage: 0.14,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Bar and clubs",
-          nReviews: 312,
-          total_cluster_reviews: 2985,
-          percentage: 0.105,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Entertainment and events",
-          nReviews: 200,
-          total_cluster_reviews: 2985,
-          percentage: 0.067,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Transports and services",
-          nReviews: 295,
-          total_cluster_reviews: 2985,
-          percentage: 0.099,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Natural sites",
-          nReviews: 1081,
-          total_cluster_reviews: 2985,
-          percentage: 0.362,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Shopping",
-          nReviews: 641,
-          total_cluster_reviews: 2985,
-          percentage: 0.215,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "1",
-          macro: "Relax and wellness",
-          nReviews: 37,
-          total_cluster_reviews: 2985,
-          percentage: 0.012,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Tour and activities",
-          nReviews: 57,
-          total_cluster_reviews: 62,
-          percentage: 0.919,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Bar and clubs",
-          nReviews: 1,
-          total_cluster_reviews: 62,
-          percentage: 0.016,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Entertainment and events",
-          nReviews: 1,
-          total_cluster_reviews: 62,
-          percentage: 0.016,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Transports and services",
-          nReviews: 0,
-          total_cluster_reviews: 62,
-          percentage: 0,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Natural sites",
-          nReviews: 1,
-          total_cluster_reviews: 62,
-          percentage: 0.016,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Shopping",
-          nReviews: 2,
-          total_cluster_reviews: 62,
-          percentage: 0.032,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "2",
-          macro: "Relax and wellness",
-          nReviews: 0,
-          total_cluster_reviews: 62,
-          percentage: 0,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Tour and activities",
-          nReviews: 5,
-          total_cluster_reviews: 124,
-          percentage: 0.04,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Bar and clubs",
-          nReviews: 8,
-          total_cluster_reviews: 124,
-          percentage: 0.065,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Entertainment and events",
-          nReviews: 6,
-          total_cluster_reviews: 124,
-          percentage: 0.048,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Transports and services",
-          nReviews: 2,
-          total_cluster_reviews: 124,
-          percentage: 0.016,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Natural sites",
-          nReviews: 5,
-          total_cluster_reviews: 124,
-          percentage: 0.04,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Shopping",
-          nReviews: 97,
-          total_cluster_reviews: 124,
-          percentage: 0.782,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "3",
-          macro: "Relax and wellness",
-          nReviews: 1,
-          total_cluster_reviews: 124,
-          percentage: 0.008,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Tour and activities",
-          nReviews: 9,
-          total_cluster_reviews: 246,
-          percentage: 0.037,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Bar and clubs",
-          nReviews: 159,
-          total_cluster_reviews: 246,
-          percentage: 0.646,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Entertainment and events",
-          nReviews: 17,
-          total_cluster_reviews: 246,
-          percentage: 0.069,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Transports and services",
-          nReviews: 4,
-          total_cluster_reviews: 246,
-          percentage: 0.016,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Natural sites",
-          nReviews: 32,
-          total_cluster_reviews: 246,
-          percentage: 0.13,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Shopping",
-          nReviews: 21,
-          total_cluster_reviews: 246,
-          percentage: 0.085,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "4",
-          macro: "Relax and wellness",
-          nReviews: 4,
-          total_cluster_reviews: 246,
-          percentage: 0.016,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Tour and activities",
-          nReviews: 5,
-          total_cluster_reviews: 87,
-          percentage: 0.057,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Bar and clubs",
-          nReviews: 2,
-          total_cluster_reviews: 87,
-          percentage: 0.023,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Entertainment and events",
-          nReviews: 54,
-          total_cluster_reviews: 87,
-          percentage: 0.621,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Transports and services",
-          nReviews: 3,
-          total_cluster_reviews: 87,
-          percentage: 0.034,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Natural sites",
-          nReviews: 13,
-          total_cluster_reviews: 87,
-          percentage: 0.149,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Shopping",
-          nReviews: 9,
-          total_cluster_reviews: 87,
-          percentage: 0.103,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "5",
-          macro: "Relax and wellness",
-          nReviews: 1,
-          total_cluster_reviews: 87,
-          percentage: 0.011,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Tour and activities",
-          nReviews: 76,
-          total_cluster_reviews: 1046,
-          percentage: 0.073,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Bar and clubs",
-          nReviews: 173,
-          total_cluster_reviews: 1046,
-          percentage: 0.165,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Entertainment and events",
-          nReviews: 70,
-          total_cluster_reviews: 1046,
-          percentage: 0.067,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Transports and services",
-          nReviews: 42,
-          total_cluster_reviews: 1046,
-          percentage: 0.04,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Natural sites",
-          nReviews: 158,
-          total_cluster_reviews: 1046,
-          percentage: 0.151,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Shopping",
-          nReviews: 517,
-          total_cluster_reviews: 1046,
-          percentage: 0.494,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "6",
-          macro: "Relax and wellness",
-          nReviews: 10,
-          total_cluster_reviews: 1046,
-          percentage: 0.01,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Tour and activities",
-          nReviews: 213,
-          total_cluster_reviews: 422,
-          percentage: 0.505,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Bar and clubs",
-          nReviews: 32,
-          total_cluster_reviews: 422,
-          percentage: 0.076,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Entertainment and events",
-          nReviews: 33,
-          total_cluster_reviews: 422,
-          percentage: 0.078,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Transports and services",
-          nReviews: 14,
-          total_cluster_reviews: 422,
-          percentage: 0.033,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Natural sites",
-          nReviews: 72,
-          total_cluster_reviews: 422,
-          percentage: 0.171,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Shopping",
-          nReviews: 52,
-          total_cluster_reviews: 422,
-          percentage: 0.123,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "7",
-          macro: "Relax and wellness",
-          nReviews: 6,
-          total_cluster_reviews: 422,
-          percentage: 0.014,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Tour and activities",
-          nReviews: 1,
-          total_cluster_reviews: 12,
-          percentage: 0.083,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Bar and clubs",
-          nReviews: 1,
-          total_cluster_reviews: 12,
-          percentage: 0.083,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Entertainment and events",
-          nReviews: 0,
-          total_cluster_reviews: 12,
-          percentage: 0,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Transports and services",
-          nReviews: 0,
-          total_cluster_reviews: 12,
-          percentage: 0,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Natural sites",
-          nReviews: 0,
-          total_cluster_reviews: 12,
-          percentage: 0,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Shopping",
-          nReviews: 0,
-          total_cluster_reviews: 12,
-          percentage: 0,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "8",
-          macro: "Relax and wellness",
-          nReviews: 10,
-          total_cluster_reviews: 12,
-          percentage: 0.833,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Tour and activities",
-          nReviews: 11,
-          total_cluster_reviews: 133,
-          percentage: 0.083,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Bar and clubs",
-          nReviews: 2,
-          total_cluster_reviews: 133,
-          percentage: 0.015,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Entertainment and events",
-          nReviews: 7,
-          total_cluster_reviews: 133,
-          percentage: 0.053,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Transports and services",
-          nReviews: 1,
-          total_cluster_reviews: 133,
-          percentage: 0.008,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Natural sites",
-          nReviews: 109,
-          total_cluster_reviews: 133,
-          percentage: 0.82,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Shopping",
-          nReviews: 2,
-          total_cluster_reviews: 133,
-          percentage: 0.015,
-        },
-        {
-          zone: "Province Of Vicenza",
-          clusterId: "9",
-          macro: "Relax and wellness",
-          nReviews: 1,
-          total_cluster_reviews: 133,
-          percentage: 0.008,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Tour and activities",
-          nReviews: 17,
-          total_cluster_reviews: 304,
-          percentage: 0.056,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Bar and clubs",
-          nReviews: 188,
-          total_cluster_reviews: 304,
-          percentage: 0.618,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Entertainment and events",
-          nReviews: 32,
-          total_cluster_reviews: 304,
-          percentage: 0.105,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Transports and services",
-          nReviews: 8,
-          total_cluster_reviews: 304,
-          percentage: 0.026,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Natural sites",
-          nReviews: 23,
-          total_cluster_reviews: 304,
-          percentage: 0.076,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Shopping",
-          nReviews: 31,
-          total_cluster_reviews: 304,
-          percentage: 0.102,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "0",
-          macro: "Relax and wellness",
-          nReviews: 5,
-          total_cluster_reviews: 304,
-          percentage: 0.016,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Tour and activities",
-          nReviews: 242,
-          total_cluster_reviews: 299,
-          percentage: 0.809,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Bar and clubs",
-          nReviews: 12,
-          total_cluster_reviews: 299,
-          percentage: 0.04,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Entertainment and events",
-          nReviews: 12,
-          total_cluster_reviews: 299,
-          percentage: 0.04,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Transports and services",
-          nReviews: 8,
-          total_cluster_reviews: 299,
-          percentage: 0.027,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Natural sites",
-          nReviews: 16,
-          total_cluster_reviews: 299,
-          percentage: 0.054,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Shopping",
-          nReviews: 8,
-          total_cluster_reviews: 299,
-          percentage: 0.027,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "1",
-          macro: "Relax and wellness",
-          nReviews: 1,
-          total_cluster_reviews: 299,
-          percentage: 0.003,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Tour and activities",
-          nReviews: 1113,
-          total_cluster_reviews: 8148,
-          percentage: 0.137,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Bar and clubs",
-          nReviews: 579,
-          total_cluster_reviews: 8148,
-          percentage: 0.071,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Entertainment and events",
-          nReviews: 1273,
-          total_cluster_reviews: 8148,
-          percentage: 0.156,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Transports and services",
-          nReviews: 1111,
-          total_cluster_reviews: 8148,
-          percentage: 0.136,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Natural sites",
-          nReviews: 1976,
-          total_cluster_reviews: 8148,
-          percentage: 0.243,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Shopping",
-          nReviews: 1909,
-          total_cluster_reviews: 8148,
-          percentage: 0.234,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "2",
-          macro: "Relax and wellness",
-          nReviews: 187,
-          total_cluster_reviews: 8148,
-          percentage: 0.023,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Tour and activities",
-          nReviews: 151,
-          total_cluster_reviews: 1650,
-          percentage: 0.092,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Bar and clubs",
-          nReviews: 53,
-          total_cluster_reviews: 1650,
-          percentage: 0.032,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Entertainment and events",
-          nReviews: 1055,
-          total_cluster_reviews: 1650,
-          percentage: 0.639,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Transports and services",
-          nReviews: 61,
-          total_cluster_reviews: 1650,
-          percentage: 0.037,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Natural sites",
-          nReviews: 143,
-          total_cluster_reviews: 1650,
-          percentage: 0.087,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Shopping",
-          nReviews: 132,
-          total_cluster_reviews: 1650,
-          percentage: 0.08,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "3",
-          macro: "Relax and wellness",
-          nReviews: 55,
-          total_cluster_reviews: 1650,
-          percentage: 0.033,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Tour and activities",
-          nReviews: 24,
-          total_cluster_reviews: 426,
-          percentage: 0.056,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Bar and clubs",
-          nReviews: 14,
-          total_cluster_reviews: 426,
-          percentage: 0.033,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Entertainment and events",
-          nReviews: 20,
-          total_cluster_reviews: 426,
-          percentage: 0.047,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Transports and services",
-          nReviews: 19,
-          total_cluster_reviews: 426,
-          percentage: 0.045,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Natural sites",
-          nReviews: 325,
-          total_cluster_reviews: 426,
-          percentage: 0.763,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Shopping",
-          nReviews: 16,
-          total_cluster_reviews: 426,
-          percentage: 0.038,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "4",
-          macro: "Relax and wellness",
-          nReviews: 8,
-          total_cluster_reviews: 426,
-          percentage: 0.019,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Tour and activities",
-          nReviews: 43,
-          total_cluster_reviews: 575,
-          percentage: 0.075,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Bar and clubs",
-          nReviews: 31,
-          total_cluster_reviews: 575,
-          percentage: 0.054,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Entertainment and events",
-          nReviews: 60,
-          total_cluster_reviews: 575,
-          percentage: 0.104,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Transports and services",
-          nReviews: 331,
-          total_cluster_reviews: 575,
-          percentage: 0.576,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Natural sites",
-          nReviews: 43,
-          total_cluster_reviews: 575,
-          percentage: 0.075,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Shopping",
-          nReviews: 54,
-          total_cluster_reviews: 575,
-          percentage: 0.094,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "5",
-          macro: "Relax and wellness",
-          nReviews: 13,
-          total_cluster_reviews: 575,
-          percentage: 0.023,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Tour and activities",
-          nReviews: 56,
-          total_cluster_reviews: 839,
-          percentage: 0.067,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Bar and clubs",
-          nReviews: 57,
-          total_cluster_reviews: 839,
-          percentage: 0.068,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Entertainment and events",
-          nReviews: 83,
-          total_cluster_reviews: 839,
-          percentage: 0.099,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Transports and services",
-          nReviews: 35,
-          total_cluster_reviews: 839,
-          percentage: 0.042,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Natural sites",
-          nReviews: 62,
-          total_cluster_reviews: 839,
-          percentage: 0.074,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Shopping",
-          nReviews: 531,
-          total_cluster_reviews: 839,
-          percentage: 0.633,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "6",
-          macro: "Relax and wellness",
-          nReviews: 15,
-          total_cluster_reviews: 839,
-          percentage: 0.018,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Tour and activities",
-          nReviews: 910,
-          total_cluster_reviews: 1788,
-          percentage: 0.509,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Bar and clubs",
-          nReviews: 92,
-          total_cluster_reviews: 1788,
-          percentage: 0.051,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Entertainment and events",
-          nReviews: 239,
-          total_cluster_reviews: 1788,
-          percentage: 0.134,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Transports and services",
-          nReviews: 162,
-          total_cluster_reviews: 1788,
-          percentage: 0.091,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Natural sites",
-          nReviews: 125,
-          total_cluster_reviews: 1788,
-          percentage: 0.07,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Shopping",
-          nReviews: 218,
-          total_cluster_reviews: 1788,
-          percentage: 0.122,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "7",
-          macro: "Relax and wellness",
-          nReviews: 42,
-          total_cluster_reviews: 1788,
-          percentage: 0.023,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Tour and activities",
-          nReviews: 516,
-          total_cluster_reviews: 4518,
-          percentage: 0.114,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Bar and clubs",
-          nReviews: 205,
-          total_cluster_reviews: 4518,
-          percentage: 0.045,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Entertainment and events",
-          nReviews: 655,
-          total_cluster_reviews: 4518,
-          percentage: 0.145,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Transports and services",
-          nReviews: 341,
-          total_cluster_reviews: 4518,
-          percentage: 0.075,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Natural sites",
-          nReviews: 2107,
-          total_cluster_reviews: 4518,
-          percentage: 0.466,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Shopping",
-          nReviews: 630,
-          total_cluster_reviews: 4518,
-          percentage: 0.139,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "8",
-          macro: "Relax and wellness",
-          nReviews: 64,
-          total_cluster_reviews: 4518,
-          percentage: 0.014,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Tour and activities",
-          nReviews: 14,
-          total_cluster_reviews: 253,
-          percentage: 0.055,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Bar and clubs",
-          nReviews: 3,
-          total_cluster_reviews: 253,
-          percentage: 0.012,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Entertainment and events",
-          nReviews: 40,
-          total_cluster_reviews: 253,
-          percentage: 0.158,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Transports and services",
-          nReviews: 3,
-          total_cluster_reviews: 253,
-          percentage: 0.012,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Natural sites",
-          nReviews: 12,
-          total_cluster_reviews: 253,
-          percentage: 0.047,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Shopping",
-          nReviews: 9,
-          total_cluster_reviews: 253,
-          percentage: 0.036,
-        },
-        {
-          zone: "South Holland Province",
-          clusterId: "9",
-          macro: "Relax and wellness",
-          nReviews: 172,
-          total_cluster_reviews: 253,
-          percentage: 0.68,
-        },
-      ]
-      const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
-      const uniqueMacro = [...new Set(dataClusters.map((d) => d.macro))]
+          //////////////////  LEGEND LEGEND LEGEND LEGEND
 
-      const dataFiltered = dataClusters.filter(
-        (d) => d.zone === "South Holland Province"
-      )
+          const xScaleLegend = d3
+            .scaleOrdinal()
+            .domain(uniqueMacro)
+            .range([20, 20, 20, 20, 280, 280, 280])
 
-      const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
+          const yScaleLegend = d3
+            .scaleOrdinal()
+            .domain(d3.range(0, 7))
+            .range([50, 80, 110, 140, 50, 80, 110])
 
-      for (const element in clustersGrouped) {
-        const data = clustersGrouped[element]
-        simulationForces(data, element)
-      }
+          //LEGEND SVG /////////////////////////////
+          const svgLegend = d3
+            .select("#legend")
+            .append("svg")
+            .attr("class", "legend")
+            .style("position", "absolute")
+            .style("top", "150px")
+            .style("left", "86px")
+            .style("width", "570px")
+            .style("height", "180px")
+            .style("background-color", "white")
+            .style("border-radius", "15px")
+            .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
 
-      /////////// FUNCTION
-      function updateCity(selectedGroup) {
-        const dataCityUpdated = dataClusters.filter(
-          (d) => d.zone === selectedGroup
-        )
+          svgLegend
+            .selectAll("rect")
+            .data(uniqueMacro)
+            .join("rect")
+            .attr("x", (d, i) => xScaleLegend(d))
+            .attr("y", (d, i) => yScaleLegend(i))
+            .attr("width", "15")
+            .attr("height", "15")
+            .attr("fill", (d) => colorScale(d))
+            .attr("rx", "5px")
+            .attr("ry", "5px")
 
-        console.log(dataCityUpdated, "dataCityUpdated")
-        const clustersGrouped = _.groupBy(dataCityUpdated, (d) => d.clusterId)
-
-        for (const element in clustersGrouped) {
-          const data = clustersGrouped[element]
-          simulationForces(data, element)
-        }
-        const unpackedData = Object.keys(clustersGrouped)
-          .map((key) => clustersGrouped[key])
-          .flat()
-
-        console.log(unpackedData, "unpackedData")
-
-        updateViz(unpackedData)
-      }
-
-      // TOOLTIPS   ////////////////////////
-
-      const Tooltip = d3
-        .select("body")
-        .append("div")
-        .style("opacity", 0)
-        .attr("class", "tooltip")
-        .style("background-color", "white")
-        .style("padding", "10px")
-
-        .style("position", "absolute")
-        .style("width", "135px")
-        .style("height", "80px")
-        .style("background-color", "white")
-        .style("border-radius", "15px")
-        .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-        .style("font-family", "Noto Sans")
-        .style("font-size", "14px")
-        .style("pointer-events", "none")
-
-      Tooltip.append("div").attr("class", "title")
-      Tooltip.append("div").attr("class", "reviews")
-      Tooltip.append("div").attr("class", "nreviews")
-
-      const mouseover = function (d) {
-        const bubble = d.target.__data__
-        Tooltip.style("opacity", 1)
-          .style("top", bubble.y - 20 + "px")
-          .style("left", bubble.x + 25 + "px")
-
-        Tooltip.select("div.title")
-          .text(bubble.macro)
-          .style("color", colorScale(bubble.macro))
-          .style("font-size", "14px")
-          .style("font-weight", "600")
-
-        Tooltip.select("div.reviews")
-          .text("Reviews")
-          .style("color", "#7C7C7C")
-          .style("font-size", "12px")
-          .style("font-weight", "regular")
-
-        Tooltip.select("div.nreviews")
-          .text(bubble.nReviews)
-          .style("font-size", "18px")
-          .style("font-weight", "bold")
-
-        d3.select(this).style("stroke", "black").style("opacity", 1)
-      }
-      const mouseleave = function (d) {
-        Tooltip.style("opacity", 0)
-        d3.select(this).style("stroke", "none")
-      }
-      // SVG CLUSTERING ////////////////////////////////////////////////////////////////
-      const svgClustering = d3
-        .select("body")
-        .append("svg")
-        .attr("position", "relative")
-        .attr("width", width)
-        .attr("height", height)
-
-      const svgStrokeGroup = svgClustering.append("g").attr("id", "stroke")
-
-      const svgBubbleGroup = svgClustering.append("g").attr("id", "bubbles")
-
-      // UPDATE VIZ FUNCTION
-      const updateViz = function (dataset) {
-        //STROKE CIRCLES
-        svgStrokeGroup
-          .selectAll("circle")
-          .data(dataset, (d) => d.macro + "-" + d.clusterId)
-          .join("circle")
-          .attr("class", "stroke")
-          .attr("cx", (bubble) => bubble.x)
-          .attr("cy", (bubble) => bubble.y)
-          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-          .attr("opacity", "1")
-          .attr("stroke", "#E7E7E7")
-          .attr("stroke-width", "20")
-
-        //REAL CIRCLES
-        svgBubbleGroup
-          .selectAll("circle")
-          .data(dataset, (d) => d.macro + "-" + d.clusterId)
-          .join("circle")
-          .attr("class", "clusterBubbles")
-          .attr("cx", (bubble) => bubble.x)
-          .attr("cy", (bubble) => bubble.y)
-          .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-          .attr("fill", (bubble) => colorScale(bubble.macro))
-          .on("mouseover", mouseover)
-          .on("mouseout", mouseleave)
-      }
-
-      updateViz(dataFiltered)
-
-      //CLUSTERS LABELS ///////////////////////////////////
-      const clusterLabels = [
-        { label: "Cluster 1", index: 0 },
-        { label: "Cluster 2", index: 1 },
-        { label: "Cluster 3", index: 2 },
-        { label: "Cluster 4", index: 3 },
-        { label: "Cluster 5", index: 4 },
-        { label: "Cluster 6", index: 5 },
-        { label: "Cluster 7", index: 6 },
-        { label: "Cluster 8", index: 7 },
-        { label: "Cluster 9", index: 8 },
-        { label: "Cluster 10", index: 9 },
-      ]
-
-      svgClustering
-        .selectAll("text")
-        .data(clusterLabels)
-        .join("text")
-        .attr("class", "label")
-        .attr("x", (d) => xScaleForce(d.index) - 100)
-        .attr("y", (d) => yScaleForce(d.index) - 100)
-        .attr("font-family", "Noto Sans")
-        .text((d) => d.label)
-
-      // SELECTION DROPDOWN  //////////////////////////
-      d3.select("#selectButtonClusters")
-        .selectAll("myOptions")
-        .data(uniqueZones)
-        .enter()
-        .append("option")
-        .text(function (d) {
-          return d
+          svgLegend
+            .selectAll("text")
+            .data(uniqueMacro)
+            .join("text")
+            .attr("x", (d, i) => xScaleLegend(d) + 25)
+            .attr("y", (d, i) => yScaleLegend(i) + 12)
+            .style("text-anchor", "start")
+            .style("font-family", "Noto Sans")
+            .style("font-weight", "medium")
+            .style("font-size", "12px")
+            .text((d) => d)
         })
-        .attr("value", function (d) {
-          return d
-        })
-
-      d3.select("#selectButtonClusters").on("change", function (d) {
-        const selectedOption = d3.select(this).property("value")
-        updateCity(selectedOption)
-      })
-
-      //////////////////  LEGEND LEGEND LEGEND LEGEND
-
-      const xScaleLegend = d3
-        .scaleOrdinal()
-        .domain(uniqueMacro)
-        .range([20, 20, 20, 20, 280, 280, 280])
-
-      const yScaleLegend = d3
-        .scaleOrdinal()
-        .domain(d3.range(0, 7))
-        .range([50, 80, 110, 140, 50, 80, 110])
-
-      //LEGEND SVG /////////////////////////////
-      const svgLegend = d3
-        .select("#legend")
-        .append("svg")
-        .attr("class", "legend")
-        .style("position", "absolute")
-        .style("top", "150px")
-        .style("left", "86px")
-        .style("width", "570px")
-        .style("height", "180px")
-        .style("background-color", "white")
-        .style("border-radius", "15px")
-        .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-
-      svgLegend
-        .selectAll("rect")
-        .data(uniqueMacro)
-        .join("rect")
-        .attr("x", (d, i) => xScaleLegend(d))
-        .attr("y", (d, i) => yScaleLegend(i))
-        .attr("width", "15")
-        .attr("height", "15")
-        .attr("fill", (d) => colorScale(d))
-        .attr("rx", "5px")
-        .attr("ry", "5px")
-
-      svgLegend
-        .selectAll("text")
-        .data(uniqueMacro)
-        .join("text")
-        .attr("x", (d, i) => xScaleLegend(d) + 25)
-        .attr("y", (d, i) => yScaleLegend(i) + 12)
-        .style("text-anchor", "start")
-        .style("font-family", "Noto Sans")
-        .style("font-weight", "medium")
-        .style("font-size", "12px")
-        .text((d) => d)
     </script>
   </body>
 </html>

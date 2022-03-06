@@ -250,8 +250,16 @@
           .on("mouseover", function (event) {
             const hoveredBar = event.target.__data__
             svgBars.select("#" + hoveredBar.word).style("font-weight", "bold")
-            svgBars.selectAll("rect").style("opacity", 0.2)
-            svgBars.select("#rect-" + hoveredBar.word).style("opacity", 0.75)
+            svgBars
+              .selectAll("rect")
+              .transition()
+              .duration(250)
+              .style("opacity", 0.2)
+            svgBars
+              .select("#rect-" + hoveredBar.word)
+              .transition()
+              .duration(250)
+              .style("opacity", 0.75)
 
             svgBubbles.selectAll("circle").style("opacity", 0.2)
             svgBubbles
@@ -265,9 +273,10 @@
             const hoveredBarOut = event.target.__data__
             svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
             d3.selectAll("circle").style("opacity", 0.75)
-            svgBubbles
-              .select("#circle-" + hoveredBarOut.topic)
-              .style("stroke", "")
+            // svgBubbles
+            //   .select("#circle-" + hoveredBarOut.topic)
+            //   .style("stroke", "")
+            svgBubbles.selectAll("circle").style("stroke", "")
             svgBars
               .selectAll("rect")
               .transition()
