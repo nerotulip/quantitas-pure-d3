@@ -4618,5 +4618,9245 @@
     "importance_word": 0.031,
     "word": "building",
     "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.226,
+    "word": "tour",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.157,
+    "word": "history",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.152,
+    "word": "great",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.151,
+    "word": "information",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.123,
+    "word": "ghent",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.117,
+    "word": "city",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.1,
+    "word": "interesting",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.092,
+    "word": "give",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.082,
+    "word": "guide",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.075,
+    "word": "place",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.069,
+    "word": "detail",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.069,
+    "word": "provide",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.068,
+    "word": "culture",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.063,
+    "word": "explain",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.062,
+    "word": "beer",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.059,
+    "word": "english",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.059,
+    "word": "probably",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.058,
+    "word": "engage",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.057,
+    "word": "visit",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.054,
+    "word": "walk",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.053,
+    "word": "next",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.053,
+    "word": "good",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.049,
+    "word": "service",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.046,
+    "word": "tip",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.045,
+    "word": "today",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.045,
+    "word": "see",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.045,
+    "word": "time",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.045,
+    "word": "gent",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.042,
+    "word": "medieval",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.04,
+    "word": "local",
+    "default": "y"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.151,
+    "word": "information",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.069,
+    "word": "detail",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.069,
+    "word": "provide",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.058,
+    "word": "engage",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.045,
+    "word": "today",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.037,
+    "word": "kid",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.032,
+    "word": "fabulous",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.025,
+    "word": "overall",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.024,
+    "word": "quickly",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.023,
+    "word": "stuff",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.02,
+    "word": "rich",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.019,
+    "word": "money",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.017,
+    "word": "lunch",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.013,
+    "word": "forget",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.013,
+    "word": "star",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.013,
+    "word": "fry",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.012,
+    "word": "path",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "prefer",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "attend",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "reason",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "surprising",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "crazy",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "please",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "cycle",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "possibility",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.006,
+    "word": "light_hearte",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.006,
+    "word": "cozy",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.005,
+    "word": "excited",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.005,
+    "word": "past",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 0,
+    "importance_word": 0.004,
+    "word": "high_quality",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.152,
+    "word": "great",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.075,
+    "word": "place",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.062,
+    "word": "beer",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.04,
+    "word": "local",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.025,
+    "word": "friendly",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.024,
+    "word": "drink",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "bar",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.02,
+    "word": "night",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.019,
+    "word": "fantastic",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.017,
+    "word": "try",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.017,
+    "word": "friend",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.017,
+    "word": "belgium",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "stay",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "excellent",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.012,
+    "word": "belgian",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.012,
+    "word": "afternoon",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.011,
+    "word": "question",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "evening",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "atmosphere",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "couple",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "sense",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "super",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "sit",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "young",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "cool",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "music",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "humour",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "like",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "play",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "pm",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.057,
+    "word": "visit",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.045,
+    "word": "see",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.045,
+    "word": "time",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.034,
+    "word": "hour",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.03,
+    "word": "day",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.022,
+    "word": "many",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.02,
+    "word": "worth",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.018,
+    "word": "thing",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.018,
+    "word": "way",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.017,
+    "word": "amazing",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.017,
+    "word": "look",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.015,
+    "word": "different",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "spend",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "keep",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "show",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "small",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "street",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "quite",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "full",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "new",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "centre",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "stop",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "light",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "art",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "bike",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "still",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "always",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "long",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 2,
+    "importance_word": 0.007,
+    "word": "right",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.226,
+    "word": "tour",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.082,
+    "word": "guide",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.033,
+    "word": "recommend",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.03,
+    "word": "fun",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.024,
+    "word": "learn",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.023,
+    "word": "love",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.022,
+    "word": "thank",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "story",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "experience",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.018,
+    "word": "definitely",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.018,
+    "word": "informative",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.018,
+    "word": "group",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.017,
+    "word": "highly_recommend",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.016,
+    "word": "tell",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.015,
+    "word": "fact",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.015,
+    "word": "knowledgeable",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.014,
+    "word": "funny",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.014,
+    "word": "knowledge",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "walking",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "know",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "perfect",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "highly_recommende",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "excellent",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "share",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "way",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "fabian",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "enthusiastic",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "highlight",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "passionate",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "nick",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.123,
+    "word": "ghent",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.117,
+    "word": "city",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.054,
+    "word": "walk",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.045,
+    "word": "gent",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.04,
+    "word": "take",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.03,
+    "word": "beautiful",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.03,
+    "word": "nice",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.026,
+    "word": "church",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.026,
+    "word": "enjoy",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.02,
+    "word": "free",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.017,
+    "word": "building",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.017,
+    "word": "town",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.015,
+    "word": "old",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.015,
+    "word": "view",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "historical",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "lovely",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "bridge",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "trip",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "wonderful",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "area",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.01,
+    "word": "part",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "center",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "way",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "explore",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "site",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.007,
+    "word": "discover",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.006,
+    "word": "main",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.006,
+    "word": "entertain",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.006,
+    "word": "bruge",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 4,
+    "importance_word": 0.006,
+    "word": "canal",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.068,
+    "word": "culture",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.059,
+    "word": "english",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.038,
+    "word": "true",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.038,
+    "word": "personal",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.035,
+    "word": "person",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.027,
+    "word": "dutch",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.024,
+    "word": "other",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.024,
+    "word": "wish",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.023,
+    "word": "legend",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.02,
+    "word": "catch",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.019,
+    "word": "dinner",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "child",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.017,
+    "word": "website",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.017,
+    "word": "advice",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.015,
+    "word": "put",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.015,
+    "word": "treat",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.015,
+    "word": "french",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.014,
+    "word": "snack",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.012,
+    "word": "presentation",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.012,
+    "word": "flemish",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.012,
+    "word": "direction",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "alive",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.01,
+    "word": "care",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.01,
+    "word": "proud",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "son",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "carry",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "personally",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "bore",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "smile",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 5,
+    "importance_word": 0.008,
+    "word": "d",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.059,
+    "word": "probably",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.049,
+    "word": "service",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.042,
+    "word": "medieval",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.036,
+    "word": "famous",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.029,
+    "word": "man",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.026,
+    "word": "student",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.024,
+    "word": "deliver",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.022,
+    "word": "various",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.021,
+    "word": "lively",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.019,
+    "word": "become",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.019,
+    "word": "general",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.017,
+    "word": "min",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "touristic",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "willing",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.014,
+    "word": "fast",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.013,
+    "word": "massive",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.012,
+    "word": "stone",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.011,
+    "word": "original",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.011,
+    "word": "custom",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.011,
+    "word": "facility",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "count",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "produce",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "basically",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.009,
+    "word": "shoe",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.009,
+    "word": "normal",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "winter",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "sister",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "brother",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "dynamic",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 6,
+    "importance_word": 0.006,
+    "word": "exciting",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.063,
+    "word": "explain",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.053,
+    "word": "next",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.035,
+    "word": "expect",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.033,
+    "word": "totally",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.025,
+    "word": "room",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.024,
+    "word": "top",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.024,
+    "word": "enter",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.024,
+    "word": "energy",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.021,
+    "word": "hand",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.019,
+    "word": "prepare",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.017,
+    "word": "belfry",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.015,
+    "word": "read",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.015,
+    "word": "allow",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.015,
+    "word": "memorable",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.013,
+    "word": "though",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.012,
+    "word": "mostly",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.012,
+    "word": "obvious",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.012,
+    "word": "piece",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.011,
+    "word": "mind",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.01,
+    "word": "wrong",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.01,
+    "word": "toilet",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.01,
+    "word": "enthusiast",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "sunday",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "perfectly",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "door",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "screen",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "introduce",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "three_tower",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.007,
+    "word": "exceed",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 7,
+    "importance_word": 0.007,
+    "word": "peaceful",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.157,
+    "word": "history",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.1,
+    "word": "interesting",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.092,
+    "word": "give",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.046,
+    "word": "tip",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.023,
+    "word": "museum",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.022,
+    "word": "spot",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "recommendation",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.018,
+    "word": "especially",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.017,
+    "word": "use",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.014,
+    "word": "speak",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.014,
+    "word": "interest",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.011,
+    "word": "insight",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.011,
+    "word": "arrive",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "truly",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.009,
+    "word": "tatiana",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.009,
+    "word": "rather",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.009,
+    "word": "later",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.008,
+    "word": "euro",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.007,
+    "word": "fascinating",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.007,
+    "word": "visitor",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "explanation",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "fabi",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "pleasant",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "expensive",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "brilliant",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "easily",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.006,
+    "word": "native",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.005,
+    "word": "follow",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.005,
+    "word": "blue",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 8,
+    "importance_word": 0.005,
+    "word": "preserve",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.053,
+    "word": "good",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.038,
+    "word": "lot",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.036,
+    "word": "go",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.032,
+    "word": "really",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.032,
+    "word": "get",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.031,
+    "word": "make",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.028,
+    "word": "also",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.025,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.022,
+    "word": "chocolate",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.02,
+    "word": "much",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.019,
+    "word": "know",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.018,
+    "word": "find",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.016,
+    "word": "even",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.014,
+    "word": "do",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.014,
+    "word": "people",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.014,
+    "word": "want",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "little",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "back",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "feel",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "come",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "eat",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "taste",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "think",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "architecture",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "restaurant",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "end",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "first",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "start",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "shop",
+    "default": "n"
+  },
+  {
+    "city": "east flanders",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "book",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.221,
+    "word": "tour",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.143,
+    "word": "get",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.134,
+    "word": "game",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.132,
+    "word": "throne",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.087,
+    "word": "transfer",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.079,
+    "word": "time",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.079,
+    "word": "guide",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.077,
+    "word": "take",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.075,
+    "word": "recommend",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.075,
+    "word": "great",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.074,
+    "word": "day",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.074,
+    "word": "airport",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.072,
+    "word": "fan",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.057,
+    "word": "bus",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.054,
+    "word": "dubrovnik",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.052,
+    "word": "trip",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.052,
+    "word": "make",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.051,
+    "word": "good",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.046,
+    "word": "also",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.045,
+    "word": "show",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.045,
+    "word": "ferry",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.045,
+    "word": "go",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.044,
+    "word": "never",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.043,
+    "word": "visit",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.041,
+    "word": "book",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.04,
+    "word": "holiday",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.04,
+    "word": "boat",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.039,
+    "word": "end",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.039,
+    "word": "walk",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.038,
+    "word": "think",
+    "default": "y"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.044,
+    "word": "never",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.04,
+    "word": "holiday",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.038,
+    "word": "think",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.033,
+    "word": "happy",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.027,
+    "word": "short",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.027,
+    "word": "s",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.025,
+    "word": "hear",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.025,
+    "word": "ve",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.025,
+    "word": "re",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.022,
+    "word": "course",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.02,
+    "word": "glad",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.019,
+    "word": "actually",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.019,
+    "word": "street",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.019,
+    "word": "pace",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.018,
+    "word": "hand",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.017,
+    "word": "entire",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.017,
+    "word": "m",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.014,
+    "word": "hard",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.014,
+    "word": "engage",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.013,
+    "word": "ivana",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.012,
+    "word": "rather",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.012,
+    "word": "building",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "d",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "unfortunately",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "maybe",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "shot",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "ultimate",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "fine",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "cruise_ship",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "continue",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.079,
+    "word": "time",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.074,
+    "word": "day",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.052,
+    "word": "trip",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.052,
+    "word": "make",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.037,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.032,
+    "word": "amazing",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.028,
+    "word": "beautiful",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.028,
+    "word": "croatia",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.028,
+    "word": "thank",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.025,
+    "word": "split",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.024,
+    "word": "scene",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "location",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.018,
+    "word": "local",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.018,
+    "word": "fantastic",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.016,
+    "word": "knowledge",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.016,
+    "word": "perfect",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "private",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "wonderful",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "enough",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.012,
+    "word": "spend",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.012,
+    "word": "family",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.011,
+    "word": "sure",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.011,
+    "word": "professional",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.011,
+    "word": "extra",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "travel",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "comfortable",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.009,
+    "word": "absolutely",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.009,
+    "word": "highlight",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "waterfall",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "explore",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.041,
+    "word": "book",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.032,
+    "word": "driver",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.028,
+    "word": "service",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.027,
+    "word": "use",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.025,
+    "word": "company",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.024,
+    "word": "back",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.018,
+    "word": "first",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.017,
+    "word": "come",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.017,
+    "word": "car",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.016,
+    "word": "pick",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.015,
+    "word": "easy",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "need",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "drive",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "help",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "start",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "tell",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.013,
+    "word": "say",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.013,
+    "word": "ask",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "wait",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "minute",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "hotel",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "arrive",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "do",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "return",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "meet",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "last",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "leave",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "email",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "next",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "taxi",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.134,
+    "word": "game",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.132,
+    "word": "throne",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.087,
+    "word": "transfer",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.074,
+    "word": "airport",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.027,
+    "word": "kings_lande",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.026,
+    "word": "real",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "antun",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "miss",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "shoot",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.019,
+    "word": "play",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.015,
+    "word": "arrival",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.014,
+    "word": "receive",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.014,
+    "word": "incredibly",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.013,
+    "word": "flight",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "sword",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "favorite",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "destination",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "equipment",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "locate",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.009,
+    "word": "memory",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "date",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "iron_throne",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "outside",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "condition",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "product",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "beauty",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "recently",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "fair",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "mail",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "monastery",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.143,
+    "word": "get",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.077,
+    "word": "take",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.04,
+    "word": "boat",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.034,
+    "word": "island",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.031,
+    "word": "hour",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.026,
+    "word": "wine",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.023,
+    "word": "stop",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.019,
+    "word": "water",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.018,
+    "word": "beach",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.018,
+    "word": "photo",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.015,
+    "word": "include",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "lunch",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.012,
+    "word": "long",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.012,
+    "word": "restaurant",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.012,
+    "word": "full",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.012,
+    "word": "food",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "ride",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "spot",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "small",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.01,
+    "word": "swim",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.01,
+    "word": "stay",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.01,
+    "word": "bit",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.009,
+    "word": "blue",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.009,
+    "word": "free",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.009,
+    "word": "price",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.009,
+    "word": "drink",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "plenty",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "hvar",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "choose",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "couple",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.072,
+    "word": "fan",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.039,
+    "word": "end",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.03,
+    "word": "keep",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.022,
+    "word": "work",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.022,
+    "word": "set",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.021,
+    "word": "taste",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.021,
+    "word": "year",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.02,
+    "word": "try",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "staff",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "series",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.016,
+    "word": "season",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.015,
+    "word": "large",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.014,
+    "word": "detail",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.014,
+    "word": "new",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "plan",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "high",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "fast",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "huge",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.012,
+    "word": "recommendation",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "home",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "historical",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "option",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.01,
+    "word": "owner",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.01,
+    "word": "second",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.01,
+    "word": "run",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "child",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "avoid",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.008,
+    "word": "apartment",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.008,
+    "word": "amount",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 5,
+    "importance_word": 0.008,
+    "word": "put",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.043,
+    "word": "visit",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.039,
+    "word": "walk",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.037,
+    "word": "old",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.035,
+    "word": "town",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.026,
+    "word": "many",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.026,
+    "word": "worth",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.023,
+    "word": "city",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.022,
+    "word": "view",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.022,
+    "word": "film",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.019,
+    "word": "area",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.018,
+    "word": "look",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.018,
+    "word": "little",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.017,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "part",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "small",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "find",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "lovely",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.011,
+    "word": "watch",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "quite",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "still",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.009,
+    "word": "point",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.009,
+    "word": "crowd",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.009,
+    "word": "wall",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.008,
+    "word": "top",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.008,
+    "word": "church",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.008,
+    "word": "lokrum",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.008,
+    "word": "tourist",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "step",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "buy",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 6,
+    "importance_word": 0.007,
+    "word": "see",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.221,
+    "word": "tour",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.079,
+    "word": "guide",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.075,
+    "word": "recommend",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.054,
+    "word": "dubrovnik",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.045,
+    "word": "show",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.038,
+    "word": "history",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.037,
+    "word": "highly",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.028,
+    "word": "group",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.025,
+    "word": "give",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.023,
+    "word": "excellent",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.021,
+    "word": "city",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.02,
+    "word": "knowledgeable",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.018,
+    "word": "interesting",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.014,
+    "word": "information",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.013,
+    "word": "informative",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.012,
+    "word": "provide",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.012,
+    "word": "question",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.01,
+    "word": "learn",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "funny",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "extremely",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "story",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "explain",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "site",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.005,
+    "word": "tonka",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.005,
+    "word": "prop",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.005,
+    "word": "week",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.005,
+    "word": "knowledgable",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.005,
+    "word": "filming_location",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.004,
+    "word": "sight",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 7,
+    "importance_word": 0.004,
+    "word": "value",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.057,
+    "word": "bus",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.045,
+    "word": "ferry",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.037,
+    "word": "rent",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.028,
+    "word": "drop",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.028,
+    "word": "various",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.027,
+    "word": "turn",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.027,
+    "word": "change",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.024,
+    "word": "trogir",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.022,
+    "word": "quickly",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.021,
+    "word": "port",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "young",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.018,
+    "word": "chance",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.018,
+    "word": "expensive",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.018,
+    "word": "request",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.018,
+    "word": "possible",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.017,
+    "word": "process",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.016,
+    "word": "party",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.015,
+    "word": "luggage",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.015,
+    "word": "inform",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.015,
+    "word": "son",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.015,
+    "word": "order",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "courteous",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "entrance",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.012,
+    "word": "adult",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.012,
+    "word": "member",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.012,
+    "word": "charge",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.011,
+    "word": "believe",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.011,
+    "word": "phone",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "pile_gate",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "multiple",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.075,
+    "word": "great",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.051,
+    "word": "good",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.046,
+    "word": "also",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.045,
+    "word": "go",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.038,
+    "word": "see",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.038,
+    "word": "really",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.03,
+    "word": "experience",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.028,
+    "word": "lot",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.027,
+    "word": "place",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.024,
+    "word": "even",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.024,
+    "word": "friendly",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.023,
+    "word": "way",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.023,
+    "word": "much",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.023,
+    "word": "enjoy",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.022,
+    "word": "nice",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.022,
+    "word": "fun",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.019,
+    "word": "definitely",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.018,
+    "word": "people",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.017,
+    "word": "know",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.015,
+    "word": "want",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.015,
+    "word": "love",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.013,
+    "word": "feel",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.012,
+    "word": "helpful",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.012,
+    "word": "do",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "cave",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "thing",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "picture",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "able",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "whole",
+    "default": "n"
+  },
+  {
+    "city": "dalmatia",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "friend",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.088,
+    "word": "museum",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.076,
+    "word": "tour",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.072,
+    "word": "visit",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.071,
+    "word": "learn",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.061,
+    "word": "walk",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.061,
+    "word": "well",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.057,
+    "word": "see",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.054,
+    "word": "cafe",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.052,
+    "word": "great",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.051,
+    "word": "attraction",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.049,
+    "word": "s",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.049,
+    "word": "time",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.049,
+    "word": "buy",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.047,
+    "word": "ticket",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.046,
+    "word": "body",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.046,
+    "word": "city",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.045,
+    "word": "good",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.045,
+    "word": "dune",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.045,
+    "word": "piece",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.044,
+    "word": "place",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.043,
+    "word": "nice",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.042,
+    "word": "go",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.04,
+    "word": "away",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.038,
+    "word": "wait",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.038,
+    "word": "point",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.038,
+    "word": "make",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.037,
+    "word": "beach",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.036,
+    "word": "building",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.036,
+    "word": "high",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.035,
+    "word": "old",
+    "default": "y"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.054,
+    "word": "cafe",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.049,
+    "word": "s",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.038,
+    "word": "wait",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.026,
+    "word": "warm",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.023,
+    "word": "stroll",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.022,
+    "word": "windy",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.02,
+    "word": "flower",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.02,
+    "word": "read",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.019,
+    "word": "sell",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.017,
+    "word": "landscape",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.017,
+    "word": "glad",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "access",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.015,
+    "word": "sun",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.015,
+    "word": "stunning",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.014,
+    "word": "holiday",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.012,
+    "word": "km",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.012,
+    "word": "simply",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.012,
+    "word": "product",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "create",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "spa",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "sauna",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "touch",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "listen",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.01,
+    "word": "factory",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.01,
+    "word": "smell",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.01,
+    "word": "rental",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.01,
+    "word": "notice",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "attend",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "ball",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "gorgeous",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.088,
+    "word": "museum",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.036,
+    "word": "building",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.035,
+    "word": "old",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.034,
+    "word": "art",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.031,
+    "word": "small",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.029,
+    "word": "dutch",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "modern",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.021,
+    "word": "exhibition",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.018,
+    "word": "build",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.017,
+    "word": "collection",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.017,
+    "word": "park",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.016,
+    "word": "town",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "architecture",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "church",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "still",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "space",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.012,
+    "word": "large",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.012,
+    "word": "parking",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.011,
+    "word": "house",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.011,
+    "word": "display",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "exhibit",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "locate",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "several",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "netherland",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "seem",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "main",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "canal",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "entrance",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "close",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 1,
+    "importance_word": 0.006,
+    "word": "street",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.042,
+    "word": "go",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.037,
+    "word": "beach",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.032,
+    "word": "get",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.03,
+    "word": "day",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.026,
+    "word": "take",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.018,
+    "word": "bike",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.017,
+    "word": "people",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.016,
+    "word": "pier",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.015,
+    "word": "do",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.015,
+    "word": "room",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "back",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "come",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "bit",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "long",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "first",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "use",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "want",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "trip",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "feel",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "ride",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "quite",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "big",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "sea",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "think",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "book",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "end",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "try",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "need",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "say",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 2,
+    "importance_word": 0.007,
+    "word": "clean",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.072,
+    "word": "visit",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.057,
+    "word": "see",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.049,
+    "word": "time",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.027,
+    "word": "many",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.023,
+    "word": "hour",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.022,
+    "word": "love",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.022,
+    "word": "even",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.021,
+    "word": "fun",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "kid",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.02,
+    "word": "year",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.019,
+    "word": "work",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.018,
+    "word": "recommend",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.018,
+    "word": "part",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.017,
+    "word": "lovely",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.017,
+    "word": "child",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.015,
+    "word": "thing",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.015,
+    "word": "open",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.015,
+    "word": "new",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.014,
+    "word": "definitely",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.014,
+    "word": "spend",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.013,
+    "word": "show",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.013,
+    "word": "wonderful",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "easy",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "little",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "family",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "adult",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "couple",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "busy",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "euro",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "activity",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.052,
+    "word": "great",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.045,
+    "word": "good",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.044,
+    "word": "place",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.043,
+    "word": "nice",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.03,
+    "word": "also",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.028,
+    "word": "really",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.026,
+    "word": "lot",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.023,
+    "word": "enjoy",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.022,
+    "word": "food",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.022,
+    "word": "restaurant",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.02,
+    "word": "beautiful",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.019,
+    "word": "find",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.018,
+    "word": "experience",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.018,
+    "word": "view",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.017,
+    "word": "area",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.017,
+    "word": "look",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "friendly",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.013,
+    "word": "shop",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "different",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "drink",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.011,
+    "word": "staff",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.01,
+    "word": "amazing",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.01,
+    "word": "bar",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.009,
+    "word": "eat",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.009,
+    "word": "local",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "excellent",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.008,
+    "word": "offer",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.007,
+    "word": "location",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.007,
+    "word": "friend",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 4,
+    "importance_word": 0.007,
+    "word": "always",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.046,
+    "word": "body",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.036,
+    "word": "high",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.034,
+    "word": "fact",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.034,
+    "word": "afternoon",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.034,
+    "word": "age",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.033,
+    "word": "lunch",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.032,
+    "word": "outside",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.031,
+    "word": "taste",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.027,
+    "word": "snack",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.024,
+    "word": "meet",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.024,
+    "word": "den_haag",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.021,
+    "word": "tea",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.021,
+    "word": "surprise",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.019,
+    "word": "private",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "favourite",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "middle",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.015,
+    "word": "safe",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.015,
+    "word": "war",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.014,
+    "word": "exciting",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.014,
+    "word": "climb",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.014,
+    "word": "range",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "meal",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "fill",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.012,
+    "word": "particularly",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.012,
+    "word": "volunteer",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "structure",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "base",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "effort",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "soon",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 5,
+    "importance_word": 0.011,
+    "word": "entire",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.071,
+    "word": "learn",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.051,
+    "word": "attraction",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.045,
+    "word": "dune",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.045,
+    "word": "piece",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.038,
+    "word": "point",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.029,
+    "word": "various",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.026,
+    "word": "winter",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.026,
+    "word": "pass",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.025,
+    "word": "add",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.023,
+    "word": "plan",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.02,
+    "word": "fast",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.019,
+    "word": "map",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.018,
+    "word": "step",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.017,
+    "word": "totally",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.017,
+    "word": "architectural",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.016,
+    "word": "outdoor",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.015,
+    "word": "surrounding",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.015,
+    "word": "attention",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.015,
+    "word": "pleasure",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.014,
+    "word": "beauty",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.014,
+    "word": "culture",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.014,
+    "word": "educational",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.014,
+    "word": "hope",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.013,
+    "word": "attractive",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.012,
+    "word": "construction",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.012,
+    "word": "delightful",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.011,
+    "word": "forget",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "memory",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.01,
+    "word": "wear",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 6,
+    "importance_word": 0.009,
+    "word": "facade",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.076,
+    "word": "tour",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.061,
+    "word": "walk",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.061,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.046,
+    "word": "city",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.038,
+    "word": "make",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.034,
+    "word": "worth",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.032,
+    "word": "interesting",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.032,
+    "word": "way",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.029,
+    "word": "hague",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.027,
+    "word": "guide",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.024,
+    "word": "give",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.022,
+    "word": "sculpture",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.02,
+    "word": "know",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.02,
+    "word": "much",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.019,
+    "word": "history",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.015,
+    "word": "stop",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.012,
+    "word": "story",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.011,
+    "word": "information",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.01,
+    "word": "provide",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "live",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "thank",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.009,
+    "word": "highly_recommend",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "short",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.008,
+    "word": "free",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.007,
+    "word": "center",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "centre",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "knowledgeable",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "life",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "surround",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 7,
+    "importance_word": 0.006,
+    "word": "informative",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.049,
+    "word": "buy",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.047,
+    "word": "ticket",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.04,
+    "word": "away",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.029,
+    "word": "picture",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.027,
+    "word": "mean",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.025,
+    "word": "daughter",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.024,
+    "word": "cover",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.023,
+    "word": "glass",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.023,
+    "word": "round",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.022,
+    "word": "serve",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.022,
+    "word": "wide",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.02,
+    "word": "unfortunately",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "hard",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "min",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "machine",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.016,
+    "word": "tree",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.016,
+    "word": "make_sure",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.015,
+    "word": "sunset",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.015,
+    "word": "ground",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "commentary",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "foot",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "gem",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "recently",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.013,
+    "word": "class",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.011,
+    "word": "public_transport",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.011,
+    "word": "port",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "sort",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "blue",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "avoid",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 8,
+    "importance_word": 0.01,
+    "word": "appear",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.035,
+    "word": "play",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.033,
+    "word": "minute",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.03,
+    "word": "scheveningen",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.028,
+    "word": "cheese",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.024,
+    "word": "set",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.022,
+    "word": "plenty",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.019,
+    "word": "young",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.018,
+    "word": "be",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.017,
+    "word": "game",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.016,
+    "word": "sure",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.016,
+    "word": "tourist",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.014,
+    "word": "re",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.014,
+    "word": "train",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.013,
+    "word": "early",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.013,
+    "word": "station",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.012,
+    "word": "enter",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "bad",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "store",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.011,
+    "word": "option",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "understand",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "detail",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "maybe",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "half",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "quick",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "fascinating",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "let",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "terrace",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "problem",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "quiet",
+    "default": "n"
+  },
+  {
+    "city": "south holland province",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "together",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.041,
+    "word": "purchase",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.035,
+    "word": "town",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.031,
+    "word": "light",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.029,
+    "word": "see",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.028,
+    "word": "landscape",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.025,
+    "word": "comment",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "night",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "guide",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "tour",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.022,
+    "word": "experience",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.021,
+    "word": "absolute",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.02,
+    "word": "arctic",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.019,
+    "word": "trip",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "participate",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.018,
+    "word": "great",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "shine",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "occasion",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "willing",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "snowy",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "snow_shoee",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.016,
+    "word": "make",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.016,
+    "word": "night",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.015,
+    "word": "cottage",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.015,
+    "word": "go",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.015,
+    "word": "delay",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.015,
+    "word": "everyday",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.014,
+    "word": "water",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "northern",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "thank",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "amazing",
+    "default": "y"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.028,
+    "word": "landscape",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.021,
+    "word": "absolute",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.02,
+    "word": "arctic",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "occasion",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "willing",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "snowy",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.016,
+    "word": "snow_shoee",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.014,
+    "word": "water",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "maximise",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "departure",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.011,
+    "word": "online",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.01,
+    "word": "showing",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "struggle",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "individual",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "terrific",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.009,
+    "word": "ball",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "naked_eye",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "celsius",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "trek",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.008,
+    "word": "appreciated",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "perform",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "mark",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "polar",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "heartbeat",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "fab",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "treasure",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "support",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "hand_warmer",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.007,
+    "word": "infectious",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 0,
+    "importance_word": 0.006,
+    "word": "utmost",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.031,
+    "word": "light",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.029,
+    "word": "see",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "night",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "guide",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.023,
+    "word": "tour",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.022,
+    "word": "experience",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.019,
+    "word": "trip",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.018,
+    "word": "great",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.016,
+    "word": "make",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.015,
+    "word": "cottage",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "northern",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "thank",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.014,
+    "word": "amazing",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.013,
+    "word": "stay",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.01,
+    "word": "good",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.009,
+    "word": "go",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.009,
+    "word": "really",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.009,
+    "word": "time",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.009,
+    "word": "activity",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "husky",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.008,
+    "word": "also",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "recommend",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "comfortable",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "asgard",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "week",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "even",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "fun",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "holiday",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 1,
+    "importance_word": 0.007,
+    "word": "location",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.016,
+    "word": "night",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.015,
+    "word": "go",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.014,
+    "word": "get",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "take",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.012,
+    "word": "see",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "day",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.011,
+    "word": "time",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.01,
+    "word": "good",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.009,
+    "word": "do",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.008,
+    "word": "drive",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.007,
+    "word": "well",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.007,
+    "word": "snow",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.007,
+    "word": "also",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.006,
+    "word": "cabin",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.006,
+    "word": "need",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.006,
+    "word": "back",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.006,
+    "word": "patrick",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "cold",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "first",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "light",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "sky",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "look",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "walk",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "hour",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "know",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "warm",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "trip",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "much",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.005,
+    "word": "cottage",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 2,
+    "importance_word": 0.004,
+    "word": "say",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.013,
+    "word": "new",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.011,
+    "word": "totally",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "choice",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.01,
+    "word": "valhalla_site",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.009,
+    "word": "trail",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.009,
+    "word": "south",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.009,
+    "word": "low",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "heating",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "tower",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "site",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.008,
+    "word": "space",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "quiet",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.007,
+    "word": "however",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "rather",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "reward",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "option",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "mostly",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "clear_skie",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "large",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "deck",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "information",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "km",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "perfectly",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "clear",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.006,
+    "word": "forget",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "fit",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "indeed",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "floor",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "text",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 3,
+    "importance_word": 0.005,
+    "word": "chance",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0.005,
+    "word": "goodbye",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "stratospheric",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "footprint",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "unwavere",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "hahaa",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "cleanliness",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "enjoyably",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "wisely",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "unforgetable",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "bedding",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "plain",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "considering",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "spate",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "savor",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "profound",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "melody",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "stoic",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "illuminate",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "filament",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "coalescing",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "anew",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "monochromatic",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "task",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "perception",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "tenuous",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "unconsciously",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "vibrancy",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "tune",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "unabashed",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 4,
+    "importance_word": 0,
+    "word": "graciousness",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.018,
+    "word": "shine",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.013,
+    "word": "factor",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.009,
+    "word": "professionally",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.008,
+    "word": "pursuit",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.004,
+    "word": "planned",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.002,
+    "word": "tomorrow",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.001,
+    "word": "spotting",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.001,
+    "word": "pleasurable",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.001,
+    "word": "thumbdrive",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.001,
+    "word": "distinguish",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0.001,
+    "word": "memento",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "auroar",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "lavuu",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "coeliac",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "separately",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "sophisticated",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "fie",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "assemble",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "occassion",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "curve",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "pillar",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "garbage",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "diet",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "tickle",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "personification",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "kph",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "learnt",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "prebooke",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "bf",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 5,
+    "importance_word": 0,
+    "word": "fraction",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0.013,
+    "word": "natural_phenomenon",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0.008,
+    "word": "dogsle",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0.008,
+    "word": "indigenous",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0.005,
+    "word": "dense",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "frequent",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "marry",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "overwhelm",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "lapand",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "fairy",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "costly",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "importance",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "precise",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "presence",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "plethora",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "reindeeer",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "battle",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "explaining",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "layover",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "deceive",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "declaration",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "exclude",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "indicate",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "ragnar",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "ˋˋcabin",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "lynx",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "gainesville",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "irani",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "frosty",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "auroro",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 6,
+    "importance_word": 0,
+    "word": "crystal",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "elmia",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "woman",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "intenary",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "destination",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "translation",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "hostess",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "tiina_maria",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "florence",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "ligts",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "fb",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "saunsa",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "girls_love",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "treatment",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "worried",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "varanger",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "uncertainty",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "cope",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "bird",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "tranquility",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "primarily",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "inlcude",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "allour",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "emilia",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "ruska",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "pizza",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "cup",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "imagination",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "gifted",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "flour",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 7,
+    "importance_word": 0,
+    "word": "drawer",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.035,
+    "word": "town",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.019,
+    "word": "participate",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.014,
+    "word": "anticipate",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.008,
+    "word": "convenient",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.004,
+    "word": "transportation",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.002,
+    "word": "comprise",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "danial",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "formation",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "explode",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "emphasis",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "antarctic",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "diligently",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "outerwear",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0.001,
+    "word": "answered",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "unconditionally",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "promised",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "levi",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "hostelry",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "iced",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "involvement",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "driveway",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "generously",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "immerse",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "additionally",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "shuffle",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "impose",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "baby",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "chain",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "west",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 8,
+    "importance_word": 0,
+    "word": "running",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.041,
+    "word": "purchase",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.025,
+    "word": "comment",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.015,
+    "word": "delay",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.015,
+    "word": "everyday",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.013,
+    "word": "paper",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.01,
+    "word": "disappear",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "professional_photographer",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "interest",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.009,
+    "word": "taste",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "occupant",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "newly",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.008,
+    "word": "fancy",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.007,
+    "word": "alarm",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.007,
+    "word": "justify",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.007,
+    "word": "winter_wonderland",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.006,
+    "word": "wherever",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.005,
+    "word": "facebook",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.005,
+    "word": "fee",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.005,
+    "word": "cash",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.005,
+    "word": "bearable",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.004,
+    "word": "incident",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.004,
+    "word": "substantial",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.004,
+    "word": "anecdote",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.004,
+    "word": "deposit",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.004,
+    "word": "pushy",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.004,
+    "word": "insist",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.003,
+    "word": "beach",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.003,
+    "word": "antler",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.003,
+    "word": "pee",
+    "default": "n"
+  },
+  {
+    "city": "utsjoki",
+    "topic": 9,
+    "importance_word": 0.003,
+    "word": "slightly",
+    "default": "n"
   }
 ]
