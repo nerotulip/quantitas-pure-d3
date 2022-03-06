@@ -110,6 +110,8 @@
                   .duration(250)
                   .style("opacity", 0.75)
                 d3.select(this).style("fill", "#FD6332")
+                const selectedCity =
+                  document.getElementById("selectButtonTopics").value
                 const hoveredDataset = newData
                   .filter((d) => d.city === selectedCity)
                   .filter((d) => d.topic === hoveredTopic)
@@ -120,12 +122,12 @@
                 d3.selectAll("circle.bubbles")
                   .style("opacity", 0.75)
                   .style("fill", "#61BFE4")
-                drawBarChart(
-                  newData
-                    .filter((d) => d.city === "province of vicenza")
-
-                    .filter((d) => d.default === "y")
-                )
+                const selectedCity =
+                  document.getElementById("selectButtonTopics").value
+                const defaultSelectedCity = newData
+                  .filter((d) => d.city === selectedCity)
+                  .filter((d) => d.default === "y")
+                drawBarChart(defaultSelectedCity, "default")
               })
 
             //Bubbles LABELS
@@ -239,13 +241,6 @@
               })
           }
 
-          drawBarChart(
-            newData
-              .filter((d) => d.city === "province of vicenza")
-
-              .filter((d) => d.default === "y")
-          )
-
           // SELECTION DROPDOWN  //////////////////////////
           d3.select("#selectButtonTopics")
             .selectAll("myOptions")
@@ -265,12 +260,20 @@
             drawBarChart(
               newData
                 .filter((d) => d.city === selectedOption)
-                .filter((d) => d.default === "y")
+                .filter((d) => d.default === "y"),
+              "default"
             )
           })
           const selectedCity =
             document.getElementById("selectButtonTopics").value
           console.log(selectedCity, "selected dropdown value")
+
+          drawBarChart(
+            newData
+              .filter((d) => d.city === selectedCity)
+              .filter((d) => d.default === "y"),
+            "default"
+          )
         })
     </script>
   </body>
