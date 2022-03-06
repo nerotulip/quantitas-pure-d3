@@ -16,7 +16,9 @@
   <body id="cluster_dataviz">
     <div id="header">
       <h1>Clusters of comments for each province</h1>
-      <div id="select-conteiner"><select id="selectButton"></select></div>
+      <div id="select-conteiner">
+        <select id="selectButtonClusters"></select>
+      </div>
     </div>
 
     <div id="legend"></div>
@@ -1370,7 +1372,7 @@
         .text((d) => d.label)
 
       // SELECTION DROPDOWN  //////////////////////////
-      d3.select("#selectButton")
+      d3.select("#selectButtonClusters")
         .selectAll("myOptions")
         .data(uniqueZones)
         .enter()
@@ -1382,7 +1384,7 @@
           return d
         })
 
-      d3.select("#selectButton").on("change", function (d) {
+      d3.select("#selectButtonClusters").on("change", function (d) {
         const selectedOption = d3.select(this).property("value")
         updateCity(selectedOption)
       })

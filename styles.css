@@ -20,6 +20,12 @@ h1 {
   top: 600px;
 }
 
+div.title {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 18;
+}
+
 #header {
   display: flex;
 }
@@ -59,15 +65,3 @@ select {
 select::-ms-expand {
   display: none;
 }
-/* 
-select {
-  width: 300px;
-
-  border-radius: 15px;
-  padding: 0.25em 0.5em;
-  font-size: 1.25rem;
-  cursor: pointer;
-  line-height: 1.1;
-  background-color: #3e3e3e;
-  color: white;
-} */
