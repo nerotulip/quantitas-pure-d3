@@ -38,7 +38,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  position: "absolute";
+  position: relative;
   left: "400px";
   padding: 14px 20px;
   height: 48px;
@@ -52,6 +52,8 @@ select {
   font-weight: 400;
   font-size: 15px;
   cursor: inherit;
+  /* background-position: right 5px top 50%;
+  background: url(dropdown_arrow.svg); */
 }
 
 select::-ms-expand {

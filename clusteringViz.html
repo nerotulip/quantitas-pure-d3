@@ -53,6 +53,10 @@
           "#FF5A5A",
         ])
 
+      // window.addEventListener("resize", () => {
+      //   drawCluster(dataset filtered from select)
+      // })
+
       //SCALES FOR CLUSTERS DISPOSITION
       const xScaleForce = d3
         .scaleLinear()
@@ -1253,17 +1257,17 @@
         .style("opacity", 0)
         .attr("class", "tooltip")
         .style("background-color", "white")
-        .style("width", "165px")
         .style("padding", "10px")
 
         .style("position", "absolute")
-        .style("width", "100px")
+        .style("width", "135px")
         .style("height", "80px")
         .style("background-color", "white")
         .style("border-radius", "15px")
         .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
         .style("font-family", "Noto Sans")
         .style("font-size", "14px")
+        .style("pointer-events", "none")
 
       Tooltip.append("div").attr("class", "title")
       Tooltip.append("div").attr("class", "reviews")

@@ -129,8 +129,12 @@
         .map((d) => d.words)[0]
 
       //SVG BUBBLES /////////////////////////////////////////////////////
-      const svgBubbles = d3
-        .select("#my_dataviz")
+
+      const svgBubbleWrapper = d3.select("#my_dataviz").append("div")
+
+      svgBubbleWrapper.append("div").attr("class", "title").text("miao")
+
+      const svgBubbles = svgBubbleWrapper
         .append("svg")
         .attr("width", width)
         .attr("height", height)
@@ -174,6 +178,7 @@
           .attr("y", (d) => yScaleBubble(d.pc2) + 4)
           .attr("font-family", "sans-serif")
           .style("text-anchor", "middle")
+          .style("pointer-events", "none")
           .text((d) => d.topic)
       }
 
@@ -201,8 +206,6 @@
           .selectAll("rect")
           .data(dataset, (d) => d.word)
           .join("rect")
-          //.attr("id", (d) => `rect-${d.topic}`)
-          //.attr("class", "bars")
           .attr("id", (d) => "rect-" + d.word)
           .attr("x", margins.left + 15)
           .attr("y", (d) => yScaleBars(d.word))
@@ -230,7 +233,11 @@
             svgBubbles
               .select("#circle-" + hoveredBarOut.topic)
               .style("stroke", "")
-            svgBars.selectAll("rect").style("opacity", 0.75)
+            svgBars
+              .selectAll("rect")
+              .transition()
+              .duration(150)
+              .style("opacity", 0.75)
           })
 
         // WORDS
@@ -244,6 +251,14 @@
           .attr("font-family", "sans-serif")
           .text((d) => d.word)
           .style("text-anchor", "end")
+          .on("mouseover", function (event) {
+            const hoveredWord = event.target.__data__
+
+            d3.select(this).style("font-weight", "800")
+          })
+          .on("mouseout", function (event) {
+            d3.select(this).style("font-weight", "400")
+          })
       }
 
       drawBarChart(dataCustomRects, "default")
