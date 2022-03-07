@@ -3,6 +3,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Sans"
+    />
     <title>Intertopic Clustering</title>
     <link rel="stylesheet" href="styles.css" />
     <script type="text/javascript" src="d3.js"></script>
@@ -540,7 +544,7 @@
             .domain([-0.5, 0.5])
             .range([margins.top, height - margins.bottom])
 
-          const circleScale = d3.scaleSqrt().domain([0, 100]).range([5, 70])
+          const circleScale = d3.scaleSqrt().domain([0, 100]).range([5, 120])
 
           // BARS SCALES
           const xScaleBars = d3
@@ -632,9 +636,10 @@
               .join("text")
               .attr("x", (d) => xScaleBubble(d.pc1))
               .attr("y", (d) => yScaleBubble(d.pc2) + 4)
-              .attr("font-family", "sans-serif")
+              .attr("font-family", "Noto Sans")
               .style("text-anchor", "middle")
               .style("pointer-events", "none")
+              .style("color", "rgba(0, 0, 0, 0.2)")
               .text((d) => d.topic)
           }
 
@@ -755,7 +760,6 @@
 
           d3.select("#selectButtonTopics").on("change", function (d) {
             const selectedOption = d3.select(this).property("value")
-            //selectedCity = d3.select(this).property("value")
             drawBarChart(
               newData
                 .filter((d) => d.city === selectedOption)

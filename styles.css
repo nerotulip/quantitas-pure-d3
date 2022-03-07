@@ -21,7 +21,7 @@ h1 {
 }
 
 div.title {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans";
   font-weight: 800;
   font-size: 18;
 }
@@ -39,6 +39,10 @@ div.title {
   padding: 14px 20px;
 }
 select {
+  background: url(dropdown_arrow.svg);
+  background-position: right 20px top 50%;
+  background-size: 13px;
+  background-repeat: no-repeat;
   appearance: "button";
   background-color: #3e3e3e;
   -webkit-appearance: none;
@@ -54,12 +58,10 @@ select {
   color: white;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans";
   font-weight: 400;
   font-size: 15px;
   cursor: inherit;
-  /* background-position: right 5px top 50%;
-  background: url(dropdown_arrow.svg); */
 }
 
 select::-ms-expand {

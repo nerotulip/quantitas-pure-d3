@@ -146,10 +146,10 @@
             .style("opacity", 0)
             .attr("class", "tooltip")
             .style("background-color", "white")
-            .style("padding", "10px")
+            .style("padding", "8px")
 
             .style("position", "absolute")
-            .style("width", "135px")
+            .style("width", "125px")
             .style("height", "80px")
             .style("background-color", "white")
             .style("border-radius", "15px")
@@ -166,7 +166,7 @@
             const bubble = d.target.__data__
             Tooltip.style("opacity", 1)
               .style("top", bubble.y - 20 + "px")
-              .style("left", bubble.x + 25 + "px")
+              .style("left", bubble.x + 20 + "px")
 
             Tooltip.select("div.title")
               .text(bubble.macro)
@@ -286,7 +286,7 @@
           const yScaleLegend = d3
             .scaleOrdinal()
             .domain(d3.range(0, 7))
-            .range([50, 80, 110, 140, 50, 80, 110])
+            .range([60, 90, 120, 150, 60, 90, 120])
 
           //LEGEND SVG /////////////////////////////
           const svgLegend = d3
@@ -297,7 +297,7 @@
             .style("top", "150px")
             .style("left", "86px")
             .style("width", "570px")
-            .style("height", "180px")
+            .style("height", "190px")
             .style("background-color", "white")
             .style("border-radius", "15px")
             .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
@@ -325,6 +325,15 @@
             .style("font-weight", "medium")
             .style("font-size", "12px")
             .text((d) => d)
+
+          svgLegend
+            .append("text")
+            .attr("class", "legendtitle")
+            .attr("x", 20)
+            .attr("y", 30)
+            .style("font-weight", "600")
+            .style("font-family", "Noto Sans")
+            .text("Macrosections")
         })
     </script>
   </body>
