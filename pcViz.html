@@ -20,16 +20,16 @@
       fetch("./all.json")
         .then((response) => response.json())
         .then((newData) => {
-          const width = 600
-          const height = 700
+          const width = 750
+          const height = 800
 
           const margins = {
             top: 50,
             right: 50,
-            left: 60,
+            left: 50,
             bottom: 50,
           }
-
+          const wordMargin = 25
           const uniqueCities = [...new Set(newData.map((d) => d.city))]
 
           const bubbleData = [
@@ -530,8 +530,6 @@
             },
           ]
 
-          console.log(d3.extent(bubbleData.map((d) => d.pc1)), "extent pc1")
-          console.log(d3.extent(bubbleData.map((d) => d.pc2)), "extent pc2")
           //BUBBLES SCALES
           const xScaleBubble = d3
             .scaleLinear()
@@ -548,7 +546,7 @@
           // BARS SCALES
           const xScaleBars = d3
             .scaleLinear()
-            .domain([0, 0.15])
+            .domain([0, 0.25])
             .range([0, width - margins.right])
 
           //SVG BUBBLES /////////////////////////////////////////////////////
@@ -561,6 +559,7 @@
           svgBubbleWrapper
             .append("div")
             .attr("class", "title")
+            .attr("id", "bubblestitle")
             .text("Intertopic Distance Map (via multidimensional scaling)")
 
           const svgBubbles = svgBubbleWrapper
@@ -636,6 +635,7 @@
               .selectAll("text")
               .data(dataset)
               .join("text")
+              .attr("id", (d) => d.topic)
               .attr("x", (d) => xScaleBubble(d.pc1))
               .attr("y", (d) => yScaleBubble(d.pc2) + 4)
               .attr("font-family", "Noto Sans")
@@ -649,16 +649,7 @@
             bubbleData.filter((d) => d.zone === "Province Of Vicenza")
           )
 
-          console.log(
-            bubbleData.filter((d) => d.zone === "Province Of Vicenza")
-          )
-
           //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
-
-          const vizContainer = d3
-            .select("#my_dataviz")
-            .append("div")
-            .attr("class", "vizContainer")
 
           const svgBarsWrapper = d3
             .select("#my_dataviz")
@@ -679,7 +670,7 @@
             const yScaleBars = d3
               .scaleOrdinal()
               .domain([])
-              .range(d3.range(margins.top, height - margins.bottom, 20))
+              .range(d3.range(margins.top, height - margins.bottom, 21))
 
             //RECTS
             svgBars
@@ -687,7 +678,7 @@
               .data(dataset, (d) => d.word)
               .join("rect")
               .attr("id", (d) => "rect-" + d.word)
-              .attr("x", margins.left + 15)
+              .attr("x", margins.left + wordMargin + 4)
               .attr("y", (d) => yScaleBars(d.word))
               .attr("width", (d) => xScaleBars(d.importance_word))
               .attr("height", 10)
@@ -739,18 +730,41 @@
               .data(dataset, (d) => d.word)
               .join("text")
               .attr("id", (d) => d.word)
-              .attr("x", margins.left + 10)
+              .attr("x", margins.left + wordMargin)
               .attr("y", (d) => yScaleBars(d.word) + 10)
               .attr("font-family", "sans-serif")
               .text((d) => d.word)
               .style("text-anchor", "end")
               .on("mouseover", function (event) {
                 const hoveredWord = event.target.__data__
+                console.log(event)
 
                 d3.select(this).style("font-weight", "800")
+                svgBars
+                  .selectAll("rect")
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.2)
+                svgBars
+                  .select("#rect-" + hoveredWord.word)
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.75)
+                svgBubbles.selectAll("circle").style("opacity", 0.2)
+                svgBubbles
+                  .select("#circle-" + hoveredWord.topic)
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.75)
               })
+
               .on("mouseout", function (event) {
                 d3.select(this).style("font-weight", "400")
+                svgBars
+                  .selectAll("rect")
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.75)
               })
           }
 
@@ -776,7 +790,6 @@
               "default"
             )
             drawBubblePlot(bubbleData.filter((d) => d.zone === selectedOption))
-            console.log()
           })
           const selectedCity =
             document.getElementById("selectButtonTopics").value
