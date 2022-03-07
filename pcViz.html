@@ -15,14 +15,13 @@
   <div id="select-conteiner">
     <select id="selectButtonTopics" class="selectButtonTopics"></select>
   </div>
-  <body id="my_dataviz" class="bubblechart">
-    <div id="cluster_viz"></div>
+  <body id="my_dataviz" class="pcchart">
     <script>
       fetch("./all.json")
         .then((response) => response.json())
         .then((newData) => {
-          const width = 800
-          const height = 900
+          const width = 600
+          const height = 700
 
           const margins = {
             top: 50,
@@ -554,7 +553,10 @@
 
           //SVG BUBBLES /////////////////////////////////////////////////////
 
-          const svgBubbleWrapper = d3.select("#my_dataviz").append("div")
+          const svgBubbleWrapper = d3
+            .select("#my_dataviz")
+            .append("div")
+            .attr("class", "bubbleWrapper")
 
           svgBubbleWrapper
             .append("div")
@@ -653,18 +655,25 @@
 
           //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
 
-          const svgBarsWrapper = d3.select("#my_dataviz").append("div")
+          const vizContainer = d3
+            .select("#my_dataviz")
+            .append("div")
+            .attr("class", "vizContainer")
+
+          const svgBarsWrapper = d3
+            .select("#my_dataviz")
+            .append("div")
+            .attr("class", "barsWrapper")
 
           svgBarsWrapper
             .append("div")
             .attr("class", "title")
             .text("Top 30 most salient terms")
-          const svgBars = d3
-            .select("#my_dataviz")
+
+          const svgBars = svgBarsWrapper
             .append("svg")
             .attr("width", width)
             .attr("height", height)
-          //.append("g")
 
           const drawBarChart = function (dataset, state) {
             const yScaleBars = d3
@@ -707,7 +716,7 @@
                   .transition()
                   .duration(200)
                   .style("opacity", 0.75)
-                  .style("stroke", "black")
+                // .style("stroke", "black")
               })
               .on("mouseout", function (event) {
                 const hoveredBarOut = event.target.__data__
