@@ -17,10 +17,6 @@ body {
 }
 
 h1 {
-  color: black;
-  font-size: 20px;
-  text-align: center;
-  padding: 10px;
 }
 
 #legend {
@@ -36,15 +32,17 @@ div.title {
   font-family: "Noto Sans";
   font-weight: 800;
   font-size: 18;
-}
-
-#header {
-  display: flex;
+  padding-top: 10px;
 }
 
 #bubblestitle {
+  padding-top: 10px;
   padding-left: 50px;
 }
+/* 
+#header {
+  display: flex;
+} */
 
 select {
   background: url(dropdown_arrow.svg);
@@ -71,8 +69,15 @@ select {
   font-size: 15px;
   cursor: inherit;
 }
+#selectButtonClusters {
+  /* position: absolute;
+  top: 0px; */
+  position: absolute;
+  top: 15px;
+  align-items: center;
+}
 
-.selectButtonTopics {
+#selectButtonTopics {
   position: absolute;
   top: 0px;
   left: 1250px;
@@ -80,4 +85,15 @@ select {
 
 select::-ms-expand {
   display: none;
+}
+
+#clustersTitle {
+  display: flex;
+  padding-top: 10px;
+  color: black;
+  font-size: 20px;
+  text-align: start;
+  text-anchor: middle;
+  padding: 15px;
+  font-family: "Noto Sans";
 }
