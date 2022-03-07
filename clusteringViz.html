@@ -27,11 +27,11 @@
         .then((response) => response.json())
         .then((dataClusters) => {
           const width = 1200
-          const height = 900
+          const height = 800
 
           const margins = {
             top: 100,
-            right: 50,
+            right: 60,
             left: 60,
             bottom: 50,
           }
@@ -66,12 +66,23 @@
           const xScaleForce = d3
             .scaleLinear()
             .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-            .range([200, 400, 600, 800, 1000, 200, 400, 600, 800, 1000])
+            .range([
+              200 + 100,
+              400 + 100,
+              600 + 100,
+              800 + 100,
+              1000 + 100,
+              200 + 100,
+              400 + 100,
+              600 + 100,
+              800 + 100,
+              1000 + 100,
+            ])
 
           const yScaleForce = d3
             .scaleLinear()
             .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-            .range([200, 200, 200, 200, 200, 500, 500, 500, 500, 500])
+            .range([170, 170, 170, 170, 170, 420, 420, 420, 420, 420])
 
           // SCALE FOR CIRCLE RADIUS
           const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
@@ -94,7 +105,7 @@
                   return circleScaleForce(d.percentage)
                 })
               )
-            simulation.tick(300)
+            simulation.tick(350)
 
             return simulation
           } //END FORCES FUNCTION //////////////////////////////////////
@@ -119,7 +130,6 @@
               (d) => d.zone === selectedGroup
             )
 
-            console.log(dataCityUpdated, "dataCityUpdated")
             const clustersGrouped = _.groupBy(
               dataCityUpdated,
               (d) => d.clusterId
@@ -132,8 +142,6 @@
             const unpackedData = Object.keys(clustersGrouped)
               .map((key) => clustersGrouped[key])
               .flat()
-
-            console.log(unpackedData, "unpackedData")
 
             updateViz(unpackedData)
           }
@@ -294,10 +302,10 @@
             .append("svg")
             .attr("class", "legend")
             .style("position", "absolute")
-            .style("top", "150px")
+            .style("top", "10px")
             .style("left", "86px")
-            .style("width", "570px")
-            .style("height", "190px")
+            .style("width", "560px")
+            .style("height", "195px")
             .style("background-color", "white")
             .style("border-radius", "15px")
             .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
@@ -330,7 +338,7 @@
             .append("text")
             .attr("class", "legendtitle")
             .attr("x", 20)
-            .attr("y", 30)
+            .attr("y", 32)
             .style("font-weight", "600")
             .style("font-family", "Noto Sans")
             .text("Macrosections")
