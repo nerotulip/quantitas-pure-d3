@@ -38,6 +38,29 @@
         .attr("class", "barsWrapper")
         .append("svg")
 
+      const UNIQUE_CITIES = [
+        "Province Of Vicenza",
+        "Antwerp Province",
+        "East Flanders",
+        "Dalmatia",
+        "South Holland Province",
+        "Utsjoki",
+        "Province Of Huesca",
+      ]
+
+      // SELECTION DROPDOWN  //////////////////////////
+      d3.select("#selectButtonTopics")
+        .selectAll("myOptions")
+        .data(UNIQUE_CITIES)
+        .enter()
+        .append("option")
+        .text(function (d) {
+          return d
+        })
+        .attr("value", function (d) {
+          return d
+        })
+
       function redraw() {
         const width = window.innerWidth / 2
         const height = window.innerHeight
@@ -739,7 +762,8 @@
                 .select("#rect-" + hoveredBar.word)
                 .transition()
                 .duration(200)
-                .style("opacity", 0.75)
+                .attr("fill", (d) => colorScale(d.topic))
+                .style("opacity", 11)
 
               svgBubbles.selectAll("circle").style("opacity", 0.1)
               svgBubbles
@@ -861,18 +885,7 @@
                 })
             }
 
-            // SELECTION DROPDOWN  //////////////////////////
-            d3.select("#selectButtonTopics")
-              .selectAll("myOptions")
-              .data(uniqueCities)
-              .enter()
-              .append("option")
-              .text(function (d) {
-                return d
-              })
-              .attr("value", function (d) {
-                return d
-              })
+            console.log(uniqueCities)
 
             d3.select("#selectButtonTopics").on("change", function (d) {
               const selectedOption = d3.select(this).property("value")

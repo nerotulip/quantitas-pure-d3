@@ -22,327 +22,343 @@
     </div>
 
     <div id="legend"></div>
+
     <script>
-      fetch("./ClustersFinal.json")
-        .then((response) => response.json())
-        .then((dataClusters) => {
-          const width = 1200
-          const height = 800
+      const svgLegend = d3
+        .select("#legend")
+        .append("svg")
+        .attr("class", "legend")
+        .style("position", "absolute")
+        .style("top", "10px")
+        .style("left", "86px")
+        .style("width", "560px")
+        .style("height", "195px")
+        .style("background-color", "white")
+        .style("border-radius", "15px")
+        .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
 
-          const margins = {
-            top: 100,
-            right: 60,
-            left: 60,
-            bottom: 50,
-          }
+      const svgClustering = d3
+        .select("body")
+        .append("svg")
+        .attr("position", "relative")
 
-          //COLOR SCALE FOR DIFFERENT MACROS
-          const colorScale = d3
-            .scaleOrdinal()
-            .domain([
-              "Tour and Activities",
-              "Bars and Clubs",
-              "Entertainment and events",
-              "Transports and services",
-              "Natural sites",
-              "Shopping",
-              "Relax and wellness",
-            ])
-            .range([
-              "#B2D329",
-              "#FF9900",
-              "#61BFE4",
-              "#5768FF",
-              "#589322",
-              "#BA3AE1",
-              "#FF5A5A",
-            ])
+      const UNIQUE_ZONES = [
+        "Province Of Vicenza",
+        "Antwerp Province",
+        "East Flanders",
+        "Dalmatia",
+        "South Holland Province",
+        "Utsjoki",
+        "Province Of Huesca",
+      ]
 
-          // window.addEventListener("resize", () => {
-          //   drawCluster(dataset filtered from select)
-          // })
+      // SELECTION DROPDOWN  //////////////////////////
+      d3.select("#selectButtonClusters")
+        .selectAll("myOptions")
+        .data(UNIQUE_ZONES)
+        .enter()
+        .append("option")
+        .text(function (d) {
+          return d
+        })
+        .attr("value", function (d) {
+          return d
+        })
 
-          //SCALES FOR CLUSTERS DISPOSITION
-          const xScaleForce = d3
-            .scaleLinear()
-            .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-            .range([
-              200 + 100,
-              400 + 100,
-              600 + 100,
-              800 + 100,
-              1000 + 100,
-              200 + 100,
-              400 + 100,
-              600 + 100,
-              800 + 100,
-              1000 + 100,
-            ])
+      function redraw() {
+        const width = window.innerWidth
+        const height = window.innerHeight
+        fetch("./ClustersFinal.json")
+          .then((response) => response.json())
+          .then((dataClusters) => {
+            const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
+            const uniqueMacro = [...new Set(dataClusters.map((d) => d.macro))]
 
-          const yScaleForce = d3
-            .scaleLinear()
-            .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-            .range([170, 170, 170, 170, 170, 420, 420, 420, 420, 420])
+            //////////////////  LEGEND LEGEND LEGEND LEGEND
 
-          // SCALE FOR CIRCLE RADIUS
-          const circleScaleForce = d3.scaleSqrt().domain([0, 1]).range([0, 40])
+            const xScaleLegend = d3
+              .scaleOrdinal()
+              .domain(uniqueMacro)
+              .range([20, 20, 20, 20, 280, 280, 280])
 
-          //FUNCTION SIMULATION FORCES  ///////////////////////////
-          function simulationForces(clusterData, clusterIndex) {
-            const simulation = d3
-              .forceSimulation(clusterData)
-              .force("charge", d3.forceManyBody().strength(80))
-              .force(
-                "center",
-                d3.forceCenter(
-                  xScaleForce(clusterIndex),
-                  yScaleForce(clusterIndex)
+            const yScaleLegend = d3
+              .scaleOrdinal()
+              .domain(d3.range(0, 7))
+              .range([60, 90, 120, 150, 60, 90, 120])
+
+            //COLOR SCALE FOR DIFFERENT MACROS
+            const colorScale = d3
+              .scaleOrdinal()
+              .domain([
+                "Tour and Activities",
+                "Bars and Clubs",
+                "Entertainment and events",
+                "Transports and services",
+                "Natural sites",
+                "Shopping",
+                "Relax and wellness",
+              ])
+              .range([
+                "#B2D329",
+                "#FF9900",
+                "#61BFE4",
+                "#5768FF",
+                "#589322",
+                "#BA3AE1",
+                "#FF5A5A",
+              ])
+
+            svgLegend
+              .selectAll("rect")
+              .data(uniqueMacro)
+              .join("rect")
+              .attr("x", (d, i) => xScaleLegend(d))
+              .attr("y", (d, i) => yScaleLegend(i))
+              .attr("width", "15")
+              .attr("height", "15")
+              .attr("fill", (d) => colorScale(d))
+              .attr("rx", "5px")
+              .attr("ry", "5px")
+
+            svgLegend
+              .selectAll("text")
+              .data(uniqueMacro)
+              .join("text")
+              .attr("x", (d, i) => xScaleLegend(d) + 25)
+              .attr("y", (d, i) => yScaleLegend(i) + 12)
+              .style("text-anchor", "start")
+              .style("font-family", "Noto Sans")
+              .style("font-weight", "medium")
+              .style("font-size", "12px")
+              .text((d) => d)
+
+            svgLegend
+              .append("text")
+              .attr("class", "legendtitle")
+              .attr("x", 20)
+              .attr("y", 32)
+              .style("font-weight", "600")
+              .style("font-family", "Noto Sans")
+              .text("Macrosections")
+
+            // const width = 1200
+            // const height = 800
+
+            const margins = {
+              top: 100,
+              right: 60,
+              left: 60,
+              bottom: 50,
+            }
+
+            // window.addEventListener("resize", () => {
+            //   drawCluster(dataset filtered from select)
+            // })
+            const xSpace = width / 6
+            const coord = d3.range(xSpace + 100, width, xSpace).map((d) => d)
+            console.log(coord)
+            //SCALES FOR CLUSTERS DISPOSITION
+            const xScaleForce = d3
+              .scaleLinear()
+              .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+              .range(coord)
+
+            const yScaleForce = d3
+              .scaleLinear()
+              .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+              .range([170, 170, 170, 170, 170, 420, 420, 420, 420, 420])
+
+            // SCALE FOR CIRCLE RADIUS
+            const circleScaleForce = d3
+              .scaleSqrt()
+              .domain([0, 1])
+              .range([0, 40])
+
+            //FUNCTION SIMULATION FORCES  ///////////////////////////
+            function simulationForces(clusterData, clusterIndex) {
+              const simulation = d3
+                .forceSimulation(clusterData)
+                .force("charge", d3.forceManyBody().strength(80))
+                .force(
+                  "center",
+                  d3.forceCenter(
+                    xScaleForce(clusterIndex),
+                    yScaleForce(clusterIndex)
+                  )
                 )
-              )
-              .force(
-                "collision",
-                d3.forceCollide().radius(function (d) {
-                  return circleScaleForce(d.percentage)
-                })
-              )
-            simulation.tick(300)
+                .force(
+                  "collision",
+                  d3.forceCollide().radius(function (d) {
+                    return circleScaleForce(d.percentage)
+                  })
+                )
+              simulation.tick(300)
 
-            return simulation
-          } //END FORCES FUNCTION //////////////////////////////////////
+              return simulation
+            } //END FORCES FUNCTION //////////////////////////////////////
 
-          const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
-          const uniqueMacro = [...new Set(dataClusters.map((d) => d.macro))]
-
-          const dataFiltered = dataClusters.filter(
-            (d) => d.zone === "Antwerp Province"
-          )
-
-          const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
-
-          for (const element in clustersGrouped) {
-            const data = clustersGrouped[element]
-            simulationForces(data, element)
-          }
-
-          /////////// FUNCTION
-          function updateCity(selectedGroup) {
-            const dataCityUpdated = dataClusters.filter(
-              (d) => d.zone === selectedGroup
+            const dataFiltered = dataClusters.filter(
+              (d) => d.zone === "Antwerp Province"
             )
 
-            const clustersGrouped = _.groupBy(
-              dataCityUpdated,
-              (d) => d.clusterId
-            )
+            const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)
 
             for (const element in clustersGrouped) {
               const data = clustersGrouped[element]
               simulationForces(data, element)
             }
-            const unpackedData = Object.keys(clustersGrouped)
-              .map((key) => clustersGrouped[key])
-              .flat()
 
-            updateViz(unpackedData)
-          }
+            /////////// FUNCTION
+            function updateCity(selectedGroup) {
+              const dataCityUpdated = dataClusters.filter(
+                (d) => d.zone === selectedGroup
+              )
 
-          // TOOLTIPS   ////////////////////////
+              const clustersGrouped = _.groupBy(
+                dataCityUpdated,
+                (d) => d.clusterId
+              )
 
-          const Tooltip = d3
-            .select("body")
-            .append("div")
-            .style("opacity", 0)
-            .attr("class", "tooltip")
-            .style("background-color", "white")
-            .style("padding", "8px")
+              for (const element in clustersGrouped) {
+                const data = clustersGrouped[element]
+                simulationForces(data, element)
+              }
+              const unpackedData = Object.keys(clustersGrouped)
+                .map((key) => clustersGrouped[key])
+                .flat()
 
-            .style("position", "absolute")
-            .style("width", "125px")
-            .style("height", "80px")
-            .style("background-color", "white")
-            .style("border-radius", "15px")
-            .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-            .style("font-family", "Noto Sans")
-            .style("font-size", "14px")
-            .style("pointer-events", "none")
+              updateViz(unpackedData)
+            }
 
-          Tooltip.append("div").attr("class", "title")
-          Tooltip.append("div").attr("class", "reviews")
-          Tooltip.append("div").attr("class", "nreviews")
+            // TOOLTIPS   ////////////////////////
 
-          const mouseover = function (d) {
-            const bubble = d.target.__data__
-            Tooltip.style("opacity", 1)
-              .style("top", bubble.y - 20 + "px")
-              .style("left", bubble.x + 20 + "px")
+            const Tooltip = d3
+              .select("body")
+              .append("div")
+              .style("opacity", 0)
+              .attr("class", "tooltip")
+              .style("background-color", "white")
+              .style("padding", "8px")
 
-            Tooltip.select("div.title")
-              .text(bubble.macro)
-              .style("color", colorScale(bubble.macro))
+              .style("position", "absolute")
+              .style("width", "125px")
+              .style("height", "80px")
+              .style("background-color", "white")
+              .style("border-radius", "15px")
+              .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
+              .style("font-family", "Noto Sans")
               .style("font-size", "14px")
-              .style("font-weight", "600")
+              .style("pointer-events", "none")
 
-            Tooltip.select("div.reviews")
-              .text("Reviews")
-              .style("color", "#7C7C7C")
-              .style("font-size", "12px")
-              .style("font-weight", "regular")
+            Tooltip.append("div").attr("class", "title")
+            Tooltip.append("div").attr("class", "reviews")
+            Tooltip.append("div").attr("class", "nreviews")
 
-            Tooltip.select("div.nreviews")
-              .text(bubble.nReviews)
-              .style("font-size", "18px")
-              .style("font-weight", "bold")
+            const mouseover = function (d) {
+              const bubble = d.target.__data__
+              Tooltip.style("opacity", 1)
+                .style("top", bubble.y - 20 + "px")
+                .style("left", bubble.x + 20 + "px")
 
-            d3.select(this).style("stroke", "black").style("opacity", 1)
-          }
-          const mouseleave = function (d) {
-            Tooltip.style("opacity", 0)
-            d3.select(this).style("stroke", "none")
-          }
-          // SVG CLUSTERING ////////////////////////////////////////////////////////////////
-          const svgClustering = d3
-            .select("body")
-            .append("svg")
-            .attr("position", "relative")
-            .attr("width", width)
-            .attr("height", height)
+              Tooltip.select("div.title")
+                .text(bubble.macro)
+                .style("color", colorScale(bubble.macro))
+                .style("font-size", "14px")
+                .style("font-weight", "600")
 
-          const svgStrokeGroup = svgClustering.append("g").attr("id", "stroke")
+              Tooltip.select("div.reviews")
+                .text("Reviews")
+                .style("color", "#7C7C7C")
+                .style("font-size", "12px")
+                .style("font-weight", "regular")
 
-          const svgBubbleGroup = svgClustering.append("g").attr("id", "bubbles")
+              Tooltip.select("div.nreviews")
+                .text(bubble.nReviews)
+                .style("font-size", "18px")
+                .style("font-weight", "bold")
 
-          // UPDATE VIZ FUNCTION
-          const updateViz = function (dataset) {
-            //STROKE CIRCLES
-            svgStrokeGroup
-              .selectAll("circle")
-              .data(dataset, (d) => d.macro + "-" + d.clusterId)
-              .join("circle")
-              .attr("class", "stroke")
-              .attr("cx", (bubble) => bubble.x)
-              .attr("cy", (bubble) => bubble.y)
-              .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-              .attr("opacity", "1")
-              .attr("stroke", "#E7E7E7")
-              .attr("stroke-width", "20")
+              d3.select(this).style("stroke", "black").style("opacity", 1)
+            }
+            const mouseleave = function (d) {
+              Tooltip.style("opacity", 0)
+              d3.select(this).style("stroke", "none")
+            }
+            // SVG CLUSTERING ////////////////////////////////////////////////////////////////
+            svgClustering.attr("width", width).attr("height", height)
 
-            //REAL CIRCLES
-            svgBubbleGroup
-              .selectAll("circle")
-              .data(dataset, (d) => d.macro + "-" + d.clusterId)
-              .join("circle")
-              .attr("class", "clusterBubbles")
-              .attr("cx", (bubble) => bubble.x)
-              .attr("cy", (bubble) => bubble.y)
-              .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-              .attr("fill", (bubble) => colorScale(bubble.macro))
-              .on("mouseover", mouseover)
-              .on("mouseout", mouseleave)
-          }
+            const svgStrokeGroup = svgClustering
+              .append("g")
+              .attr("id", "stroke")
 
-          updateViz(dataFiltered)
+            const svgBubbleGroup = svgClustering
+              .append("g")
+              .attr("id", "bubbles")
 
-          //CLUSTERS LABELS ///////////////////////////////////
-          const clusterLabels = [
-            { label: "Cluster 1", index: 0 },
-            { label: "Cluster 2", index: 1 },
-            { label: "Cluster 3", index: 2 },
-            { label: "Cluster 4", index: 3 },
-            { label: "Cluster 5", index: 4 },
-            { label: "Cluster 6", index: 5 },
-            { label: "Cluster 7", index: 6 },
-            { label: "Cluster 8", index: 7 },
-            { label: "Cluster 9", index: 8 },
-            { label: "Cluster 10", index: 9 },
-          ]
+            // UPDATE VIZ FUNCTION
+            const updateViz = function (dataset) {
+              //STROKE CIRCLES
+              svgStrokeGroup
+                .selectAll("circle")
+                .data(dataset, (d) => d.macro + "-" + d.clusterId)
+                .join("circle")
+                .attr("class", "stroke")
+                .attr("cx", (bubble) => bubble.x)
+                .attr("cy", (bubble) => bubble.y)
+                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+                .attr("opacity", "1")
+                .attr("stroke", "#E7E7E7")
+                .attr("stroke-width", "20")
 
-          svgClustering
-            .selectAll("text")
-            .data(clusterLabels)
-            .join("text")
-            .attr("class", "label")
-            .attr("x", (d) => xScaleForce(d.index) - 100)
-            .attr("y", (d) => yScaleForce(d.index) - 100)
-            .attr("font-family", "Noto Sans")
-            .text((d) => d.label)
+              //REAL CIRCLES
+              svgBubbleGroup
+                .selectAll("circle")
+                .data(dataset, (d) => d.macro + "-" + d.clusterId)
+                .join("circle")
+                .attr("class", "clusterBubbles")
+                .attr("cx", (bubble) => bubble.x)
+                .attr("cy", (bubble) => bubble.y)
+                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+                .attr("fill", (bubble) => colorScale(bubble.macro))
+                .on("mouseover", mouseover)
+                .on("mouseout", mouseleave)
+            }
 
-          // SELECTION DROPDOWN  //////////////////////////
-          d3.select("#selectButtonClusters")
-            .selectAll("myOptions")
-            .data(uniqueZones)
-            .enter()
-            .append("option")
-            .text(function (d) {
-              return d
+            updateViz(dataFiltered)
+
+            //CLUSTERS LABELS ///////////////////////////////////
+            const clusterLabels = [
+              { label: "Cluster 1", index: 0 },
+              { label: "Cluster 2", index: 1 },
+              { label: "Cluster 3", index: 2 },
+              { label: "Cluster 4", index: 3 },
+              { label: "Cluster 5", index: 4 },
+              { label: "Cluster 6", index: 5 },
+              { label: "Cluster 7", index: 6 },
+              { label: "Cluster 8", index: 7 },
+              { label: "Cluster 9", index: 8 },
+              { label: "Cluster 10", index: 9 },
+            ]
+
+            svgClustering
+              .selectAll("text")
+              .data(clusterLabels)
+              .join("text")
+              .attr("class", "label")
+              .attr("x", (d) => xScaleForce(d.index) - 100)
+              .attr("y", (d) => yScaleForce(d.index) - 100)
+              .attr("font-family", "Noto Sans")
+              .text((d) => d.label)
+
+            d3.select("#selectButtonClusters").on("change", function (d) {
+              const selectedOption = d3.select(this).property("value")
+              updateCity(selectedOption)
             })
-            .attr("value", function (d) {
-              return d
-            })
-
-          d3.select("#selectButtonClusters").on("change", function (d) {
-            const selectedOption = d3.select(this).property("value")
-            updateCity(selectedOption)
           })
+      }
 
-          //////////////////  LEGEND LEGEND LEGEND LEGEND
-
-          const xScaleLegend = d3
-            .scaleOrdinal()
-            .domain(uniqueMacro)
-            .range([20, 20, 20, 20, 280, 280, 280])
-
-          const yScaleLegend = d3
-            .scaleOrdinal()
-            .domain(d3.range(0, 7))
-            .range([60, 90, 120, 150, 60, 90, 120])
-
-          //LEGEND SVG /////////////////////////////
-          const svgLegend = d3
-            .select("#legend")
-            .append("svg")
-            .attr("class", "legend")
-            .style("position", "absolute")
-            .style("top", "10px")
-            .style("left", "86px")
-            .style("width", "560px")
-            .style("height", "195px")
-            .style("background-color", "white")
-            .style("border-radius", "15px")
-            .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-
-          svgLegend
-            .selectAll("rect")
-            .data(uniqueMacro)
-            .join("rect")
-            .attr("x", (d, i) => xScaleLegend(d))
-            .attr("y", (d, i) => yScaleLegend(i))
-            .attr("width", "15")
-            .attr("height", "15")
-            .attr("fill", (d) => colorScale(d))
-            .attr("rx", "5px")
-            .attr("ry", "5px")
-
-          svgLegend
-            .selectAll("text")
-            .data(uniqueMacro)
-            .join("text")
-            .attr("x", (d, i) => xScaleLegend(d) + 25)
-            .attr("y", (d, i) => yScaleLegend(i) + 12)
-            .style("text-anchor", "start")
-            .style("font-family", "Noto Sans")
-            .style("font-weight", "medium")
-            .style("font-size", "12px")
-            .text((d) => d)
-
-          svgLegend
-            .append("text")
-            .attr("class", "legendtitle")
-            .attr("x", 20)
-            .attr("y", 32)
-            .style("font-weight", "600")
-            .style("font-family", "Noto Sans")
-            .text("Macrosections")
-        })
+      redraw()
+      window.addEventListener("resize", redraw)
+      window.addEventListener("resize", () => console.log("ssss"))
     </script>
   </body>
 </html>
