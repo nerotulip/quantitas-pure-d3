@@ -544,7 +544,7 @@
           const circleScale = d3.scaleSqrt().domain([0, 100]).range([5, 120])
 
           // BARS SCALES
-          const xScaleBars = d3
+          const widthScaleBars = d3
             .scaleLinear()
             .domain([0, 0.25])
             .range([0, width - margins.right])
@@ -597,6 +597,8 @@
               .attr("cy", (d) => yScaleBubble(d.pc2))
               .attr("r", (d) => circleScale(d.tokensPercentage))
               .attr("fill", "#61BFE4")
+              .attr("stroke", "white")
+              .attr("stroke-width", "1.5")
               .style("opacity", 0.75)
               .on("mouseover", function (event) {
                 const hoveredTopic = event.target.__data__.topic
@@ -640,7 +642,7 @@
               .attr("font-family", "Noto Sans")
               .style("text-anchor", "middle")
               .style("pointer-events", "none")
-              .style("color", "rgba(0, 0, 0, 0.2)")
+              .style("opacity", 0.6)
               .text((d) => d.topic)
           }
 
@@ -678,9 +680,9 @@
               .data(dataset, (d) => d.word)
               .join("rect")
               .attr("id", (d) => "rect-" + d.word)
-              .attr("x", margins.left + wordMargin + 4)
+              .attr("x", margins.left + wordMargin + 18)
               .attr("y", (d) => yScaleBars(d.word))
-              .attr("width", (d) => xScaleBars(d.importance_word))
+              .attr("width", (d) => widthScaleBars(d.importance_word))
               .attr("height", 10)
               .attr("rx", 4)
               .attr("ry", 4)
