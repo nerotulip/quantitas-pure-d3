@@ -29,8 +29,21 @@
             left: 50,
             bottom: 50,
           }
-          const wordMargin = 25
+          const wordMargin = 40
           const uniqueCities = [...new Set(newData.map((d) => d.city))]
+
+          const colorScale = d3
+            .scaleOrdinal()
+            .domain([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+            .range([
+              "#B2D329",
+              "#FF9900",
+              "#61BFE4",
+              "#5768FF",
+              "#589322",
+              "#BA3AE1",
+              "#FF5A5A",
+            ])
 
           const bubbleData = [
             {
@@ -549,6 +562,47 @@
             .domain([0, 0.25])
             .range([0, width - margins.right])
 
+          //EVENT HANDLERS FUNCTIONS
+
+          const mouseOverBubble = function (event) {
+            const hoveredTopic = event.target.__data__.topic
+            d3.selectAll("circle.bubbles")
+              .transition()
+              .duration(200)
+              .style("opacity", 0.1)
+            d3.select(this).transition().duration(200).style("opacity", 0.75)
+            d3.select(this).style("fill", (d) => colorScale(d.topic))
+            const selectedCity =
+              document.getElementById("selectButtonTopics").value
+
+            svgBars.selectAll("rects").attr("fill", (d) => colorScale(d.topic))
+            const hoveredDataset = newData
+              .filter((d) => d.city === selectedCity)
+              .filter((d) => d.topic === hoveredTopic)
+            svgBarsWrapper
+              .select("div.title")
+              .text("Top 30 most salient terms for Cluster " + hoveredTopic)
+
+            drawBarChart(hoveredDataset, "hovered")
+          }
+
+          const mouseOutBubble = function (d) {
+            d3.selectAll("circle.bubbles")
+              .style("opacity", 0.75)
+              //.style("fill", (d) => colorScale(d.topic))
+              .style("fill", "#E4E4E4")
+
+            const selectedCity =
+              document.getElementById("selectButtonTopics").value
+            const defaultSelectedCity = newData
+              .filter((d) => d.city === selectedCity)
+              .filter((d) => d.default === "y")
+
+            svgBarsWrapper.select("div.title").text("Top 30 most salient terms")
+
+            drawBarChart(defaultSelectedCity, "default")
+          }
+
           //SVG BUBBLES /////////////////////////////////////////////////////
 
           const svgBubbleWrapper = d3
@@ -596,54 +650,39 @@
               .attr("cx", (d) => xScaleBubble(d.pc1))
               .attr("cy", (d) => yScaleBubble(d.pc2))
               .attr("r", (d) => circleScale(d.tokensPercentage))
-              .attr("fill", "#61BFE4")
-              .attr("stroke", "white")
-              .attr("stroke-width", "1.5")
+              //.attr("fill", (d) => colorScale(d.topic))
+              .attr("fill", "#E4E4E4")
+              //.attr("stroke", (d) => colorScale(d.topic))
+              .attr("stroke-width", "2")
               .style("opacity", 0.75)
-              .on("mouseover", function (event) {
-                const hoveredTopic = event.target.__data__.topic
-                d3.selectAll("circle.bubbles")
-                  .transition()
-                  .duration(200)
-                  .style("opacity", 0.1)
-                d3.select(this)
-                  .transition()
-                  .duration(200)
-                  .style("opacity", 0.75)
-                d3.select(this).style("fill", "#FD6332")
-                const selectedCity =
-                  document.getElementById("selectButtonTopics").value
-                const hoveredDataset = newData
-                  .filter((d) => d.city === selectedCity)
-                  .filter((d) => d.topic === hoveredTopic)
+              .on("mouseover", mouseOverBubble)
+              .on("mouseout", mouseOutBubble)
 
-                drawBarChart(hoveredDataset)
-              })
-              .on("mouseout", function (d) {
-                d3.selectAll("circle.bubbles")
-                  .style("opacity", 0.75)
-                  .style("fill", "#61BFE4")
-                const selectedCity =
-                  document.getElementById("selectButtonTopics").value
-                const defaultSelectedCity = newData
-                  .filter((d) => d.city === selectedCity)
-                  .filter((d) => d.default === "y")
-                drawBarChart(defaultSelectedCity, "default")
-              })
+            svgBubbles
+              .selectAll("innercircles")
+              .data(dataset)
+              .join("circle")
+              .attr("class", "bubbles-center")
+
+              .attr("cx", (d) => xScaleBubble(d.pc1))
+              .attr("cy", (d) => yScaleBubble(d.pc2))
+              .attr("r", 5)
+              .attr("fill", (d) => colorScale(d.topic))
+              .style("opacity", 1)
 
             //Bubbles LABELS
-            svgBubbles
-              .selectAll("text")
-              .data(dataset)
-              .join("text")
-              .attr("id", (d) => d.topic)
-              .attr("x", (d) => xScaleBubble(d.pc1))
-              .attr("y", (d) => yScaleBubble(d.pc2) + 4)
-              .attr("font-family", "Noto Sans")
-              .style("text-anchor", "middle")
-              .style("pointer-events", "none")
-              .style("opacity", 0.6)
-              .text((d) => d.topic)
+            // svgBubbles
+            //   .selectAll("text")
+            //   .data(dataset)
+            //   .join("text")
+            //   .attr("id", (d) => d.topic)
+            //   .attr("x", (d) => xScaleBubble(d.pc1))
+            //   .attr("y", (d) => yScaleBubble(d.pc2) + 4)
+            //   .attr("font-family", "Noto Sans")
+            //   .style("text-anchor", "middle")
+            //   .style("pointer-events", "none")
+            //   .style("opacity", 0.6)
+            //   .text((d) => d.topic)
           }
 
           drawBubblePlot(
@@ -651,6 +690,43 @@
           )
 
           //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
+
+          const mouseOverBar = function (event) {
+            const hoveredBar = event.target.__data__
+            svgBars.select("#" + hoveredBar.word).style("font-weight", "bold")
+            svgBars
+              .selectAll("rect")
+              .transition()
+              .duration(200)
+              .style("opacity", 0.2)
+            svgBars
+              .select("#rect-" + hoveredBar.word)
+              .transition()
+              .duration(200)
+              .style("opacity", 0.75)
+
+            svgBubbles.selectAll("circle").style("opacity", 0.1)
+            svgBubbles
+              .select("#circle-" + hoveredBar.topic)
+              .transition()
+              .duration(200)
+              .style("fill", (d) => colorScale(d.topic))
+              .style("opacity", 0.75)
+            // .style("stroke", "black")
+          }
+
+          const mouseOutBar = function (event) {
+            const hoveredBarOut = event.target.__data__
+            svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
+            d3.selectAll("circle").style("opacity", 0.75)
+
+            svgBubbles.selectAll("circle").style("stroke", "")
+            svgBars
+              .selectAll("rect")
+              .transition()
+              .duration(200)
+              .style("opacity", 0.75)
+          }
 
           const svgBarsWrapper = d3
             .select("#my_dataviz")
@@ -672,7 +748,7 @@
             const yScaleBars = d3
               .scaleOrdinal()
               .domain([])
-              .range(d3.range(margins.top, height - margins.bottom, 23))
+              .range(d3.range(margins.top, height - margins.bottom, 24))
 
             //RECTS
             svgBars
@@ -680,51 +756,46 @@
               .data(dataset, (d) => d.word)
               .join("rect")
               .attr("id", (d) => "rect-" + d.word)
-              .attr("x", margins.left + wordMargin + 18)
+              .attr("class", "datarects")
+              .attr("x", margins.left + wordMargin + 25)
               .attr("y", (d) => yScaleBars(d.word))
               .attr("width", (d) => widthScaleBars(d.importance_word))
-              .attr("height", 10)
-              .attr("rx", 4)
-              .attr("ry", 4)
-              .attr("fill", state === "default" ? "#61BFE4" : "#FD6332")
-              .on("mouseover", function (event) {
-                const hoveredBar = event.target.__data__
-                svgBars
-                  .select("#" + hoveredBar.word)
-                  .style("font-weight", "bold")
-                svgBars
-                  .selectAll("rect")
-                  .transition()
-                  .duration(200)
-                  .style("opacity", 0.2)
-                svgBars
-                  .select("#rect-" + hoveredBar.word)
-                  .transition()
-                  .duration(200)
-                  .style("opacity", 0.75)
+              .attr("height", 12)
+              .attr("rx", 3)
+              .attr("ry", 3)
+              //.attr("fill", state === "default" ? "#61BFE4" : "#FD6332")
+              // .attr(
+              //   "fill",
+              //   state === "hovered" ? (d) => colorScale(d.topic) : "#E4E4E4"
+              // )
+              .attr(
+                "fill",
+                state === "default" ? "#CECDCD" : (d) => colorScale(d.topic)
+              )
 
-                svgBubbles.selectAll("circle").style("opacity", 0.1)
-                svgBubbles
-                  .select("#circle-" + hoveredBar.topic)
-                  .transition()
-                  .duration(200)
-                  .style("opacity", 0.75)
-                // .style("stroke", "black")
-              })
-              .on("mouseout", function (event) {
-                const hoveredBarOut = event.target.__data__
-                svgBars
-                  .select("#" + hoveredBarOut.word)
-                  .style("font-weight", 400)
-                d3.selectAll("circle").style("opacity", 0.75)
+              // .attr("stroke", (d) => colorScale(d.topic))
+              .style("stroke-width", 1)
+              .style("opacity", 1)
 
-                svgBubbles.selectAll("circle").style("stroke", "")
-                svgBars
-                  .selectAll("rect")
-                  .transition()
-                  .duration(200)
-                  .style("opacity", 0.75)
-              })
+              .on("mouseover", mouseOverBar)
+              .on("mouseout", mouseOutBar)
+
+            if (state === "default") {
+              //DOUBLE BARS
+              svgBars
+                .selectAll("x")
+                .data(dataset, (d) => d.word)
+                .join("rect")
+                //.attr("id", (d) => "rect-" + d.word)
+                .attr("x", margins.left + wordMargin + 25)
+                .attr("y", (d) => yScaleBars(d.word))
+                .attr("fill", (d) => colorScale(d.topic))
+                .attr("width", 10)
+                .attr("height", 12)
+                .attr("rx", 3)
+                .attr("ry", 3)
+                .style("pointer-events", "none")
+            }
 
             // WORDS
             svgBars
@@ -734,9 +805,10 @@
               .attr("id", (d) => d.word)
               .attr("x", margins.left + wordMargin)
               .attr("y", (d) => yScaleBars(d.word) + 10)
-              .attr("font-family", "sans-serif")
+              .attr("font-family", "Noto Sans")
               .text((d) => d.word)
               .style("text-anchor", "end")
+
               .on("mouseover", function (event) {
                 const hoveredWord = event.target.__data__
 
