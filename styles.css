@@ -73,9 +73,9 @@ select {
 }
 
 .selectButtonTopics {
-  position: absolute;
+  /* position: absolute; */
   top: 4px;
-  left: 1250px;
+  left: 80%;
 }
 
 #select-conteiner {
