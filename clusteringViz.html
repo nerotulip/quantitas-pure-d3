@@ -52,6 +52,10 @@
         "Province Of Huesca",
       ]
 
+      const svgStrokeGroup = svgClustering.append("g").attr("id", "stroke")
+
+      const svgBubbleGroup = svgClustering.append("g").attr("id", "bubbles")
+
       // SELECTION DROPDOWN  //////////////////////////
       d3.select("#selectButtonClusters")
         .selectAll("myOptions")
@@ -155,13 +159,17 @@
             //   drawCluster(dataset filtered from select)
             // })
             const xSpace = width / 6
-            const coord = d3.range(xSpace + 100, width, xSpace).map((d) => d)
-            console.log(coord)
+            const coord = d3
+              .range(xSpace - 10, width - margins.right, xSpace)
+              .map((d) => d)
+            console.log(coord.concat(coord))
             //SCALES FOR CLUSTERS DISPOSITION
             const xScaleForce = d3
               .scaleLinear()
               .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-              .range(coord)
+              .range(coord.concat(coord))
+
+            console.log(xScaleForce(6))
 
             const yScaleForce = d3
               .scaleLinear()
@@ -285,14 +293,6 @@
             }
             // SVG CLUSTERING ////////////////////////////////////////////////////////////////
             svgClustering.attr("width", width).attr("height", height)
-
-            const svgStrokeGroup = svgClustering
-              .append("g")
-              .attr("id", "stroke")
-
-            const svgBubbleGroup = svgClustering
-              .append("g")
-              .attr("id", "bubbles")
 
             // UPDATE VIZ FUNCTION
             const updateViz = function (dataset) {
