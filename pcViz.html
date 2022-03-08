@@ -13,7 +13,7 @@
     <script type="text/javascript" src="lodash.js"></script>
   </head>
   <div id="select-conteiner">
-    <select id="selectButtonTopics"></select>
+    <select id="selectButtonTopics" class="selectButtonTopics"></select>
   </div>
   <body id="my_dataviz" class="pcchart">
     <script>
@@ -29,7 +29,7 @@
             left: 50,
             bottom: 50,
           }
-          const wordMargin = 45
+          const wordMargin = 25
           const uniqueCities = [...new Set(newData.map((d) => d.city))]
 
           const bubbleData = [
@@ -585,14 +585,6 @@
             .style("stroke", "#BDBDBD")
             .style("opacity", 1)
 
-          svgBubbles
-            .append("text")
-            .attr("x", margins.left)
-            .attr("y", height / 2)
-            .attr("font-family", "Noto Sans")
-            .style("text-anchor", "middle")
-            .text("PC1")
-
           function drawBubblePlot(dataset) {
             //Bubbles
             svgBubbles
@@ -608,16 +600,15 @@
               .style("opacity", 0.75)
               .on("mouseover", function (event) {
                 const hoveredTopic = event.target.__data__.topic
-                // d3.selectAll("circle.bubbles")
-                //   .transition()
-                //   .duration(200)
-                //   .style("opacity", 0.1)
+                d3.selectAll("circle.bubbles")
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.1)
                 d3.select(this)
                   .transition()
                   .duration(200)
                   .style("opacity", 0.75)
                 d3.select(this).style("fill", "#FD6332")
-                console.log(event.target.__data__.zone)
                 const selectedCity =
                   document.getElementById("selectButtonTopics").value
                 const hoveredDataset = newData
@@ -649,7 +640,7 @@
               .attr("font-family", "Noto Sans")
               .style("text-anchor", "middle")
               .style("pointer-events", "none")
-              // .style("color", "rgba(0, 0, 0, 0.2)")
+              .style("color", "rgba(0, 0, 0, 0.2)")
               .text((d) => d.topic)
           }
 
@@ -667,6 +658,7 @@
           svgBarsWrapper
             .append("div")
             .attr("class", "title")
+            .attr("id", "barstitle")
             .text("Top 30 most salient terms")
 
           const svgBars = svgBarsWrapper
@@ -678,7 +670,7 @@
             const yScaleBars = d3
               .scaleOrdinal()
               .domain([])
-              .range(d3.range(margins.top, height - margins.bottom, 21))
+              .range(d3.range(margins.top, height - margins.bottom, 23))
 
             //RECTS
             svgBars
@@ -709,12 +701,13 @@
                   .duration(200)
                   .style("opacity", 0.75)
 
-                svgBubbles.selectAll("circle").style("opacity", 0.2)
+                svgBubbles.selectAll("circle").style("opacity", 0.1)
                 svgBubbles
                   .select("#circle-" + hoveredBar.topic)
                   .transition()
                   .duration(200)
                   .style("opacity", 0.75)
+                // .style("stroke", "black")
               })
               .on("mouseout", function (event) {
                 const hoveredBarOut = event.target.__data__
@@ -742,37 +735,36 @@
               .attr("font-family", "sans-serif")
               .text((d) => d.word)
               .style("text-anchor", "end")
-            // .on("mouseover", function (event) {
-            //   const hoveredWord = event.target.__data__
-            //   console.log(event)
+              .on("mouseover", function (event) {
+                const hoveredWord = event.target.__data__
 
-            //   d3.select(this).style("font-weight", "800")
-            //   svgBars
-            //     .selectAll("rect")
-            //     .transition()
-            //     .duration(200)
-            //     .style("opacity", 0.2)
-            //   svgBars
-            //     .select("#rect-" + hoveredWord.word)
-            //     .transition()
-            //     .duration(200)
-            //     .style("opacity", 0.75)
-            //   svgBubbles.selectAll("circle").style("opacity", 0.2)
-            //   svgBubbles
-            //     .select("#circle-" + hoveredWord.topic)
-            //     .transition()
-            //     .duration(200)
-            //     .style("opacity", 0.75)
-            // })
+                d3.select(this).style("font-weight", "800")
+                svgBars
+                  .selectAll("rect")
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.2)
+                svgBars
+                  .select("#rect-" + hoveredWord.word)
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.75)
+                svgBubbles.selectAll("circle").style("opacity", 0.1)
+                svgBubbles
+                  .select("#circle-" + hoveredWord.topic)
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.75)
+              })
 
-            // .on("mouseout", function (event) {
-            //   d3.select(this).style("font-weight", "400")
-            //   svgBars
-            //     .selectAll("rect")
-            //     .transition()
-            //     .duration(200)
-            //     .style("opacity", 0.75)
-            // })
+              .on("mouseout", function (event) {
+                d3.select(this).style("font-weight", "400")
+                svgBars
+                  .selectAll("rect")
+                  .transition()
+                  .duration(200)
+                  .style("opacity", 0.75)
+              })
           }
 
           // SELECTION DROPDOWN  //////////////////////////
@@ -800,7 +792,6 @@
           })
           const selectedCity =
             document.getElementById("selectButtonTopics").value
-          console.log(selectedCity, "selected dropdown value")
 
           drawBarChart(
             newData
