@@ -648,8 +648,8 @@
             const mouseOutBubble = function (d) {
               d3.selectAll("circle.bubbles")
                 .style("opacity", 0.75)
-                //.style("fill", (d) => colorScale(d.topic))
-                .style("fill", "#E4E4E4")
+                .style("fill", (d) => colorScale(d.topic))
+              //.style("fill", "#E4E4E4")
 
               const selectedCity =
                 document.getElementById("selectButtonTopics").value
@@ -707,25 +707,25 @@
                 .attr("cx", (d) => xScaleBubble(d.pc1))
                 .attr("cy", (d) => yScaleBubble(d.pc2))
                 .attr("r", (d) => circleScale(d.tokensPercentage))
-                //.attr("fill", (d) => colorScale(d.topic))
-                .attr("fill", "#E4E4E4")
-                //.attr("stroke", (d) => colorScale(d.topic))
-                .attr("stroke-width", "2")
+                .attr("fill", (d) => colorScale(d.topic))
+                //.attr("fill", "#E4E4E4")
+                //.attr("stroke", "#CECDCD")
+                //.attr("stroke-width", "2")
                 .style("opacity", 0.75)
                 .on("mouseover", mouseOverBubble)
                 .on("mouseout", mouseOutBubble)
 
-              svgBubbles
-                .selectAll("innercircles")
-                .data(dataset)
-                .join("circle")
-                .attr("class", "bubbles-center")
+              // svgBubbles
+              //   .selectAll("innercircles")
+              //   .data(dataset)
+              //   .join("circle")
+              //   .attr("class", "bubbles-center")
 
-                .attr("cx", (d) => xScaleBubble(d.pc1))
-                .attr("cy", (d) => yScaleBubble(d.pc2))
-                .attr("r", 5)
-                .attr("fill", (d) => colorScale(d.topic))
-                .style("opacity", 1)
+              //   .attr("cx", (d) => xScaleBubble(d.pc1))
+              //   .attr("cy", (d) => yScaleBubble(d.pc2))
+              //   .attr("r", 5)
+              //   .attr("fill", (d) => colorScale(d.topic))
+              //   .style("opacity", 1)
 
               //Bubbles LABELS
               // svgBubbles
@@ -781,12 +781,15 @@
               svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
               d3.selectAll("circle").style("opacity", 0.75)
 
-              drawBarChart(
-                newData
-                  .filter((d) => d.city === selectedOption)
-                  .filter((d) => d.default === "y"),
-                "default"
-              )
+              const dd = newData
+                .filter(
+                  (d) =>
+                    d.city ===
+                    document.getElementById("selectButtonTopics").value
+                )
+                .filter((d) => d.default === "y")
+
+              drawBarChart(dd, "default")
 
               //svgBubbles.selectAll("circle").style("stroke", "")
               // svgBars
@@ -800,10 +803,13 @@
             const paddingRects = width / 2
 
             const drawBarChart = function (dataset, state) {
+              console.log(window.innerHeight, "weight")
               const yScaleBars = d3
                 .scaleOrdinal()
                 .domain([])
-                .range(d3.range(margins.top, height - margins.bottom, 24))
+                .range(
+                  d3.range(margins.top, height - margins.bottom, height / 34)
+                )
 
               //RECTS
               svgBars
@@ -815,7 +821,7 @@
                 .attr("x", margins.left + wordMargin + 25)
                 .attr("y", (d) => yScaleBars(d.word))
                 .attr("width", (d) => widthScaleBars(d.importance_word))
-                .attr("height", 12)
+                .attr("height", height / 68.6)
                 .attr("rx", 3)
                 .attr("ry", 3)
                 //.attr("fill", state === "default" ? "#61BFE4" : "#FD6332")
@@ -845,8 +851,8 @@
                   .attr("x", margins.left + wordMargin + 25)
                   .attr("y", (d) => yScaleBars(d.word))
                   .attr("fill", (d) => colorScale(d.topic))
-                  .attr("width", 10)
-                  .attr("height", 12)
+                  .attr("width", 8)
+                  .attr("height", height / 68.6)
                   .attr("rx", 3)
                   .attr("ry", 3)
                   .style("pointer-events", "none")
