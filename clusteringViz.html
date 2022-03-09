@@ -70,7 +70,7 @@
 
       function redraw() {
         const width = window.innerWidth
-        const height = width > 650 ? window.innerHeight + 300 : 1400
+        const height = width > 650 ? window.innerHeight + 300 : 1500
         fetch("./ClustersFinal.json")
           .then((response) => response.json())
           .then((dataClusters) => {
@@ -167,7 +167,7 @@
 
             const yCoord = [170, 170, 170, 170, 170, 420, 420, 420, 420, 420]
             const yCoordMobile = [
-              180, 180, 430, 430, 680, 680, 930, 930, 1180, 1180,
+              200, 200, 450, 450, 700, 700, 950, 950, 1200, 1200,
             ]
 
             //SCALES FOR CLUSTERS DISPOSITION
