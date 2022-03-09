@@ -20,7 +20,6 @@
         <select id="selectButtonClusters"></select>
       </div>
     </div>
-
     <div id="legend"></div>
 
     <script>
@@ -29,8 +28,8 @@
         .append("svg")
         .attr("class", "legend")
         .style("position", "absolute")
-        .style("top", "10px")
-        .style("left", "86px")
+        // .style("top", "10px")
+        // .style("left", "86px")
         .style("width", "560px")
         .style("height", "195px")
         .style("background-color", "white")
@@ -71,7 +70,7 @@
 
       function redraw() {
         const width = window.innerWidth
-        const height = width > 650 ? window.innerHeight : 1400
+        const height = width > 650 ? window.innerHeight + 300 : 1400
         fetch("./ClustersFinal.json")
           .then((response) => response.json())
           .then((dataClusters) => {
@@ -157,13 +156,18 @@
               .range(xSpace - 10, width - margins.right, xSpace)
               .map((d) => d)
 
+            console.log(
+              d3.range(margins.left, width - margins.right, 200),
+              "mobile range"
+            )
+
             const xCoordMobile = [
-              200, 400, 200, 400, 200, 400, 200, 400, 200, 400,
+              170, 370, 170, 370, 170, 370, 170, 370, 170, 370,
             ]
 
             const yCoord = [170, 170, 170, 170, 170, 420, 420, 420, 420, 420]
             const yCoordMobile = [
-              170, 170, 420, 420, 670, 670, 920, 920, 1170, 1170,
+              180, 180, 430, 430, 680, 680, 930, 930, 1180, 1180,
             ]
 
             //SCALES FOR CLUSTERS DISPOSITION
@@ -201,7 +205,7 @@
                     return circleScaleForce(d.percentage)
                   })
                 )
-              simulation.tick(300)
+              simulation.tick(500)
 
               return simulation
             } //END FORCES FUNCTION //////////////////////////////////////
