@@ -8,7 +8,7 @@
       href="https://fonts.googleapis.com/css?family=Noto+Sans"
     />
     <title>Intertopic Clustering</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pcVizstyle.css" />
     <script type="text/javascript" src="d3.js"></script>
     <script type="text/javascript" src="lodash.js"></script>
   </head>
@@ -17,20 +17,37 @@
   </div>
   <body id="my_dataviz" class="pcchart">
     <script>
-      const svgBubbleWrapper = d3
+      const firstWrapBubble = d3
         .select("#my_dataviz")
         .append("div")
-        .attr("class", "bubbleWrapper")
-        .append("svg")
+        .attr("class", "firstWrapBubble")
+        .attr("id", "firstWrapBubble")
 
-      svgBubbleWrapper
+      firstWrapBubble
         .append("div")
         .attr("class", "title")
         .attr("id", "bubblestitle")
         .text("Intertopic Distance Map (via multidimensional scaling)")
 
-      const svgBarsWrapper = d3
+      const svgBubbleWrapper = d3
+        .select("#firstWrapBubble")
+        .append("div")
+        .attr("class", "bubbleWrapper")
+        .append("svg")
+
+      const firstWrapBars = d3
         .select("#my_dataviz")
+        .append("div")
+        .attr("class", "firstWrapBars")
+        .attr("id", "firstWrapBars")
+
+      const titleBar = firstWrapBars
+        .append("div")
+        .attr("class", "title")
+        .attr("id", "barstitle")
+
+      const svgBarsWrapper = d3
+        .select("#firstWrapBars")
         .append("div")
         .attr("class", "barsWrapper")
         .append("svg")
@@ -64,9 +81,6 @@
         fetch("./all.json")
           .then((response) => response.json())
           .then((newData) => {
-            // const width = 750
-            // const height = 800
-
             const svgBubbles = svgBubbleWrapper
               .attr("width", width)
               .attr("height", height)
@@ -74,11 +88,8 @@
             const svgBars = svgBarsWrapper
               .attr("width", width)
               .attr("height", height)
-            svgBarsWrapper
-              .append("div")
-              .attr("class", "title")
-              .attr("id", "barstitle")
-              .text("Top 30 most salient terms")
+
+            titleBar.text("Top 30 most salient terms")
 
             const margins = {
               top: 50,
@@ -638,8 +649,8 @@
               const hoveredDataset = newData
                 .filter((d) => d.city === selectedCity)
                 .filter((d) => d.topic === hoveredTopic)
-              svgBarsWrapper
-                .select("div.title")
+              titleBar
+                //.select("div.title")
                 .text("Top 30 most salient terms for Cluster " + hoveredTopic)
 
               drawBarChart(hoveredDataset, "hovered")
@@ -657,9 +668,7 @@
                 .filter((d) => d.city === selectedCity)
                 .filter((d) => d.default === "y")
 
-              svgBarsWrapper
-                .select("div.title")
-                .text("Top 30 most salient terms")
+              titleBar.text("Top 30 most salient terms")
 
               drawBarChart(defaultSelectedCity, "default")
             }

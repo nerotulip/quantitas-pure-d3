@@ -1,15 +1,3 @@
-body.pcchart {
-  display: flex;
-}
-
-.bubbleWrapper {
-  flex: 1;
-}
-
-.barsWrapper {
-  flex: 2;
-}
-
 body {
   background-color: #f6f6f6;
   font-family: "Noto Sans", sans-serif;
@@ -104,14 +92,4 @@ select {
 
 select::-ms-expand {
   display: none;
-}
-
-#bubblestitle {
-  padding-top: 12px;
-  font-weight: 700;
-}
-
-#barstitle {
-  padding-top: 12px;
-  font-weight: 700;
 }
