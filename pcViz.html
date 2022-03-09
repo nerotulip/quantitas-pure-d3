@@ -743,7 +743,10 @@
             }
 
             drawBubblePlot(
-              bubbleData.filter((d) => d.zone === "Province Of Vicenza")
+              bubbleData.filter(
+                (d) =>
+                  d.zone === document.getElementById("selectButtonTopics").value
+              )
             )
 
             //SVG BARS ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -846,7 +849,7 @@
                   .attr("height", 12)
                   .attr("rx", 3)
                   .attr("ry", 3)
-                //.style("pointer-events", "none")
+                  .style("pointer-events", "none")
               }
 
               // WORDS
