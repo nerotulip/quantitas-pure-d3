@@ -23,14 +23,14 @@ h1 {
   padding: 10px;
 }
 
-#legend {
+/* #legend {
   border-radius: 15px;
   background-color: white;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
   font-family: "Noto Sans", sans-serif;
   position: absolute;
   top: 600px;
-}
+} */
 
 div.title {
   font-family: "Noto Sans";

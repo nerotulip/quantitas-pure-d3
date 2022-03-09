@@ -71,7 +71,7 @@
 
       function redraw() {
         const width = window.innerWidth
-        const height = window.innerHeight
+        const height = width > 650 ? window.innerHeight : 1400
         fetch("./ClustersFinal.json")
           .then((response) => response.json())
           .then((dataClusters) => {
@@ -145,9 +145,6 @@
               .style("font-family", "Noto Sans")
               .text("Macrosections")
 
-            // const width = 1200
-            // const height = 800
-
             const margins = {
               top: 100,
               right: 60,
@@ -155,26 +152,30 @@
               bottom: 50,
             }
 
-            // window.addEventListener("resize", () => {
-            //   drawCluster(dataset filtered from select)
-            // })
             const xSpace = width / 6
-            const coord = d3
+            const xCoord = d3
               .range(xSpace - 10, width - margins.right, xSpace)
               .map((d) => d)
-            console.log(coord.concat(coord))
+
+            const xCoordMobile = [
+              200, 400, 200, 400, 200, 400, 200, 400, 200, 400,
+            ]
+
+            const yCoord = [170, 170, 170, 170, 170, 420, 420, 420, 420, 420]
+            const yCoordMobile = [
+              170, 170, 420, 420, 670, 670, 920, 920, 1170, 1170,
+            ]
+
             //SCALES FOR CLUSTERS DISPOSITION
             const xScaleForce = d3
               .scaleLinear()
               .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-              .range(coord.concat(coord))
-
-            console.log(xScaleForce(6))
+              .range(width > 650 ? xCoord.concat(xCoord) : xCoordMobile)
 
             const yScaleForce = d3
               .scaleLinear()
               .domain([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-              .range([170, 170, 170, 170, 170, 420, 420, 420, 420, 420])
+              .range(width > 650 ? yCoord : yCoordMobile)
 
             // SCALE FOR CIRCLE RADIUS
             const circleScaleForce = d3
@@ -206,7 +207,8 @@
             } //END FORCES FUNCTION //////////////////////////////////////
 
             const dataFiltered = dataClusters.filter(
-              (d) => d.zone === "Antwerp Province"
+              (d) =>
+                d.zone === d3.select("#selectButtonClusters").property("value")
             )
 
             const clustersGrouped = _.groupBy(dataFiltered, (d) => d.clusterId)

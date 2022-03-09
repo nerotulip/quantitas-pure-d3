@@ -669,6 +669,7 @@
             //SVG BUBBLES /////////////////////////////////////////////////////
 
             function drawBubblePlot(dataset) {
+              console.log(width)
               const axis = [
                 {
                   x1: margins.left,
@@ -680,7 +681,7 @@
                 {
                   x1: width / 2,
                   x2: width / 2,
-                  y1: 0,
+                  y1: margins.top,
                   y2: height - margins.bottom,
                 },
               ]
@@ -777,13 +778,23 @@
               svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
               d3.selectAll("circle").style("opacity", 0.75)
 
-              svgBubbles.selectAll("circle").style("stroke", "")
-              svgBars
-                .selectAll("rect")
-                .transition()
-                .duration(200)
-                .style("opacity", 0.75)
+              drawBarChart(
+                newData
+                  .filter((d) => d.city === selectedOption)
+                  .filter((d) => d.default === "y"),
+                "default"
+              )
+
+              //svgBubbles.selectAll("circle").style("stroke", "")
+              // svgBars
+              //   .selectAll("rect.datarects")
+              //   .transition()
+              //   .duration(200)
+              //   .attr("fill", "#CECDCD")
+              //   .style("opacity", 0.75)
             }
+
+            const paddingRects = width / 2
 
             const drawBarChart = function (dataset, state) {
               const yScaleBars = d3
@@ -835,7 +846,7 @@
                   .attr("height", 12)
                   .attr("rx", 3)
                   .attr("ry", 3)
-                  .style("pointer-events", "none")
+                //.style("pointer-events", "none")
               }
 
               // WORDS
