@@ -15,14 +15,6 @@ body.pcchart {
   flex: 4;
 }
 
-#select-conteiner {
-  padding-top: 15px;
-}
-
-select::-ms-expand {
-  display: none;
-}
-
 #bubblestitle {
   flex: 1;
   padding-top: 12px;
@@ -59,4 +51,18 @@ select {
   font-weight: 400;
   font-size: 15px;
   cursor: inherit;
+}
+
+#select-conteiner {
+  padding-top: 15px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.selectButtonTopics {
+  /* position: absolute; */
+  top: 4px;
+  left: 75%;
 }
