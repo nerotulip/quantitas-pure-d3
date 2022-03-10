@@ -9,7 +9,7 @@
     />
 
     <title>Data Clustering Visualization</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="clusterVizstyle.css" />
     <script type="text/javascript" src="d3.js"></script>
     <script type="text/javascript" src="lodash.js"></script>
   </head>
@@ -28,8 +28,6 @@
         .append("svg")
         .attr("class", "legend")
         .style("position", "absolute")
-        // .style("top", "10px")
-        // .style("left", "86px")
         .style("width", "560px")
         .style("height", "195px")
         .style("background-color", "white")
@@ -130,7 +128,7 @@
               .attr("x", (d, i) => xScaleLegend(d) + 25)
               .attr("y", (d, i) => yScaleLegend(i) + 12)
               .style("text-anchor", "start")
-              .style("font-family", "Noto Sans")
+              .style("font-family", "Noto Sans,  sans-serif")
               .style("font-weight", "medium")
               .style("font-size", "12px")
               .text((d) => d)
@@ -141,7 +139,7 @@
               .attr("x", 20)
               .attr("y", 32)
               .style("font-weight", "600")
-              .style("font-family", "Noto Sans")
+              .style("font-family", "Noto Sans, sans-serif")
               .text("Macrosections")
 
             const margins = {
@@ -155,11 +153,6 @@
             const xCoord = d3
               .range(xSpace - 10, width - margins.right, xSpace)
               .map((d) => d)
-
-            console.log(
-              d3.range(margins.left, width - margins.right, 200),
-              "mobile range"
-            )
 
             const xCoordMobile = [
               170, 370, 170, 370, 170, 370, 170, 370, 170, 370,
@@ -260,7 +253,7 @@
               .style("background-color", "white")
               .style("border-radius", "15px")
               .style("box-shadow", "0 4px 14px rgba(0, 0, 0, 0.25)")
-              .style("font-family", "Noto Sans")
+              .style("font-family", "Noto Sans, sans-serif")
               .style("font-size", "14px")
               .style("pointer-events", "none")
 
@@ -302,22 +295,6 @@
 
             // UPDATE VIZ FUNCTION
             const updateViz = function (dataset) {
-              //animation??
-              // svgBubbleGroup
-              //   .selectAll("circle")
-
-              //   .transition()
-              //   .duration(1200)
-              //   .attr("r", 0)
-              //   .attr("fill", (bubble) => colorScale(bubble.macro))
-
-              // svgStrokeGroup
-              //   .selectAll("circle")
-
-              //   .transition()
-              //   .duration(1200)
-              //   .attr("r", 0)
-              //   .attr("fill", (bubble) => colorScale(bubble.macro))
               //STROKE CIRCLES
               svgStrokeGroup
                 .selectAll("circle")
@@ -326,19 +303,17 @@
                 .attr("class", "stroke")
                 .attr("cx", (bubble) => bubble.x)
                 .attr("cy", (bubble) => bubble.y)
-                // .transition()
-                // .duration(1200)
-                .attr("r", 0)
+                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
                 .attr("opacity", "1")
                 .attr("stroke", "#E7E7E7")
                 .attr("stroke-width", "20")
 
-              svgStrokeGroup
-                .selectAll("circle")
+              // svgStrokeGroup
+              //   .selectAll("circle")
 
-                .transition()
-                .duration(1200)
-                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+              //   .transition()
+              //   .duration(1200)
+              //   .attr("r", (bubble) => circleScaleForce(bubble.percentage))
 
               //REAL CIRCLES
               svgBubbleGroup
@@ -350,38 +325,19 @@
                 .attr("cy", (bubble) => bubble.y)
                 // .transition()
                 // .duration(1200)
-                .attr("r", 0)
+                //.attr("r", 0)
+                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+
                 .attr("fill", (bubble) => colorScale(bubble.macro))
                 .on("mouseover", mouseover)
                 .on("mouseout", mouseleave)
 
-              svgBubbleGroup
-                .selectAll("circle")
+              // svgBubbleGroup
+              //   .selectAll("circle")
 
-                .transition()
-                .duration(1200)
-                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
-
-              // d3.select("#selectButtonClusters").on("change", function (d) {
-              //   const selectedOption = d3.select(this).property("value")
-              //   svgBubbleGroup
-              //     .selectAll("circle")
-
-              //     .transition()
-              //     .duration(1200)
-              //     .attr("r", 0)
-              //     .attr("fill", (bubble) => colorScale(bubble.macro))
-
-              //   svgStrokeGroup
-              //     .selectAll("circle")
-
-              //     .transition()
-              //     .duration(1200)
-              //     .attr("r", 0)
-              //     .attr("fill", (bubble) => colorScale(bubble.macro))
-
-              //   updateCity(selectedOption)
-              // })
+              //   .transition()
+              //   .duration(1200)
+              //   .attr("r", (bubble) => circleScaleForce(bubble.percentage))
             }
 
             updateViz(dataFiltered)
@@ -407,26 +363,11 @@
               .attr("class", "label")
               .attr("x", (d) => xScaleForce(d.index) - 100)
               .attr("y", (d) => yScaleForce(d.index) - 100)
-              .attr("font-family", "Noto Sans")
+              .attr("font-family", "Noto Sans, sans-serif")
               .text((d) => d.label)
 
             d3.select("#selectButtonClusters").on("change", function (d) {
               const selectedOption = d3.select(this).property("value")
-              // svgBubbleGroup
-              //   .selectAll("circle")
-
-              //   .transition()
-              //   .duration(1200)
-              //   .attr("r", 0)
-              //   .attr("fill", (bubble) => colorScale(bubble.macro))
-
-              // svgStrokeGroup
-              //   .selectAll("circle")
-
-              //   .transition()
-              //   .duration(1200)
-              //   .attr("r", 0)
-              //   .attr("fill", (bubble) => colorScale(bubble.macro))
 
               updateCity(selectedOption)
             })
@@ -435,7 +376,6 @@
 
       redraw()
       window.addEventListener("resize", redraw)
-      window.addEventListener("resize", () => console.log("ssss"))
     </script>
   </body>
 </html>

@@ -76,8 +76,9 @@
         })
 
       function redraw() {
-        const width = window.innerWidth / 2
-        const height = window.innerHeight
+        const width =
+          window.innerHeight > 531 ? window.innerWidth / 2 : window.innerWidth
+        const height = window.innerHeight > 531 ? window.innerHeight : 830
         fetch("./all.json")
           .then((response) => response.json())
           .then((newData) => {
@@ -111,6 +112,9 @@
                 "#589322",
                 "#BA3AE1",
                 "#FF5A5A",
+                "#F4DC02",
+                "#CC8701",
+                "#03CE9D",
               ])
 
             const bubbleData = [
@@ -639,9 +643,9 @@
               const hoveredTopic = event.target.__data__.topic
               d3.selectAll("circle.bubbles")
                 .transition()
-                .duration(200)
+                .duration(450)
                 .style("opacity", 0.1)
-              d3.select(this).transition().duration(200).style("opacity", 0.75)
+              d3.select(this).transition().duration(600).style("opacity", 0.75)
               d3.select(this).style("fill", (d) => colorScale(d.topic))
               const selectedCity =
                 document.getElementById("selectButtonTopics").value
@@ -652,15 +656,17 @@
               const hoveredDataset = newData
                 .filter((d) => d.city === selectedCity)
                 .filter((d) => d.topic === hoveredTopic)
-              titleBar
-                //.select("div.title")
-                .text("Top 30 most salient terms for Cluster " + hoveredTopic)
+              titleBar.text(
+                "Top 30 most salient terms for Cluster " + hoveredTopic
+              )
 
               drawBarChart(hoveredDataset, "hovered")
             }
 
             const mouseOutBubble = function (d) {
               d3.selectAll("circle.bubbles")
+                .transition()
+                .duration(600)
                 .style("opacity", 0.75)
                 .style("fill", (d) => colorScale(d.topic))
               //.style("fill", "#E4E4E4")
@@ -675,8 +681,6 @@
 
               drawBarChart(defaultSelectedCity, "default")
             }
-
-            console.log(window.innerWidth, "window")
 
             //SVG BUBBLES /////////////////////////////////////////////////////
 
@@ -719,9 +723,6 @@
                 .attr("cy", (d) => yScaleBubble(d.pc2))
                 .attr("r", (d) => circleScale(d.tokensPercentage))
                 .attr("fill", (d) => colorScale(d.topic))
-                //.attr("fill", "#E4E4E4")
-                //.attr("stroke", "#CECDCD")
-                //.attr("stroke-width", "2")
                 .style("opacity", 0.75)
                 .on("mouseover", mouseOverBubble)
                 .on("mouseout", mouseOutBubble)
@@ -741,7 +742,7 @@
                 .style("font-size", 11)
                 .text((d) => d.text)
 
-              // svgBubbles
+              // svgBubbles inner fill
               //   .selectAll("innercircles")
               //   .data(dataset)
               //   .join("circle")
@@ -795,7 +796,7 @@
               svgBubbles
                 .selectAll("circle")
                 .transition()
-                .duration(600)
+                .duration(450)
                 .style("opacity", 0.1)
               svgBubbles
                 .select("#circle-" + hoveredBar.topic)
@@ -811,7 +812,7 @@
               svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
               d3.selectAll("circle")
                 .transition()
-                .duration(600)
+                .duration(450)
                 .style("opacity", 0.75)
 
               const dd = newData
@@ -823,14 +824,6 @@
                 .filter((d) => d.default === "y")
 
               drawBarChart(dd, "default")
-
-              //svgBubbles.selectAll("circle").style("stroke", "")
-              // svgBars
-              //   .selectAll("rect.datarects")
-              //   .transition()
-              //   .duration(200)
-              //   .attr("fill", "#CECDCD")
-              //   .style("opacity", 0.75)
             }
 
             const paddingRects = width / 2
@@ -841,7 +834,7 @@
                 .scaleOrdinal()
                 .domain([])
                 .range(
-                  d3.range(margins.top, height - margins.bottom, height / 34)
+                  d3.range(margins.top, height - margins.bottom, height / 36)
                 )
 
               //RECTS
@@ -857,22 +850,23 @@
                 .attr("height", height / 68.6)
                 .attr("rx", 3)
                 .attr("ry", 3)
-                //.attr("fill", state === "default" ? "#61BFE4" : "#FD6332")
-                // .attr(
-                //   "fill",
-                //   state === "hovered" ? (d) => colorScale(d.topic) : "#E4E4E4"
-                // )
                 .attr(
                   "fill",
                   state === "default" ? "#CECDCD" : (d) => colorScale(d.topic)
                 )
 
-                // .attr("stroke", (d) => colorScale(d.topic))
                 .style("stroke-width", 1)
-                .style("opacity", 1)
+                .style("opacity", state === "default" ? 1 : 0)
 
                 .on("mouseover", mouseOverBar)
-                .on("mouseleave", mouseOutBar)
+                .on("mouseout", mouseOutBar)
+              if (state === "hovered") {
+                svgBars
+                  .selectAll("rect")
+                  .transition()
+                  .duration(450)
+                  .style("opacity", 1)
+              }
 
               if (state === "default") {
                 //DOUBLE BARS
@@ -880,7 +874,6 @@
                   .selectAll("x")
                   .data(dataset, (d) => d.word)
                   .join("rect")
-                  //.attr("id", (d) => "rect-" + d.word)
                   .attr("x", margins.left + wordMargin + 10)
                   .attr("y", (d) => yScaleBars(d.word))
                   .attr("fill", (d) => colorScale(d.topic))
@@ -927,7 +920,7 @@
                     .style("opacity", 0.75)
                 })
 
-                .on("mouseleave", function (event) {
+                .on("mouseout", function (event) {
                   d3.select(this).style("font-weight", "400")
 
                   svgBars
