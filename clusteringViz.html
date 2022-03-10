@@ -302,6 +302,22 @@
 
             // UPDATE VIZ FUNCTION
             const updateViz = function (dataset) {
+              //animation??
+              // svgBubbleGroup
+              //   .selectAll("circle")
+
+              //   .transition()
+              //   .duration(1200)
+              //   .attr("r", 0)
+              //   .attr("fill", (bubble) => colorScale(bubble.macro))
+
+              // svgStrokeGroup
+              //   .selectAll("circle")
+
+              //   .transition()
+              //   .duration(1200)
+              //   .attr("r", 0)
+              //   .attr("fill", (bubble) => colorScale(bubble.macro))
               //STROKE CIRCLES
               svgStrokeGroup
                 .selectAll("circle")
@@ -310,10 +326,19 @@
                 .attr("class", "stroke")
                 .attr("cx", (bubble) => bubble.x)
                 .attr("cy", (bubble) => bubble.y)
-                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+                // .transition()
+                // .duration(1200)
+                .attr("r", 0)
                 .attr("opacity", "1")
                 .attr("stroke", "#E7E7E7")
                 .attr("stroke-width", "20")
+
+              svgStrokeGroup
+                .selectAll("circle")
+
+                .transition()
+                .duration(1200)
+                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
 
               //REAL CIRCLES
               svgBubbleGroup
@@ -323,10 +348,40 @@
                 .attr("class", "clusterBubbles")
                 .attr("cx", (bubble) => bubble.x)
                 .attr("cy", (bubble) => bubble.y)
-                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+                // .transition()
+                // .duration(1200)
+                .attr("r", 0)
                 .attr("fill", (bubble) => colorScale(bubble.macro))
                 .on("mouseover", mouseover)
                 .on("mouseout", mouseleave)
+
+              svgBubbleGroup
+                .selectAll("circle")
+
+                .transition()
+                .duration(1200)
+                .attr("r", (bubble) => circleScaleForce(bubble.percentage))
+
+              // d3.select("#selectButtonClusters").on("change", function (d) {
+              //   const selectedOption = d3.select(this).property("value")
+              //   svgBubbleGroup
+              //     .selectAll("circle")
+
+              //     .transition()
+              //     .duration(1200)
+              //     .attr("r", 0)
+              //     .attr("fill", (bubble) => colorScale(bubble.macro))
+
+              //   svgStrokeGroup
+              //     .selectAll("circle")
+
+              //     .transition()
+              //     .duration(1200)
+              //     .attr("r", 0)
+              //     .attr("fill", (bubble) => colorScale(bubble.macro))
+
+              //   updateCity(selectedOption)
+              // })
             }
 
             updateViz(dataFiltered)
@@ -357,6 +412,22 @@
 
             d3.select("#selectButtonClusters").on("change", function (d) {
               const selectedOption = d3.select(this).property("value")
+              // svgBubbleGroup
+              //   .selectAll("circle")
+
+              //   .transition()
+              //   .duration(1200)
+              //   .attr("r", 0)
+              //   .attr("fill", (bubble) => colorScale(bubble.macro))
+
+              // svgStrokeGroup
+              //   .selectAll("circle")
+
+              //   .transition()
+              //   .duration(1200)
+              //   .attr("r", 0)
+              //   .attr("fill", (bubble) => colorScale(bubble.macro))
+
               updateCity(selectedOption)
             })
           })
