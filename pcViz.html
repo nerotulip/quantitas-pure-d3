@@ -846,7 +846,12 @@
                 .attr("class", "datarects")
                 .attr("x", margins.left + wordMargin + 25)
                 .attr("y", (d) => yScaleBars(d.word))
-                .attr("width", (d) => widthScaleBars(d.importance_word))
+                .attr(
+                  "width",
+                  state === "default"
+                    ? 0
+                    : (d) => widthScaleBars(d.importance_word)
+                )
                 .attr("height", height / 68.6)
                 .attr("rx", 3)
                 .attr("ry", 3)
@@ -860,6 +865,7 @@
 
                 .on("mouseover", mouseOverBar)
                 .on("mouseout", mouseOutBar)
+
               if (state === "hovered") {
                 svgBars
                   .selectAll("rect")
@@ -869,6 +875,11 @@
               }
 
               if (state === "default") {
+                svgBars
+                  .selectAll("rect")
+                  .transition()
+                  .duration(1000)
+                  .attr("width", (d) => widthScaleBars(d.importance_word))
                 //DOUBLE BARS
                 svgBars
                   .selectAll("x")
