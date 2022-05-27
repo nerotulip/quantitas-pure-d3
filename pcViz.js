@@ -1,8 +1,4 @@
-const firstWrapBubble = d3
-  .select("#my_dataviz")
-  .append("div")
-  .attr("class", "firstWrapBubble")
-  .attr("id", "firstWrapBubble")
+const firstWrapBubble = d3.select("#firstWrapBubble")
 
 firstWrapBubble
   .append("div")
@@ -16,11 +12,7 @@ const svgBubbleWrapper = d3
   .attr("class", "bubbleWrapper")
   .append("svg")
 
-const firstWrapBars = d3
-  .select("#my_dataviz")
-  .append("div")
-  .attr("class", "firstWrapBars")
-  .attr("id", "firstWrapBars")
+const firstWrapBars = d3.select("#firstWrapBars")
 
 const titleBar = firstWrapBars
   .append("div")

@@ -14,7 +14,7 @@
   <body id="my_dataviz" class="pcchart">
     <div class="wrapper">
       <header>
-        <div>
+        <div class="lorem">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac
           tincidunt felis. In sit amet mauris vitae leo congue porttitor. Nam
           consequat, justo sit amet sollicitudin volutpat, velit eros interdum
@@ -36,14 +36,19 @@
           ligula sapien, pretium eu condimentum non, imperdiet vitae dolor.
           Nulla eleifend felis eget maximus eleifend. Sed quis nisl sapien.
         </div>
-        <select id="selectButtonTopics"></select>
       </header>
+      <div class="select-container">
+        <select id="selectButtonTopics"></select>
+      </div>
+
       <div class="button-container">
         <button id="prevCluster">prev</button>
-        <div class="currentCluster">Cluster</div>
         <button id="nextCluster">next</button>
+        <div class="currentCluster">Cluster</div>
       </div>
     </div>
+    <div class="firstWrapBubble" id="firstWrapBubble"></div>
+    <div class="firstWrapBars" id="firstWrapBars"></div>
   </body>
 </html>
 <script type="text/javascript" src="d3.js"></script>
