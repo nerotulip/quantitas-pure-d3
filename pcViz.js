@@ -132,28 +132,30 @@ function redraw(firstRender) {
     drawBarChart(hoveredDataset, "hovered")
   }
 
-  const mouseOutBubble = function (d) {
-    d3.selectAll("circle.bubbles")
-      .transition()
-      .duration(600)
-      .style("opacity", 0.75)
-      .style("fill", (d) => colorScale(d.topic))
-    //.style("fill", "#E4E4E4")
+  const mouseOutBubble = function (d, clicked) {
+    if (clicked === false) {
+      d3.selectAll("circle.bubbles")
+        .transition()
+        .duration(600)
+        .style("opacity", 0.75)
+        .style("fill", (d) => colorScale(d.topic))
+      //.style("fill", "#E4E4E4")
 
-    const selectedCity = document.getElementById("selectButtonTopics").value
-    const defaultSelectedCity = newData
-      .filter((d) => d.city === selectedCity)
-      .filter((d) => d.default === "y")
+      const selectedCity = document.getElementById("selectButtonTopics").value
+      const defaultSelectedCity = newData
+        .filter((d) => d.city === selectedCity)
+        .filter((d) => d.default === "y")
 
-    titleBar.text("Top 30 most salient terms")
+      titleBar.text("Top 30 most salient terms")
 
-    drawBarChart(defaultSelectedCity, "default")
+      drawBarChart(defaultSelectedCity, "default")
+    } else return null
   }
 
   //SVG BUBBLES /////////////////////////////////////////////////////
 
   function drawBubblePlot(dataset, firstRender) {
-    let state = "notClicked"
+    let clicked = false
     const axis = [
       {
         x1: margins.left,
@@ -196,14 +198,14 @@ function redraw(firstRender) {
       .attr("fill", (d) => colorScale(d.topic))
       .style("opacity", 0.75)
       .on("mouseover", mouseOverBubble)
+      .on("mouseleave", mouseOutBubble(clicked))
       .on("click", function (d) {
-        state === "notClicked" ? (state = "clicked") : null
-        if (state === "clicked") {
-          d3.selectAll("circle").style("pointer-events", "none")
-        }
-        console.log(state, "state")
+        clicked = !clicked
+        console.log(clicked)
+        d3.select(this).style("stroke", "black")
+        // d3.selectAll("circle").style("pointer-events", "none")
+        // d3.select(this).style("pointer-events", "auto")
       })
-      .on("mouseleave", mouseOutBubble)
 
     firstRender === true
       ? svgBubbles
@@ -297,13 +299,19 @@ function redraw(firstRender) {
     svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
     d3.selectAll("circle").transition().duration(450).style("opacity", 0.75)
 
-    const dd = newData
-      .filter(
-        (d) => d.city === document.getElementById("selectButtonTopics").value
-      )
-      .filter((d) => d.default === "y")
+    svgBars
+      .select("#importance-value-" + hoveredBarOut.word)
+      .style("opacity", 0)
 
-    drawBarChart(dd, "default")
+    svgBars.select("#" + hoveredBarOut.word).style("fill", "black")
+
+    // const dd = newData
+    //   .filter(
+    //     (d) => d.city === document.getElementById("selectButtonTopics").value
+    //   )
+    //   .filter((d) => d.default === "y")
+
+    // drawBarChart(dd, "default")
   }
 
   const paddingRects = width / 2
@@ -337,7 +345,6 @@ function redraw(firstRender) {
 
       .style("stroke-width", 1)
       .style("opacity", state === "default" ? 1 : 0)
-
       .on("mouseover", mouseOverBar)
       .on("mouseout", mouseOutBar)
 
@@ -378,6 +385,7 @@ function redraw(firstRender) {
       .text((d) => d.word.replace("_", " "))
       .style("text-anchor", "end")
       .style("font-size", (d) => (d.word.length > 13 ? 9 : 12))
+      .style("cursor", "default")
       .on("mouseover", function (event) {
         const hoveredWord = event.target.__data__
 

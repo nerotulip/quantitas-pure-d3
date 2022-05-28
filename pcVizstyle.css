@@ -71,6 +71,10 @@ select::-ms-expand {
   left: 75%;
 }
 
+.visualization-wrapper {
+  display: flex;
+}
+
 @media only screen and (max-height: 520px) {
   /* For desktop: */
   body {
