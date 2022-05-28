@@ -1,0 +1,85 @@
+body {
+  background-color: #f6f6f6;
+  font-family: "Noto Sans", sans-serif;
+  display: inline-block;
+}
+
+h1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+#legend {
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Sans", sans-serif;
+
+  position: absolute;
+  left: 86px;
+  top: 610px;
+  bottom: 90%;
+}
+
+@media only screen and (max-width: 650px) {
+  /* For desktop: */
+  #legend {
+    top: 1350px;
+    left: 10px;
+  }
+}
+
+div.title {
+  font-family: "Noto Sans";
+  font-weight: 800;
+  font-size: 18;
+}
+
+#header {
+  display: flex;
+}
+
+select {
+  background: url(dropdown_arrow.svg);
+  background-position: right 20px top 50%;
+  background-size: 13px;
+  background-repeat: no-repeat;
+  appearance: "button";
+  background-color: #3e3e3e;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: absolute;
+  left: 580px;
+  padding: 14px 20px;
+  height: 48px;
+  width: 300px;
+  margin: 0;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 15px;
+  cursor: inherit;
+}
+
+@media only screen and (max-width: 650px) {
+  /* For desktop: */
+  #selectButtonClusters {
+    top: 70px;
+    left: 40px;
+  }
+}
+
+#select-conteiner {
+  padding-top: 15px;
+}
+
+select::-ms-expand {
+  display: none;
+}
