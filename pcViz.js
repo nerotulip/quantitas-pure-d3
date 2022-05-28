@@ -36,6 +36,8 @@ const UNIQUE_CITIES = [
   "Province Of Huesca",
 ]
 
+console.log(new Set(newData.map((f) => f.topic)))
+
 // SELECTION DROPDOWN  //////////////////////////
 d3.select("#selectButtonTopics")
   .selectAll("myOptions")
@@ -437,9 +439,9 @@ function redraw(firstRender) {
 
   let currentClusterButton = 0
   d3.select("#nextCluster").on("click", function (d) {
-    clusters = d3.range(0, 10)
-    currentClusterButton = (currentClusterButton + 1) % 10
-
+    clusters = d3.range(1, 11)
+    currentClusterButton = (currentClusterButton + 1) % 11
+    currentClusterButton === 0 ? currentClusterButton++ : null
     d3.select(".currentCluster").text("Cluster " + currentClusterButton)
 
     const colorScale = d3
@@ -487,11 +489,14 @@ function redraw(firstRender) {
   })
 
   d3.select("#prevCluster").on("click", function (d) {
-    d3.select(".currentCluster").text("Cluster " + currentClusterButton)
+    clusters = d3.range(1, 11)
+    currentClusterButton = currentClusterButton - 1
+    currentClusterButton === 0 ? (currentClusterButton = -1) : null
+    currentClusterButton < 0
+      ? (currentClusterButton = 11 + currentClusterButton)
+      : null
 
-    console.log(currentClusterButton)
-    clusters = d3.range(0, 10)
-    currentClusterButton = (-1 * (currentClusterButton - 1)) % 10
+    d3.select(".currentCluster").text("Cluster " + currentClusterButton)
 
     const colorScale = d3
       .scaleOrdinal()
