@@ -69,7 +69,7 @@
       function redraw() {
         const width = window.innerWidth
         const height = width > 650 ? window.innerHeight + 300 : 1500
-        fetch("./ClustersFinal.json")
+        fetch("data/ClustersFinal.json")
           .then((response) => response.json())
           .then((dataClusters) => {
             const uniqueZones = [...new Set(dataClusters.map((d) => d.zone))]
