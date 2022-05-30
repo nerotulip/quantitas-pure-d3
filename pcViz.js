@@ -36,9 +36,7 @@ const UNIQUE_CITIES = [
   "Province Of Huesca",
 ]
 
-console.log(new Set(newData.map((f) => f.topic)))
-
-// SELECTION DROPDOWN  //////////////////////////
+// SELECTION DROPDOWN ENTERING OPTIONS  //////////////////////////
 d3.select("#selectButtonTopics")
   .selectAll("myOptions")
   .data(UNIQUE_CITIES)
@@ -51,6 +49,8 @@ d3.select("#selectButtonTopics")
     return d
   })
 
+//// REDRAW FUNCTION
+
 function redraw(firstRender) {
   const width =
     window.innerHeight > 531 ? window.innerWidth / 2 : window.innerWidth
@@ -59,6 +59,7 @@ function redraw(firstRender) {
   const svgBubbles = svgBubbleWrapper
     .attr("width", width)
     .attr("height", height)
+    .attr("class", "svg-bubbles")
 
   const svgBars = svgBarsWrapper.attr("width", width).attr("height", height)
 
@@ -109,7 +110,7 @@ function redraw(firstRender) {
   const widthScaleBars = d3
     .scaleLinear()
     .domain([0, 0.25])
-    .range([0, width - margins.right])
+    .range([0, width - margins.right - margins.left - wordMargin])
 
   //EVENT HANDLERS FUNCTIONS
 
@@ -132,30 +133,84 @@ function redraw(firstRender) {
     drawBarChart(hoveredDataset, "hovered")
   }
 
-  const mouseOutBubble = function (d, clicked) {
+  const mouseOutBubble = function (d) {
+    d3.selectAll("circle.bubbles")
+      .transition()
+      .duration(600)
+      .style("opacity", 0.75)
+      .style("fill", (d) => colorScale(d.topic))
+    //.style("fill", "#E4E4E4")
+
+    const selectedCity = document.getElementById("selectButtonTopics").value
+    const defaultSelectedCity = newData
+      .filter((d) => d.city === selectedCity)
+      .filter((d) => d.default === "y")
+
+    titleBar.text("Top 30 most salient terms")
+    console.log("out")
+
+    drawBarChart(defaultSelectedCity, "default")
+  }
+  let clicked = false
+  const mouseClickBubble = function (d) {
+    clicked = !clicked
+    console.log(clicked, "ss")
+    // d3.selectAll("circle").style("pointer-events", "none")
+
     if (clicked === false) {
       d3.selectAll("circle.bubbles")
         .transition()
         .duration(600)
         .style("opacity", 0.75)
-        .style("fill", (d) => colorScale(d.topic))
-      //.style("fill", "#E4E4E4")
 
-      const selectedCity = document.getElementById("selectButtonTopics").value
-      const defaultSelectedCity = newData
-        .filter((d) => d.city === selectedCity)
+      d3.select(this).style("stroke", "none")
+      const dd = newData
+        .filter(
+          (d) => d.city === document.getElementById("selectButtonTopics").value
+        )
         .filter((d) => d.default === "y")
 
-      titleBar.text("Top 30 most salient terms")
+      drawBarChart(dd, "default")
+      console.log("here")
+      d3.selectAll(".datarects").style("fill", "#CECDCD")
 
-      drawBarChart(defaultSelectedCity, "default")
-    } else return null
+      titleBar.text("Top 30 most salient terms")
+    } else {
+      const hoveredTopic = d.target.__data__.topic
+      d3.selectAll("circle.bubbles")
+        .transition()
+        .duration(450)
+        .style("opacity", 0.1)
+      d3.select(this).transition().duration(600).style("opacity", 0.75)
+      d3.select(this).style("fill", (d) => colorScale(d.topic))
+      d3.select(this)
+
+        .style("stroke", "#3e3e3e")
+        .style("stroke-width", 5)
+      const selectedCity = document.getElementById("selectButtonTopics").value
+
+      svgBars.selectAll("rects").attr("fill", (d) => colorScale(d.topic))
+      const hoveredDataset = newData
+        .filter((d) => d.city === selectedCity)
+        .filter((d) => d.topic === hoveredTopic)
+      titleBar.text("Top 30 most salient terms for Cluster " + hoveredTopic)
+
+      drawBarChart(hoveredDataset, "hovered")
+      d3.select(this).on("mouseout", null)
+    }
   }
+
+  console.log(d3.select(".svg-bubbles"))
+  d3.select(".svg-bubbles").on("click", function (d) {
+    console.log("xxx")
+  })
+  d3.selectAll(":not(.bubbles)").on("click", function (d) {
+    console.log("yy")
+  })
 
   //SVG BUBBLES /////////////////////////////////////////////////////
 
   function drawBubblePlot(dataset, firstRender) {
-    let clicked = false
     const axis = [
       {
         x1: margins.left,
@@ -197,15 +252,17 @@ function redraw(firstRender) {
       )
       .attr("fill", (d) => colorScale(d.topic))
       .style("opacity", 0.75)
-      .on("mouseover", mouseOverBubble)
-      .on("mouseleave", mouseOutBubble(clicked))
-      .on("click", function (d) {
-        clicked = !clicked
-        console.log(clicked)
-        d3.select(this).style("stroke", "black")
-        // d3.selectAll("circle").style("pointer-events", "none")
-        // d3.select(this).style("pointer-events", "auto")
-      })
+      // .on("mouseover", mouseOverBubble)
+      //  .on("mouseleave", mouseOutBubble)
+      .on("click", mouseClickBubble)
+    // .on("click", function (d) {
+    //   clicked = !clicked
+    //   console.log(clicked)
+    //   d3.select(this).style("stroke", "black")
+    //   d3.selectAll("circle").style("pointer-events", "none")
+    //   // d3.selectAll("circle").style("pointer-events", "none")
+    //   // d3.select(this).style("pointer-events", "auto")
+    // })
 
     firstRender === true
       ? svgBubbles
@@ -270,14 +327,18 @@ function redraw(firstRender) {
 
   const mouseOverBar = function (event) {
     const hoveredBar = event.target.__data__
+
+    console.log(hoveredBar.topic)
     svgBars.select("#" + hoveredBar.word).style("font-weight", "bold")
-    svgBars.selectAll("rect").transition().duration(200).style("opacity", 0.2)
+    svgBars.selectAll("rect").style("opacity", 0.2)
+
+    svgBars.select("#rect-" + hoveredBar.word).style("opacity", 1)
     svgBars
       .select("#rect-" + hoveredBar.word)
-      .transition()
-      .duration(200)
-      .attr("fill", (d) => colorScale(d.topic))
-      .style("opacity", 11)
+      // .transition()
+      // .duration(200)
+      .style("fill", (d) => colorScale(hoveredBar.topic))
+
     svgBars.select("#importance-value-" + hoveredBar.word).style("opacity", 1)
 
     svgBubbles
@@ -295,15 +356,41 @@ function redraw(firstRender) {
   }
 
   const mouseOutBar = function (event) {
+    console.log(clicked)
+
     const hoveredBarOut = event.target.__data__
-    svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
-    d3.selectAll("circle").transition().duration(450).style("opacity", 0.75)
+    if (clicked === false) {
+      svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
+      d3.selectAll("circle").transition().style("opacity", 0.75)
 
-    svgBars
-      .select("#importance-value-" + hoveredBarOut.word)
-      .style("opacity", 0)
+      svgBars
+        .select("#importance-value-" + hoveredBarOut.word)
+        .style("opacity", 0)
 
-    svgBars.select("#" + hoveredBarOut.word).style("fill", "black")
+      console.log("out")
+
+      svgBars.select("#rect-" + hoveredBarOut.word).style("fill", "#CECDCD")
+
+      svgBars.selectAll("rect").transition().style("opacity", 0.75)
+    } else {
+      svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
+
+      svgBars
+        .select("#importance-value-" + hoveredBarOut.word)
+        .style("opacity", 0)
+
+      svgBars
+        .select("#rect-" + hoveredBarOut.word)
+        .style("fill", (d) => colorScale(d.topic))
+
+      svgBars.selectAll("rect").transition().style("opacity", 0.75)
+    }
+    //svgBars.select(this).style("fill", "black")
+
+    //svgBars.select("#rect-" + hoveredBarOut.word).style("fill", "#CECDCD")
+    // d3.select(this).style("fill", "#CECDCD")
+    //svgBars.select("#rect-" + hoveredBarOut.word).style("fill", "black")
+    // console.log("pio pio")
 
     // const dd = newData
     //   .filter(
@@ -379,6 +466,7 @@ function redraw(firstRender) {
       .data(dataset, (d) => d.word)
       .join("text")
       .attr("id", (d) => d.word)
+      .attr("class", "rect-words")
       .attr("x", margins.left + wordMargin)
       .attr("y", (d) => yScaleBars(d.word) + 10)
       .attr("font-family", "Noto Sans")
@@ -389,18 +477,21 @@ function redraw(firstRender) {
       .on("mouseover", function (event) {
         const hoveredWord = event.target.__data__
 
-        d3.select(this).style("font-weight", "800")
+        d3.select(this).style("font-weight", "bold")
+        // d3.select(this).style("font-size", "30")
 
         svgBars
           .selectAll("rect")
-          .transition()
-          .duration(200)
+          // .transition()
+          // .duration(200)
           .style("opacity", 0.2)
+
+        svgBars.select("#rect-" + hoveredWord.word).style("opacity", 0.75)
+
         svgBars
           .select("#rect-" + hoveredWord.word)
-          .transition()
-          .duration(200)
-          .style("opacity", 0.75)
+          // .transition()
+          // .duration(200)
           .attr("fill", colorScale(hoveredWord.topic))
         svgBubbles.selectAll("circle").style("opacity", 0.1)
         svgBubbles
@@ -408,6 +499,10 @@ function redraw(firstRender) {
           .transition()
           .duration(200)
           .style("opacity", 0.75)
+
+        svgBars
+          .select("#importance-value-" + hoveredWord.word)
+          .style("opacity", 1)
       })
       .on("mouseleave", function (event) {
         d3.select(this).style("font-weight", "400")
@@ -415,16 +510,22 @@ function redraw(firstRender) {
 
         svgBars
           .selectAll("rect")
-          .transition()
-          .duration(200)
+          // .transition()
+          // .duration(200)
           .style("opacity", 0.75)
 
+        if (clicked === false) {
+          svgBars
+            .select("#rect-" + hoveredWord.word)
+            // .transition()
+            // .duration(200)
+            .style("opacity", 0.75)
+            .attr("fill", "#CECDCD")
+        }
+
         svgBars
-          .select("#rect-" + hoveredWord.word)
-          .transition()
-          .duration(200)
-          .style("opacity", 0.75)
-          .attr("fill", "#CECDCD")
+          .select("#importance-value-" + hoveredWord.word)
+          .style("opacity", 0)
       })
     ////IMPORTANCE WORD VALUE
     svgBars
