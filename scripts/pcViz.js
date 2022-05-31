@@ -27,13 +27,13 @@ const svgBarsWrapper = d3
   .attr("class", "svg-bars")
 
 const UNIQUE_CITIES = [
-  "Province Of Vicenza",
   "Antwerp Province",
-  "East Flanders",
   "Dalmatia",
+  "East Flanders",
+  "Province Of Huesca",
+  "Province Of Vicenza",
   "South Holland Province",
   "Utsjoki",
-  "Province Of Huesca",
 ]
 
 // SELECTION DROPDOWN ENTERING OPTIONS  //////////////////////////
@@ -148,21 +148,18 @@ function redraw(firstRender) {
       .filter((d) => d.default === "y")
 
     titleBar.text("Top 30 most salient terms")
-    console.log("out")
 
     drawBarChart(defaultSelectedCity, "default")
   }
   let clicked = false
+  let skipButton = false
   let buttonSelected = false
   const mouseClickBubble = function (d) {
+    skipButton = false
     clicked = !clicked
-    console.log(clicked, "ss")
 
     topicClicked = d.target.__data__.topicName
-    console.log(
-      "🚀 ~ file: pcViz.js ~ line 161 ~ mouseClickBubble ~ topicClicked",
-      topicClicked
-    )
+
     // d3.selectAll("circle").style("pointer-events", "none")
 
     if (clicked === false) {
@@ -179,7 +176,6 @@ function redraw(firstRender) {
         .filter((d) => d.default === "y")
 
       drawBarChart(dd, "default")
-      console.log("here")
       d3.selectAll(".datarects").style("fill", "#CECDCD")
 
       titleBar.text("Top 30 most salient terms ")
@@ -192,20 +188,20 @@ function redraw(firstRender) {
       d3.select(this).transition().duration(600).style("opacity", 0.75)
       d3.select(this).style("fill", (d) => colorScale(d.topic))
       d3.select(this)
-
         .style("stroke", "#3e3e3e")
-        .style("stroke-width", 5)
+        .style("stroke-opacity", 0.5)
+        .style("stroke-width", 3.5)
       const selectedCity = document.getElementById("selectButtonTopics").value
 
       svgBars.selectAll("rects").attr("fill", (d) => colorScale(d.topic))
       const hoveredDataset = newData
         .filter((d) => d.city === selectedCity)
         .filter((d) => d.topic === hoveredTopic)
-      titleBar.text("Top 30 most salient terms for Cluster " + hoveredTopic)
+      titleBar.text("Top 30 most salient terms for " + topicClicked)
 
       drawBarChart(hoveredDataset, "hovered")
       d3.selectAll(".datarects").style("fill", (d) => colorScale(d.topic))
-      d3.select(this).on("mouseout", null)
+      //d3.select(this).on("mouseout", null)
     }
   }
 
@@ -254,8 +250,25 @@ function redraw(firstRender) {
       .attr("fill", (d) => colorScale(d.topic))
       .style("opacity", 0.75)
       // .on("mouseover", mouseOverBubble)
+      .on("mouseover", function (d) {
+        if (clicked === false) {
+          d3.select(this)
+            .style("stroke", "#3e3e3e")
+            .style("stroke-opacity", 0.5)
+            .style("stroke-width", 1.5)
+        }
+      })
       //  .on("mouseleave", mouseOutBubble)
       .on("click", mouseClickBubble)
+      .on("mouseout", function (d) {
+        if (clicked == true) {
+          d3.select(this)
+            .style("stroke", "#3e3e3e")
+            .style("stroke-opacity", 0.5)
+        } else {
+          d3.select(this).style("stroke", "#3e3e3e").style("stroke-opacity", 0)
+        }
+      })
     // .on("click", function (d) {
     //   clicked = !clicked
     //   console.log(clicked)
@@ -329,15 +342,12 @@ function redraw(firstRender) {
   const mouseOverBar = function (event) {
     const hoveredBar = event.target.__data__
 
-    console.log(hoveredBar.topic)
     svgBars.select("#" + hoveredBar.word).style("font-weight", 800)
     svgBars.selectAll("rect").style("opacity", 0.2)
 
     svgBars.select("#rect-" + hoveredBar.word).style("opacity", 1)
     svgBars
       .select("#rect-" + hoveredBar.word)
-      // .transition()
-      // .duration(200)
       .style("fill", (d) => colorScale(hoveredBar.topic))
 
     svgBars.select("#importance-value-" + hoveredBar.word).style("opacity", 1)
@@ -357,10 +367,8 @@ function redraw(firstRender) {
   }
 
   const mouseOutBar = function (event) {
-    console.log(clicked)
-
     const hoveredBarOut = event.target.__data__
-    if (clicked === false) {
+    if (clicked === false && skipButton === false) {
       svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
       d3.selectAll("circle").transition().style("opacity", 0.75)
 
@@ -368,11 +376,9 @@ function redraw(firstRender) {
         .select("#importance-value-" + hoveredBarOut.word)
         .style("opacity", 0)
 
-      console.log("out")
-
       svgBars.select("#rect-" + hoveredBarOut.word).style("fill", "#CECDCD")
 
-      svgBars.selectAll("rect").transition().style("opacity", 0.75)
+      svgBars.selectAll("rect").style("opacity", 0.75)
     } else {
       svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
 
@@ -384,7 +390,7 @@ function redraw(firstRender) {
         .select("#rect-" + hoveredBarOut.word)
         .style("fill", (d) => colorScale(d.topic))
 
-      svgBars.selectAll("rect").transition().style("opacity", 0.75)
+      svgBars.selectAll("rect").style("opacity", 0.75)
     }
     //svgBars.select(this).style("fill", "black")
 
@@ -494,7 +500,8 @@ function redraw(firstRender) {
           // .transition()
           // .duration(200)
           .attr("fill", colorScale(hoveredWord.topic))
-        svgBubbles.selectAll("circle").style("opacity", 0.1)
+
+        svgBubbles.selectAll("circle").transition().style("opacity", 0.1)
         svgBubbles
           .select("#circle-" + hoveredWord.topic)
           .transition()
@@ -527,6 +534,8 @@ function redraw(firstRender) {
         svgBars
           .select("#importance-value-" + hoveredWord.word)
           .style("opacity", 0)
+
+        d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
       })
     ////IMPORTANCE WORD VALUE
     svgBars
@@ -549,10 +558,11 @@ function redraw(firstRender) {
 
   let currentClusterButton = 0
   d3.select("#nextCluster").on("click", function (d) {
+    skipButton = true
     clusters = d3.range(1, 11)
     currentClusterButton = (currentClusterButton + 1) % 11
     currentClusterButton === 0 ? currentClusterButton++ : null
-    d3.select(".currentCluster").text("Cluster " + currentClusterButton)
+    //  d3.select(".currentCluster").text("Cluster " + currentClusterButton)
 
     const colorScale = d3
       .scaleOrdinal()
@@ -585,6 +595,15 @@ function redraw(firstRender) {
     )
     const selectedCity = document.getElementById("selectButtonTopics").value
 
+    clustersNames = Array.from(
+      new Set(
+        bubbleData
+          .filter((d) => d.zone === selectedCity)
+          .map((d) => d.topicName)
+      )
+    )
+    d3.select(".currentCluster").text(clustersNames[currentClusterButton - 1])
+
     d3.select(".svg-bars")
       .selectAll("rects")
       .attr("fill", (d) => colorScale(d.topic))
@@ -592,7 +611,7 @@ function redraw(firstRender) {
       .filter((d) => d.city === selectedCity)
       .filter((d) => d.topic === currentClusterButton)
     titleBar.text(
-      "Top 30 most salient terms for Cluster " + currentClusterButton
+      "Top 30 most salient terms for " + clustersNames[currentClusterButton - 1]
     )
 
     drawBarChart(hoveredDataset, "hovered")
@@ -600,18 +619,16 @@ function redraw(firstRender) {
 
   d3.select("#prevCluster").on("click", function (d) {
     buttonSelected = true
-    console.log(
-      "🚀 ~ file: pcViz.js ~ line 595 ~ buttonSelected",
-      buttonSelected
-    )
+    skipButton = true
+
     const selectedCity = document.getElementById("selectButtonTopics").value
     clustersNames = Array.from(
       new Set(
-        bubbleData.filter((d) => d.zone === selectedCity).map((d) => d.topic)
+        bubbleData
+          .filter((d) => d.zone === selectedCity)
+          .map((d) => d.topicName)
       )
     )
-
-    console.log("🚀 ~ file: pcViz.js ~ line 598 ~ clustersNames", clustersNames)
 
     /// old logic with numbers
     clusters = d3.range(1, 11)
@@ -621,7 +638,7 @@ function redraw(firstRender) {
       ? (currentClusterButton = 11 + currentClusterButton)
       : null
 
-    d3.select(".currentCluster").text("Cluster " + currentClusterButton)
+    d3.select(".currentCluster").text(clustersNames[currentClusterButton - 1])
 
     const colorScale = d3
       .scaleOrdinal()
@@ -660,7 +677,7 @@ function redraw(firstRender) {
       .filter((d) => d.city === selectedCity)
       .filter((d) => d.topic === currentClusterButton)
     titleBar.text(
-      "Top 30 most salient terms for Cluster " + currentClusterButton
+      "Top 30 most salient terms for " + clustersNames[currentClusterButton - 1]
     )
 
     drawBarChart(hoveredDataset, "hovered")

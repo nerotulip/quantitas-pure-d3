@@ -30,6 +30,12 @@ body {
   font-weight: 700;
 }
 
+/* .bubbles:hover {
+  fill: black;
+  stroke: "blue";
+  stroke-width: 10;
+} */
+
 #prevCluster {
   appearance: "button";
   background-color: #3e3e3e;
@@ -115,6 +121,9 @@ select::-ms-expand {
 
 .currentCluster {
   margin: 0px 12px 0px 8px;
+  width: 150px;
+  text-align: center;
+  font-weight: "bold";
 }
 
 .visualization-wrapper {
