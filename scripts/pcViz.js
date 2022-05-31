@@ -200,14 +200,6 @@ function redraw(firstRender) {
     }
   }
 
-  console.log(d3.select(".svg-bubbles"))
-  d3.select(".svg-bubbles").on("click", function (d) {
-    console.log("xxx")
-  })
-  d3.selectAll(":not(.bubbles)").on("click", function (d) {
-    console.log("yy")
-  })
-
   //SVG BUBBLES /////////////////////////////////////////////////////
 
   function drawBubblePlot(dataset, firstRender) {
