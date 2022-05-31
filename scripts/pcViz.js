@@ -116,6 +116,7 @@ function redraw(firstRender) {
 
   const mouseOverBubble = function (event) {
     const hoveredTopic = event.target.__data__.topic
+    const topicName = event.target.__data__.topicName
     d3.selectAll("circle.bubbles")
       .transition()
       .duration(450)
@@ -128,7 +129,7 @@ function redraw(firstRender) {
     const hoveredDataset = newData
       .filter((d) => d.city === selectedCity)
       .filter((d) => d.topic === hoveredTopic)
-    titleBar.text("Top 30 most salient terms for Cluster " + hoveredTopic)
+    titleBar.text("Top 30 most salient terms for Cluster " + topicName)
 
     drawBarChart(hoveredDataset, "hovered")
   }
@@ -152,9 +153,16 @@ function redraw(firstRender) {
     drawBarChart(defaultSelectedCity, "default")
   }
   let clicked = false
+  let buttonSelected = false
   const mouseClickBubble = function (d) {
     clicked = !clicked
     console.log(clicked, "ss")
+
+    topicClicked = d.target.__data__.topicName
+    console.log(
+      "🚀 ~ file: pcViz.js ~ line 161 ~ mouseClickBubble ~ topicClicked",
+      topicClicked
+    )
     // d3.selectAll("circle").style("pointer-events", "none")
 
     if (clicked === false) {
@@ -174,7 +182,7 @@ function redraw(firstRender) {
       console.log("here")
       d3.selectAll(".datarects").style("fill", "#CECDCD")
 
-      titleBar.text("Top 30 most salient terms")
+      titleBar.text("Top 30 most salient terms ")
     } else {
       const hoveredTopic = d.target.__data__.topic
       d3.selectAll("circle.bubbles")
@@ -196,6 +204,7 @@ function redraw(firstRender) {
       titleBar.text("Top 30 most salient terms for Cluster " + hoveredTopic)
 
       drawBarChart(hoveredDataset, "hovered")
+      d3.selectAll(".datarects").style("fill", (d) => colorScale(d.topic))
       d3.select(this).on("mouseout", null)
     }
   }
@@ -321,7 +330,7 @@ function redraw(firstRender) {
     const hoveredBar = event.target.__data__
 
     console.log(hoveredBar.topic)
-    svgBars.select("#" + hoveredBar.word).style("font-weight", "bold")
+    svgBars.select("#" + hoveredBar.word).style("font-weight", 800)
     svgBars.selectAll("rect").style("opacity", 0.2)
 
     svgBars.select("#rect-" + hoveredBar.word).style("opacity", 1)
@@ -434,7 +443,7 @@ function redraw(firstRender) {
       svgBars
         .selectAll("rect")
         .transition()
-        .duration(1000)
+        .duration(800)
         .attr("width", (d) => widthScaleBars(d.importance_word))
     }
 
@@ -469,7 +478,7 @@ function redraw(firstRender) {
       .on("mouseover", function (event) {
         const hoveredWord = event.target.__data__
 
-        d3.select(this).style("font-weight", "bold")
+        d3.select(this).style("font-weight", 800)
         // d3.select(this).style("font-size", "30")
 
         svgBars
@@ -590,6 +599,21 @@ function redraw(firstRender) {
   })
 
   d3.select("#prevCluster").on("click", function (d) {
+    buttonSelected = true
+    console.log(
+      "🚀 ~ file: pcViz.js ~ line 595 ~ buttonSelected",
+      buttonSelected
+    )
+    const selectedCity = document.getElementById("selectButtonTopics").value
+    clustersNames = Array.from(
+      new Set(
+        bubbleData.filter((d) => d.zone === selectedCity).map((d) => d.topic)
+      )
+    )
+
+    console.log("🚀 ~ file: pcViz.js ~ line 598 ~ clustersNames", clustersNames)
+
+    /// old logic with numbers
     clusters = d3.range(1, 11)
     currentClusterButton = currentClusterButton - 1
     currentClusterButton === 0 ? (currentClusterButton = -1) : null
@@ -619,16 +643,15 @@ function redraw(firstRender) {
 
     d3.selectAll("circle.bubbles")
       .transition()
-      .duration(450)
+      .duration(350)
       .style("opacity", 0.1)
     d3.select("#circle-" + currentClusterButton)
       .transition()
-      .duration(600)
+      .duration(350)
       .style("opacity", 0.75)
     d3.select("#circle-" + currentClusterButton).style("fill", (d) =>
       colorScale(d.topic)
     )
-    const selectedCity = document.getElementById("selectButtonTopics").value
 
     d3.select(".svg-bars")
       .selectAll("rects")
@@ -642,8 +665,10 @@ function redraw(firstRender) {
 
     drawBarChart(hoveredDataset, "hovered")
   })
-
+  // SELECT DROPDOWN ON CHANGE
   d3.select("#selectButtonTopics").on("change", function (d) {
+    clicked = false
+    d3.selectAll("circle").style("stroke-width", 0)
     const selectedOption = d3.select(this).property("value")
     drawBarChart(
       newData

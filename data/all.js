@@ -2101,6 +2101,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.078,
     word: "place",
@@ -2108,6 +2109,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.066,
     word: "great",
@@ -2115,6 +2117,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.062,
     word: "good",
@@ -2122,6 +2125,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.049,
     word: "really",
@@ -2129,6 +2133,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.04,
     word: "live",
@@ -2136,6 +2141,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.027,
     word: "amazing",
@@ -2143,6 +2149,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.022,
     word: "experience",
@@ -2150,6 +2157,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.022,
     word: "love",
@@ -2157,6 +2165,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.021,
     word: "year",
@@ -2164,6 +2173,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.021,
     word: "wonderful",
@@ -2171,6 +2181,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.015,
     word: "recommend",
@@ -2178,6 +2189,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.012,
     word: "staff",
@@ -2185,6 +2197,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.011,
     word: "set",
@@ -2192,6 +2205,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.011,
     word: "enjoy",
@@ -2199,6 +2213,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.01,
     word: "friend",
@@ -2206,6 +2221,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "friendly",
@@ -2213,6 +2229,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "special",
@@ -2220,6 +2237,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "always",
@@ -2227,6 +2245,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "design",
@@ -2234,6 +2253,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "important",
@@ -2241,6 +2261,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "helpful",
@@ -2248,6 +2269,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.009,
     word: "center",
@@ -2255,6 +2277,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.008,
     word: "help",
@@ -2262,6 +2285,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.008,
     word: "kid",
@@ -2269,6 +2293,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.007,
     word: "absolutely",
@@ -2276,6 +2301,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.007,
     word: "complete",
@@ -2283,6 +2309,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.007,
     word: "fun",
@@ -2290,6 +2317,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.007,
     word: "make",
@@ -2297,6 +2325,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.007,
     word: "appreciate",
@@ -2304,6 +2333,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.006,
     word: "drink",
@@ -2311,6 +2341,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.153,
     word: "church",
@@ -2318,6 +2349,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.054,
     word: "early",
@@ -2325,6 +2357,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.029,
     word: "peter_paul",
@@ -2332,6 +2365,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.028,
     word: "stone",
@@ -2339,6 +2373,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.025,
     word: "century",
@@ -2346,6 +2381,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.021,
     word: "baroque",
@@ -2353,6 +2389,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.019,
     word: "decide",
@@ -2360,6 +2397,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.016,
     word: "reuben",
@@ -2367,6 +2405,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.016,
     word: "feature",
@@ -2374,6 +2413,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.014,
     word: "entry_fee",
@@ -2381,6 +2421,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.014,
     word: "renovate",
@@ -2388,6 +2429,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.014,
     word: "beautifully",
@@ -2395,6 +2437,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.013,
     word: "altar",
@@ -2402,6 +2445,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.011,
     word: "bury",
@@ -2409,6 +2453,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.011,
     word: "clear",
@@ -2416,6 +2461,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.01,
     word: "receive",
@@ -2423,6 +2469,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.01,
     word: "d",
@@ -2430,6 +2477,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.009,
     word: "wealth",
@@ -2437,6 +2485,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.008,
     word: "disappointed",
@@ -2444,6 +2493,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.008,
     word: "human",
@@ -2451,6 +2501,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.007,
     word: "obviously",
@@ -2458,6 +2509,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.007,
     word: "rueben",
@@ -2465,6 +2517,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.007,
     word: "tomb",
@@ -2472,6 +2525,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.007,
     word: "organ",
@@ -2479,6 +2533,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.007,
     word: "van_dyck",
@@ -2486,6 +2541,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.006,
     word: "focus",
@@ -2493,6 +2549,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.006,
     word: "lucky",
@@ -2500,6 +2557,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.006,
     word: "gift",
@@ -2507,6 +2565,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.006,
     word: "past",
@@ -2514,6 +2573,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.006,
     word: "base",
@@ -2521,6 +2581,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.152,
     word: "fascinating",
@@ -2528,6 +2589,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.044,
     word: "wander",
@@ -2535,6 +2597,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.043,
     word: "rest",
@@ -2542,6 +2605,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.033,
     word: "decoration",
@@ -2549,6 +2613,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.032,
     word: "gate",
@@ -2556,6 +2621,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.028,
     word: "extensive",
@@ -2563,6 +2629,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.023,
     word: "have",
@@ -2570,6 +2637,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.02,
     word: "standard",
@@ -2577,6 +2645,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.019,
     word: "continue",
@@ -2584,6 +2653,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.017,
     word: "result",
@@ -2591,6 +2661,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.016,
     word: "accord",
@@ -2598,6 +2669,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.015,
     word: "educational",
@@ -2605,6 +2677,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.012,
     word: "pace",
@@ -2612,6 +2685,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.012,
     word: "invite",
@@ -2619,6 +2693,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.011,
     word: "nt",
@@ -2626,6 +2701,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.01,
     word: "basic",
@@ -2633,6 +2709,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.01,
     word: "golden",
@@ -2640,6 +2717,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.01,
     word: "ideal",
@@ -2647,6 +2725,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.009,
     word: "funny",
@@ -2654,6 +2733,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.009,
     word: "strongly_recommend",
@@ -2661,6 +2741,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.009,
     word: "yard",
@@ -2668,6 +2749,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.008,
     word: "visible",
@@ -2675,6 +2757,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.007,
     word: "spring",
@@ -2682,6 +2765,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.007,
     word: "memory",
@@ -2689,6 +2773,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.007,
     word: "laugh",
@@ -2696,6 +2781,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.007,
     word: "tradition",
@@ -2703,6 +2789,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.006,
     word: "practice",
@@ -2710,6 +2797,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.006,
     word: "fly",
@@ -2717,6 +2805,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.006,
     word: "protect",
@@ -2724,6 +2813,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.006,
     word: "club",
@@ -2731,6 +2821,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.059,
     word: "visit",
@@ -2738,6 +2829,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.052,
     word: "rubens",
@@ -2745,6 +2837,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.051,
     word: "see",
@@ -2752,6 +2845,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.043,
     word: "house",
@@ -2759,6 +2853,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.03,
     word: "beautiful",
@@ -2766,6 +2861,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.027,
     word: "nice",
@@ -2773,6 +2869,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.027,
     word: "worth",
@@ -2780,6 +2877,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.026,
     word: "old",
@@ -2787,6 +2885,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.021,
     word: "building",
@@ -2794,6 +2893,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.02,
     word: "antwerp",
@@ -2801,6 +2901,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.019,
     word: "walk",
@@ -2808,6 +2909,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.019,
     word: "cathedral",
@@ -2815,6 +2917,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.019,
     word: "many",
@@ -2822,6 +2925,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.018,
     word: "city",
@@ -2829,6 +2933,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.015,
     word: "castle",
@@ -2836,6 +2941,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.014,
     word: "also",
@@ -2843,6 +2949,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.013,
     word: "lot",
@@ -2850,6 +2957,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.012,
     word: "build",
@@ -2857,6 +2965,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.012,
     word: "small",
@@ -2864,6 +2973,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.011,
     word: "view",
@@ -2871,6 +2981,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.01,
     word: "family",
@@ -2878,6 +2989,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.01,
     word: "lovely",
@@ -2885,6 +2997,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.01,
     word: "close",
@@ -2892,6 +3005,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.01,
     word: "still",
@@ -2899,6 +3013,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.01,
     word: "enjoy",
@@ -2906,6 +3021,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.009,
     word: "architecture",
@@ -2913,6 +3029,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.008,
     word: "large",
@@ -2920,6 +3037,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.008,
     word: "part",
@@ -2927,6 +3045,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.008,
     word: "original",
@@ -2934,6 +3053,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.007,
     word: "impressive",
@@ -2941,6 +3061,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.057,
     word: "museum",
@@ -2948,6 +3069,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.042,
     word: "painting",
@@ -2955,6 +3077,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.039,
     word: "well",
@@ -2962,6 +3085,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.036,
     word: "art",
@@ -2969,6 +3093,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.035,
     word: "work",
@@ -2976,6 +3101,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.027,
     word: "interesting",
@@ -2983,6 +3109,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.024,
     word: "history",
@@ -2990,6 +3117,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.022,
     word: "tour",
@@ -2997,6 +3125,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.021,
     word: "room",
@@ -3004,6 +3133,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.02,
     word: "book",
@@ -3011,6 +3141,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.018,
     word: "print",
@@ -3018,6 +3149,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.016,
     word: "give",
@@ -3025,6 +3157,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.015,
     word: "life",
@@ -3032,6 +3165,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.014,
     word: "guide",
@@ -3039,6 +3173,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.013,
     word: "collection",
@@ -3046,6 +3181,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.011,
     word: "also",
@@ -3053,6 +3189,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.011,
     word: "visit",
@@ -3060,6 +3197,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.01,
     word: "include",
@@ -3067,6 +3205,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.01,
     word: "free",
@@ -3074,6 +3213,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.009,
     word: "picture",
@@ -3081,6 +3221,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.009,
     word: "antwerp",
@@ -3088,6 +3229,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.008,
     word: "artwork",
@@ -3095,6 +3237,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.008,
     word: "show",
@@ -3102,6 +3245,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.008,
     word: "inside",
@@ -3109,6 +3253,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.007,
     word: "learn",
@@ -3116,6 +3261,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.007,
     word: "definitely",
@@ -3123,6 +3269,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.007,
     word: "painter",
@@ -3130,6 +3277,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.007,
     word: "information",
@@ -3137,6 +3285,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.006,
     word: "several",
@@ -3144,6 +3293,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.006,
     word: "exhibit",
@@ -3151,6 +3301,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.037,
     word: "beer",
@@ -3158,6 +3309,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.029,
     word: "visitor",
@@ -3165,6 +3317,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.028,
     word: "studio",
@@ -3172,6 +3325,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.027,
     word: "courtyard",
@@ -3179,6 +3333,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.026,
     word: "price",
@@ -3186,6 +3341,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.023,
     word: "shop",
@@ -3193,6 +3349,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.022,
     word: "man",
@@ -3200,6 +3357,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.022,
     word: "medieval",
@@ -3207,6 +3365,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.022,
     word: "ring",
@@ -3214,6 +3373,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.021,
     word: "bar",
@@ -3221,6 +3381,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.018,
     word: "diamond",
@@ -3228,6 +3389,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.016,
     word: "explore",
@@ -3235,6 +3397,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.016,
     word: "service",
@@ -3242,6 +3405,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.013,
     word: "pleasant",
@@ -3249,6 +3413,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.013,
     word: "fact",
@@ -3256,6 +3421,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.013,
     word: "taste",
@@ -3263,6 +3429,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.013,
     word: "quality",
@@ -3270,6 +3437,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.013,
     word: "wife",
@@ -3277,6 +3445,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.013,
     word: "store",
@@ -3284,6 +3453,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.012,
     word: "choose",
@@ -3291,6 +3461,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.012,
     word: "fee",
@@ -3298,6 +3469,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.012,
     word: "purchase",
@@ -3305,6 +3477,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.011,
     word: "entrance_fee",
@@ -3312,6 +3485,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.011,
     word: "serve",
@@ -3319,6 +3493,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.011,
     word: "cross",
@@ -3326,6 +3501,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.009,
     word: "size",
@@ -3333,6 +3509,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.009,
     word: "reasonable",
@@ -3340,6 +3517,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.008,
     word: "dont_miss",
@@ -3347,6 +3525,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.008,
     word: "owner",
@@ -3354,6 +3533,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.008,
     word: "selection",
@@ -3361,6 +3541,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.069,
     word: "piece",
@@ -3368,6 +3549,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.063,
     word: "buy",
@@ -3375,6 +3557,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.058,
     word: "paint",
@@ -3382,6 +3565,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.046,
     word: "story",
@@ -3389,6 +3573,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.037,
     word: "historic",
@@ -3396,6 +3581,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.037,
     word: "gallery",
@@ -3403,6 +3589,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.036,
     word: "antwerpen",
@@ -3410,6 +3597,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.024,
     word: "hand",
@@ -3417,6 +3605,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.02,
     word: "modern",
@@ -3424,6 +3613,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.02,
     word: "leather",
@@ -3431,6 +3621,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.019,
     word: "bible",
@@ -3438,6 +3629,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.016,
     word: "religious",
@@ -3445,6 +3637,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.015,
     word: "dark",
@@ -3452,6 +3645,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.014,
     word: "eye",
@@ -3459,6 +3653,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.013,
     word: "crowded",
@@ -3466,6 +3661,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.012,
     word: "object",
@@ -3473,6 +3669,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.011,
     word: "touch",
@@ -3480,6 +3677,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.01,
     word: "massive",
@@ -3487,6 +3685,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.009,
     word: "realise",
@@ -3494,6 +3693,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.009,
     word: "somewhat",
@@ -3501,6 +3701,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.008,
     word: "daughter",
@@ -3508,6 +3709,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.008,
     word: "bed",
@@ -3515,6 +3717,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.008,
     word: "slightly",
@@ -3522,6 +3725,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.008,
     word: "enormous",
@@ -3529,6 +3733,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.008,
     word: "roman",
@@ -3536,6 +3741,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.008,
     word: "exceptional",
@@ -3543,6 +3749,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.007,
     word: "wonderfully",
@@ -3550,6 +3757,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.007,
     word: "death",
@@ -3557,6 +3765,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.006,
     word: "guy",
@@ -3564,6 +3773,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.006,
     word: "grote",
@@ -3571,6 +3781,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.057,
     word: "river",
@@ -3578,6 +3789,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.036,
     word: "side",
@@ -3585,6 +3797,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.032,
     word: "child",
@@ -3592,6 +3805,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.031,
     word: "especially",
@@ -3599,6 +3813,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.031,
     word: "huge",
@@ -3606,6 +3821,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.024,
     word: "course",
@@ -3613,6 +3829,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.024,
     word: "try",
@@ -3620,6 +3837,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.024,
     word: "unique",
@@ -3627,6 +3845,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.023,
     word: "station",
@@ -3634,6 +3853,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.022,
     word: "unfortunately",
@@ -3641,6 +3861,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.021,
     word: "half",
@@ -3648,6 +3869,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.018,
     word: "probably",
@@ -3655,6 +3877,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.018,
     word: "audio_guide",
@@ -3662,6 +3885,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.018,
     word: "central",
@@ -3669,6 +3893,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.017,
     word: "brewery",
@@ -3676,6 +3901,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.016,
     word: "train",
@@ -3683,6 +3909,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.014,
     word: "facade",
@@ -3690,6 +3917,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.014,
     word: "space",
@@ -3697,6 +3925,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.012,
     word: "public",
@@ -3704,6 +3933,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.012,
     word: "moment",
@@ -3711,6 +3941,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.012,
     word: "hear",
@@ -3718,6 +3949,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.011,
     word: "process",
@@ -3725,6 +3957,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.01,
     word: "coffee",
@@ -3732,6 +3965,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.01,
     word: "line",
@@ -3739,6 +3973,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.01,
     word: "today",
@@ -3746,6 +3981,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.009,
     word: "favorite",
@@ -3753,6 +3989,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.009,
     word: "hope",
@@ -3760,6 +3997,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.009,
     word: "sign",
@@ -3767,6 +4005,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.009,
     word: "spectacular",
@@ -3774,6 +4013,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.009,
     word: "effort",
@@ -3781,6 +4021,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.043,
     word: "time",
@@ -3788,6 +4029,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.037,
     word: "go",
@@ -3795,6 +4037,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.028,
     word: "get",
@@ -3802,6 +4045,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.028,
     word: "take",
@@ -3809,6 +4053,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.025,
     word: "garden",
@@ -3816,6 +4061,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.019,
     word: "look",
@@ -3823,6 +4069,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.019,
     word: "much",
@@ -3830,6 +4077,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.018,
     word: "do",
@@ -3837,6 +4085,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.016,
     word: "find",
@@ -3844,6 +4093,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.014,
     word: "even",
@@ -3851,6 +4101,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.014,
     word: "day",
@@ -3858,6 +4109,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.013,
     word: "make",
@@ -3865,6 +4117,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.012,
     word: "little",
@@ -3872,6 +4125,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.012,
     word: "back",
@@ -3879,6 +4133,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.012,
     word: "use",
@@ -3886,6 +4141,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.012,
     word: "home",
@@ -3893,6 +4149,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.012,
     word: "display",
@@ -3900,6 +4157,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.011,
     word: "come",
@@ -3907,6 +4165,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.011,
     word: "people",
@@ -3914,6 +4173,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.011,
     word: "spend",
@@ -3921,6 +4181,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.01,
     word: "know",
@@ -3928,6 +4189,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.01,
     word: "hour",
@@ -3935,6 +4197,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.01,
     word: "feel",
@@ -3942,6 +4205,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.01,
     word: "first",
@@ -3949,6 +4213,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.009,
     word: "ticket",
@@ -3956,6 +4221,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.009,
     word: "want",
@@ -3963,6 +4229,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.008,
     word: "bit",
@@ -3970,6 +4237,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.008,
     word: "think",
@@ -3977,6 +4245,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.008,
     word: "thing",
@@ -3984,6 +4253,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.007,
     word: "s",
@@ -3991,6 +4261,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.145,
     word: "artist",
@@ -3998,6 +4269,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.071,
     word: "euro",
@@ -4005,6 +4277,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.033,
     word: "certainly",
@@ -4012,6 +4285,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.027,
     word: "able",
@@ -4019,6 +4293,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.019,
     word: "cost",
@@ -4026,6 +4301,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.019,
     word: "charge",
@@ -4033,6 +4309,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.017,
     word: "park",
@@ -4040,6 +4317,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.016,
     word: "play",
@@ -4047,6 +4325,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.015,
     word: "ship",
@@ -4054,6 +4333,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.015,
     word: "bad",
@@ -4061,6 +4341,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.014,
     word: "morning",
@@ -4068,6 +4349,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.014,
     word: "highly",
@@ -4075,6 +4357,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.013,
     word: "card",
@@ -4082,6 +4365,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.013,
     word: "cheap",
@@ -4089,6 +4373,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.012,
     word: "route",
@@ -4096,6 +4381,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.012,
     word: "min",
@@ -4103,6 +4389,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.012,
     word: "audioguide",
@@ -4110,6 +4397,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.012,
     word: "surprise",
@@ -4117,6 +4405,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.012,
     word: "culture",
@@ -4124,6 +4413,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.012,
     word: "pm",
@@ -4131,6 +4421,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.011,
     word: "foot",
@@ -4138,6 +4429,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.01,
     word: "apart",
@@ -4145,6 +4437,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.01,
     word: "useful",
@@ -4152,6 +4445,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.009,
     word: "condition",
@@ -4159,6 +4453,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.009,
     word: "likely",
@@ -4166,6 +4461,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.007,
     word: "path",
@@ -4173,6 +4469,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.007,
     word: "harbour",
@@ -4180,6 +4477,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.007,
     word: "equipment",
@@ -4187,6 +4485,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.006,
     word: "queue",
@@ -4194,6 +4493,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.006,
     word: "difference",
@@ -4201,6 +4501,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.153,
     word: "church",
@@ -4208,6 +4509,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.152,
     word: "fascinating",
@@ -4215,6 +4517,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.145,
     word: "artist",
@@ -4222,6 +4525,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.078,
     word: "place",
@@ -4229,6 +4533,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Tours",
     topic: 10,
     importance_word: 0.071,
     word: "euro",
@@ -4236,6 +4541,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.069,
     word: "piece",
@@ -4243,6 +4549,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.066,
     word: "great",
@@ -4250,6 +4557,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.063,
     word: "buy",
@@ -4257,6 +4565,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.062,
     word: "good",
@@ -4264,6 +4573,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.059,
     word: "visit",
@@ -4271,6 +4581,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.058,
     word: "paint",
@@ -4278,6 +4589,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.057,
     word: "museum",
@@ -4285,6 +4597,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "River Side Tour",
     topic: 8,
     importance_word: 0.057,
     word: "river",
@@ -4292,6 +4605,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Cathedral",
     topic: 2,
     importance_word: 0.054,
     word: "early",
@@ -4299,6 +4613,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.052,
     word: "rubens",
@@ -4306,6 +4621,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.051,
     word: "see",
@@ -4313,6 +4629,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.049,
     word: "really",
@@ -4320,6 +4637,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.046,
     word: "story",
@@ -4327,6 +4645,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.044,
     word: "wander",
@@ -4334,6 +4653,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Chill & Wellbeing",
     topic: 3,
     importance_word: 0.043,
     word: "rest",
@@ -4341,6 +4661,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Rubens",
     topic: 4,
     importance_word: 0.043,
     word: "house",
@@ -4348,6 +4669,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.043,
     word: "time",
@@ -4355,6 +4677,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.042,
     word: "painting",
@@ -4362,6 +4685,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "About Antwerp",
     topic: 1,
     importance_word: 0.04,
     word: "live",
@@ -4369,6 +4693,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.039,
     word: "well",
@@ -4376,6 +4701,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Diamond & Beer",
     topic: 6,
     importance_word: 0.037,
     word: "beer",
@@ -4383,6 +4709,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.037,
     word: "historic",
@@ -4390,6 +4717,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Churches",
     topic: 7,
     importance_word: 0.037,
     word: "gallery",
@@ -4397,6 +4725,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Openair",
     topic: 9,
     importance_word: 0.037,
     word: "go",
@@ -4404,6 +4733,7 @@ const newData = [
   },
   {
     city: "Antwerp Province",
+    topicName: "Museum and Art",
     topic: 5,
     importance_word: 0.036,
     word: "art",
@@ -6931,2316 +7261,2647 @@ const newData = [
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.221,
     word: "tour",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.143,
     word: "get",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.134,
     word: "game",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.132,
     word: "throne",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.087,
     word: "transfer",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.079,
     word: "time",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.079,
     word: "guide",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.077,
     word: "take",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.075,
     word: "recommend",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.075,
     word: "great",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.074,
     word: "day",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.074,
     word: "airport",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.072,
     word: "fan",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.057,
     word: "bus",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.054,
     word: "dubrovnik",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.052,
     word: "trip",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.052,
     word: "make",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.051,
     word: "good",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.046,
     word: "also",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.045,
     word: "show",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.045,
     word: "ferry",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.045,
     word: "go",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.044,
     word: "never",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.043,
     word: "visit",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.041,
     word: "book",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.04,
     word: "holiday",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.04,
     word: "boat",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.039,
     word: "end",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.039,
     word: "walk",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.038,
     word: "think",
     default: "y",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.044,
     word: "never",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.04,
     word: "holiday",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.038,
     word: "think",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.033,
     word: "happy",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.027,
     word: "short",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.027,
     word: "s",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.025,
     word: "hear",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.025,
     word: "ve",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.025,
     word: "re",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.022,
     word: "course",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.02,
     word: "glad",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.019,
     word: "actually",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.019,
     word: "street",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.019,
     word: "pace",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.018,
     word: "hand",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.017,
     word: "entire",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.017,
     word: "m",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.014,
     word: "hard",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.014,
     word: "engage",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.013,
     word: "ivana",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.012,
     word: "rather",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.012,
     word: "building",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.009,
     word: "d",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.009,
     word: "unfortunately",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.009,
     word: "maybe",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.009,
     word: "shot",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.009,
     word: "ultimate",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.009,
     word: "fine",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.008,
     word: "cruise_ship",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Holiday",
+    topicName: "Holiday",
+    topic: 1,
     importance_word: 0.008,
     word: "continue",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.079,
     word: "time",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.074,
     word: "day",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.052,
     word: "trip",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.052,
     word: "make",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.037,
     word: "well",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.032,
     word: "amazing",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.028,
     word: "beautiful",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.028,
     word: "croatia",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.028,
     word: "thank",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.025,
     word: "split",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.024,
     word: "scene",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.023,
     word: "location",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.018,
     word: "local",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.018,
     word: "fantastic",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.016,
     word: "knowledge",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.016,
     word: "perfect",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.014,
     word: "private",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.014,
     word: "wonderful",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.013,
     word: "enough",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.012,
     word: "spend",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.012,
     word: "family",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.011,
     word: "sure",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.011,
     word: "professional",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.011,
     word: "extra",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.01,
     word: "travel",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.01,
     word: "comfortable",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.009,
     word: "absolutely",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.009,
     word: "highlight",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.008,
     word: "waterfall",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Seight Seeing",
+    topicName: "Seight Seeing",
+    topic: 2,
     importance_word: 0.008,
     word: "explore",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.041,
     word: "book",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.032,
     word: "driver",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.028,
     word: "service",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.027,
     word: "use",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.025,
     word: "company",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.024,
     word: "back",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.018,
     word: "first",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.017,
     word: "come",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.017,
     word: "car",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.016,
     word: "pick",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.015,
     word: "easy",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.014,
     word: "need",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.014,
     word: "drive",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.014,
     word: "help",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.014,
     word: "start",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.014,
     word: "tell",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.013,
     word: "say",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.013,
     word: "ask",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.012,
     word: "wait",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.011,
     word: "minute",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.011,
     word: "hotel",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.011,
     word: "arrive",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.011,
     word: "do",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.011,
     word: "return",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.011,
     word: "meet",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.009,
     word: "last",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.009,
     word: "leave",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.009,
     word: "email",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.009,
     word: "next",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Private Transport",
+    topicName: "Private Transport",
+    topic: 3,
     importance_word: 0.009,
     word: "taxi",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.134,
     word: "game",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.132,
     word: "throne",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.087,
     word: "transfer",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.074,
     word: "airport",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.027,
     word: "kings_lande",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.026,
     word: "real",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.02,
     word: "antun",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.02,
     word: "miss",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.02,
     word: "shoot",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.019,
     word: "play",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.015,
     word: "arrival",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.014,
     word: "receive",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.014,
     word: "incredibly",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.013,
     word: "flight",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.011,
     word: "sword",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.011,
     word: "favorite",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.01,
     word: "destination",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.01,
     word: "equipment",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.01,
     word: "locate",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.009,
     word: "memory",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.008,
     word: "date",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.008,
     word: "iron_throne",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.008,
     word: "outside",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.008,
     word: "condition",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.007,
     word: "product",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.007,
     word: "beauty",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.006,
     word: "recently",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.005,
     word: "fair",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.005,
     word: "mail",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Game Of Thrones",
+    topicName: "Game Of Thrones",
+    topic: 4,
     importance_word: 0.005,
     word: "monastery",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.143,
     word: "get",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.077,
     word: "take",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.04,
     word: "boat",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.034,
     word: "island",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.031,
     word: "hour",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.026,
     word: "wine",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.023,
     word: "stop",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.019,
     word: "water",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.018,
     word: "beach",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.018,
     word: "photo",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.015,
     word: "include",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.013,
     word: "lunch",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.012,
     word: "long",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.012,
     word: "restaurant",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.012,
     word: "full",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.012,
     word: "food",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.011,
     word: "ride",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.011,
     word: "spot",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.011,
     word: "small",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.01,
     word: "swim",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.01,
     word: "stay",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.01,
     word: "bit",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.009,
     word: "blue",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.009,
     word: "free",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.009,
     word: "price",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.009,
     word: "drink",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.008,
     word: "plenty",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.008,
     word: "hvar",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.008,
     word: "choose",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Boat Tour",
+    topicName: "Boat Tour",
+    topic: 5,
     importance_word: 0.008,
     word: "couple",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.072,
     word: "fan",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.039,
     word: "end",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.03,
     word: "keep",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.022,
     word: "work",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.022,
     word: "set",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.021,
     word: "taste",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.021,
     word: "year",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.02,
     word: "try",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.018,
     word: "staff",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.018,
     word: "series",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.016,
     word: "season",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.015,
     word: "large",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.014,
     word: "detail",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.014,
     word: "new",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.013,
     word: "plan",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.013,
     word: "high",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.013,
     word: "fast",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.013,
     word: "huge",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.012,
     word: "recommendation",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.011,
     word: "home",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.011,
     word: "historical",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.011,
     word: "option",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.01,
     word: "owner",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.01,
     word: "second",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.01,
     word: "run",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.009,
     word: "child",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.009,
     word: "avoid",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.008,
     word: "apartment",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.008,
     word: "amount",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "A Trip To Dalmatia",
+    topicName: "A Trip To Dalmatia",
+    topic: 6,
     importance_word: 0.008,
     word: "put",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.043,
     word: "visit",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.039,
     word: "walk",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.037,
     word: "old",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.035,
     word: "town",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.026,
     word: "many",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.026,
     word: "worth",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.023,
     word: "city",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.022,
     word: "view",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.022,
     word: "film",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.019,
     word: "area",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.018,
     word: "look",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.018,
     word: "little",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.017,
     word: "well",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.016,
     word: "part",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.016,
     word: "small",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.016,
     word: "find",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.016,
     word: "lovely",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.011,
     word: "watch",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.01,
     word: "quite",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.01,
     word: "still",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.009,
     word: "point",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.009,
     word: "crowd",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.009,
     word: "wall",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.008,
     word: "top",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.008,
     word: "church",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.008,
     word: "lokrum",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.008,
     word: "tourist",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.007,
     word: "step",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.007,
     word: "buy",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Old Town",
+    topicName: "Old Town",
+    topic: 7,
     importance_word: 0.007,
     word: "see",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.221,
     word: "tour",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.079,
     word: "guide",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.075,
     word: "recommend",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.054,
     word: "dubrovnik",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.045,
     word: "show",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.038,
     word: "history",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.037,
     word: "highly",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.028,
     word: "group",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.025,
     word: "give",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.023,
     word: "excellent",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.021,
     word: "city",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.02,
     word: "knowledgeable",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.018,
     word: "interesting",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.014,
     word: "information",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.013,
     word: "informative",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.012,
     word: "provide",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.012,
     word: "question",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.01,
     word: "learn",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.009,
     word: "funny",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.009,
     word: "extremely",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.008,
     word: "story",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.006,
     word: "explain",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.006,
     word: "site",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.005,
     word: "tonka",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.005,
     word: "prop",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.005,
     word: "week",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.005,
     word: "knowledgable",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.005,
     word: "filming_location",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.004,
     word: "sight",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Guided Tour",
+    topicName: "Guided Tour",
+    topic: 8,
     importance_word: 0.004,
     word: "value",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.057,
     word: "bus",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.045,
     word: "ferry",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.037,
     word: "rent",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.028,
     word: "drop",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.028,
     word: "various",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.027,
     word: "turn",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.027,
     word: "change",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.024,
     word: "trogir",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.022,
     word: "quickly",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.021,
     word: "port",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.019,
     word: "young",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.018,
     word: "chance",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.018,
     word: "expensive",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.018,
     word: "request",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.018,
     word: "possible",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.017,
     word: "process",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.016,
     word: "party",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.015,
     word: "luggage",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.015,
     word: "inform",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.015,
     word: "son",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.015,
     word: "order",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.013,
     word: "courteous",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.013,
     word: "entrance",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.012,
     word: "adult",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.012,
     word: "member",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.012,
     word: "charge",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.011,
     word: "believe",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.011,
     word: "phone",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.01,
     word: "pile_gate",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Tourist Transport",
+    topicName: "Tourist Transport",
+    topic: 9,
     importance_word: 0.01,
     word: "multiple",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.075,
     word: "great",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.051,
     word: "good",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.046,
     word: "also",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.045,
     word: "go",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.038,
     word: "see",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.038,
     word: "really",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.03,
     word: "experience",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.028,
     word: "lot",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.027,
     word: "place",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.024,
     word: "even",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.024,
     word: "friendly",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.023,
     word: "way",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.023,
     word: "much",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.023,
     word: "enjoy",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.022,
     word: "nice",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.022,
     word: "fun",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.019,
     word: "definitely",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.018,
     word: "people",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.017,
     word: "know",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.015,
     word: "want",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.015,
     word: "love",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.013,
     word: "feel",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.012,
     word: "helpful",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.012,
     word: "do",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.011,
     word: "cave",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.011,
     word: "thing",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.011,
     word: "picture",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.01,
     word: "able",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.009,
     word: "whole",
     default: "n",
   },
   {
     city: "Dalmatia",
-    topic: "Experience",
+    topicName: "Experience",
+    topic: 10,
     importance_word: 0.008,
     word: "friend",
     default: "n",
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.088,
     word: "museum",
@@ -9248,6 +9909,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.076,
     word: "tour",
@@ -9255,6 +9917,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.072,
     word: "visit",
@@ -9262,6 +9925,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.071,
     word: "learn",
@@ -9269,6 +9933,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.061,
     word: "walk",
@@ -9276,6 +9941,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.061,
     word: "well",
@@ -9283,13 +9949,15 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.057,
     word: "see",
     default: "y",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.054,
     word: "cafe",
@@ -9297,6 +9965,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.052,
     word: "great",
@@ -9304,13 +9973,15 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.051,
     word: "attraction",
     default: "y",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.049,
     word: "s",
@@ -9318,6 +9989,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.049,
     word: "time",
@@ -9325,6 +9997,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.049,
     word: "buy",
@@ -9332,6 +10005,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.047,
     word: "ticket",
@@ -9339,6 +10013,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.046,
     word: "body",
@@ -9346,6 +10021,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.046,
     word: "city",
@@ -9353,6 +10029,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.045,
     word: "good",
@@ -9360,6 +10037,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.045,
     word: "dune",
@@ -9367,6 +10045,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.045,
     word: "piece",
@@ -9374,6 +10053,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.044,
     word: "place",
@@ -9381,6 +10061,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.043,
     word: "nice",
@@ -9388,6 +10069,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.042,
     word: "go",
@@ -9395,13 +10077,15 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.04,
     word: "away",
     default: "y",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.038,
     word: "wait",
@@ -9409,6 +10093,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.038,
     word: "point",
@@ -9416,6 +10101,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.038,
     word: "make",
@@ -9423,6 +10109,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.037,
     word: "beach",
@@ -9430,6 +10117,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.036,
     word: "building",
@@ -9437,6 +10125,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.036,
     word: "high",
@@ -9444,216 +10133,247 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.035,
     word: "old",
     default: "y",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.054,
     word: "cafe",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.049,
     word: "s",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.038,
     word: "wait",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.026,
     word: "warm",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.023,
     word: "stroll",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.022,
     word: "windy",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.02,
     word: "flower",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.02,
     word: "read",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.019,
     word: "sell",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.017,
     word: "landscape",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.017,
     word: "glad",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.016,
     word: "access",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.015,
     word: "sun",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.015,
     word: "stunning",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.014,
     word: "holiday",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.012,
     word: "km",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.012,
     word: "simply",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.012,
     word: "product",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.011,
     word: "create",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.011,
     word: "spa",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.011,
     word: "sauna",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.011,
     word: "touch",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.011,
     word: "listen",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.01,
     word: "factory",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.01,
     word: "smell",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.01,
     word: "rental",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.01,
     word: "notice",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.009,
     word: "attend",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.009,
     word: "ball",
     default: "n",
   },
   {
-    city: "South Holland Province",
+    city: "Province Of Huesca",
+    topicName: "Landscape and Wellness",
     topic: 1,
     importance_word: 0.009,
     word: "gorgeous",
@@ -9661,6 +10381,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.088,
     word: "museum",
@@ -9668,6 +10389,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.036,
     word: "building",
@@ -9675,6 +10397,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.035,
     word: "old",
@@ -9682,6 +10405,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.034,
     word: "art",
@@ -9689,6 +10413,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.031,
     word: "small",
@@ -9696,6 +10421,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.029,
     word: "dutch",
@@ -9703,6 +10429,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.023,
     word: "modern",
@@ -9710,6 +10437,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.021,
     word: "exhibition",
@@ -9717,6 +10445,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.018,
     word: "build",
@@ -9724,6 +10453,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.017,
     word: "collection",
@@ -9731,6 +10461,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.017,
     word: "park",
@@ -9738,6 +10469,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.016,
     word: "town",
@@ -9745,6 +10477,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.013,
     word: "architecture",
@@ -9752,6 +10485,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.013,
     word: "church",
@@ -9759,6 +10493,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.013,
     word: "still",
@@ -9766,6 +10501,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.013,
     word: "space",
@@ -9773,6 +10509,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.012,
     word: "large",
@@ -9780,6 +10517,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.012,
     word: "parking",
@@ -9787,6 +10525,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.011,
     word: "house",
@@ -9794,6 +10533,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.011,
     word: "display",
@@ -9801,6 +10541,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.01,
     word: "exhibit",
@@ -9808,6 +10549,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.01,
     word: "locate",
@@ -9815,6 +10557,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.01,
     word: "several",
@@ -9822,6 +10565,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.01,
     word: "netherland",
@@ -9829,6 +10573,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.01,
     word: "seem",
@@ -9836,6 +10581,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.008,
     word: "main",
@@ -9843,6 +10589,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.008,
     word: "canal",
@@ -9850,6 +10597,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.008,
     word: "entrance",
@@ -9857,6 +10605,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.007,
     word: "close",
@@ -9864,6 +10613,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Museum & Exhibition",
     topic: 2,
     importance_word: 0.006,
     word: "street",
@@ -9871,6 +10621,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.042,
     word: "go",
@@ -9878,6 +10629,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.037,
     word: "beach",
@@ -9885,6 +10637,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.032,
     word: "get",
@@ -9892,6 +10645,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.03,
     word: "day",
@@ -9899,6 +10653,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.026,
     word: "take",
@@ -9906,6 +10661,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.018,
     word: "bike",
@@ -9913,6 +10669,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.017,
     word: "people",
@@ -9920,6 +10677,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.016,
     word: "pier",
@@ -9927,6 +10685,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.015,
     word: "do",
@@ -9934,6 +10693,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.015,
     word: "room",
@@ -9941,6 +10701,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.012,
     word: "back",
@@ -9948,6 +10709,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.012,
     word: "come",
@@ -9955,6 +10717,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.011,
     word: "bit",
@@ -9962,6 +10725,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "long",
@@ -9969,6 +10733,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "first",
@@ -9976,6 +10741,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "use",
@@ -9983,6 +10749,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "want",
@@ -9990,6 +10757,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "trip",
@@ -9997,6 +10765,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "feel",
@@ -10004,6 +10773,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.01,
     word: "ride",
@@ -10011,6 +10781,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.009,
     word: "quite",
@@ -10018,6 +10789,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.009,
     word: "big",
@@ -10025,6 +10797,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.009,
     word: "sea",
@@ -10032,6 +10805,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.009,
     word: "think",
@@ -10039,6 +10813,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.008,
     word: "book",
@@ -10046,6 +10821,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.008,
     word: "end",
@@ -10053,6 +10829,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.008,
     word: "try",
@@ -10060,6 +10837,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.008,
     word: "need",
@@ -10067,6 +10845,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.008,
     word: "say",
@@ -10074,6 +10853,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Seaside",
     topic: 3,
     importance_word: 0.007,
     word: "clean",
@@ -10081,6 +10861,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.072,
     word: "visit",
@@ -10088,6 +10869,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.057,
     word: "see",
@@ -10095,6 +10877,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.049,
     word: "time",
@@ -10102,6 +10885,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.027,
     word: "many",
@@ -10109,6 +10893,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.023,
     word: "hour",
@@ -10116,6 +10901,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.022,
     word: "love",
@@ -10123,6 +10909,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.022,
     word: "even",
@@ -10130,6 +10917,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.021,
     word: "fun",
@@ -10137,6 +10925,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.02,
     word: "kid",
@@ -10144,6 +10933,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.02,
     word: "year",
@@ -10151,6 +10941,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.019,
     word: "work",
@@ -10158,6 +10949,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.018,
     word: "recommend",
@@ -10165,6 +10957,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.018,
     word: "part",
@@ -10172,6 +10965,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.017,
     word: "lovely",
@@ -10179,6 +10973,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.017,
     word: "child",
@@ -10186,6 +10981,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.015,
     word: "thing",
@@ -10193,6 +10989,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.015,
     word: "open",
@@ -10200,6 +10997,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.015,
     word: "new",
@@ -10207,6 +11005,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.014,
     word: "definitely",
@@ -10214,6 +11013,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.014,
     word: "spend",
@@ -10221,6 +11021,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.013,
     word: "show",
@@ -10228,6 +11029,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.013,
     word: "wonderful",
@@ -10235,6 +11037,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.011,
     word: "easy",
@@ -10242,6 +11045,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.011,
     word: "little",
@@ -10249,6 +11053,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.011,
     word: "family",
@@ -10256,6 +11061,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.007,
     word: "adult",
@@ -10263,6 +11069,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.007,
     word: "couple",
@@ -10270,6 +11077,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.007,
     word: "busy",
@@ -10277,6 +11085,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.007,
     word: "euro",
@@ -10284,6 +11093,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Family Trip",
     topic: 4,
     importance_word: 0.007,
     word: "activity",
@@ -10291,6 +11101,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.052,
     word: "great",
@@ -10298,6 +11109,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.045,
     word: "good",
@@ -10305,6 +11117,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.044,
     word: "place",
@@ -10312,6 +11125,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.043,
     word: "nice",
@@ -10319,6 +11133,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.03,
     word: "also",
@@ -10326,6 +11141,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.028,
     word: "really",
@@ -10333,6 +11149,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.026,
     word: "lot",
@@ -10340,6 +11157,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.023,
     word: "enjoy",
@@ -10347,6 +11165,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.022,
     word: "food",
@@ -10354,6 +11173,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.022,
     word: "restaurant",
@@ -10361,6 +11181,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.02,
     word: "beautiful",
@@ -10368,6 +11189,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.019,
     word: "find",
@@ -10375,6 +11197,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.018,
     word: "experience",
@@ -10382,6 +11205,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.018,
     word: "view",
@@ -10389,6 +11213,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.017,
     word: "area",
@@ -10396,6 +11221,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.017,
     word: "look",
@@ -10403,6 +11229,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.013,
     word: "friendly",
@@ -10410,6 +11237,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.013,
     word: "shop",
@@ -10417,6 +11245,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.011,
     word: "different",
@@ -10424,6 +11253,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.011,
     word: "drink",
@@ -10431,6 +11261,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.011,
     word: "staff",
@@ -10438,6 +11269,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.01,
     word: "amazing",
@@ -10445,6 +11277,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.01,
     word: "bar",
@@ -10452,6 +11285,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.009,
     word: "eat",
@@ -10459,6 +11293,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.009,
     word: "local",
@@ -10466,6 +11301,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.008,
     word: "excellent",
@@ -10473,6 +11309,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.008,
     word: "offer",
@@ -10480,6 +11317,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.007,
     word: "location",
@@ -10487,6 +11325,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.007,
     word: "friend",
@@ -10494,6 +11333,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Food & Drinks",
     topic: 5,
     importance_word: 0.007,
     word: "always",
@@ -10501,6 +11341,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.046,
     word: "body",
@@ -10508,6 +11349,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.036,
     word: "high",
@@ -10515,6 +11357,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.034,
     word: "fact",
@@ -10522,6 +11365,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.034,
     word: "afternoon",
@@ -10529,6 +11373,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.034,
     word: "age",
@@ -10536,6 +11381,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.033,
     word: "lunch",
@@ -10543,6 +11389,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.032,
     word: "outside",
@@ -10550,6 +11397,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.031,
     word: "taste",
@@ -10557,6 +11405,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.027,
     word: "snack",
@@ -10564,6 +11413,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.024,
     word: "meet",
@@ -10571,6 +11421,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.024,
     word: "den_haag",
@@ -10578,6 +11429,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.021,
     word: "tea",
@@ -10585,6 +11437,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.021,
     word: "surprise",
@@ -10592,6 +11445,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.019,
     word: "private",
@@ -10599,6 +11453,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.018,
     word: "favourite",
@@ -10606,6 +11461,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.018,
     word: "middle",
@@ -10613,6 +11469,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.015,
     word: "safe",
@@ -10620,6 +11477,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.015,
     word: "war",
@@ -10627,6 +11485,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.014,
     word: "exciting",
@@ -10634,6 +11493,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.014,
     word: "climb",
@@ -10641,6 +11501,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.014,
     word: "range",
@@ -10648,6 +11509,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.013,
     word: "meal",
@@ -10655,6 +11517,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.013,
     word: "fill",
@@ -10662,6 +11525,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.012,
     word: "particularly",
@@ -10669,6 +11533,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.012,
     word: "volunteer",
@@ -10676,6 +11541,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.011,
     word: "structure",
@@ -10683,6 +11549,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.011,
     word: "base",
@@ -10690,6 +11557,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.011,
     word: "effort",
@@ -10697,6 +11565,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.011,
     word: "soon",
@@ -10704,6 +11573,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "The Hague",
     topic: 6,
     importance_word: 0.011,
     word: "entire",
@@ -10711,6 +11581,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.071,
     word: "learn",
@@ -10718,6 +11589,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.051,
     word: "attraction",
@@ -10725,6 +11597,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.045,
     word: "dune",
@@ -10732,6 +11605,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.045,
     word: "piece",
@@ -10739,6 +11613,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.038,
     word: "point",
@@ -10746,6 +11621,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.029,
     word: "various",
@@ -10753,6 +11629,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.026,
     word: "winter",
@@ -10760,6 +11637,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.026,
     word: "pass",
@@ -10767,6 +11645,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.025,
     word: "add",
@@ -10774,6 +11653,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.023,
     word: "plan",
@@ -10781,6 +11661,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.02,
     word: "fast",
@@ -10788,6 +11669,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.019,
     word: "map",
@@ -10795,6 +11677,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.018,
     word: "step",
@@ -10802,6 +11685,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.017,
     word: "totally",
@@ -10809,6 +11693,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.017,
     word: "architectural",
@@ -10816,6 +11701,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.016,
     word: "outdoor",
@@ -10823,6 +11709,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.015,
     word: "surrounding",
@@ -10830,6 +11717,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.015,
     word: "attention",
@@ -10837,6 +11725,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.015,
     word: "pleasure",
@@ -10844,6 +11733,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.014,
     word: "beauty",
@@ -10851,6 +11741,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.014,
     word: "culture",
@@ -10858,6 +11749,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.014,
     word: "educational",
@@ -10865,6 +11757,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.014,
     word: "hope",
@@ -10872,6 +11765,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.013,
     word: "attractive",
@@ -10879,6 +11773,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.012,
     word: "construction",
@@ -10886,6 +11781,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.012,
     word: "delightful",
@@ -10893,6 +11789,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.011,
     word: "forget",
@@ -10900,6 +11797,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.01,
     word: "memory",
@@ -10907,6 +11805,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.01,
     word: "wear",
@@ -10914,6 +11813,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Sightseeing",
     topic: 7,
     importance_word: 0.009,
     word: "facade",
@@ -10921,6 +11821,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.076,
     word: "tour",
@@ -10928,6 +11829,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.061,
     word: "walk",
@@ -10935,6 +11837,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.061,
     word: "well",
@@ -10942,6 +11845,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.046,
     word: "city",
@@ -10949,6 +11853,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.038,
     word: "make",
@@ -10956,6 +11861,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.034,
     word: "worth",
@@ -10963,6 +11869,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.032,
     word: "interesting",
@@ -10970,6 +11877,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.032,
     word: "way",
@@ -10977,6 +11885,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.029,
     word: "hague",
@@ -10984,6 +11893,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.027,
     word: "guide",
@@ -10991,6 +11901,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.024,
     word: "give",
@@ -10998,6 +11909,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.022,
     word: "sculpture",
@@ -11005,6 +11917,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.02,
     word: "know",
@@ -11012,6 +11925,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.02,
     word: "much",
@@ -11019,6 +11933,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.019,
     word: "history",
@@ -11026,6 +11941,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.015,
     word: "stop",
@@ -11033,6 +11949,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.012,
     word: "story",
@@ -11040,6 +11957,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.011,
     word: "information",
@@ -11047,6 +11965,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.01,
     word: "provide",
@@ -11054,6 +11973,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.009,
     word: "live",
@@ -11061,6 +11981,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.009,
     word: "thank",
@@ -11068,6 +11989,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.009,
     word: "highly_recommend",
@@ -11075,6 +11997,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.008,
     word: "short",
@@ -11082,6 +12005,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.008,
     word: "free",
@@ -11089,6 +12013,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.007,
     word: "center",
@@ -11096,6 +12021,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.006,
     word: "centre",
@@ -11103,6 +12029,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.006,
     word: "knowledgeable",
@@ -11110,6 +12037,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.006,
     word: "life",
@@ -11117,6 +12045,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.006,
     word: "surround",
@@ -11124,6 +12053,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Walking Tour",
     topic: 8,
     importance_word: 0.006,
     word: "informative",
@@ -11131,6 +12061,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.049,
     word: "buy",
@@ -11138,6 +12069,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.047,
     word: "ticket",
@@ -11145,6 +12077,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.04,
     word: "away",
@@ -11152,6 +12085,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.029,
     word: "picture",
@@ -11159,6 +12093,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.027,
     word: "mean",
@@ -11166,6 +12101,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.025,
     word: "daughter",
@@ -11173,6 +12109,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.024,
     word: "cover",
@@ -11180,6 +12117,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.023,
     word: "glass",
@@ -11187,6 +12125,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.023,
     word: "round",
@@ -11194,6 +12133,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.022,
     word: "serve",
@@ -11201,6 +12141,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.022,
     word: "wide",
@@ -11208,6 +12149,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.02,
     word: "unfortunately",
@@ -11215,6 +12157,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.019,
     word: "hard",
@@ -11222,6 +12165,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.019,
     word: "min",
@@ -11229,6 +12173,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.019,
     word: "machine",
@@ -11236,6 +12181,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.016,
     word: "tree",
@@ -11243,6 +12189,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.016,
     word: "make_sure",
@@ -11250,6 +12197,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.015,
     word: "sunset",
@@ -11257,6 +12205,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.015,
     word: "ground",
@@ -11264,6 +12213,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.013,
     word: "commentary",
@@ -11271,6 +12221,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.013,
     word: "foot",
@@ -11278,6 +12229,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.013,
     word: "gem",
@@ -11285,6 +12237,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.013,
     word: "recently",
@@ -11292,6 +12245,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.013,
     word: "class",
@@ -11299,6 +12253,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.011,
     word: "public_transport",
@@ -11306,6 +12261,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.011,
     word: "port",
@@ -11313,6 +12269,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.01,
     word: "sort",
@@ -11320,6 +12277,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.01,
     word: "blue",
@@ -11327,6 +12285,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.01,
     word: "avoid",
@@ -11334,6 +12293,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Transport",
     topic: 9,
     importance_word: 0.01,
     word: "appear",
@@ -11341,6 +12301,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.035,
     word: "play",
@@ -11348,6 +12309,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.033,
     word: "minute",
@@ -11355,6 +12317,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.03,
     word: "scheveningen",
@@ -11362,6 +12325,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.028,
     word: "cheese",
@@ -11369,6 +12333,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.024,
     word: "set",
@@ -11376,6 +12341,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.022,
     word: "plenty",
@@ -11383,6 +12349,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.019,
     word: "young",
@@ -11390,6 +12357,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.018,
     word: "be",
@@ -11397,6 +12365,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.017,
     word: "game",
@@ -11404,6 +12373,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.016,
     word: "sure",
@@ -11411,6 +12381,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.016,
     word: "tourist",
@@ -11418,6 +12389,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.014,
     word: "re",
@@ -11425,6 +12397,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.014,
     word: "train",
@@ -11432,6 +12405,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.013,
     word: "early",
@@ -11439,6 +12413,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.013,
     word: "station",
@@ -11446,6 +12421,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.012,
     word: "enter",
@@ -11453,6 +12429,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.011,
     word: "bad",
@@ -11460,6 +12437,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.011,
     word: "store",
@@ -11467,6 +12445,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.011,
     word: "option",
@@ -11474,6 +12453,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.01,
     word: "understand",
@@ -11481,6 +12461,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.01,
     word: "detail",
@@ -11488,6 +12469,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.01,
     word: "maybe",
@@ -11495,6 +12477,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.009,
     word: "half",
@@ -11502,6 +12485,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.009,
     word: "quick",
@@ -11509,6 +12493,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.009,
     word: "fascinating",
@@ -11516,6 +12501,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.009,
     word: "let",
@@ -11523,6 +12509,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.009,
     word: "terrace",
@@ -11530,6 +12517,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.009,
     word: "problem",
@@ -11537,6 +12525,7 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.008,
     word: "quiet",
@@ -11544,27 +12533,16 @@ const newData = [
   },
   {
     city: "South Holland Province",
+    topicName: "Scheveningen",
     topic: 10,
     importance_word: 0.008,
     word: "together",
     default: "n",
   },
+
   {
     city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.041,
-    word: "purchase",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.035,
-    word: "town",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.031,
     word: "light",
@@ -11572,6 +12550,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.029,
     word: "see",
@@ -11579,20 +12558,16 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.028,
     word: "landscape",
     default: "y",
   },
+
   {
     city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.025,
-    word: "comment",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.023,
     word: "night",
@@ -11600,6 +12575,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.023,
     word: "guide",
@@ -11607,6 +12583,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.023,
     word: "tour",
@@ -11614,6 +12591,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.022,
     word: "experience",
@@ -11621,6 +12599,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.021,
     word: "absolute",
@@ -11628,6 +12607,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.02,
     word: "arctic",
@@ -11635,34 +12615,25 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.019,
     word: "trip",
     default: "y",
   },
+
   {
     city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.019,
-    word: "participate",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.018,
     word: "great",
     default: "y",
   },
+
   {
     city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.018,
-    word: "shine",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "occasion",
@@ -11670,6 +12641,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "willing",
@@ -11677,6 +12649,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "snowy",
@@ -11684,6 +12657,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "snow_shoee",
@@ -11691,6 +12665,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.016,
     word: "make",
@@ -11698,6 +12673,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.016,
     word: "night",
@@ -11705,6 +12681,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.015,
     word: "cottage",
@@ -11712,27 +12689,16 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.015,
     word: "go",
     default: "y",
   },
+
   {
     city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.015,
-    word: "delay",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.015,
-    word: "everyday",
-    default: "y",
-  },
-  {
-    city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.014,
     word: "water",
@@ -11740,6 +12706,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.014,
     word: "northern",
@@ -11747,6 +12714,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.014,
     word: "thank",
@@ -11754,6 +12722,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.014,
     word: "amazing",
@@ -11761,6 +12730,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.028,
     word: "landscape",
@@ -11768,6 +12738,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.021,
     word: "absolute",
@@ -11775,6 +12746,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.02,
     word: "arctic",
@@ -11782,6 +12754,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "occasion",
@@ -11789,6 +12762,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "willing",
@@ -11796,6 +12770,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "snowy",
@@ -11803,6 +12778,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.016,
     word: "snow_shoee",
@@ -11810,6 +12786,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.014,
     word: "water",
@@ -11817,6 +12794,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.011,
     word: "maximise",
@@ -11824,6 +12802,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.011,
     word: "departure",
@@ -11831,6 +12810,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.011,
     word: "online",
@@ -11838,6 +12818,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.01,
     word: "showing",
@@ -11845,6 +12826,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.009,
     word: "struggle",
@@ -11852,6 +12834,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.009,
     word: "individual",
@@ -11859,6 +12842,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.009,
     word: "terrific",
@@ -11866,6 +12850,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.009,
     word: "ball",
@@ -11873,6 +12858,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.008,
     word: "naked_eye",
@@ -11880,6 +12866,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.008,
     word: "celsius",
@@ -11887,6 +12874,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.008,
     word: "trek",
@@ -11894,6 +12882,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.008,
     word: "appreciated",
@@ -11901,6 +12890,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "perform",
@@ -11908,6 +12898,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "mark",
@@ -11915,6 +12906,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "polar",
@@ -11922,6 +12914,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "heartbeat",
@@ -11929,6 +12922,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "fab",
@@ -11936,6 +12930,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "treasure",
@@ -11943,6 +12938,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "support",
@@ -11950,6 +12946,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "hand_warmer",
@@ -11957,6 +12954,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.007,
     word: "infectious",
@@ -11964,6 +12962,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Artic Landscape",
     topic: 1,
     importance_word: 0.006,
     word: "utmost",
@@ -11971,6 +12970,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.031,
     word: "light",
@@ -11978,6 +12978,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.029,
     word: "see",
@@ -11985,6 +12986,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.023,
     word: "night",
@@ -11992,6 +12994,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.023,
     word: "guide",
@@ -11999,6 +13002,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.023,
     word: "tour",
@@ -12006,6 +13010,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.022,
     word: "experience",
@@ -12013,6 +13018,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.019,
     word: "trip",
@@ -12020,6 +13026,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.018,
     word: "great",
@@ -12027,6 +13034,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.016,
     word: "make",
@@ -12034,6 +13042,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.015,
     word: "cottage",
@@ -12041,6 +13050,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.014,
     word: "northern",
@@ -12048,6 +13058,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.014,
     word: "thank",
@@ -12055,6 +13066,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.014,
     word: "amazing",
@@ -12062,6 +13074,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.013,
     word: "stay",
@@ -12069,6 +13082,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.01,
     word: "good",
@@ -12076,6 +13090,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.009,
     word: "go",
@@ -12083,6 +13098,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.009,
     word: "really",
@@ -12090,6 +13106,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.009,
     word: "time",
@@ -12097,6 +13114,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.009,
     word: "activity",
@@ -12104,6 +13122,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.008,
     word: "husky",
@@ -12111,6 +13130,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.008,
     word: "well",
@@ -12118,6 +13138,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.008,
     word: "also",
@@ -12125,6 +13146,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "recommend",
@@ -12132,6 +13154,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "comfortable",
@@ -12139,6 +13162,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "asgard",
@@ -12146,6 +13170,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "week",
@@ -12153,6 +13178,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "even",
@@ -12160,6 +13186,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "fun",
@@ -12167,6 +13194,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "holiday",
@@ -12174,6 +13202,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Northern Lights",
     topic: 2,
     importance_word: 0.007,
     word: "location",
@@ -12181,6 +13210,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.016,
     word: "night",
@@ -12188,6 +13218,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.015,
     word: "go",
@@ -12195,6 +13226,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.014,
     word: "get",
@@ -12202,6 +13234,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.012,
     word: "take",
@@ -12209,6 +13242,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.012,
     word: "see",
@@ -12216,6 +13250,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.011,
     word: "day",
@@ -12223,6 +13258,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.011,
     word: "time",
@@ -12230,6 +13266,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.01,
     word: "good",
@@ -12237,6 +13274,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.009,
     word: "do",
@@ -12244,6 +13282,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.008,
     word: "drive",
@@ -12251,6 +13290,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.007,
     word: "well",
@@ -12258,6 +13298,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.007,
     word: "snow",
@@ -12265,6 +13306,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.007,
     word: "also",
@@ -12272,6 +13314,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.006,
     word: "cabin",
@@ -12279,6 +13322,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.006,
     word: "need",
@@ -12286,6 +13330,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.006,
     word: "back",
@@ -12293,6 +13338,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.006,
     word: "patrick",
@@ -12300,6 +13346,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "cold",
@@ -12307,6 +13354,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "first",
@@ -12314,6 +13362,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "light",
@@ -12321,6 +13370,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "sky",
@@ -12328,6 +13378,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "look",
@@ -12335,6 +13386,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "walk",
@@ -12342,6 +13394,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "hour",
@@ -12349,6 +13402,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "know",
@@ -12356,6 +13410,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "warm",
@@ -12363,6 +13418,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "trip",
@@ -12370,6 +13426,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "much",
@@ -12377,6 +13434,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.005,
     word: "cottage",
@@ -12384,6 +13442,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Excursions",
     topic: 3,
     importance_word: 0.004,
     word: "say",
@@ -12391,6 +13450,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.013,
     word: "new",
@@ -12398,6 +13458,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.011,
     word: "totally",
@@ -12405,6 +13466,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.01,
     word: "choice",
@@ -12412,6 +13474,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.01,
     word: "valhalla_site",
@@ -12419,6 +13482,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.009,
     word: "trail",
@@ -12426,6 +13490,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.009,
     word: "south",
@@ -12433,6 +13498,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.009,
     word: "low",
@@ -12440,6 +13506,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.008,
     word: "heating",
@@ -12447,6 +13514,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.008,
     word: "tower",
@@ -12454,6 +13522,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.008,
     word: "site",
@@ -12461,6 +13530,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.008,
     word: "space",
@@ -12468,6 +13538,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.007,
     word: "quiet",
@@ -12475,6 +13546,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.007,
     word: "however",
@@ -12482,6 +13554,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "rather",
@@ -12489,6 +13562,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "reward",
@@ -12496,6 +13570,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "option",
@@ -12503,6 +13578,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "mostly",
@@ -12510,6 +13586,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "clear_skie",
@@ -12517,6 +13594,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "large",
@@ -12524,6 +13602,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "deck",
@@ -12531,6 +13610,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "information",
@@ -12538,6 +13618,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "km",
@@ -12545,6 +13626,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "perfectly",
@@ -12552,6 +13634,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "clear",
@@ -12559,6 +13642,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.006,
     word: "forget",
@@ -12566,6 +13650,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.005,
     word: "fit",
@@ -12573,6 +13658,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.005,
     word: "indeed",
@@ -12580,6 +13666,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.005,
     word: "floor",
@@ -12587,6 +13674,7 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.005,
     word: "text",
@@ -12594,1273 +13682,16 @@ const newData = [
   },
   {
     city: "Utsjoki",
+    topicName: "Valhalla",
     topic: 4,
     importance_word: 0.005,
     word: "chance",
     default: "n",
   },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0.005,
-    word: "goodbye",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "stratospheric",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "footprint",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "unwavere",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "hahaa",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "cleanliness",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "enjoyably",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "wisely",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "unforgetable",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "bedding",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "plain",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "considering",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "spate",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "savor",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "profound",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "melody",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "stoic",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "illuminate",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "filament",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "coalescing",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "anew",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "monochromatic",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "task",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "perception",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "tenuous",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "unconsciously",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "vibrancy",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "tune",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "unabashed",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 5,
-    importance_word: 0,
-    word: "graciousness",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.018,
-    word: "shine",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.013,
-    word: "factor",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.009,
-    word: "professionally",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.008,
-    word: "pursuit",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.004,
-    word: "planned",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.002,
-    word: "tomorrow",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.001,
-    word: "spotting",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.001,
-    word: "pleasurable",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.001,
-    word: "thumbdrive",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.001,
-    word: "distinguish",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0.001,
-    word: "memento",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "auroar",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "lavuu",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "coeliac",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "separately",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "sophisticated",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "fie",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "assemble",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "occassion",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "curve",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "pillar",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "garbage",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "diet",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "tickle",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "personification",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "kph",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "learnt",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "prebooke",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "bf",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 6,
-    importance_word: 0,
-    word: "fraction",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0.013,
-    word: "natural_phenomenon",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0.008,
-    word: "dogsle",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0.008,
-    word: "indigenous",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0.005,
-    word: "dense",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "frequent",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "marry",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "overwhelm",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "lapand",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "fairy",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "costly",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "importance",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "precise",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "presence",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "plethora",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "reindeeer",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "battle",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "explaining",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "layover",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "deceive",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "declaration",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "exclude",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "indicate",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "ragnar",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "ˋˋcabin",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "lynx",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "gainesville",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "irani",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "frosty",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "auroro",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 7,
-    importance_word: 0,
-    word: "crystal",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "elmia",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "woman",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "intenary",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "destination",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "translation",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "hostess",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "tiina_maria",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "florence",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "ligts",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "fb",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "saunsa",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "girls_love",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "treatment",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "worried",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "varanger",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "uncertainty",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "cope",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "bird",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "tranquility",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "primarily",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "inlcude",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "allour",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "emilia",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "ruska",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "pizza",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "cup",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "imagination",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "gifted",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "flour",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 8,
-    importance_word: 0,
-    word: "drawer",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.035,
-    word: "town",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.019,
-    word: "participate",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.014,
-    word: "anticipate",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.008,
-    word: "convenient",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.004,
-    word: "transportation",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.002,
-    word: "comprise",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "danial",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "formation",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "explode",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "emphasis",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "antarctic",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "diligently",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "outerwear",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0.001,
-    word: "answered",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "unconditionally",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "promised",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "levi",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "hostelry",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "iced",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "involvement",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "driveway",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "generously",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "immerse",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "additionally",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "shuffle",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "impose",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "baby",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "chain",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "west",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 9,
-    importance_word: 0,
-    word: "running",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.041,
-    word: "purchase",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.025,
-    word: "comment",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.015,
-    word: "delay",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.015,
-    word: "everyday",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.013,
-    word: "paper",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.01,
-    word: "disappear",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.009,
-    word: "professional_photographer",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.009,
-    word: "interest",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.009,
-    word: "taste",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.008,
-    word: "occupant",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.008,
-    word: "newly",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.008,
-    word: "fancy",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.007,
-    word: "alarm",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.007,
-    word: "justify",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.007,
-    word: "winter_wonderland",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.006,
-    word: "wherever",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.005,
-    word: "facebook",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.005,
-    word: "fee",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.005,
-    word: "cash",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.005,
-    word: "bearable",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.004,
-    word: "incident",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.004,
-    word: "substantial",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.004,
-    word: "anecdote",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.004,
-    word: "deposit",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.004,
-    word: "pushy",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.004,
-    word: "insist",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.003,
-    word: "beach",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.003,
-    word: "antler",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.003,
-    word: "pee",
-    default: "n",
-  },
-  {
-    city: "Utsjoki",
-    topic: 10,
-    importance_word: 0.003,
-    word: "slightly",
-    default: "n",
-  },
+
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.098,
     word: "route",
@@ -13868,6 +13699,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.079,
     word: "information",
@@ -13875,6 +13707,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.052,
     word: "fish",
@@ -13882,6 +13715,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.046,
     word: "valley",
@@ -13889,6 +13723,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.043,
     word: "bike",
@@ -13896,6 +13731,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.043,
     word: "waterfall",
@@ -13903,6 +13739,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.043,
     word: "walk",
@@ -13910,6 +13747,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.036,
     word: "pass",
@@ -13917,6 +13755,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.034,
     word: "pool",
@@ -13924,6 +13763,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.033,
     word: "national_park",
@@ -13931,6 +13771,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.031,
     word: "rather",
@@ -13938,6 +13779,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.031,
     word: "romanesque",
@@ -13945,6 +13787,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.031,
     word: "step",
@@ -13952,6 +13795,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.028,
     word: "organise",
@@ -13959,6 +13803,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.027,
     word: "place",
@@ -13966,6 +13811,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.027,
     word: "office",
@@ -13973,6 +13819,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.027,
     word: "day",
@@ -13980,13 +13827,14 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.026,
     word: "cathedral",
     default: "y",
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.026,
     word: "guide",
@@ -13994,6 +13842,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.026,
     word: "river",
@@ -14001,6 +13850,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.025,
     word: "park",
@@ -14008,6 +13858,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.025,
     word: "cross",
@@ -14015,6 +13866,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.025,
     word: "fishing",
@@ -14022,6 +13874,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.025,
     word: "great",
@@ -14029,6 +13882,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.025,
     word: "hour",
@@ -14036,13 +13890,14 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.024,
     word: "real",
     default: "y",
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.024,
     word: "snow",
@@ -14050,6 +13905,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.024,
     word: "money",
@@ -14057,6 +13913,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.023,
     word: "visit",
@@ -14064,6 +13921,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.023,
     word: "view",
@@ -14071,6 +13929,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.027,
     word: "place",
@@ -14078,6 +13937,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.025,
     word: "park",
@@ -14085,6 +13945,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.023,
     word: "visit",
@@ -14092,6 +13953,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.023,
     word: "view",
@@ -14099,6 +13961,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.022,
     word: "beautiful",
@@ -14106,6 +13969,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.022,
     word: "see",
@@ -14113,6 +13977,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.022,
     word: "walk",
@@ -14120,6 +13985,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.016,
     word: "mountain",
@@ -14127,6 +13993,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.014,
     word: "trail",
@@ -14134,6 +14001,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.014,
     word: "worth",
@@ -14141,6 +14009,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.012,
     word: "town",
@@ -14148,6 +14017,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.012,
     word: "hike",
@@ -14155,6 +14025,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.011,
     word: "take",
@@ -14162,6 +14033,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "many",
@@ -14169,6 +14041,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "bus",
@@ -14176,6 +14049,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "well",
@@ -14183,6 +14057,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "drive",
@@ -14190,6 +14065,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "area",
@@ -14197,6 +14073,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "also",
@@ -14204,6 +14081,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.01,
     word: "old",
@@ -14211,6 +14089,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.009,
     word: "get",
@@ -14218,6 +14097,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.009,
     word: "hour",
@@ -14225,6 +14105,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.009,
     word: "nice",
@@ -14232,6 +14113,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.009,
     word: "go",
@@ -14239,6 +14121,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.008,
     word: "little",
@@ -14246,6 +14129,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.008,
     word: "top",
@@ -14253,6 +14137,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.008,
     word: "small",
@@ -14260,6 +14145,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.007,
     word: "road",
@@ -14267,6 +14153,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.007,
     word: "look",
@@ -14274,6 +14161,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Outdoor Activities",
     topic: 1,
     importance_word: 0.007,
     word: "way",
@@ -14281,216 +14169,217 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.026,
     word: "cathedral",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.024,
     word: "real",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.022,
     word: "monastery",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.021,
     word: "mile",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.021,
     word: "hiker",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.019,
     word: "station",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.017,
     word: "ride",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.017,
     word: "shape",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.015,
     word: "sense",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.015,
     word: "mind",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.015,
     word: "let",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.015,
     word: "extra",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.013,
     word: "section",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.013,
     word: "bird",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.012,
     word: "slow",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.012,
     word: "center",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.011,
     word: "train",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.01,
     word: "fair",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.01,
     word: "vary",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.009,
     word: "tip",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.009,
     word: "magical",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.009,
     word: "fourth",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.009,
     word: "though",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.009,
     word: "answer",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.008,
     word: "gladly",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.008,
     word: "completely",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.007,
     word: "frequently",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.007,
     word: "massive",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.007,
     word: "proper",
     default: "n",
   },
   {
     city: "Province Of Huesca",
-    topic: 2,
+    topic: "Churches & Cathedral",
     importance_word: 0.006,
     word: "wade",
     default: "n",
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.031,
     word: "rather",
@@ -14498,6 +14387,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.031,
     word: "romanesque",
@@ -14505,6 +14395,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.028,
     word: "organise",
@@ -14512,6 +14403,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.025,
     word: "cross",
@@ -14519,6 +14411,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.022,
     word: "tower",
@@ -14526,6 +14419,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.018,
     word: "cool",
@@ -14533,6 +14427,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.017,
     word: "patience",
@@ -14540,6 +14435,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.016,
     word: "forget",
@@ -14547,6 +14443,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.015,
     word: "pull",
@@ -14554,6 +14451,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.013,
     word: "rush",
@@ -14561,6 +14459,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.013,
     word: "accommodation",
@@ -14568,6 +14467,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.013,
     word: "vacation",
@@ -14575,6 +14475,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.011,
     word: "unforgettable",
@@ -14582,6 +14483,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.011,
     word: "partner",
@@ -14589,6 +14491,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.01,
     word: "public",
@@ -14596,6 +14499,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.009,
     word: "receive",
@@ -14603,6 +14507,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.009,
     word: "ensure",
@@ -14610,6 +14515,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.009,
     word: "security",
@@ -14617,6 +14523,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.008,
     word: "introduce",
@@ -14624,6 +14531,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.008,
     word: "novice",
@@ -14631,6 +14539,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.008,
     word: "inform",
@@ -14638,6 +14547,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.007,
     word: "driver",
@@ -14645,6 +14555,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.007,
     word: "indicate",
@@ -14652,6 +14563,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.007,
     word: "confidence",
@@ -14659,6 +14571,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.006,
     word: "autumn",
@@ -14666,6 +14579,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.006,
     word: "booking",
@@ -14673,6 +14587,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.005,
     word: "rewarding",
@@ -14680,6 +14595,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.005,
     word: "vast",
@@ -14687,6 +14603,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.004,
     word: "beautifull",
@@ -14694,6 +14611,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Castle",
     topic: 3,
     importance_word: 0.004,
     word: "spite",
@@ -14701,6 +14619,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.034,
     word: "pool",
@@ -14708,6 +14627,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.031,
     word: "step",
@@ -14715,6 +14635,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.022,
     word: "job",
@@ -14722,6 +14643,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.021,
     word: "mean",
@@ -14729,6 +14651,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.021,
     word: "expectation",
@@ -14736,6 +14659,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.021,
     word: "refuge",
@@ -14743,6 +14667,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.019,
     word: "fabulous",
@@ -14750,6 +14675,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.019,
     word: "compare",
@@ -14757,6 +14683,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.018,
     word: "around",
@@ -14764,6 +14691,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.016,
     word: "heart",
@@ -14771,6 +14699,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.016,
     word: "sin",
@@ -14778,6 +14707,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.014,
     word: "pilgrimage",
@@ -14785,6 +14715,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.011,
     word: "catholic",
@@ -14792,6 +14723,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.01,
     word: "frontera",
@@ -14799,6 +14731,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.01,
     word: "never_forget",
@@ -14806,6 +14739,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.009,
     word: "entry",
@@ -14813,6 +14747,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.008,
     word: "beware",
@@ -14820,6 +14755,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.008,
     word: "phone",
@@ -14827,6 +14763,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.008,
     word: "specie",
@@ -14834,6 +14771,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.008,
     word: "exceed",
@@ -14841,6 +14779,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.008,
     word: "amount",
@@ -14848,6 +14787,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.007,
     word: "gem",
@@ -14855,6 +14795,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.007,
     word: "obvious",
@@ -14862,6 +14803,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.006,
     word: "associate",
@@ -14869,6 +14811,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.006,
     word: "touch",
@@ -14876,6 +14819,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.006,
     word: "downtown",
@@ -14883,6 +14827,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.005,
     word: "gloce",
@@ -14890,6 +14835,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.005,
     word: "assure",
@@ -14897,6 +14843,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.005,
     word: "skilled",
@@ -14904,6 +14851,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Historical Route",
     topic: 4,
     importance_word: 0.005,
     word: "treasure",
@@ -14911,6 +14859,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.098,
     word: "route",
@@ -14918,6 +14867,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.079,
     word: "information",
@@ -14925,6 +14875,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.033,
     word: "national_park",
@@ -14932,6 +14883,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.027,
     word: "office",
@@ -14939,6 +14891,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.017,
     word: "architecture",
@@ -14946,6 +14899,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.016,
     word: "centre",
@@ -14953,6 +14907,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.014,
     word: "piste",
@@ -14960,6 +14915,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.013,
     word: "info",
@@ -14967,6 +14923,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.013,
     word: "particularly",
@@ -14974,6 +14931,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.012,
     word: "abseil",
@@ -14981,6 +14939,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.011,
     word: "rapid",
@@ -14988,6 +14947,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.01,
     word: "anyway",
@@ -14995,6 +14955,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.01,
     word: "competent",
@@ -15002,6 +14963,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.01,
     word: "ice",
@@ -15009,6 +14971,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.009,
     word: "distance",
@@ -15016,6 +14979,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.008,
     word: "circuit",
@@ -15023,6 +14987,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.007,
     word: "sort",
@@ -15030,6 +14995,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.006,
     word: "self",
@@ -15037,6 +15003,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.006,
     word: "wander",
@@ -15044,6 +15011,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.006,
     word: "kilometer",
@@ -15051,6 +15019,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.006,
     word: "cobble",
@@ -15058,6 +15027,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.005,
     word: "attempt",
@@ -15065,6 +15035,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.005,
     word: "signal",
@@ -15072,6 +15043,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.005,
     word: "fanlo",
@@ -15079,6 +15051,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.005,
     word: "expertise",
@@ -15086,6 +15059,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.005,
     word: "cream",
@@ -15093,6 +15067,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.004,
     word: "summit",
@@ -15100,6 +15075,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.004,
     word: "somewhat",
@@ -15107,6 +15083,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.004,
     word: "storm",
@@ -15114,6 +15091,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Walking in the Nature",
     topic: 5,
     importance_word: 0.004,
     word: "counter",
@@ -15121,6 +15099,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.046,
     word: "valley",
@@ -15128,6 +15107,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.024,
     word: "snow",
@@ -15135,6 +15115,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.022,
     word: "main",
@@ -15142,6 +15123,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.019,
     word: "museum",
@@ -15149,6 +15131,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.017,
     word: "wine",
@@ -15156,6 +15139,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.015,
     word: "ski",
@@ -15163,6 +15147,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.015,
     word: "early",
@@ -15170,6 +15155,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.015,
     word: "run",
@@ -15177,6 +15163,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.011,
     word: "red",
@@ -15184,6 +15171,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.011,
     word: "wide",
@@ -15191,6 +15179,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.01,
     word: "various",
@@ -15198,6 +15187,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.01,
     word: "explain",
@@ -15205,6 +15195,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.01,
     word: "room",
@@ -15212,6 +15203,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.01,
     word: "french",
@@ -15219,6 +15211,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.01,
     word: "plaza_mayor",
@@ -15226,6 +15219,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.009,
     word: "drink",
@@ -15233,6 +15227,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.009,
     word: "light",
@@ -15240,6 +15235,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "slope",
@@ -15247,6 +15243,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "taste",
@@ -15254,6 +15251,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "almost",
@@ -15261,6 +15259,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "visitor",
@@ -15268,6 +15267,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "open",
@@ -15275,6 +15275,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "weekend",
@@ -15282,6 +15283,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.008,
     word: "restaurant",
@@ -15289,6 +15291,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.007,
     word: "facility",
@@ -15296,6 +15299,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.007,
     word: "bar",
@@ -15303,6 +15307,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.007,
     word: "house",
@@ -15310,6 +15315,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.007,
     word: "quality",
@@ -15317,6 +15323,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.007,
     word: "large",
@@ -15324,6 +15331,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 6,
     importance_word: 0.007,
     word: "general",
@@ -15331,6 +15339,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.052,
     word: "fish",
@@ -15338,6 +15347,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.025,
     word: "fishing",
@@ -15345,6 +15355,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.023,
     word: "pyrenee",
@@ -15352,6 +15363,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.016,
     word: "catch",
@@ -15359,6 +15371,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.014,
     word: "world",
@@ -15366,6 +15379,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.014,
     word: "adrian",
@@ -15373,6 +15387,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.014,
     word: "fly_fishe",
@@ -15380,6 +15395,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.014,
     word: "fly",
@@ -15387,6 +15403,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.014,
     word: "huge",
@@ -15394,6 +15411,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.013,
     word: "access",
@@ -15401,6 +15419,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.011,
     word: "food",
@@ -15408,6 +15427,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.01,
     word: "stream",
@@ -15415,6 +15435,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.01,
     word: "ricardo",
@@ -15422,6 +15443,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.009,
     word: "local",
@@ -15429,6 +15451,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.009,
     word: "cast",
@@ -15436,6 +15459,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.009,
     word: "trout",
@@ -15443,6 +15467,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.008,
     word: "lunch",
@@ -15450,6 +15475,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.008,
     word: "bad",
@@ -15457,6 +15483,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.007,
     word: "lose",
@@ -15464,6 +15491,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.007,
     word: "sanctuary",
@@ -15471,6 +15499,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.007,
     word: "camping",
@@ -15478,6 +15507,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.007,
     word: "hotel",
@@ -15485,6 +15515,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "street",
@@ -15492,6 +15523,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "eat",
@@ -15499,6 +15531,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "spanish",
@@ -15506,6 +15539,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "river",
@@ -15513,6 +15547,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "recently",
@@ -15520,6 +15555,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "plaza_major",
@@ -15527,6 +15563,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.006,
     word: "zaragoza",
@@ -15534,6 +15571,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 7,
     importance_word: 0.005,
     word: "owner",
@@ -15541,6 +15579,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.027,
     word: "day",
@@ -15548,6 +15587,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.026,
     word: "guide",
@@ -15555,6 +15595,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.025,
     word: "great",
@@ -15562,6 +15603,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.022,
     word: "good",
@@ -15569,6 +15611,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.018,
     word: "time",
@@ -15576,6 +15619,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.017,
     word: "experience",
@@ -15583,6 +15627,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.015,
     word: "go",
@@ -15590,6 +15635,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.013,
     word: "trip",
@@ -15597,6 +15643,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.012,
     word: "make",
@@ -15604,6 +15651,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.011,
     word: "well",
@@ -15611,6 +15659,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.011,
     word: "canyon",
@@ -15618,6 +15667,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.011,
     word: "amazing",
@@ -15625,6 +15675,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.01,
     word: "canyone",
@@ -15632,6 +15683,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.01,
     word: "really",
@@ -15639,6 +15691,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.01,
     word: "take",
@@ -15646,6 +15699,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.01,
     word: "recommend",
@@ -15653,6 +15707,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.009,
     word: "torla",
@@ -15660,6 +15715,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.009,
     word: "get",
@@ -15667,6 +15723,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.009,
     word: "family",
@@ -15674,6 +15731,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.009,
     word: "fun",
@@ -15681,6 +15739,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.008,
     word: "lot",
@@ -15688,6 +15747,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.008,
     word: "do",
@@ -15695,6 +15755,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.008,
     word: "kid",
@@ -15702,6 +15763,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.008,
     word: "enjoy",
@@ -15709,6 +15771,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.008,
     word: "first",
@@ -15716,6 +15779,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.007,
     word: "wonderful",
@@ -15723,6 +15787,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.007,
     word: "jump",
@@ -15730,6 +15795,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.007,
     word: "want",
@@ -15737,6 +15803,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.007,
     word: "friendly",
@@ -15744,6 +15811,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Winter Activities",
     topic: 8,
     importance_word: 0.007,
     word: "scenery",
@@ -15751,6 +15819,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.043,
     word: "bike",
@@ -15758,6 +15827,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.036,
     word: "pass",
@@ -15765,6 +15835,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.024,
     word: "money",
@@ -15772,6 +15843,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.021,
     word: "imagine",
@@ -15779,6 +15851,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.02,
     word: "flower",
@@ -15786,6 +15859,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.018,
     word: "suggest",
@@ -15793,6 +15867,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.018,
     word: "parent",
@@ -15800,6 +15875,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.017,
     word: "man",
@@ -15807,6 +15883,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.014,
     word: "join",
@@ -15814,6 +15891,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.014,
     word: "value",
@@ -15821,6 +15899,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.013,
     word: "everywhere",
@@ -15828,6 +15907,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.012,
     word: "advise",
@@ -15835,6 +15915,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.011,
     word: "float",
@@ -15842,6 +15923,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.011,
     word: "sunny",
@@ -15849,6 +15931,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.01,
     word: "kayak",
@@ -15856,6 +15939,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.009,
     word: "marmot",
@@ -15863,6 +15947,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.008,
     word: "hesitate",
@@ -15870,6 +15955,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.008,
     word: "comment",
@@ -15877,6 +15963,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.008,
     word: "window",
@@ -15884,6 +15971,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.007,
     word: "month",
@@ -15891,6 +15979,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.007,
     word: "degree",
@@ -15898,6 +15987,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.007,
     word: "individual",
@@ -15905,6 +15995,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.007,
     word: "scenic",
@@ -15912,6 +16003,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.007,
     word: "pure",
@@ -15919,6 +16011,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.007,
     word: "spring",
@@ -15926,6 +16019,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.006,
     word: "pedal",
@@ -15933,6 +16027,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.006,
     word: "terrain",
@@ -15940,6 +16035,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.006,
     word: "directly",
@@ -15947,6 +16043,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.006,
     word: "planning",
@@ -15954,6 +16051,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "Sport Activities",
     topic: 9,
     importance_word: 0.005,
     word: "crystal_clear",
@@ -15961,6 +16059,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.043,
     word: "waterfall",
@@ -15968,6 +16067,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.043,
     word: "walk",
@@ -15975,6 +16075,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.026,
     word: "river",
@@ -15982,6 +16083,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.025,
     word: "hour",
@@ -15989,6 +16091,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.022,
     word: "hike",
@@ -15996,6 +16099,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.019,
     word: "climb",
@@ -16003,6 +16107,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.017,
     word: "car",
@@ -16010,6 +16115,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.017,
     word: "water",
@@ -16017,6 +16123,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.017,
     word: "way",
@@ -16024,6 +16131,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.016,
     word: "easy",
@@ -16031,6 +16139,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.015,
     word: "back",
@@ -16038,6 +16147,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.014,
     word: "take",
@@ -16045,6 +16155,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.014,
     word: "path",
@@ -16052,6 +16163,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.013,
     word: "fall",
@@ -16059,6 +16171,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.011,
     word: "rock",
@@ -16066,6 +16179,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.011,
     word: "start",
@@ -16073,6 +16187,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.01,
     word: "end",
@@ -16080,6 +16195,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.01,
     word: "cliff",
@@ -16087,6 +16203,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.01,
     word: "keep",
@@ -16094,6 +16211,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.009,
     word: "high",
@@ -16101,6 +16219,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.009,
     word: "spectacular",
@@ -16108,6 +16227,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.007,
     word: "reach",
@@ -16115,6 +16235,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.007,
     word: "difficult",
@@ -16122,6 +16243,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.007,
     word: "hard",
@@ -16129,6 +16251,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.007,
     word: "foot",
@@ -16136,6 +16259,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.007,
     word: "return",
@@ -16143,6 +16267,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.007,
     word: "fit",
@@ -16150,6 +16275,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.006,
     word: "get",
@@ -16157,6 +16283,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.006,
     word: "faja",
@@ -16164,6 +16291,7 @@ const newData = [
   },
   {
     city: "Province Of Huesca",
+    topicName: "River Hiking",
     topic: 10,
     importance_word: 0.006,
     word: "side",
