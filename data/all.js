@@ -14250,22 +14250,16 @@ const newData = [
     word: "money",
     default: "y",
   },
-  {
-    city: "Province Of Huesca",
-    topicName: "Outdoor Activities",
-    topic: 1,
-    importance_word: 0.023,
-    word: "visit",
-    default: "y",
-  },
-  {
-    city: "Province Of Huesca",
-    topicName: "Outdoor Activities",
-    topic: 1,
-    importance_word: 0.023,
-    word: "view",
-    default: "y",
-  },
+
+  // {
+  //   city: "Province Of Huesca",
+  //   topicName: "Outdoor Activities",
+  //   topic: 1,
+  //   importance_word: 0.023,
+  //   word: "view",
+  //   default: "y",
+  // },
+
   {
     city: "Province Of Huesca",
     topicName: "Outdoor Activities",
