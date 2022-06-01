@@ -114,44 +114,44 @@ function redraw(firstRender) {
 
   //EVENT HANDLERS FUNCTIONS
 
-  const mouseOverBubble = function (event) {
-    const hoveredTopic = event.target.__data__.topic
-    const topicName = event.target.__data__.topicName
-    d3.selectAll("circle.bubbles")
-      .transition()
-      .duration(450)
-      .style("opacity", 0.1)
-    d3.select(this).transition().duration(600).style("opacity", 0.75)
-    d3.select(this).style("fill", (d) => colorScale(d.topic))
-    const selectedCity = document.getElementById("selectButtonTopics").value
+  // const mouseOverBubble = function (event) {
+  //   const hoveredTopic = event.target.__data__.topic
+  //   const topicName = event.target.__data__.topicName
+  //   d3.selectAll("circle.bubbles")
+  //     .transition()
+  //     .duration(450)
+  //     .style("opacity", 0.1)
+  //   d3.select(this).transition().duration(600).style("opacity", 0.75)
+  //   d3.select(this).style("fill", (d) => colorScale(d.topic))
+  //   const selectedCity = document.getElementById("selectButtonTopics").value
 
-    svgBars.selectAll("rects").attr("fill", (d) => colorScale(d.topic))
-    const hoveredDataset = newData
-      .filter((d) => d.city === selectedCity)
-      .filter((d) => d.topic === hoveredTopic)
-      .filter((d) => d.default === "n")
-    titleBar.text("Top 30 most salient terms for Cluster " + topicName)
+  //   svgBars.selectAll("rects").attr("fill", (d) => colorScale(d.topic))
+  //   const hoveredDataset = newData
+  //     .filter((d) => d.city === selectedCity)
+  //     .filter((d) => d.topic === hoveredTopic)
+  //     .filter((d) => d.default === "n")
+  //   titleBar.text("Top 30 most salient terms for Cluster " + topicName)
 
-    drawBarChart(hoveredDataset, "hovered")
-  }
+  //   drawBarChart(hoveredDataset, "hovered")
+  // }
 
-  const mouseOutBubble = function (d) {
-    d3.selectAll("circle.bubbles")
-      .transition()
-      .duration(600)
-      .style("opacity", 0.75)
-      .style("fill", (d) => colorScale(d.topic))
-    //.style("fill", "#E4E4E4")
+  // const mouseOutBubble = function (d) {
+  //   d3.selectAll("circle.bubbles")
+  //     .transition()
+  //     .duration(600)
+  //     .style("opacity", 0.75)
+  //     .style("fill", (d) => colorScale(d.topic))
+  //   //.style("fill", "#E4E4E4")
 
-    const selectedCity = document.getElementById("selectButtonTopics").value
-    const defaultSelectedCity = newData
-      .filter((d) => d.city === selectedCity)
-      .filter((d) => d.default === "y")
+  //   const selectedCity = document.getElementById("selectButtonTopics").value
+  //   const defaultSelectedCity = newData
+  //     .filter((d) => d.city === selectedCity)
+  //     .filter((d) => d.default === "y")
 
-    titleBar.text("Top 30 most salient terms")
+  //   titleBar.text("Top 30 most salient terms")
 
-    drawBarChart(defaultSelectedCity, "default")
-  }
+  //   drawBarChart(defaultSelectedCity, "default")
+  // }
   let clicked = false
   let skipButton = false
   let buttonSelected = false
@@ -685,7 +685,6 @@ function redraw(firstRender) {
       )
     )
 
-    /// old logic with numbers
     clusters = d3.range(1, 11)
     currentClusterButton = currentClusterButton - 1
     currentClusterButton === 0 ? (currentClusterButton = -1) : null
@@ -745,6 +744,7 @@ function redraw(firstRender) {
   // SELECT DROPDOWN ON CHANGE
   d3.select("#selectButtonTopics").on("change", function (d) {
     clicked = false
+    skipButton = false
     currentClusterButton = 0
     d3.selectAll("circle").style("stroke-width", 0)
     d3.select(".currentCluster").text("")
