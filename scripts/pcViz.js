@@ -129,6 +129,7 @@ function redraw(firstRender) {
     const hoveredDataset = newData
       .filter((d) => d.city === selectedCity)
       .filter((d) => d.topic === hoveredTopic)
+      .filter((d) => d.default === "n")
     titleBar.text("Top 30 most salient terms for Cluster " + topicName)
 
     drawBarChart(hoveredDataset, "hovered")
@@ -614,6 +615,7 @@ function redraw(firstRender) {
     const hoveredDataset = newData
       .filter((d) => d.city === selectedCity)
       .filter((d) => d.topic === currentClusterButton)
+      .filter((d) => d.default === "n")
     titleBar.text(
       "Top 30 most salient terms for " + clustersNames[currentClusterButton - 1]
     )
@@ -680,6 +682,7 @@ function redraw(firstRender) {
     const hoveredDataset = newData
       .filter((d) => d.city === selectedCity)
       .filter((d) => d.topic === currentClusterButton)
+      .filter((d) => d.default === "n")
     titleBar.text(
       "Top 30 most salient terms for " + clustersNames[currentClusterButton - 1]
     )
