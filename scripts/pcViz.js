@@ -157,7 +157,11 @@ function redraw(firstRender) {
   const mouseClickBubble = function (d) {
     skipButton = false
     clicked = !clicked
-
+    if (clicked) {
+      d3.select(".currentCluster").text(d.target.__data__.topicName)
+    } else {
+      d3.select(".currentCluster").text("")
+    }
     topicClicked = d.target.__data__.topicName
 
     // d3.selectAll("circle").style("pointer-events", "none")
@@ -197,8 +201,9 @@ function redraw(firstRender) {
       const hoveredDataset = newData
         .filter((d) => d.city === selectedCity)
         .filter((d) => d.topic === hoveredTopic)
+        .filter((d) => d.default === "n")
       titleBar.text("Top 30 most salient terms for " + topicClicked)
-
+      console.log(hoveredDataset)
       drawBarChart(hoveredDataset, "hovered")
       d3.selectAll(".datarects").style("fill", (d) => colorScale(d.topic))
       //d3.select(this).on("mouseout", null)
@@ -411,6 +416,7 @@ function redraw(firstRender) {
   const paddingRects = width / 2
 
   const drawBarChart = function (dataset, state, firstRender) {
+    svgBars.selectAll("*").remove()
     const yScaleBars = d3
       .scaleOrdinal()
       .domain([])
@@ -443,7 +449,7 @@ function redraw(firstRender) {
       .on("mouseout", mouseOutBar)
 
     if (state === "hovered") {
-      svgBars.selectAll("rect").transition().duration(450).style("opacity", 1)
+      svgBars.selectAll("rect").transition().duration(200).style("opacity", 1)
     }
     if (firstRender === true) {
       svgBars
@@ -481,62 +487,60 @@ function redraw(firstRender) {
       .style("text-anchor", "end")
       .style("font-size", (d) => (d.word.length > 13 ? 9 : 12))
       .style("cursor", "default")
-      .on("mouseover", function (event) {
-        const hoveredWord = event.target.__data__
+    // .on("mouseover", function (event) {
+    //   const hoveredWord = event.target.__data__
 
-        d3.select(this).style("font-weight", 800)
-        // d3.select(this).style("font-size", "30")
+    //   d3.select(this).style("font-weight", 800)
+    //   // d3.select(this).style("font-size", "30")
 
-        svgBars
-          .selectAll("rect")
-          // .transition()
-          // .duration(200)
-          .style("opacity", 0.2)
+    //   svgBars
+    //     .selectAll("rect")
+    //     // .transition()
+    //     // .duration(200)
+    //     .style("opacity", 0.2)
 
-        svgBars.select("#rect-" + hoveredWord.word).style("opacity", 0.75)
+    //   svgBars.select("#rect-" + hoveredWord.word).style("opacity", 0.75)
 
-        svgBars
-          .select("#rect-" + hoveredWord.word)
-          // .transition()
-          // .duration(200)
-          .attr("fill", colorScale(hoveredWord.topic))
+    //   svgBars
+    //     .select("#rect-" + hoveredWord.word)
+    //     .style("fill", colorScale(hoveredWord.topic))
 
-        svgBubbles.selectAll("circle").transition().style("opacity", 0.1)
-        svgBubbles
-          .select("#circle-" + hoveredWord.topic)
-          .transition()
-          .duration(200)
-          .style("opacity", 0.75)
+    //   svgBubbles.selectAll("circle").transition().style("opacity", 0.1)
+    //   svgBubbles
+    //     .select("#circle-" + hoveredWord.topic)
+    //     .transition()
+    //     .duration(200)
+    //     .style("opacity", 0.75)
 
-        svgBars
-          .select("#importance-value-" + hoveredWord.word)
-          .style("opacity", 1)
-      })
-      .on("mouseleave", function (event) {
-        d3.select(this).style("font-weight", "400")
-        const hoveredWord = event.target.__data__
+    //   svgBars
+    //     .select("#importance-value-" + hoveredWord.word)
+    //     .style("opacity", 1)
+    // })
+    // .on("mouseleave", function (event) {
+    //   d3.select(this).style("font-weight", "400")
+    //   const hoveredWord = event.target.__data__
 
-        svgBars
-          .selectAll("rect")
-          // .transition()
-          // .duration(200)
-          .style("opacity", 0.75)
+    //   svgBars
+    //     .selectAll("rect")
+    //     // .transition()
+    //     // .duration(200)
+    //     .style("opacity", 0.75)
 
-        if (clicked === false) {
-          svgBars
-            .select("#rect-" + hoveredWord.word)
-            // .transition()
-            // .duration(200)
-            .style("opacity", 0.75)
-            .attr("fill", "#CECDCD")
-        }
+    //   if (clicked === false) {
+    //     svgBars
+    //       .select("#rect-" + hoveredWord.word)
+    //       // .transition()
+    //       // .duration(200)
+    //       .style("opacity", 0.75)
+    //       .attr("fill", "#CECDCD")
+    //   }
 
-        svgBars
-          .select("#importance-value-" + hoveredWord.word)
-          .style("opacity", 0)
+    //   svgBars
+    //     .select("#importance-value-" + hoveredWord.word)
+    //     .style("opacity", 0)
 
-        d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
-      })
+    //   d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
+    // })
     ////IMPORTANCE WORD VALUE
     svgBars
       .selectAll()
@@ -686,6 +690,7 @@ function redraw(firstRender) {
   d3.select("#selectButtonTopics").on("change", function (d) {
     clicked = false
     d3.selectAll("circle").style("stroke-width", 0)
+    d3.select(".currentCluster").text("")
     const selectedOption = d3.select(this).property("value")
     drawBarChart(
       newData
