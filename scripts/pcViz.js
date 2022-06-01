@@ -610,6 +610,8 @@ function redraw(firstRender) {
     clusters = d3.range(1, 11)
     currentClusterButton = (currentClusterButton + 1) % 11
     currentClusterButton === 0 ? currentClusterButton++ : null
+
+    console.log(svgBubbles.select("#circle-" + currentClusterButton))
     //  d3.select(".currentCluster").text("Cluster " + currentClusterButton)
 
     const colorScale = d3
@@ -662,7 +664,10 @@ function redraw(firstRender) {
     titleBar.text(
       "Top 30 most salient terms for " + clustersNames[currentClusterButton - 1]
     )
-
+    lastClicked = currentClusterButton - 1
+    if (clicked) {
+      svgBubbles.select("#circle-" + lastClicked).style("stroke-width", 0)
+    }
     drawBarChart(hoveredDataset, "hovered")
   })
 
@@ -729,6 +734,10 @@ function redraw(firstRender) {
     titleBar.text(
       "Top 30 most salient terms for " + clustersNames[currentClusterButton - 1]
     )
+    lastClicked = currentClusterButton + 1
+    if (clicked) {
+      svgBubbles.select("#circle-" + lastClicked).style("stroke-width", 0)
+    }
 
     drawBarChart(hoveredDataset, "hovered")
   })
