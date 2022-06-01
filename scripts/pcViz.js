@@ -155,7 +155,9 @@ function redraw(firstRender) {
   let clicked = false
   let skipButton = false
   let buttonSelected = false
+  let bubbleClicked
   const mouseClickBubble = function (d) {
+    currentClusterButton = d.target.__data__.topic
     skipButton = false
     clicked = !clicked
     if (clicked) {
@@ -166,6 +168,7 @@ function redraw(firstRender) {
     topicClicked = d.target.__data__.topicName
 
     // d3.selectAll("circle").style("pointer-events", "none")
+    bubbleClicked = "#circle-" + d.target.__data__.topic
 
     if (clicked === false) {
       d3.selectAll("circle.bubbles")
@@ -185,6 +188,7 @@ function redraw(firstRender) {
 
       titleBar.text("Top 30 most salient terms ")
     } else {
+      d3.select(bubbleClicked).style("fill", "black")
       const hoveredTopic = d.target.__data__.topic
       d3.selectAll("circle.bubbles")
         .transition()
