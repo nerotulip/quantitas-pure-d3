@@ -488,60 +488,70 @@ function redraw(firstRender) {
       .style("text-anchor", "end")
       .style("font-size", (d) => (d.word.length > 13 ? 9 : 12))
       .style("cursor", "default")
-    // .on("mouseover", function (event) {
-    //   const hoveredWord = event.target.__data__
+      .on("mouseover", function (event) {
+        const hoveredWord = event.target.__data__
 
-    //   d3.select(this).style("font-weight", 800)
-    //   // d3.select(this).style("font-size", "30")
+        d3.select(this).style("font-weight", 800)
+        // d3.select(this).style("font-size", "30")
 
-    //   svgBars
-    //     .selectAll("rect")
-    //     // .transition()
-    //     // .duration(200)
-    //     .style("opacity", 0.2)
+        svgBars
+          .selectAll("rect")
+          // .transition()
+          // .duration(200)
+          .style("opacity", 0.2)
 
-    //   svgBars.select("#rect-" + hoveredWord.word).style("opacity", 0.75)
+        svgBars.select("#rect-" + hoveredWord.word).style("opacity", 0.75)
 
-    //   svgBars
-    //     .select("#rect-" + hoveredWord.word)
-    //     .style("fill", colorScale(hoveredWord.topic))
+        if (clicked === false) {
+          svgBars
+            .select("#rect-" + hoveredWord.word)
+            .style("fill", colorScale(hoveredWord.topic))
+        } else {
+          svgBars
+            .select("#rect-" + hoveredWord.word)
+            // .transition()
+            // .duration(200)
+            .style("opacity", 0.75)
+            .style("fill", colorScale(hoveredWord.topic))
+        }
 
-    //   svgBubbles.selectAll("circle").transition().style("opacity", 0.1)
-    //   svgBubbles
-    //     .select("#circle-" + hoveredWord.topic)
-    //     .transition()
-    //     .duration(200)
-    //     .style("opacity", 0.75)
+        svgBubbles.selectAll("circle").transition().style("opacity", 0.1)
+        svgBubbles
+          .select("#circle-" + hoveredWord.topic)
+          .transition()
+          .duration(200)
+          .style("opacity", 0.75)
 
-    //   svgBars
-    //     .select("#importance-value-" + hoveredWord.word)
-    //     .style("opacity", 1)
-    // })
-    // .on("mouseleave", function (event) {
-    //   d3.select(this).style("font-weight", "400")
-    //   const hoveredWord = event.target.__data__
+        svgBars
+          .select("#importance-value-" + hoveredWord.word)
+          .style("opacity", 1)
+      })
+      .on("mouseleave", function (event) {
+        d3.select(this).style("font-weight", "400")
+        const hoveredWord = event.target.__data__
 
-    //   svgBars
-    //     .selectAll("rect")
-    //     // .transition()
-    //     // .duration(200)
-    //     .style("opacity", 0.75)
+        if (clicked == false) {
+          svgBars
+            .selectAll("rect")
+            // .transition()
+            // .duration(200)
+            .style("opacity", 0.75)
+          svgBars
+            .select("#rect-" + hoveredWord.word)
+            // .transition()
+            // .duration(200)
+            //.style("opacity", 0.75)
+            .style("fill", "#CECDCD")
+        } else {
+          svgBars.selectAll("rect").style("opacity", 1)
+        }
 
-    //   if (clicked === false) {
-    //     svgBars
-    //       .select("#rect-" + hoveredWord.word)
-    //       // .transition()
-    //       // .duration(200)
-    //       .style("opacity", 0.75)
-    //       .attr("fill", "#CECDCD")
-    //   }
+        svgBars
+          .select("#importance-value-" + hoveredWord.word)
+          .style("opacity", 0)
 
-    //   svgBars
-    //     .select("#importance-value-" + hoveredWord.word)
-    //     .style("opacity", 0)
-
-    //   d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
-    // })
+        d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
+      })
     ////IMPORTANCE WORD VALUE
     svgBars
       .selectAll()
