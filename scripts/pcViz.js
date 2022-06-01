@@ -526,31 +526,60 @@ function redraw(firstRender) {
           .select("#importance-value-" + hoveredWord.word)
           .style("opacity", 1)
       })
-      .on("mouseleave", function (event) {
-        d3.select(this).style("font-weight", "400")
-        const hoveredWord = event.target.__data__
+      .on("mouseout", function (event) {
+        // d3.select(this).style("font-weight", "400")
+        // const hoveredWord = event.target.__data__
 
-        if (clicked == false) {
+        // if (clicked == false && skipButton === false) {
+        //   svgBars
+        //     .selectAll("rect")
+        //     // .transition()
+        //     // .duration(200)
+        //     .style("opacity", 0.75)
+        //   svgBars
+        //     .select("#rect-" + hoveredWord.word)
+        //     // .transition()
+        //     // .duration(200)
+        //     //.style("opacity", 0.75)
+        //     .style("fill", "#CECDCD")
+        // } else {
+        //   svgBars
+        //     .selectAll("rect")
+        //     .style("opacity", 1)
+        //     .style("fill", colorScale(hoveredWord.topic))
+        // }
+
+        // svgBars
+        //   .select("#importance-value-" + hoveredWord.word)
+        //   .style("opacity", 0)
+
+        // d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
+
+        const hoveredBarOut = event.target.__data__
+        if (clicked === false && skipButton === false) {
+          svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
+          d3.selectAll("circle").transition().style("opacity", 0.75)
+
           svgBars
-            .selectAll("rect")
-            // .transition()
-            // .duration(200)
-            .style("opacity", 0.75)
-          svgBars
-            .select("#rect-" + hoveredWord.word)
-            // .transition()
-            // .duration(200)
-            //.style("opacity", 0.75)
-            .style("fill", "#CECDCD")
+            .select("#importance-value-" + hoveredBarOut.word)
+            .style("opacity", 0)
+
+          svgBars.select("#rect-" + hoveredBarOut.word).style("fill", "#CECDCD")
+
+          svgBars.selectAll("rect").style("opacity", 0.75)
         } else {
-          svgBars.selectAll("rect").style("opacity", 1)
+          svgBars.select("#" + hoveredBarOut.word).style("font-weight", 400)
+
+          svgBars
+            .select("#importance-value-" + hoveredBarOut.word)
+            .style("opacity", 0)
+
+          svgBars
+            .select("#rect-" + hoveredBarOut.word)
+            .style("fill", (d) => colorScale(d.topic))
+
+          svgBars.selectAll("rect").style("opacity", 0.75)
         }
-
-        svgBars
-          .select("#importance-value-" + hoveredWord.word)
-          .style("opacity", 0)
-
-        d3.selectAll("circle").transition().duration(200).style("opacity", 0.75)
       })
     ////IMPORTANCE WORD VALUE
     svgBars
