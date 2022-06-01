@@ -210,7 +210,7 @@ function redraw(firstRender) {
         .filter((d) => d.default === "n")
       titleBar.text("Top 30 most salient terms for " + topicClicked)
       console.log(hoveredDataset)
-      drawBarChart(hoveredDataset, "hovered")
+      drawBarChart(hoveredDataset, "hovered", true)
       d3.selectAll(".datarects").style("fill", (d) => colorScale(d.topic))
       //d3.select(this).on("mouseout", null)
     }
@@ -295,6 +295,7 @@ function redraw(firstRender) {
           .transition()
           .duration(700)
           .attr("r", (d) => circleScale(d.tokensPercentage))
+          .style("pointer-events", "auto")
       : null
 
     const axisLabs = [
@@ -448,9 +449,10 @@ function redraw(firstRender) {
         "fill",
         state === "default" ? "#CECDCD" : (d) => colorScale(d.topic)
       )
-
       .style("stroke-width", 1)
-      .style("opacity", state === "default" ? 1 : 0)
+      // .style("opacity", state === "default" ? 1 : 0)
+      .style("opacity", 1)
+      .style("pointer-events", "none")
       .on("mouseover", mouseOverBar)
       .on("mouseout", mouseOutBar)
 
@@ -463,7 +465,19 @@ function redraw(firstRender) {
         .transition()
         .duration(800)
         .attr("width", (d) => widthScaleBars(d.importance_word))
+
+      svgBars
+        .selectAll("rect")
+        .transition()
+        .delay(800)
+        .style("pointer-events", "auto")
     }
+
+    svgBars
+      .selectAll("rect")
+      .transition()
+      .delay(800)
+      .style("pointer-events", "auto")
 
     //DOUBLE BARS
     svgBars
@@ -607,9 +621,13 @@ function redraw(firstRender) {
 
   let currentClusterButton = 0
   d3.select("#nextCluster").on("click", function (d) {
+    const selectedCity = document.getElementById("selectButtonTopics").value
+
     skipButton = true
+    let topicsLength
+    selectedCity === "Utsjoki" ? (topicsLength = 5) : (topicsLength = 11)
     clusters = d3.range(1, 11)
-    currentClusterButton = (currentClusterButton + 1) % 11
+    currentClusterButton = (currentClusterButton + 1) % topicsLength
     currentClusterButton === 0 ? currentClusterButton++ : null
 
     console.log(svgBubbles.select("#circle-" + currentClusterButton))
@@ -644,7 +662,6 @@ function redraw(firstRender) {
     d3.select("#circle-" + currentClusterButton).style("fill", (d) =>
       colorScale(d.topic)
     )
-    const selectedCity = document.getElementById("selectButtonTopics").value
 
     clustersNames = Array.from(
       new Set(
@@ -669,7 +686,7 @@ function redraw(firstRender) {
     if (clicked) {
       svgBubbles.select("#circle-" + lastClicked).style("stroke-width", 0)
     }
-    drawBarChart(hoveredDataset, "hovered")
+    drawBarChart(hoveredDataset, "hovered", true)
   })
 
   d3.select("#prevCluster").on("click", function (d) {
@@ -686,10 +703,12 @@ function redraw(firstRender) {
     )
 
     clusters = d3.range(1, 11)
+    let topicsLength
+    selectedCity === "Utsjoki" ? (topicsLength = 5) : (topicsLength = 11)
     currentClusterButton = currentClusterButton - 1
     currentClusterButton === 0 ? (currentClusterButton = -1) : null
     currentClusterButton < 0
-      ? (currentClusterButton = 11 + currentClusterButton)
+      ? (currentClusterButton = topicsLength + currentClusterButton)
       : null
 
     d3.select(".currentCluster").text(clustersNames[currentClusterButton - 1])
@@ -739,7 +758,7 @@ function redraw(firstRender) {
       svgBubbles.select("#circle-" + lastClicked).style("stroke-width", 0)
     }
 
-    drawBarChart(hoveredDataset, "hovered")
+    drawBarChart(hoveredDataset, "hovered", true)
   })
   // SELECT DROPDOWN ON CHANGE
   d3.select("#selectButtonTopics").on("change", function (d) {
