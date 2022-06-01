@@ -215,7 +215,38 @@ function redraw(firstRender) {
       //d3.select(this).on("mouseout", null)
     }
   }
+  //// CLICKING IN THE SVG NOT ON CIRCLES
+  d3.selectAll(".svg-bubbles").on("click", function (d) {
+    if (
+      d.target.id.includes("circle") === false &&
+      (clicked === true || skipButton === true)
+    ) {
+      d3.selectAll("circle.bubbles")
+        .transition()
+        .duration(600)
+        .style("opacity", 0.75)
 
+      d3.select(this).style("stroke", "none")
+      const dd = newData
+        .filter(
+          (d) => d.city === document.getElementById("selectButtonTopics").value
+        )
+        .filter((d) => d.default === "y")
+
+      drawBarChart(dd, "default")
+      d3.selectAll(".datarects").style("fill", "#CECDCD")
+
+      svgBubbles
+        .select("#circle-" + currentClusterButton)
+        .style("stroke-width", 0)
+
+      clicked = false
+      skipButton = false
+      titleBar.text("Top 30 most salient terms")
+      d3.select(".currentCluster").text("")
+      currentClusterButton = 0
+    }
+  })
   //SVG BUBBLES /////////////////////////////////////////////////////
 
   function drawBubblePlot(dataset, firstRender) {
@@ -272,7 +303,7 @@ function redraw(firstRender) {
       //  .on("mouseleave", mouseOutBubble)
       .on("click", mouseClickBubble)
       .on("mouseout", function (d) {
-        if (clicked == true) {
+        if (clicked === true) {
           d3.select(this)
             .style("stroke", "#3e3e3e")
             .style("stroke-opacity", 0.5)
