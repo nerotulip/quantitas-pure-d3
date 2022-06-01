@@ -164,6 +164,7 @@ function redraw(firstRender) {
       d3.select(".currentCluster").text(d.target.__data__.topicName)
     } else {
       d3.select(".currentCluster").text("")
+      currentClusterButton = 0
     }
     topicClicked = d.target.__data__.topicName
 
@@ -744,6 +745,7 @@ function redraw(firstRender) {
   // SELECT DROPDOWN ON CHANGE
   d3.select("#selectButtonTopics").on("change", function (d) {
     clicked = false
+    currentClusterButton = 0
     d3.selectAll("circle").style("stroke-width", 0)
     d3.select(".currentCluster").text("")
     const selectedOption = d3.select(this).property("value")
